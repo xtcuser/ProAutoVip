@@ -404,5 +404,6 @@
         <file>design/settings/chinese.svg</file>
         <file>Pages/Lights/Lights_TR.qml</file>
         <file>Pages/Lights/Lights_CH.qml</file>
+        <file>design/general/info.svg</file>
     </qresource>
 </RCC>

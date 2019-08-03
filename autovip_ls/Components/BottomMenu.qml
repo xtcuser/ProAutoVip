@@ -5,11 +5,17 @@ import ck.gmachine 1.0
 Item {
     id:root
     width:parent.width
-    height:140
+//    height:768
+
+
+
+
+
+
         Rectangle{
             id:mainmenu
             width: root.width
-            height: root.height
+            height: 140
             color: "transparent"
             y:0
 
@@ -25,6 +31,10 @@ Item {
                     y:20
                     width:715
                     height:105
+
+                    RowLayout {
+                        spacing: 120
+                        anchors.fill: parent
 
             RowLayout {
                     spacing: 25
@@ -116,8 +126,30 @@ Item {
                     }
 
 
+
+
             }
+
+
+            FooterButton{
+                id:btnset2
+                anchors.right: rowRectangle.right
+                info:false
+                bgSource : "qrc:/design/general/info.svg"
+                onClicked: function(){
+                        console.log("info clicked");
+//                    restart.visible=true;
+//                    restartbtn.visible=true;
+                        infoverlay.visible=true;
+                        infomenu.visible=true;
+                        infoheader.visible=true;
+                        infoclose.visible=true;
+                }
             }
+
+                    }
+            }
+
 
             MicrophoneBtn{
                 anchors.left: rowRectangle.right

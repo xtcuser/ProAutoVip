@@ -10,7 +10,7 @@ SerialMng::SerialMng(QObject *parent) : QObject(parent)
 
    //connect(m_serial,&QSerialPort::bytesWritten,this,&SerialMng::handleBytesWritten);
    connect(m_serial,&QSerialPort::readyRead,this,&SerialMng::newMessage);
-   connect(m_serial, &QSerialPort::errorOccurred, this, &SerialMng::handleError);
+//   connect(m_serial, &QSerialPort::errorOccurred, this, &SerialMng::handleError);
    connect(m_serial, &QSerialPort::close,this,&SerialMng::handleClose);
 
    QString protofile = QString("%1/%2").arg(QDir::currentPath()).arg("proto.ini");

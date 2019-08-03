@@ -62,6 +62,13 @@ BasePage {
         z:343
         opacity: 0.8
         visible: false
+        MouseArea{
+            anchors.fill: parent
+            onClicked: {
+                restart.visible=false;
+                restartbtn.visible=false;
+            }
+        }
     }
        Rectangle{
            id:restartbtn
@@ -73,6 +80,13 @@ BasePage {
            z:344
            opacity: 1
            visible: false
+           MouseArea{
+               anchors.fill: parent
+               onClicked: {
+                   restart.visible=true;
+                   restartbtn.visible=true;
+               }
+           }
            ColumnLayout
            {
                width: 400
