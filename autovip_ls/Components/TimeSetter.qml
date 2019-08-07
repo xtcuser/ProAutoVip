@@ -245,6 +245,11 @@ Rectangle{
                         date.year = yearColumn.model.get(tumbler.getColumn(2).currentIndex).value
                         time.hour = hourColumn.model.get(tumblerTime.getColumn(0).currentIndex).value
                         time.minutes = minutesColumn.model.get(tumblerTime.getColumn(1).currentIndex).value
+                        var timesum = time.hour + ":" + time.minutes;
+                        var hourdiff = time.hour - Qt.formatDateTime(new Date(), "h")*1
+                        var mindiff = time.minutes - Qt.formatDateTime(new Date(), "m")*1
+                        settingsmng.setTimeDiff(mindiff,hourdiff);
+                        serial_mng.sendKey("main/setclock",false,root.delay,timesum);
                         console.log( "Date: " + date.day + " "+ date.month + " " + date.year );
                         console.log( "Time: " + time.hour + " " + time.minutes );
             }

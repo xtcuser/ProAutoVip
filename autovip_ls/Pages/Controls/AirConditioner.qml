@@ -68,9 +68,13 @@ BasePage {
 
     function upTemp()
     {
-                if(serial_mng.acdeg < 15)
+                if(serial_mng.acdeg < 13)
                 {
                 serial_mng.acdeg++;
+//                }else if(serial_mng.acdeg == 13)
+//                {
+//                    degreeText.text = "MAX"
+//                }
                 }
     }
     function downTemp()
@@ -78,6 +82,10 @@ BasePage {
                 if(serial_mng.acdeg > 0 )
                 {
                     serial_mng.acdeg--;
+//                }else if(serial_mng.acdeg == 0)
+//                {
+//                    degreeText.text = "MIN"
+//                }
                 }
     }
 
@@ -513,7 +521,7 @@ Item{
         Text{
             id: degreeText
             font.pointSize: 60
-            text: (serial_mng.acdeg+15) + "°"
+            text: ((serial_mng.acdeg+15 < 28) ? (serial_mng.acdeg+15 > 15) ? (serial_mng.acdeg+15) + "°"  : "LO": "HI")
             color:"white"
         }
     }
