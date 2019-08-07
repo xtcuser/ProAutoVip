@@ -405,5 +405,7 @@
         <file>Pages/Lights/Lights_TR.qml</file>
         <file>Pages/Lights/Lights_CH.qml</file>
         <file>design/general/info.svg</file>
+        <file>design/general/Mute_on.svg</file>
+        <file>design/general/Mute_off.svg</file>
     </qresource>
 </RCC>

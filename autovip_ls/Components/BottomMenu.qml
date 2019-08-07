@@ -69,7 +69,9 @@ Item {
 
                     FooterButton {
                         id:btnMute
-                        bgSource : "qrc:/design/general/Mute.svg"
+                        bgSource : (toggled==false ?
+                                                    (isUnderClick ?  "qrc:/design/general/Mute_off.svg" : "qrc:/design/general/Mute_on.svg")
+                                                   : (isUnderClick ?  "qrc:/design/general/Mute_on.svg" : "qrc:/design/general/Mute_off.svg"))
                         height: GSystem.bottomIconHeight
                         //pressKey: ""
                         releaseKey: (toggled==false ?  "controls/mute" : "controls/unmute" )
