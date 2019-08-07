@@ -16,6 +16,7 @@ Item{
     property string releaseKey: ""
     property bool info: true
     property string message: ""
+    property bool toggled: false
     Layout.fillHeight: true
     Item{
         width: btnImage.width
@@ -49,8 +50,8 @@ Item{
             if(clickKey){ serial_mng.sendKey(clickKey); }
             root.clicked();
         }
-        onPressed: { co.visible = true; if(pressKey){ serial_mng.sendKey(pressKey); }root.pressed();}
-        onReleased:{ co.visible=false; if(releaseKey){serial_mng.sendKey(releaseKey);}root.released();}
+        onPressed: { co.visible = true; if(pressKey){ serial_mng.sendKey(pressKey); } toggled = !toggled; root.pressed();}
+        onReleased:{ co.visible=false; if(releaseKey){serial_mng.sendKey(releaseKey);}  root.released();}
         cursorShape: Qt.PointingHandCursor
     }
     Component.onCompleted: {
