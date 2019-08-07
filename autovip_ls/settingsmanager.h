@@ -51,6 +51,8 @@ public:
     int lang();
     uint actype();
     uint tvtype();
+    int mindiff();
+    int hourdiff();
     bool playstation();
     bool dockingstation();
     bool twodoor();
@@ -85,6 +87,7 @@ Q_INVOKABLE  bool seatHeating(int seat_no);
 Q_INVOKABLE  bool seatCooling(int seat_no);
 Q_INVOKABLE  bool seatMassage(int seat_no);
 Q_INVOKABLE  bool seatThigh(int seat_no);
+Q_INVOKABLE  void setTimeDiff(int mndf,int hrdf);
 Q_INVOKABLE  bool seatDrawer(int seat_no);
 Q_INVOKABLE  bool seatFootrest(int seat_no);
 Q_INVOKABLE  bool saveLightMemory(int p_unit,int type,QString p_color);

@@ -136,6 +136,28 @@ void SettingsManager::setMediaPlayerURL(QString nmediaPlayerURL)
 
 }
 
+
+int SettingsManager::mindiff()
+{
+    return this->general->value("main/mindiff",1).toInt();
+}
+
+int SettingsManager::hourdiff()
+{
+    return this->general->value("main/hourdiff",1).toInt();
+}
+
+
+void SettingsManager::setTimeDiff(int mndf, int hrdf)
+{
+    if(this->mindiff() != mndf || this->hourdiff() != hrdf)
+    {
+        this->general->setValue("main/mindiff",mndf);
+        this->general->setValue("main/hourdiff",hrdf);
+    }
+}
+
+
 void SettingsManager::setLang(int nlang)
 {
    int lang = this->lang();
@@ -170,6 +192,8 @@ bool SettingsManager::init()
     this->general->beginGroup("main");
     this->general->setValue("lang",Langs::ENG);
     this->general->setValue("actype",1);
+    this->general->setValue("mindiff",0);
+    this->general->setValue("hourdiff",0);
     this->general->setValue("mediaplayertype",1);
     this->general->setValue("tvtype",6);
     this->general->setValue("playstation",false);
@@ -269,6 +293,7 @@ bool SettingsManager::init()
         m_proto->setValue("delay",100);
         m_proto->setValue("system_request","27/50");
         m_proto->setValue("system_onoff","27/21");
+        m_proto->setValue("setclock","100/77");
 
         m_proto->endGroup();
 
@@ -546,6 +571,9 @@ bool SettingsManager::init()
         m_proto->setValue("inside_request","777/2");
         m_proto->setValue("side_request","777/3");
         m_proto->setValue("request_delay",300);
+
+        m_proto->setValue("leftreading_onoff","100/21");
+        m_proto->setValue("rightreading_onoff","100/22");
 
 
         m_proto->endGroup();

@@ -14,7 +14,7 @@
 #include "updatecheck.h"
 #include "restarter.h"
 #include <QDir>
-#include <nvidiaconnmanager.h>
+//#include <nvidiaconnmanager.h>
 
 bool changeCD()
 {
@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
     qDebug()<<"apps created"<<endl;
     qmlRegisterType<Restarter>("closx.restarter", 1, 0, "Restarter");
     qmlRegisterType<SettingsManager>("closx.smanager", 1, 0, "SettingsManager");
+    qmlRegisterType<ClockSetter>("closx.clocksetter", 1, 0, "ClockSetter");
 
     SettingsManager sm;
     Translator mTrans(&app);
@@ -53,7 +54,7 @@ int main(int argc, char *argv[])
     imng.setSerialMng(&smng);
 
     //instantiating an NvidiaConnManager object
-    NvidiaConnManager nvidiaConnManager(1234, &smng);
+//    NvidiaConnManager nvidiaConnManager(1234, &smng);
 
     qDebug()<<"init createcreated"<<endl;
     if(imng.init() == false)

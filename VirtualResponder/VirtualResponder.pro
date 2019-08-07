@@ -89,7 +89,7 @@ linux-g++-64:contains(QMAKE_TARGET.arch,aarch64)
         DEFINES += 'PORTNAME=ttyMSM1'
         PLATFORM = "LIN_ARM64"
         DEFINES += LIN_ARM64
-        target.path = /home/linaro/autovip
+        target.path = /home/root/autovip
         message("aarch64")
         INSTALLS += target
         target_arch = "aarch64"

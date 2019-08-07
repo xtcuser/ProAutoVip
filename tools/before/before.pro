@@ -24,6 +24,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 linux-g++-64:contains(QMAKE_TARGET.arch,aarch64)
 {
-        target.path = /home/linaro/autovip/tools
+        target.path = /home/root/autovip/tools
         INSTALLS += target
 }

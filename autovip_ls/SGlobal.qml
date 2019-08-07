@@ -6,6 +6,7 @@ import "scripts/ether.js" as Ether
 import QtWebSockets 1.0
 import VRService 1.0
 import QtQml 2.0
+import closx.smanager 1.0
 /* Global fonksiyonlar, değişkenler ve durumlar(states) bu sayfada bulunuyor. */
 
 
@@ -121,10 +122,16 @@ Item {
         }
     }
 
+    SettingsManager{
+        id:smngr
+    }
+
+
     function systemOnOff()
     {
         if(SM.demomode)
         {
+        serial_mng.sendKey("main/setclock",false,root.delay,(Qt.formatDateTime(new Date(), "h")*1 + smngr.value("main/hourdiff")*1)+ ":" + (Qt.formatDateTime(new Date(), "m")*1 + smngr.value("main/mindiff")*1));
             switch(serial_mng.systemstate)
             {
                 case -1:
@@ -141,6 +148,7 @@ Item {
             return;
 
         }else{
+            serial_mng.sendKey("main/setclock",false,root.delay,(Qt.formatDateTime(new Date(), "h")*1 + smngr.value("main/hourdiff")*1)+ ":" + (Qt.formatDateTime(new Date(), "m")*1 + smngr.value("main/mindiff")*1));
                         serial_mng.sendKey("main/system_onoff");
                         serial_mng.sendKey("main/system_feedback");
         }
@@ -948,6 +956,8 @@ ListModel {
             if(serial_mng.systemstate != 1)
             {
                 serial_mng.sendKey("main/system_request");
+                serial_mng.sendKey("main/setclock",false,root.delay,(Qt.formatDateTime(new Date(), "h")*1 + smngr.value("main/hourdiff")*1)+ ":" + (Qt.formatDateTime(new Date(), "m")*1 + smngr.value("main/mindiff")*1));
+
             }
 
         }

@@ -659,8 +659,8 @@ bool SerialMng::parserSeats(QString p_response)
     if(mt.hasMatch())
     {
         SeatState tst;
-        tst.m_cool = mt.captured(5).toUInt();
-        tst.m_heat = mt.captured(4).toUInt();
+        tst.m_cool = mt.captured(4).toUInt();
+        tst.m_heat = mt.captured(5).toUInt();
         tst.m_massagemode = mt.captured(3).toUInt();
         tst.m_massageon = mt.captured(2).toUInt();
 

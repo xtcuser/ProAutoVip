@@ -8,4 +8,5 @@ SUBDIRS += \
     tools/before \
     tools/after
 
-target.path = /home/linaro/autovip
+target.path = /home/root/autovip
+INSTALLS += target

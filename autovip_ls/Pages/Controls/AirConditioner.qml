@@ -68,14 +68,14 @@ BasePage {
 
     function upTemp()
     {
-                if(serial_mng.acdeg < 29)
+                if(serial_mng.acdeg < 15)
                 {
                 serial_mng.acdeg++;
                 }
     }
     function downTemp()
     {
-                if(serial_mng.acdeg > 15 )
+                if(serial_mng.acdeg > 0 )
                 {
                     serial_mng.acdeg--;
                 }
@@ -121,7 +121,7 @@ Item{
                                 serial_mng.sendKey("controls/modbus_ai_fan_up");
                             }
 
-                            //upFandeg();
+//                            upFandeg();
                         }
                         onReleased: {
                             airUpDs.visible = false
@@ -181,7 +181,7 @@ Item{
                                 serial_mng.sendKey("controls/modbus_ai_fan_down");
                             }
                             airDownDs.visible = true
-                            //downFandeg();
+//                            downFandeg();
                         }
                         onReleased:{
                             airDownDs.visible = false
@@ -513,7 +513,7 @@ Item{
         Text{
             id: degreeText
             font.pointSize: 60
-            text: serial_mng.acdeg + "°"
+            text: (serial_mng.acdeg+15) + "°"
             color:"white"
         }
     }

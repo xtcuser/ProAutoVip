@@ -30,6 +30,6 @@ HEADERS += \
 
 linux-g++-64:contains(QMAKE_TARGET.arch,aarch64)
 {
-        target.path = /home/linaro/autovip
+        target.path = /home/root/autovip
         INSTALLS += target
 }
