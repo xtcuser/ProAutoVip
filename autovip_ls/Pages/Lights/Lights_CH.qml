@@ -661,7 +661,7 @@ BasePage {
                Layout.preferredHeight: 30
                Layout.preferredWidth: 310
 //               text:qsTr("Right Reading Light") + mytrans.emptyString
-               text:qsTr("右边的阅读灯") + mytrans.emptyString
+               text:qsTr("左侧的阅读灯") + mytrans.emptyString
 //               text:qsTr("Sağ Okuma Aydınlatması") + mytrans.emptyString
                onClicked: {
 //                   console.log("before if " + c3.color + " glow "  + gl1.color + "if result " + (c3.color == "#ffffff"))
@@ -682,7 +682,7 @@ BasePage {
                Layout.preferredHeight: 30
                Layout.preferredWidth: 310
 //               text:qsTr("Left Reading Light") + mytrans.emptyString
-               text:qsTr("左侧的阅读灯") + mytrans.emptyString
+               text:qsTr("右边的阅读灯") + mytrans.emptyString
 //               text:qsTr("Sol Okuma Aydınlatması") + mytrans.emptyString
                onClicked: {
                        if (c4.color == "#fff6a6")

@@ -1,1176 +1,1176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="zh" sourcelanguage="en">
+<TS version="2.1" language="zh" sourcelanguage="en">
 <context>
     <name>AirConditioner</name>
     <message>
         <source>AIR CONDITIONER</source>
-        <translation>冷气机</translation>
+        <translation type="vanished">冷气机</translation>
     </message>
 </context>
 <context>
     <name>AppleTv</name>
     <message>
         <source>APPLE TV</source>
-        <translation>APPLE TV</translation>
+        <translation type="vanished">APPLE TV</translation>
     </message>
 </context>
 <context>
     <name>Bar</name>
     <message>
         <source>BAR</source>
-        <translation>酒吧</translation>
+        <translation type="vanished">酒吧</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>BarMotorCalibration</name>
     <message>
         <source>Bar Motor Calibration</source>
-        <translation>棒电机校准</translation>
+        <translation type="vanished">棒电机校准</translation>
     </message>
     <message>
         <source>Bar Up</source>
-        <translation>禁止</translation>
+        <translation type="vanished">禁止</translation>
     </message>
     <message>
         <source>Bar Down</source>
-        <translation>酒吧</translation>
+        <translation type="vanished">酒吧</translation>
     </message>
     <message>
         <source>Bar Set Minimum</source>
-        <translation>栏设置最小值</translation>
+        <translation type="vanished">栏设置最小值</translation>
     </message>
     <message>
         <source>Bar Set Maximum</source>
-        <translation>欄設置最大值</translation>
+        <translation type="vanished">欄設置最大值</translation>
     </message>
     <message>
         <source>Bar Reset</source>
-        <translation>欄重置</translation>
+        <translation type="vanished">欄重置</translation>
     </message>
 </context>
 <context>
     <name>CSeatMassage</name>
     <message>
         <source>MASSAGE OFF</source>
-        <translation>按摩被關閉了</translation>
+        <translation type="vanished">按摩被關閉了</translation>
     </message>
     <message>
         <source>SHOULDER AND THIGH</source>
-        <translation>肩膀和大腿</translation>
+        <translation type="vanished">肩膀和大腿</translation>
     </message>
     <message>
         <source>WAIST ANT THIGH</source>
-        <translation>腰部和大腿</translation>
+        <translation type="vanished">腰部和大腿</translation>
     </message>
     <message>
         <source>SHOULDER AND WAIST</source>
-        <translation>肩部和腰部</translation>
+        <translation type="vanished">肩部和腰部</translation>
     </message>
     <message>
         <source>PULSE</source>
-        <translation>脈衝</translation>
+        <translation type="vanished">脈衝</translation>
     </message>
     <message>
         <source>SMOOTH</source>
-        <translation>平滑</translation>
+        <translation type="vanished">平滑</translation>
     </message>
     <message>
         <source>SHOULDER</source>
-        <translation>肩</translation>
+        <translation type="vanished">肩</translation>
     </message>
     <message>
         <source>THIGH</source>
-        <translation>大腿</translation>
+        <translation type="vanished">大腿</translation>
     </message>
     <message>
         <source>RELAX</source>
-        <translation>放鬆</translation>
+        <translation type="vanished">放鬆</translation>
     </message>
     <message>
         <source>ON</source>
-        <translation>開</translation>
+        <translation type="vanished">開</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>CalibrationSettings</name>
     <message>
         <source>CALIBRATION</source>
-        <translation>校準</translation>
+        <translation type="vanished">校準</translation>
     </message>
     <message>
         <source>BAR </source>
-        <translation>酒吧</translation>
+        <translation type="vanished">酒吧</translation>
     </message>
     <message>
         <source>TV </source>
-        <translation>電視</translation>
+        <translation type="vanished">電視</translation>
     </message>
     <message>
         <source>ESPRESSO 1 </source>
-        <translation>濃咖啡1</translation>
+        <translation type="vanished">濃咖啡1</translation>
     </message>
     <message>
         <source>ESPRESSO 2 </source>
-        <translation>濃咖啡2</translation>
+        <translation type="vanished">濃咖啡2</translation>
     </message>
     <message>
         <source>DRAWER 1 </source>
-        <translation>抽屜1</translation>
+        <translation type="vanished">抽屜1</translation>
     </message>
     <message>
         <source>DRAWER 2 </source>
-        <translation>抽屜2</translation>
+        <translation type="vanished">抽屜2</translation>
     </message>
     <message>
         <source>DRAWER 3 </source>
-        <translation>抽屜3</translation>
+        <translation type="vanished">抽屜3</translation>
     </message>
     <message>
         <source>DRAWER 4 </source>
-        <translation>抽屜4</translation>
+        <translation type="vanished">抽屜4</translation>
     </message>
     <message>
         <source>THIRD FOOTREST M1 </source>
-        <translation>第三個腳凳M1</translation>
+        <translation type="vanished">第三個腳凳M1</translation>
     </message>
     <message>
         <source>THIRD FOOTREST M2 </source>
-        <translation>第三個腳凳M2</translation>
+        <translation type="vanished">第三個腳凳M2</translation>
     </message>
     <message>
         <source>FOURTH FOOTREST M1 </source>
-        <translation>第四個腳凳M1</translation>
+        <translation type="vanished">第四個腳凳M1</translation>
     </message>
     <message>
         <source>FOURTH FOOTREST M2 </source>
-        <translation>第四個腳凳M2</translation>
+        <translation type="vanished">第四個腳凳M2</translation>
     </message>
     <message>
         <source>THIRD TABLE </source>
-        <translation>第三張桌子</translation>
+        <translation type="vanished">第三張桌子</translation>
     </message>
     <message>
         <source>FOURTH TABLE </source>
-        <translation>第四張桌子</translation>
+        <translation type="vanished">第四張桌子</translation>
     </message>
 </context>
 <context>
     <name>Cameras</name>
     <message>
         <source>CAMERAS</source>
-        <translation>攝像機</translation>
+        <translation type="vanished">攝像機</translation>
     </message>
     <message>
         <source>Front Camera</source>
-        <translation>前置攝像頭</translation>
+        <translation type="vanished">前置攝像頭</translation>
     </message>
     <message>
         <source>Rear Camera</source>
-        <translation>後置攝像頭</translation>
+        <translation type="vanished">後置攝像頭</translation>
     </message>
 </context>
 <context>
     <name>CeilingScreen</name>
     <message>
         <source>CEILING SCREEN</source>
-        <translation>天花板屏幕</translation>
+        <translation type="vanished">天花板屏幕</translation>
     </message>
     <message>
         <source>On/Off</source>
-        <translation>開關</translation>
+        <translation type="vanished">開關</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>輸入</translation>
+        <translation type="vanished">輸入</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation>好</translation>
+        <translation type="vanished">好</translation>
     </message>
 </context>
 <context>
     <name>Controls</name>
     <message>
         <source>CONTROLS</source>
-        <translation>控制</translation>
+        <translation type="vanished">控制</translation>
     </message>
 </context>
 <context>
     <name>Curtains</name>
     <message>
         <source>CURTAINS</source>
-        <translation>窗簾</translation>
+        <translation type="vanished">窗簾</translation>
     </message>
     <message>
         <source>First Curtain</source>
-        <translation>第一幕</translation>
+        <translation type="vanished">第一幕</translation>
     </message>
     <message>
         <source>Second Curtain</source>
-        <translation>第二幕</translation>
+        <translation type="vanished">第二幕</translation>
     </message>
     <message>
         <source>Third Curtain</source>
-        <translation>第三幕</translation>
+        <translation type="vanished">第三幕</translation>
     </message>
     <message>
         <source>Fourth Curtain</source>
-        <translation>第四幕</translation>
+        <translation type="vanished">第四幕</translation>
     </message>
     <message>
         <source>Luggage Curtain</source>
-        <translation>行李簾</translation>
+        <translation type="vanished">行李簾</translation>
     </message>
 </context>
 <context>
     <name>DVDPlayer</name>
     <message>
         <source>DVD Player</source>
-        <translation>DVD播放機</translation>
+        <translation type="vanished">DVD播放機</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
     <message>
         <source>MUTE</source>
-        <translation>靜音</translation>
+        <translation type="vanished">靜音</translation>
     </message>
     <message>
         <source>MONITOR OFF</source>
-        <translation>關閉顯示器</translation>
+        <translation type="vanished">關閉顯示器</translation>
     </message>
     <message>
         <source>AUDIO</source>
-        <translation>音頻</translation>
+        <translation type="vanished">音頻</translation>
     </message>
     <message>
         <source>SUBTITLE</source>
-        <translation>字幕</translation>
+        <translation type="vanished">字幕</translation>
     </message>
     <message>
         <source>ANGLE</source>
-        <translation>角度</translation>
+        <translation type="vanished">角度</translation>
     </message>
     <message>
         <source>POSITION</source>
-        <translation>位置</translation>
+        <translation type="vanished">位置</translation>
     </message>
     <message>
         <source>EQ</source>
-        <translation>均衡器</translation>
+        <translation type="vanished">均衡器</translation>
     </message>
     <message>
         <source>UP</source>
-        <translation>向上</translation>
+        <translation type="vanished">向上</translation>
     </message>
     <message>
         <source>VOL+</source>
-        <translation>提高音量</translation>
+        <translation type="vanished">提高音量</translation>
     </message>
     <message>
         <source>LEFT</source>
-        <translation>剩下</translation>
+        <translation type="vanished">剩下</translation>
     </message>
     <message>
         <source>ENTER</source>
-        <translation>輸入</translation>
+        <translation type="vanished">輸入</translation>
     </message>
     <message>
         <source>RIGHT</source>
-        <translation>對</translation>
+        <translation type="vanished">對</translation>
     </message>
     <message>
         <source>DOWN</source>
-        <translation>下</translation>
+        <translation type="vanished">下</translation>
     </message>
     <message>
         <source>VOL-</source>
-        <translation>音量減小</translation>
+        <translation type="vanished">音量減小</translation>
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="vanished">1</translation>
     </message>
     <message>
         <source>2</source>
-        <translation>2</translation>
+        <translation type="vanished">2</translation>
     </message>
     <message>
         <source>3</source>
-        <translation>3</translation>
+        <translation type="vanished">3</translation>
     </message>
     <message>
         <source>TOP MENU</source>
-        <translation>8/5000
+        <translation type="vanished">8/5000
 頂部菜單</translation>
     </message>
     <message>
         <source>MENU</source>
-        <translation>菜單</translation>
+        <translation type="vanished">菜單</translation>
     </message>
     <message>
         <source>4</source>
-        <translation>4</translation>
+        <translation type="vanished">4</translation>
     </message>
     <message>
         <source>5</source>
-        <translation>5</translation>
+        <translation type="vanished">5</translation>
     </message>
     <message>
         <source>6</source>
-        <translation>6</translation>
+        <translation type="vanished">6</translation>
     </message>
     <message>
         <source>P.SCAN</source>
-        <translation>頁。掃描</translation>
+        <translation type="vanished">頁。掃描</translation>
     </message>
     <message>
         <source>SRC</source>
-        <translation>輸入</translation>
+        <translation type="vanished">輸入</translation>
     </message>
     <message>
         <source>7</source>
-        <translation>7</translation>
+        <translation type="vanished">7</translation>
     </message>
     <message>
         <source>8</source>
-        <translation>8</translation>
+        <translation type="vanished">8</translation>
     </message>
     <message>
         <source>9</source>
-        <translation>9</translation>
+        <translation type="vanished">9</translation>
     </message>
     <message>
         <source>CHANGE</source>
-        <translation>更改</translation>
+        <translation type="vanished">更改</translation>
     </message>
     <message>
         <source>MODE</source>
-        <translation>模式</translation>
+        <translation type="vanished">模式</translation>
     </message>
     <message>
         <source>CLEAR</source>
-        <translation>明確</translation>
+        <translation type="vanished">明確</translation>
     </message>
     <message>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="vanished">0</translation>
     </message>
 </context>
 <context>
     <name>DockingStation</name>
     <message>
         <source>DOCKING STATION</source>
-        <translation>擴展塢</translation>
+        <translation type="vanished">擴展塢</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
 </context>
 <context>
     <name>DrawerMotor1</name>
     <message>
         <source>Drawer 1 Calibration</source>
-        <translation>抽屜1校準</translation>
+        <translation type="vanished">抽屜1校準</translation>
     </message>
     <message>
         <source>Drawer Up</source>
-        <translation>把抽屜向上</translation>
+        <translation type="vanished">把抽屜向上</translation>
     </message>
     <message>
         <source>Drawer Down</source>
-        <translation>把抽屜放下</translation>
+        <translation type="vanished">把抽屜放下</translation>
     </message>
     <message>
         <source>Drawer Set Minimum</source>
-        <translation>將抽屜設置為最小</translation>
+        <translation type="vanished">將抽屜設置為最小</translation>
     </message>
     <message>
         <source>Drawer Set Maximum</source>
-        <translation>將抽屜設置為最大值</translation>
+        <translation type="vanished">將抽屜設置為最大值</translation>
     </message>
     <message>
         <source>Drawer Reset</source>
-        <translation>重置抽屜</translation>
+        <translation type="vanished">重置抽屜</translation>
     </message>
 </context>
 <context>
     <name>DrawerMotor2</name>
     <message>
         <source>Drawer 2 Calibration</source>
-        <translation>抽屜2校準</translation>
+        <translation type="vanished">抽屜2校準</translation>
     </message>
     <message>
         <source>Drawer Up</source>
-        <translation>把抽屜向上</translation>
+        <translation type="vanished">把抽屜向上</translation>
     </message>
     <message>
         <source>Drawer Down</source>
-        <translation>把抽屜放下</translation>
+        <translation type="vanished">把抽屜放下</translation>
     </message>
     <message>
         <source>Drawer Set Minimum</source>
-        <translation>將抽屜設置為最小</translation>
+        <translation type="vanished">將抽屜設置為最小</translation>
     </message>
     <message>
         <source>Drawer Set Maximum</source>
-        <translation>將抽屜設置為最大值</translation>
+        <translation type="vanished">將抽屜設置為最大值</translation>
     </message>
     <message>
         <source>Drawer Reset</source>
-        <translation>重置抽屜</translation>
+        <translation type="vanished">重置抽屜</translation>
     </message>
 </context>
 <context>
     <name>DrawerMotor3</name>
     <message>
         <source>Drawer 3 Calibration</source>
-        <translation>抽屜3校準</translation>
+        <translation type="vanished">抽屜3校準</translation>
     </message>
     <message>
         <source>Drawer Up</source>
-        <translation>把抽屜向上</translation>
+        <translation type="vanished">把抽屜向上</translation>
     </message>
     <message>
         <source>Drawer Down</source>
-        <translation>把抽屜放下</translation>
+        <translation type="vanished">把抽屜放下</translation>
     </message>
     <message>
         <source>Drawer Set Minimum</source>
-        <translation>將抽屜設置為最小</translation>
+        <translation type="vanished">將抽屜設置為最小</translation>
     </message>
     <message>
         <source>Drawer Set Maximum</source>
-        <translation>將抽屜設置為最大值</translation>
+        <translation type="vanished">將抽屜設置為最大值</translation>
     </message>
     <message>
         <source>Drawer Reset</source>
-        <translation>重置抽屜</translation>
+        <translation type="vanished">重置抽屜</translation>
     </message>
 </context>
 <context>
     <name>DrawerMotor4</name>
     <message>
         <source>Drawer 4 Calibration</source>
-        <translation>抽屜4校準</translation>
+        <translation type="vanished">抽屜4校準</translation>
     </message>
     <message>
         <source>Drawer Up</source>
-        <translation>把抽屜向上</translation>
+        <translation type="vanished">把抽屜向上</translation>
     </message>
     <message>
         <source>Drawer Down</source>
-        <translation>把抽屜放下</translation>
+        <translation type="vanished">把抽屜放下</translation>
     </message>
     <message>
         <source>Drawer Set Minimum</source>
-        <translation>將抽屜設置為最小</translation>
+        <translation type="vanished">將抽屜設置為最小</translation>
     </message>
     <message>
         <source>Drawer Set Maximum</source>
-        <translation>將抽屜設置為最大值</translation>
+        <translation type="vanished">將抽屜設置為最大值</translation>
     </message>
     <message>
         <source>Drawer Reset</source>
-        <translation>重置抽屜</translation>
+        <translation type="vanished">重置抽屜</translation>
     </message>
 </context>
 <context>
     <name>Espresso</name>
     <message>
         <source>ESPRESSO</source>
-        <translation>濃咖啡</translation>
+        <translation type="vanished">濃咖啡</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
     <message>
         <source>You can&apos;t open espresso when first seat ahead</source>
-        <translation>第一個座位在前方時，您無法打開濃咖啡</translation>
+        <translation type="vanished">第一個座位在前方時，您無法打開濃咖啡</translation>
     </message>
     <message>
         <source>First Seat Back</source>
-        <translation>第一個座位在後面</translation>
+        <translation type="vanished">第一個座位在後面</translation>
     </message>
 </context>
 <context>
     <name>EspressoMotor1</name>
     <message>
         <source>Espresso 1 Calibration</source>
-        <translation>濃咖啡1校準</translation>
+        <translation type="vanished">濃咖啡1校準</translation>
     </message>
     <message>
         <source>Espresso Up</source>
-        <translation>放入濃咖啡</translation>
+        <translation type="vanished">放入濃咖啡</translation>
     </message>
     <message>
         <source>Espresso Down</source>
-        <translation>放入濃縮咖啡</translation>
+        <translation type="vanished">放入濃縮咖啡</translation>
     </message>
     <message>
         <source>Espresso Set Minimum</source>
-        <translation>將濃縮咖啡設為最低限度</translation>
+        <translation type="vanished">將濃縮咖啡設為最低限度</translation>
     </message>
     <message>
         <source>Espresso Set Maximum</source>
-        <translation>將濃縮咖啡設置為最大值</translation>
+        <translation type="vanished">將濃縮咖啡設置為最大值</translation>
     </message>
     <message>
         <source>Espresso Reset</source>
-        <translation>重置濃縮咖啡</translation>
+        <translation type="vanished">重置濃縮咖啡</translation>
     </message>
 </context>
 <context>
     <name>EspressoMotor2</name>
     <message>
         <source>Espresso Motor 2 Calibration</source>
-        <translation>濃咖啡2校準</translation>
+        <translation type="vanished">濃咖啡2校準</translation>
     </message>
     <message>
         <source>Espresso Up</source>
-        <translation>放入濃咖啡</translation>
+        <translation type="vanished">放入濃咖啡</translation>
     </message>
     <message>
         <source>Espresso Down</source>
-        <translation>放入濃縮咖啡</translation>
+        <translation type="vanished">放入濃縮咖啡</translation>
     </message>
     <message>
         <source>Espresso Set Minimum</source>
-        <translation>將濃縮咖啡設為最低限度</translation>
+        <translation type="vanished">將濃縮咖啡設為最低限度</translation>
     </message>
     <message>
         <source>Espresso Set Maximum</source>
-        <translation>將濃縮咖啡設置為最大值</translation>
+        <translation type="vanished">將濃縮咖啡設置為最大值</translation>
     </message>
     <message>
         <source>Espresso Reset</source>
-        <translation>重置濃縮咖啡</translation>
+        <translation type="vanished">重置濃縮咖啡</translation>
     </message>
 </context>
 <context>
     <name>FourthFootrest1</name>
     <message>
         <source>Fourth Footrest M1 Calibration</source>
-        <translation>第四腳踏板M1校準</translation>
+        <translation type="vanished">第四腳踏板M1校準</translation>
     </message>
     <message>
         <source>Footrest Up</source>
-        <translation>把腳凳向上</translation>
+        <translation type="vanished">把腳凳向上</translation>
     </message>
     <message>
         <source>Footrest Down</source>
-        <translation>向下走腳凳</translation>
+        <translation type="vanished">向下走腳凳</translation>
     </message>
     <message>
         <source>Footrest Set Minimum</source>
-        <translation>將腳凳設置為最小</translation>
+        <translation type="vanished">將腳凳設置為最小</translation>
     </message>
     <message>
         <source>Footrest Set Maximum</source>
-        <translation>將腳凳設置為最大</translation>
+        <translation type="vanished">將腳凳設置為最大</translation>
     </message>
     <message>
         <source>Footrest Reset</source>
-        <translation>重置腳步</translation>
+        <translation type="vanished">重置腳步</translation>
     </message>
 </context>
 <context>
     <name>FourthFootrest2</name>
     <message>
         <source>Fourth Footrest M2 Calibration</source>
-        <translation>第四腳踏板M2校準</translation>
+        <translation type="vanished">第四腳踏板M2校準</translation>
     </message>
     <message>
         <source>Footrest Up</source>
-        <translation>把腳凳向上</translation>
+        <translation type="vanished">把腳凳向上</translation>
     </message>
     <message>
         <source>Footrest Down</source>
-        <translation>向下走腳凳</translation>
+        <translation type="vanished">向下走腳凳</translation>
     </message>
     <message>
         <source>Footrest Set Minimum</source>
-        <translation>將腳凳設置為最小</translation>
+        <translation type="vanished">將腳凳設置為最小</translation>
     </message>
     <message>
         <source>Footrest Set Maximum</source>
-        <translation>將腳凳設置為最大</translation>
+        <translation type="vanished">將腳凳設置為最大</translation>
     </message>
     <message>
         <source>Footrest Reset</source>
-        <translation>重置腳步</translation>
+        <translation type="vanished">重置腳步</translation>
     </message>
 </context>
 <context>
     <name>FourthTableCalibration</name>
     <message>
         <source>Fourth Table Calibration</source>
-        <translation>第四表校準</translation>
+        <translation type="vanished">第四表校準</translation>
     </message>
     <message>
         <source>Fourth Table Up</source>
-        <translation>將第四張表向上</translation>
+        <translation type="vanished">將第四張表向上</translation>
     </message>
     <message>
         <source>Fourth Table Down</source>
-        <translation>將第四張表向下</translation>
+        <translation type="vanished">將第四張表向下</translation>
     </message>
     <message>
         <source>Fourth Table Set Minimum</source>
-        <translation>將第四個表設置為最小值</translation>
+        <translation type="vanished">將第四個表設置為最小值</translation>
     </message>
     <message>
         <source>Fourth Table Set Maximum</source>
-        <translation>將第四個表設置為最大值</translation>
+        <translation type="vanished">將第四個表設置為最大值</translation>
     </message>
     <message>
         <source>Fourth Table Reset</source>
-        <translation>重置第四個表</translation>
+        <translation type="vanished">重置第四個表</translation>
     </message>
 </context>
 <context>
     <name>FrontCamera</name>
     <message>
         <source>FRONT CAMERA</source>
-        <translation>前置攝像頭</translation>
+        <translation type="vanished">前置攝像頭</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
 </context>
 <context>
     <name>GeneralSettings</name>
     <message>
         <source>GENERAL SETTINGS</source>
-        <translation>常規設置</translation>
+        <translation type="vanished">常規設置</translation>
     </message>
     <message>
         <source>System should be restarted to
  apply all language changes.</source>
-        <translation>應重新啟動系統以應用所有語言更改。</translation>
+        <translation type="vanished">應重新啟動系統以應用所有語言更改。</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation>重新開始</translation>
+        <translation type="vanished">重新開始</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation type="vanished">取消</translation>
     </message>
     <message>
         <source>Language:</source>
-        <translation>語言：</translation>
+        <translation type="vanished">語言：</translation>
     </message>
     <message>
         <source>Auto Time:</source>
-        <translation>自動設置時間：</translation>
+        <translation type="vanished">自動設置時間：</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation>自動</translation>
+        <translation type="vanished">自動</translation>
     </message>
 </context>
 <context>
     <name>HdmiInput</name>
     <message>
         <source>HDMI INPUT</source>
-        <translation>HDMI輸入</translation>
+        <translation type="vanished">HDMI輸入</translation>
     </message>
 </context>
 <context>
     <name>KodiMediaPlayer</name>
     <message>
         <source>MEDIA</source>
-        <translation>媒體</translation>
+        <translation type="vanished">媒體</translation>
     </message>
 </context>
 <context>
     <name>LeftCurtain</name>
     <message>
         <source>LEFT CURTAIN</source>
-        <translation>左幕</translation>
+        <translation type="vanished">左幕</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>LeftCurtain2</name>
     <message>
         <source>LEFT CURTAIN</source>
-        <translation>左幕2</translation>
+        <translation type="vanished">左幕2</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>LeftTable</name>
     <message>
         <source>LEFT TABLE</source>
-        <translation>左表</translation>
+        <translation type="vanished">左表</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>LeftWindow</name>
     <message>
         <source>LEFT WINDOW</source>
-        <translation>左窗口</translation>
+        <translation type="vanished">左窗口</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>LightButton</name>
     <message>
         <source>Memory 1</source>
-        <translation>記憶1</translation>
+        <translation type="vanished">記憶1</translation>
     </message>
 </context>
 <context>
     <name>Lights</name>
     <message>
         <source>Lights</source>
-        <translation>燈火</translation>
+        <translation type="vanished">燈火</translation>
     </message>
     <message>
         <source>Ceiling Light</source>
-        <translation>天花燈</translation>
+        <translation type="vanished">天花燈</translation>
     </message>
     <message>
         <source>Side Light</source>
-        <translation>側燈</translation>
+        <translation type="vanished">側燈</translation>
     </message>
     <message>
         <source>Inside Light</source>
-        <translation>內光</translation>
+        <translation type="vanished">內光</translation>
     </message>
     <message>
         <source>Close All</source>
-        <translation>關閉所有</translation>
+        <translation type="vanished">關閉所有</translation>
     </message>
     <message>
         <source>Memory 1</source>
-        <translation>記憶1</translation>
+        <translation type="vanished">記憶1</translation>
     </message>
     <message>
         <source>Memory 2</source>
-        <translation>記憶2</translation>
+        <translation type="vanished">記憶2</translation>
     </message>
     <message>
         <source>Memory 3</source>
-        <translation>記憶3</translation>
+        <translation type="vanished">記憶3</translation>
     </message>
 </context>
 <context>
     <name>LuggageCurtain</name>
     <message>
         <source>LUGGAGE CURTAIN</source>
-        <translation>行李簾</translation>
+        <translation type="vanished">行李簾</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>Media</name>
     <message>
         <source>MEDIA</source>
-        <translation>媒體</translation>
+        <translation type="vanished">媒體</translation>
     </message>
 </context>
 <context>
     <name>MediaSettings</name>
     <message>
         <source>MEDIA SETTINGS</source>
-        <translation>媒體設置</translation>
+        <translation type="vanished">媒體設置</translation>
     </message>
     <message>
         <source>MediaPlayer Type:</source>
-        <translation>媒體播放器類型：</translation>
+        <translation type="vanished">媒體播放器類型：</translation>
     </message>
     <message>
         <source>MediaPlayer IP:</source>
-        <translation>媒體播放器IP：</translation>
+        <translation type="vanished">媒體播放器IP：</translation>
     </message>
 </context>
 <context>
     <name>PcHdmi</name>
     <message>
         <source>PC HDMI</source>
-        <translation>HDMI輸入</translation>
+        <translation type="vanished">HDMI輸入</translation>
     </message>
     <message>
         <source>On/Off</source>
-        <translation>開關</translation>
+        <translation type="vanished">開關</translation>
     </message>
 </context>
 <context>
     <name>Playstation</name>
     <message>
         <source>PLAYSTATION</source>
-        <translation>遊戲機</translation>
+        <translation type="vanished">遊戲機</translation>
     </message>
 </context>
 <context>
     <name>RadBtnMenu</name>
     <message>
         <source>PRESETS</source>
-        <translation>預置</translation>
+        <translation type="vanished">預置</translation>
     </message>
     <message>
         <source>MANUAL SEARCH</source>
-        <translation>手動搜索</translation>
+        <translation type="vanished">手動搜索</translation>
     </message>
 </context>
 <context>
     <name>Radio</name>
     <message>
         <source>RADIO FM</source>
-        <translation>收音機FM</translation>
+        <translation type="vanished">收音機FM</translation>
     </message>
 </context>
 <context>
     <name>RadioManual</name>
     <message>
         <source>MANUAL RADIO</source>
-        <translation>手動電台</translation>
+        <translation type="vanished">手動電台</translation>
     </message>
 </context>
 <context>
     <name>RadioModMenu</name>
     <message>
         <source>DAB</source>
-        <translation>DAB</translation>
+        <translation type="vanished">DAB</translation>
     </message>
     <message>
         <source>FM</source>
-        <translation>FM</translation>
+        <translation type="vanished">FM</translation>
     </message>
     <message>
         <source>AM</source>
-        <translation>AM</translation>
+        <translation type="vanished">AM</translation>
     </message>
 </context>
 <context>
     <name>Refrigerator</name>
     <message>
         <source>REFRIGERATOR</source>
-        <translation>冰箱</translation>
+        <translation type="vanished">冰箱</translation>
     </message>
 </context>
 <context>
     <name>RightCurtain</name>
     <message>
         <source>RIGHT CURTAIN</source>
-        <translation>右窗簾</translation>
+        <translation type="vanished">右窗簾</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
 </context>
 <context>
     <name>RightCurtain2</name>
     <message>
         <source>RIGHT CURTAIN</source>
-        <translation>右窗簾2</translation>
+        <translation type="vanished">右窗簾2</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>RightTable</name>
     <message>
         <source>RIGHT TABLE</source>
-        <translation>右表</translation>
+        <translation type="vanished">右表</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>RightWindow</name>
     <message>
         <source>RIGHT WINDOW</source>
-        <translation>右窗口</translation>
+        <translation type="vanished">右窗口</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>Roof</name>
     <message>
         <source>ROOF</source>
-        <translation>屋頂</translation>
+        <translation type="vanished">屋頂</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>SGlobal</name>
     <message>
-        <location filename="../SGlobal.qml" line="112"/>
+        <location filename="../SGlobal.qml" line="113"/>
         <source>FIRST</source>
         <translation>第一</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="114"/>
+        <location filename="../SGlobal.qml" line="115"/>
         <source>SECOND</source>
         <translation>第二</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="116"/>
+        <location filename="../SGlobal.qml" line="117"/>
         <source>THIRD</source>
         <translation>第三</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="118"/>
+        <location filename="../SGlobal.qml" line="119"/>
         <source>FOURTH</source>
         <translation>第四</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="120"/>
+        <location filename="../SGlobal.qml" line="121"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="189"/>
-        <location filename="../SGlobal.qml" line="659"/>
+        <location filename="../SGlobal.qml" line="197"/>
+        <location filename="../SGlobal.qml" line="671"/>
         <source>Head</source>
         <translation>頭</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="190"/>
+        <location filename="../SGlobal.qml" line="198"/>
         <source>SeatBack</source>
         <translation>椅背</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="191"/>
-        <location filename="../SGlobal.qml" line="669"/>
+        <location filename="../SGlobal.qml" line="199"/>
+        <location filename="../SGlobal.qml" line="681"/>
         <source>Seat</source>
         <translation>座位</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="194"/>
-        <location filename="../SGlobal.qml" line="679"/>
+        <location filename="../SGlobal.qml" line="202"/>
+        <location filename="../SGlobal.qml" line="691"/>
         <source>Drawer</source>
         <translation>抽屜</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="198"/>
-        <location filename="../SGlobal.qml" line="674"/>
+        <location filename="../SGlobal.qml" line="206"/>
+        <location filename="../SGlobal.qml" line="686"/>
         <source>Foot Rest</source>
         <translation>踏板</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="202"/>
+        <location filename="../SGlobal.qml" line="210"/>
         <source>Thigh</source>
         <translation>大腿</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="206"/>
+        <location filename="../SGlobal.qml" line="214"/>
         <source>Seat Heating</source>
         <translation>座椅加熱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="210"/>
+        <location filename="../SGlobal.qml" line="218"/>
         <source>Seat Cooling</source>
         <translation>座椅冷卻</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="214"/>
+        <location filename="../SGlobal.qml" line="222"/>
         <source>Seat Massage</source>
         <translation>座椅按摩</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="224"/>
-        <location filename="../SGlobal.qml" line="751"/>
+        <location filename="../SGlobal.qml" line="232"/>
+        <location filename="../SGlobal.qml" line="763"/>
         <source>Kodi Player</source>
         <translation>Kodi媒體播放器</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="234"/>
+        <location filename="../SGlobal.qml" line="242"/>
         <source>Apple Tv</source>
         <translation>Apple Tv</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="245"/>
-        <location filename="../SGlobal.qml" line="756"/>
+        <location filename="../SGlobal.qml" line="253"/>
+        <location filename="../SGlobal.qml" line="768"/>
         <source>Playstation</source>
         <translation>遊戲機</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="256"/>
-        <location filename="../SGlobal.qml" line="761"/>
+        <location filename="../SGlobal.qml" line="264"/>
+        <location filename="../SGlobal.qml" line="773"/>
         <source>Docking Stations</source>
         <translation>擴展塢</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="264"/>
-        <location filename="../SGlobal.qml" line="766"/>
+        <location filename="../SGlobal.qml" line="272"/>
+        <location filename="../SGlobal.qml" line="778"/>
         <source>Screen Divider</source>
         <translation>屏幕分隔線</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="271"/>
-        <location filename="../SGlobal.qml" line="771"/>
+        <location filename="../SGlobal.qml" line="279"/>
+        <location filename="../SGlobal.qml" line="783"/>
         <source>Television</source>
         <translation>電視</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="280"/>
-        <location filename="../SGlobal.qml" line="776"/>
+        <location filename="../SGlobal.qml" line="288"/>
+        <location filename="../SGlobal.qml" line="788"/>
         <source>Radio</source>
         <translation>無線電</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="288"/>
-        <location filename="../SGlobal.qml" line="781"/>
+        <location filename="../SGlobal.qml" line="296"/>
+        <location filename="../SGlobal.qml" line="793"/>
         <source>Pc Hdmi</source>
         <translation>HDMI輸入</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="297"/>
+        <location filename="../SGlobal.qml" line="305"/>
         <source>Ceiling Screen</source>
         <translation>天花板屏幕</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="308"/>
+        <location filename="../SGlobal.qml" line="316"/>
         <source>DVD Player</source>
         <translation>DVD播放機</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="321"/>
-        <location filename="../SGlobal.qml" line="691"/>
+        <location filename="../SGlobal.qml" line="329"/>
+        <location filename="../SGlobal.qml" line="703"/>
         <source>Tables</source>
         <translation>表</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="330"/>
-        <location filename="../SGlobal.qml" line="696"/>
+        <location filename="../SGlobal.qml" line="338"/>
+        <location filename="../SGlobal.qml" line="708"/>
         <source>Curtains</source>
         <translation>窗簾</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="340"/>
-        <location filename="../SGlobal.qml" line="701"/>
+        <location filename="../SGlobal.qml" line="348"/>
+        <location filename="../SGlobal.qml" line="713"/>
         <source>Refrigerator</source>
         <translation>冰箱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="350"/>
-        <location filename="../SGlobal.qml" line="706"/>
+        <location filename="../SGlobal.qml" line="358"/>
+        <location filename="../SGlobal.qml" line="718"/>
         <source>Safe Box</source>
         <translation>保險箱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="360"/>
-        <location filename="../SGlobal.qml" line="711"/>
+        <location filename="../SGlobal.qml" line="368"/>
+        <location filename="../SGlobal.qml" line="723"/>
         <source>Air Condition</source>
         <translation>冷气机</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="367"/>
-        <location filename="../SGlobal.qml" line="716"/>
+        <location filename="../SGlobal.qml" line="375"/>
+        <location filename="../SGlobal.qml" line="728"/>
         <source>Smoke Fan</source>
         <translation>煙風扇</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="375"/>
-        <location filename="../SGlobal.qml" line="721"/>
+        <location filename="../SGlobal.qml" line="383"/>
+        <location filename="../SGlobal.qml" line="733"/>
         <source>Windows</source>
         <translation>視窗</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="384"/>
-        <location filename="../SGlobal.qml" line="726"/>
+        <location filename="../SGlobal.qml" line="392"/>
+        <location filename="../SGlobal.qml" line="738"/>
         <source>Bar</source>
         <translation>酒吧</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="394"/>
-        <location filename="../SGlobal.qml" line="731"/>
+        <location filename="../SGlobal.qml" line="402"/>
+        <location filename="../SGlobal.qml" line="743"/>
         <source>Espresso</source>
         <translation>濃咖啡</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="403"/>
-        <location filename="../SGlobal.qml" line="736"/>
+        <location filename="../SGlobal.qml" line="411"/>
+        <location filename="../SGlobal.qml" line="748"/>
         <source>Roof</source>
         <translation>屋頂</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="664"/>
+        <location filename="../SGlobal.qml" line="676"/>
         <source>Back</source>
         <translation>背部</translation>
     </message>
@@ -1179,355 +1179,355 @@
     <name>SafeBox</name>
     <message>
         <source>SAFE BOX</source>
-        <translation>保險箱</translation>
+        <translation type="vanished">保險箱</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>ScreenDivider</name>
     <message>
         <source>SCREEN DIVIDER</source>
-        <translation>屏幕分隔線</translation>
+        <translation type="vanished">屏幕分隔線</translation>
     </message>
     <message>
         <source>Divide Screen</source>
-        <translation>劃分屏幕</translation>
+        <translation type="vanished">劃分屏幕</translation>
     </message>
     <message>
         <source>Front Camera</source>
-        <translation>前置攝像頭</translation>
+        <translation type="vanished">前置攝像頭</translation>
     </message>
     <message>
         <source>Rear Camera</source>
-        <translation>後置攝像頭</translation>
+        <translation type="vanished">後置攝像頭</translation>
     </message>
 </context>
 <context>
     <name>SeatBack</name>
     <message>
         <source>SEAT BACK</source>
-        <translation>椅背</translation>
+        <translation type="vanished">椅背</translation>
     </message>
 </context>
 <context>
     <name>SeatCooling</name>
     <message>
         <source>SEAT COOLING</source>
-        <translation>座椅冷卻</translation>
+        <translation type="vanished">座椅冷卻</translation>
     </message>
 </context>
 <context>
     <name>SeatDrawer</name>
     <message>
         <source>SEAT DRAWER</source>
-        <translation>座位抽屜</translation>
+        <translation type="vanished">座位抽屜</translation>
     </message>
 </context>
 <context>
     <name>SeatFeet</name>
     <message>
         <source>SEAT FOOT REST</source>
-        <translation>踏板</translation>
+        <translation type="vanished">踏板</translation>
     </message>
 </context>
 <context>
     <name>SeatHead</name>
     <message>
         <source>SEAT HEADSET</source>
-        <translation>座椅耳機</translation>
+        <translation type="vanished">座椅耳機</translation>
     </message>
 </context>
 <context>
     <name>SeatHeating</name>
     <message>
         <source>SEAT HEATING</source>
-        <translation>座椅加熱</translation>
+        <translation type="vanished">座椅加熱</translation>
     </message>
 </context>
 <context>
     <name>SeatMassage</name>
     <message>
         <source>SEAT MASSAGE</source>
-        <translation>座椅按摩</translation>
+        <translation type="vanished">座椅按摩</translation>
     </message>
 </context>
 <context>
     <name>SeatPart</name>
     <message>
         <source>SEAT</source>
-        <translation>座位</translation>
+        <translation type="vanished">座位</translation>
     </message>
     <message>
         <source>When the espresso cover is open, you cannot take the first seat forward.</source>
-        <translation>當濃縮咖啡蓋打開時，您無法將第一個座位向前移動。</translation>
+        <translation type="vanished">當濃縮咖啡蓋打開時，您無法將第一個座位向前移動。</translation>
     </message>
     <message>
         <source>Espresso Close</source>
-        <translation>濃縮咖啡帽已關閉</translation>
+        <translation type="vanished">濃縮咖啡帽已關閉</translation>
     </message>
 </context>
 <context>
     <name>SeatThigh</name>
     <message>
         <source>SEAT THIGH</source>
-        <translation>座位的大腿</translation>
+        <translation type="vanished">座位的大腿</translation>
     </message>
 </context>
 <context>
     <name>Seats</name>
     <message>
         <source>SEATS</source>
-        <translation>座位</translation>
+        <translation type="vanished">座位</translation>
     </message>
     <message>
         <source>First Seat</source>
-        <translation>第一個座位</translation>
+        <translation type="vanished">第一個座位</translation>
     </message>
     <message>
         <source>Second Seat</source>
-        <translation>第二個座位</translation>
+        <translation type="vanished">第二個座位</translation>
     </message>
     <message>
         <source>Third Seat</source>
-        <translation>第三個座位</translation>
+        <translation type="vanished">第三個座位</translation>
     </message>
     <message>
         <source>Fourth Seat</source>
-        <translation>第四個座位</translation>
+        <translation type="vanished">第四個座位</translation>
     </message>
 </context>
 <context>
     <name>SerialSettings</name>
     <message>
         <source>SERIAL SETTINGS</source>
-        <translation>串行設置</translation>
+        <translation type="vanished">串行設置</translation>
     </message>
     <message>
         <source>Port Name :</source>
-        <translation>端口名稱：</translation>
+        <translation type="vanished">端口名稱：</translation>
     </message>
     <message>
         <source>Baud Rate :</source>
-        <translation>波特率：</translation>
+        <translation type="vanished">波特率：</translation>
     </message>
 </context>
 <context>
     <name>Settings</name>
     <message>
         <source>SETTINGS</source>
-        <translation>設置</translation>
+        <translation type="vanished">設置</translation>
     </message>
 </context>
 <context>
     <name>SettingsMenu</name>
     <message>
         <source>General</source>
-        <translation>一般</translation>
+        <translation type="vanished">一般</translation>
     </message>
     <message>
         <source>Media</source>
-        <translation>媒體</translation>
+        <translation type="vanished">媒體</translation>
     </message>
     <message>
         <source>Serial</source>
-        <translation>串行</translation>
+        <translation type="vanished">串行</translation>
     </message>
 </context>
 <context>
     <name>SmokeFan</name>
     <message>
         <source>SMOKE FAN</source>
-        <translation>煙風扇</translation>
+        <translation type="vanished">煙風扇</translation>
     </message>
     <message>
         <source>On/Off</source>
-        <translation>開關</translation>
+        <translation type="vanished">開關</translation>
     </message>
 </context>
 <context>
     <name>Tables</name>
     <message>
         <source>TABLES</source>
-        <translation>表</translation>
+        <translation type="vanished">表</translation>
     </message>
     <message>
         <source>Left Table</source>
-        <translation>左表</translation>
+        <translation type="vanished">左表</translation>
     </message>
     <message>
         <source>Right Table</source>
-        <translation>右表</translation>
+        <translation type="vanished">右表</translation>
     </message>
 </context>
 <context>
     <name>Television</name>
     <message>
         <source>TELEVISION</source>
-        <translation>電視</translation>
+        <translation type="vanished">電視</translation>
     </message>
 </context>
 <context>
     <name>ThirdFootrestM1</name>
     <message>
         <source>Third Footrest M1 Calibration</source>
-        <translation>第三腳踏板M1校準</translation>
+        <translation type="vanished">第三腳踏板M1校準</translation>
     </message>
     <message>
         <source>Footrest Up</source>
-        <translation>把腳凳向上</translation>
+        <translation type="vanished">把腳凳向上</translation>
     </message>
     <message>
         <source>Footrest Down</source>
-        <translation>向下走腳凳</translation>
+        <translation type="vanished">向下走腳凳</translation>
     </message>
     <message>
         <source>Footrest Set Minimum</source>
-        <translation>將腳凳設置為最小</translation>
+        <translation type="vanished">將腳凳設置為最小</translation>
     </message>
     <message>
         <source>Footrest Set Maximum</source>
-        <translation>將腳凳設置為最大</translation>
+        <translation type="vanished">將腳凳設置為最大</translation>
     </message>
     <message>
         <source>Footrest Reset</source>
-        <translation>重置腳步</translation>
+        <translation type="vanished">重置腳步</translation>
     </message>
 </context>
 <context>
     <name>ThirdFootrestM2</name>
     <message>
         <source>Third Footrest M2 Calibration</source>
-        <translation>第三腳踏板M2校準</translation>
+        <translation type="vanished">第三腳踏板M2校準</translation>
     </message>
     <message>
         <source>Footrest Up</source>
-        <translation>把腳凳向上</translation>
+        <translation type="vanished">把腳凳向上</translation>
     </message>
     <message>
         <source>Footrest Down</source>
-        <translation>向下走腳凳</translation>
+        <translation type="vanished">向下走腳凳</translation>
     </message>
     <message>
         <source>Footrest Set Minimum</source>
-        <translation>將腳凳設置為最小</translation>
+        <translation type="vanished">將腳凳設置為最小</translation>
     </message>
     <message>
         <source>Footrest Set Maximum</source>
-        <translation>將腳凳設置為最大</translation>
+        <translation type="vanished">將腳凳設置為最大</translation>
     </message>
     <message>
         <source>Footrest Reset</source>
-        <translation>重置腳步</translation>
+        <translation type="vanished">重置腳步</translation>
     </message>
 </context>
 <context>
     <name>ThirdTableCalibration</name>
     <message>
         <source>Third Table Calibration</source>
-        <translation>第三表校準</translation>
+        <translation type="vanished">第三表校準</translation>
     </message>
     <message>
         <source>Third Table Up</source>
-        <translation>向上取第三張桌子</translation>
+        <translation type="vanished">向上取第三張桌子</translation>
     </message>
     <message>
         <source>Third Table Down</source>
-        <translation>向下拿第三張桌子</translation>
+        <translation type="vanished">向下拿第三張桌子</translation>
     </message>
     <message>
         <source>Third Table Set Minimum</source>
-        <translation>將第三個表設置為最小值</translation>
+        <translation type="vanished">將第三個表設置為最小值</translation>
     </message>
     <message>
         <source>Third Table Set Maximum</source>
-        <translation>將第三個表設置為最大值</translation>
+        <translation type="vanished">將第三個表設置為最大值</translation>
     </message>
     <message>
         <source>Third Table Reset</source>
-        <translation>重置第三個表</translation>
+        <translation type="vanished">重置第三個表</translation>
     </message>
 </context>
 <context>
     <name>TimeSetter</name>
     <message>
         <source>Date &amp; Time:</source>
-        <translation>約會時間：</translation>
+        <translation type="vanished">約會時間：</translation>
     </message>
     <message>
         <source>SET</source>
-        <translation>設置它</translation>
+        <translation type="vanished">設置它</translation>
     </message>
     <message>
         <source>Region:</source>
-        <translation>區域：</translation>
+        <translation type="vanished">區域：</translation>
     </message>
 </context>
 <context>
     <name>TopMenu</name>
     <message>
         <source>SEATS</source>
-        <translation>座位</translation>
+        <translation type="vanished">座位</translation>
     </message>
     <message>
         <source>CONTROLS</source>
-        <translation>控制</translation>
+        <translation type="vanished">控制</translation>
     </message>
     <message>
         <source>MEDIA</source>
-        <translation>媒體</translation>
+        <translation type="vanished">媒體</translation>
     </message>
     <message>
         <source>LIGHTS</source>
-        <translation>燈火</translation>
+        <translation type="vanished">燈火</translation>
     </message>
 </context>
 <context>
     <name>TvMotorCalibration</name>
     <message>
         <source>TV Motor Calibration</source>
-        <translation>電視電機校準</translation>
+        <translation type="vanished">電視電機校準</translation>
     </message>
     <message>
         <source>Tv Up</source>
-        <translation>把電視向上看</translation>
+        <translation type="vanished">把電視向上看</translation>
     </message>
     <message>
         <source>Tv Down</source>
-        <translation>把電視向下看</translation>
+        <translation type="vanished">把電視向下看</translation>
     </message>
     <message>
         <source>TV Set Minimum</source>
-        <translation>把電視設置到最低限度</translation>
+        <translation type="vanished">把電視設置到最低限度</translation>
     </message>
     <message>
         <source>TV Set Maximum</source>
-        <translation>將電視設置為最大值</translation>
+        <translation type="vanished">將電視設置為最大值</translation>
     </message>
     <message>
         <source>TV Reset</source>
-        <translation>重置電視</translation>
+        <translation type="vanished">重置電視</translation>
     </message>
 </context>
 <context>
     <name>Windows</name>
     <message>
         <source>WINDOWS</source>
-        <translation>視窗</translation>
+        <translation type="vanished">視窗</translation>
     </message>
     <message>
         <source>Left Window</source>
-        <translation>左窗口</translation>
+        <translation type="vanished">左窗口</translation>
     </message>
     <message>
         <source>Right Window</source>
-        <translation>右窗口</translation>
+        <translation type="vanished">右窗口</translation>
     </message>
 </context>
 <context>
