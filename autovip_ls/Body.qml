@@ -263,6 +263,12 @@ Item {
     SettingsPages.EspressoMotor2{
         id:espressomotor2
     }
+    SettingsPages.FirstSeatHead{
+        id:firstseathead
+    }
+    SettingsPages.SecondSeatHead{
+        id:secondseathead
+    }
     SettingsPages.DrawerMotor1{
         id:drawermotor1
     }
@@ -369,6 +375,8 @@ Item {
         GSystem.addPageItem("SerialSettings",serialsettings);
         GSystem.addPageItem("AppleTv",appletv);
         GSystem.addPageItem("DVDPlayer",dvdplayer);
+        GSystem.addPageItem("FirstSeatHead",firstseathead);
+        GSystem.addPageItem("SecondSeatHead",secondseathead);
     }
 
 }

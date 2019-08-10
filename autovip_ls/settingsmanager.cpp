@@ -871,6 +871,7 @@ bool SettingsManager::init()
         m_proto->setValue("seven","102/7");
         m_proto->setValue("eight","102/8");
         m_proto->setValue("nine","102/9");
+        m_proto->setValue("dvdcommandstop","105/88/0");
         m_proto->endGroup();
 
         m_proto->beginGroup("calibration");
@@ -981,6 +982,17 @@ bool SettingsManager::init()
         m_proto->setValue("fourth_table_min","104/9/114");
         m_proto->setValue("fourth_table_max","104/9/115");
 
+        m_proto->setValue("first_head_set","101/111");
+        m_proto->setValue("first_head_forward","101/111");
+        m_proto->setValue("first_head_backward","101/111");
+        m_proto->setValue("first_head_min","101/111");
+        m_proto->setValue("first_head_max","101/111");
+
+        m_proto->setValue("second_head_set","102/111");
+        m_proto->setValue("second_head_forward","102/111");
+        m_proto->setValue("second_head_backward","102/111");
+        m_proto->setValue("second_head_min","102/111");
+        m_proto->setValue("second_head_max","102/111");
 
         m_proto->endGroup();
 

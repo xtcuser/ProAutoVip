@@ -647,6 +647,10 @@ Item {
             ,
                 "FootrestMotor2"
             ,
+                "FirstSeatHead"
+            ,
+                "SecondSeatHead"
+            ,
                 "TvMotorCalibration"
             ,
                 "MediaSettings"

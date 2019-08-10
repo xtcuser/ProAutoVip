@@ -407,5 +407,8 @@
         <file>design/general/info.svg</file>
         <file>design/general/Mute_on.svg</file>
         <file>design/general/Mute_off.svg</file>
+        <file>Pages/Settings/FirstSeatHead.qml</file>
+        <file>Pages/Settings/SecondSeatHead.qml</file>
+        <file>design/general/background.png</file>
     </qresource>
 </RCC>

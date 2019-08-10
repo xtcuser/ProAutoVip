@@ -34,7 +34,7 @@ Window {
     Image {
         x:0
         y:0
-        source: "qrc:/design/general/background.svg"
+        source: "qrc:/design/general/background.png"
         width:parent.width
         height:parent.height
         Body{

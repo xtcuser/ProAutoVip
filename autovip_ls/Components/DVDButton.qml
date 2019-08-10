@@ -32,10 +32,14 @@ Rectangle {
         anchors.fill: parent
         onPressed:{
             root.border.color = GSystem.leftTextMenuItemPressedColor
+            serial_mng.sendKey(root.presscode,true,root.delay);
+            console.log("pressed")
         }
         onClicked: {
-            serial_mng.sendKey(root.presscode,true,root.delay);
+//            serial_mng.sendKey(root.presscode,true,root.delay);
+            serial_mng.sendKey("dvdplayer/dvdcommandstop")
             root.border.color="black";
+//            console.log("clicked")
         }
     }
     Component.onCompleted: {

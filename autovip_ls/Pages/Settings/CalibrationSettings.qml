@@ -36,6 +36,9 @@ BasePage{
     CalibreButton{ text:qsTr("FOURTH FOOTREST M1 ") + mytrans.emptyString; width:200; page:"FourthFootrest1";}
     CalibreButton{ text:qsTr("FOURTH FOOTREST M2 ") + mytrans.emptyString; width:200; page:"FourthFootrest2";}
 
+
+    CalibreButton{ text:qsTr("FIRST SEAT HEAD ") + mytrans.emptyString; width:200; page:"FirstSeatHead";}
+    CalibreButton{ text:qsTr("SECOND SEAT HEAD ") + mytrans.emptyString; width:200; page:"SecondSeatHead";}
     CalibreButton{ text:qsTr("THIRD TABLE ") + mytrans.emptyString; width:200; page:"ThirdTableCalibration";}
     CalibreButton{ text:qsTr("FOURTH TABLE ") + mytrans.emptyString; width:200; page:"FourthTableCalibration";}
 }
