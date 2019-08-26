@@ -54,6 +54,20 @@ void NvidiaConnManager::processMessage(const QString &message)
             lastUserColor = this->serial_mng->ceilingcolor();
         this->serial_mng->setCeilingcolor(color);
     }
+    else if (message == "green")
+    {
+        QColor color(Qt::green);
+        if (color != this->lastUserColor)
+            lastUserColor = this->serial_mng->ceilingcolor();
+        this->serial_mng->setCeilingcolor(color);
+    }
+    else if (message == "yellow")
+    {
+        QColor color(Qt::yellow);
+        if (color != this->lastUserColor)
+            lastUserColor = this->serial_mng->ceilingcolor();
+        this->serial_mng->setCeilingcolor(color);
+    }
     else if (message =="reset_color")
     {
         this->serial_mng->setCeilingcolor(lastUserColor);
