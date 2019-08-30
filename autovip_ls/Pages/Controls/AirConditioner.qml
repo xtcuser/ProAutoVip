@@ -79,7 +79,7 @@ BasePage {
     }
     function downTemp()
     {
-                if(serial_mng.acdeg > 0 )
+                if(serial_mng.acdeg > -1 )
                 {
                     serial_mng.acdeg--;
 //                }else if(serial_mng.acdeg == 0)
@@ -521,7 +521,7 @@ Item{
         Text{
             id: degreeText
             font.pointSize: 60
-            text: ((serial_mng.acdeg+15 < 28) ? (serial_mng.acdeg+15 > 15) ? (serial_mng.acdeg+15) + "°"  : "LO": "HI")
+            text: ((serial_mng.acdeg < 13) ? (serial_mng.acdeg != -1) ? (serial_mng.acdeg > 0) ? (serial_mng.acdeg+15) + "°" : "LO" : "OFF" : "HI")
             color:"white"
         }
     }

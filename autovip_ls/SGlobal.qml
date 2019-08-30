@@ -45,7 +45,7 @@ Item {
     property int leftTextMenuSpacing: 20
     property string leftTextMenuColor: "transparent"
     property color leftTextMenuItemColor: Qt.rgba(0,0,0,0.1)
-    property color leftTextMenuItemPressedColor: Qt.rgba(191/255, 63/255, 191/255,0.6)
+    property color leftTextMenuItemPressedColor: Qt.rgba(0/255, 108/255, 128/255,0.6)
     //end text menu
 
     property alias oneSeatModel: oneSeatModel

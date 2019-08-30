@@ -410,5 +410,11 @@
         <file>Pages/Settings/FirstSeatHead.qml</file>
         <file>Pages/Settings/SecondSeatHead.qml</file>
         <file>design/general/background.png</file>
+        <file>design/radio/dvlogo1.png</file>
+        <file>design/general/background.gif</file>
+        <file>design/general/backgroundoverlay.png</file>
+        <file>design/media/ani/play.gif</file>
+        <file>design/controls/ani/gears.gif</file>
+        <file>design/general/firstframe.jpg</file>
     </qresource>
 </RCC>

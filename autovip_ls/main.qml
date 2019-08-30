@@ -1,4 +1,4 @@
-import QtQuick 2.10
+import QtQuick 2.11
 import QtQuick.Window 2.10
 import QtQuick.Controls 1.4
 import QtQuick.Layouts 1.1
@@ -31,12 +31,73 @@ Window {
         opacity: 1
     }
 
-    Image {
+//    AnimatedImage {
+//        x:0
+//        y:0
+//        source: "qrc:/design/general/background.gif"
+//        width:parent.width
+//        height:parent.height
+//        Body{
+//            id: bodyPart
+//            x:0
+//            y:0
+//        }
+//        BottomMenu
+//        {
+//            id: iBottomMenu
+//            x:0
+//            y:690
+//        }
+//    }
+
+    Rectangle{
         x:0
         y:0
-        source: "qrc:/design/general/background.png"
         width:parent.width
         height:parent.height
+        AnimatedImage {
+            x:0
+            y:0
+            source: "qrc:/design/general/background.gif"
+            speed: 1
+            width:parent.width
+            height:parent.height
+        }
+//        Image{
+//            x:0
+//            y:0
+//            width:1230
+//            height:920
+//            source: "qrc:/design/general/firstframe.jpg"
+//        }
+
+//        MediaPlayer {
+//            id:player
+//            source: "file:///"+workingDirPath+"/background.mp4"
+////            onStopped: play()
+//            autoPlay: true
+//            loops: Animation.Infinite
+//            }
+
+//        VideoOutput {
+////            anchors.fill: parent
+//            x:0
+//            y:0
+//            width:1230
+//            height:920
+//            source: player
+//        }
+//        Component.onCompleted: {
+//                player.play();
+//        }
+        Image {
+                x:0
+                y:0
+                source: "qrc:/design/general/backgroundoverlay.png"
+                width:parent.width
+                height:parent.height
+        }
+
         Body{
             id: bodyPart
             x:0
