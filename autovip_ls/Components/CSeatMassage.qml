@@ -2,17 +2,26 @@ import QtQuick 2.0
 import ck.gmachine 1.0
 Item{
     id:root
-    width:300
-    height:300
+    width:200
+    height:200
     anchors.centerIn: parent
     function init()
     {
         GSystem.seatPagePass(); //feedback request
     }
-    Image{
-        source:"qrc:/design/seats/massage_bg.png"
-        width:300
+    Rectangle{
+        width:275
+        height: 265
         anchors.centerIn: parent
+        color:Qt.rgba(0, 0, 0,0.4)
+        border.width: 1
+        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+        Image {
+            anchors.centerIn: parent
+            source:"qrc:/design/seats/massage.png"
+            width: 150
+            height: 150
+        }
         Item{
         id:no
         anchors.fill: parent
@@ -25,7 +34,7 @@ Item{
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             font.family: GSystem.centurygothic.name
-            font.pixelSize:  21
+            font.pixelSize:  14
             color: "red"
         }
         }
@@ -55,7 +64,7 @@ Item{
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             font.family: GSystem.centurygothic.name
-            font.pixelSize:  21
+            font.pixelSize:  14
             color: "white"
         }
         }
@@ -86,7 +95,7 @@ Item{
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             font.family: GSystem.centurygothic.name
-            font.pixelSize:  21
+            font.pixelSize:  14
             color: "white"
         }
         }
@@ -116,7 +125,7 @@ Item{
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             font.family: GSystem.centurygothic.name
-            font.pixelSize:  21
+            font.pixelSize:  14
             color: "white"
         }
         }
@@ -140,7 +149,7 @@ Item{
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             font.family: GSystem.centurygothic.name
-            font.pixelSize:  21
+            font.pixelSize:  14
             color: "white"
         }
         }
@@ -210,7 +219,7 @@ Item{
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.pixelSize:  21
+            font.pixelSize:  14
             font.family: GSystem.centurygothic.name
             color: "white"
         }
@@ -234,7 +243,7 @@ Item{
             anchors.horizontalCenter: parent.horizontalCenter
             font.family: GSystem.centurygothic.name
             horizontalAlignment: Text.AlignHCenter
-            font.pixelSize:  21
+            font.pixelSize:  14
             color: "white"
         }
         }
@@ -250,7 +259,7 @@ Item{
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             font.family: GSystem.centurygothic.name
-            font.pixelSize:  21
+            font.pixelSize:  14
             color: "white"
         }
         }
@@ -258,64 +267,22 @@ Item{
         MouseArea{
         anchors.fill: parent
         onPressed:{
-                        var plus = true;
-
+                    var plus = true;
                     plus = GSystem.sendSeatCommand("massage_mode");
-            /* Feedback otomaitk geleceği için yorum satırına alındı
-                    if(plus)
-                    {
-                        serial_mng.massagemod = (serial_mng.massagemod + 1) % 9;
-                        if(serial_mng.massagemod === 0)
-                        {
-                            serial_mng.massageon = 0;
-                        }else{
-                            serial_mng.massageon = 1;
-                        }
-                    }
-                    */
+//                    if(plus)
+//                    {
+//                        serial_mng.massagemod = (serial_mng.massagemod + 1) % 9;
+//                        if(serial_mng.massagemod === 0)
+//                        {
+//                            serial_mng.massageon = 0;
+//                        }else{
+//                            serial_mng.massageon = 1;
+//                        }
+//                    }
         }
         onReleased: { }
         }
 
-    }
-    Rectangle{
-        anchors.top:root.bottom
-        anchors.topMargin: 15
-        anchors.horizontalCenter: root.horizontalCenter
-        height:40
-        width: 150
-        radius:15
-        border.color: "white"
-        border.width: 2
-        color:serial_mng.massageon===0?"green":"red"
-        Text{
-            text: (serial_mng.massageon===0?qsTr("ON"):qsTr("OFF"))  + mytrans.emptyString
-            anchors.bottom: parent.bottom
-            anchors.bottomMargin: 7
-            width: parent.width
-            anchors.centerIn: parent
-            horizontalAlignment: Text.AlignHCenter
-            font.family: GSystem.centurygothic.name
-            font.pixelSize:  21
-            color: "white"
-        }
-        MouseArea{
-            anchors.fill: parent
-            onPressed: {
-                    GSystem.sendSeatCommand("massage_onoff");
-                /*Feedbackden geleceği için yoruma alındı
-                    if(serial_mng.massageon === 0)
-                    {
-                        serial_mng.massageon = 1;
-                        serial_mng.massagemod = 1;
-                    }else{
-                        serial_mng.massageon = 0;
-                        serial_mng.massagemod = 0;
-                    }
-                    */
-            }
-            onReleased: {   }
-        }
     }
 }
 

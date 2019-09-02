@@ -207,7 +207,7 @@ Item {
         }
         if(SM.seatThigh(selectedSeat) === true)
         {
-            oneSeatModel.append({name:qsTr("Thigh"),st:"SeatThigh",isvis:true});
+            oneSeatRightModel.append({name:qsTr("Thigh"),st:"SeatThigh",isvis:true});
         }
         if( SM.seatHeating(selectedSeat) === true)
         {
