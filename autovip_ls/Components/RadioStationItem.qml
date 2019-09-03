@@ -23,15 +23,15 @@ Item{
         id: fbg
         width:254
         height:254
-        border.color: "white"
-        border.width: 3
-        radius: 43
+        border.width: 2.5
+        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
         clip:true
-        gradient: Gradient {
-            GradientStop { position: 0.0; color: "#999999" }
-            GradientStop { position: 0.5; color: "#4a4849" }
-            GradientStop { position: 1.0; color: "#231f20" }
-        }
+        color: GSystem.leftTextMenuItemColor
+//        gradient: Gradient {
+//            GradientStop { position: 0.0; color: "#999999" }
+//            GradientStop { position: 0.5; color: "#4a4849" }
+//            GradientStop { position: 1.0; color: "#231f20" }
+//        }
         Image{
             y:30
             width:50
@@ -59,13 +59,13 @@ Item{
             font.pixelSize: 27
             color: "white"
         }
-        Image{
-            x:0
-            y:0
-            width:parent.width
-            height:parent.height
-            source:"qrc:/design/radio/insidel.png"
-        }
+        //        Image{
+        //            x:0
+        //            y:0
+        //            width:parent.width
+        //            height:parent.height
+        //            source:"qrc:/design/radio/insidel.png"
+        //        }
     }
    Item {
     anchors.horizontalCenter: parent.horizontalCenter

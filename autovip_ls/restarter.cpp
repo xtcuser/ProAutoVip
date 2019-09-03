@@ -1,6 +1,8 @@
 #include "restarter.h"
 //#include <QApplication>
 #include <QProcess>
+#include <QtDebug>
+#include <QMovie>
 
 
 Restarter::Restarter(QObject *parent) :
@@ -14,4 +16,6 @@ void Restarter::makeRestart()
 //    QProcess::startDetached(qApp->arguments()[0], qApp->arguments()); //application restart
 
     QProcess::execute("sudo service dizaynvip restart");
+
+    qDebug() << "Supported animated file formats:" << QMovie::supportedFormats();
 }

@@ -13,6 +13,8 @@ Rectangle {
     height:75
     anchors.horizontalCenter: parent.horizontalCenter
     color:bgcolor
+    border.width: 1
+    border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
     Text{
         id:caption
         font.family: GSystem.myriadproita.name

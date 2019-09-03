@@ -32,12 +32,12 @@ BasePage {
             }
         }
 
-        Repeater {
-            model:tmodel
-            Text {
-                text: name
-            }
-        }
+//        Repeater {
+//            model:tmodel
+//            Text {
+//                text: name
+//            }
+//        }
 
             Image{
                 x:252

@@ -50,10 +50,12 @@ Item {
 //                running: true
 //                loops: Animation.Infinite
 //            }
-    AnimatedImage{
-        source: "qrc:/design/controls/ani/gears.gif"
-        width: 400 * root.cscale
-        height: 400 * root.cscale
-        anchors.centerIn: parent
-    }
+
+//    AnimatedImage{
+//        source: "qrc:/design/controls/ani/gears.gif"
+//        width: 400 * root.cscale
+//        height: 400 * root.cscale
+//        anchors.centerIn: parent
+//        cache: false
+//    }
 }

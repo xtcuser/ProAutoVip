@@ -1,1006 +1,1190 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="tr_TR">
+<TS version="2.0" language="tr_TR">
 <context>
     <name>AirConditioner</name>
     <message>
         <source>AIR CONDITIONER</source>
-        <translation type="vanished">KLİMA</translation>
+        <translation>KLİMA</translation>
     </message>
 </context>
 <context>
     <name>AppleTv</name>
     <message>
         <source>APPLE TV</source>
-        <translation type="vanished">APPLE TV</translation>
+        <translation>APPLE TV</translation>
     </message>
 </context>
 <context>
     <name>Bar</name>
     <message>
         <source>BAR</source>
-        <translation type="vanished">BAR</translation>
+        <translation>BAR</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>BarMotorCalibration</name>
     <message>
         <source>Bar Motor Calibration</source>
-        <translation type="vanished">Bar Motor Kalibrasyonu</translation>
+        <translation>Bar Motor Kalibrasyonu</translation>
     </message>
     <message>
         <source>Bar Up</source>
-        <translation type="vanished">Bar Yukarı</translation>
+        <translation>Bar Yukarı</translation>
     </message>
     <message>
         <source>Bar Down</source>
-        <translation type="vanished">Bar Aşağı</translation>
+        <translation>Bar Aşağı</translation>
     </message>
     <message>
         <source>Bar Set Minimum</source>
-        <translation type="vanished">Bar Minimuma Ayarla</translation>
+        <translation>Bar Minimuma Ayarla</translation>
     </message>
     <message>
         <source>Bar Set Maximum</source>
-        <translation type="vanished">Bar Maksimuma Ayarla</translation>
+        <translation>Bar Maksimuma Ayarla</translation>
     </message>
     <message>
         <source>Bar Reset</source>
-        <translation type="vanished">Bar Sıfırla</translation>
+        <translation>Bar Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>CSeatMassage</name>
     <message>
         <source>MASSAGE OFF</source>
-        <translation type="vanished">MASAJ KAPALI</translation>
+        <translation>MASAJ KAPALI</translation>
     </message>
     <message>
         <source>SHOULDER AND THIGH</source>
-        <translation type="vanished">OMUZ VE KALÇA</translation>
+        <translation>OMUZ VE KALÇA</translation>
     </message>
     <message>
         <source>WAIST ANT THIGH</source>
-        <translation type="vanished">GÖĞÜS VE KALÇA</translation>
+        <translation>GÖĞÜS VE KALÇA</translation>
     </message>
     <message>
         <source>SHOULDER AND WAIST</source>
-        <translation type="vanished">OMUZ VE GÖĞÜS</translation>
+        <translation>OMUZ VE GÖĞÜS</translation>
     </message>
     <message>
         <source>PULSE</source>
-        <translation type="vanished">NABIZ</translation>
+        <translation>NABIZ</translation>
     </message>
     <message>
         <source>SMOOTH</source>
-        <translation type="vanished">PRÜZSÜZ</translation>
+        <translation>PRÜZSÜZ</translation>
     </message>
     <message>
         <source>SHOULDER</source>
-        <translation type="vanished">OMUZ</translation>
+        <translation>OMUZ</translation>
     </message>
     <message>
         <source>THIGH</source>
-        <translation type="vanished">KALÇA</translation>
+        <translation>KALÇA</translation>
     </message>
     <message>
         <source>RELAX</source>
-        <translation type="vanished">RAHAT</translation>
+        <translation>RAHAT</translation>
     </message>
     <message>
         <source>ON</source>
-        <translation type="vanished">AÇ</translation>
+        <translation>AÇ</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation type="vanished">KAPAT</translation>
+        <translation>KAPAT</translation>
     </message>
 </context>
 <context>
     <name>CalibrationSettings</name>
     <message>
         <source>CALIBRATION</source>
-        <translation type="vanished">KALİBRASYON</translation>
+        <translation>KALİBRASYON</translation>
     </message>
     <message>
         <source>BAR </source>
-        <translation type="vanished">BAR</translation>
+        <translation>BAR</translation>
     </message>
     <message>
         <source>TV </source>
-        <translation type="vanished">TV</translation>
+        <translation>TV</translation>
     </message>
     <message>
         <source>ESPRESSO 1 </source>
-        <translation type="vanished">ESPRESSO 1</translation>
+        <translation>ESPRESSO 1</translation>
     </message>
     <message>
         <source>ESPRESSO 2 </source>
-        <translation type="vanished">ESPRESSO 2</translation>
+        <translation>ESPRESSO 2</translation>
     </message>
     <message>
         <source>DRAWER 1 </source>
-        <translation type="vanished">ÇEKMECE 1</translation>
+        <translation>ÇEKMECE 1</translation>
     </message>
     <message>
         <source>DRAWER 2 </source>
-        <translation type="vanished">ÇEKMECE 2</translation>
+        <translation>ÇEKMECE 2</translation>
     </message>
     <message>
         <source>DRAWER 3 </source>
-        <translation type="vanished">ÇEKMECE 3</translation>
+        <translation>ÇEKMECE 3</translation>
     </message>
     <message>
         <source>DRAWER 4 </source>
-        <translation type="vanished">ÇEKMECE 4</translation>
+        <translation>ÇEKMECE 4</translation>
     </message>
     <message>
         <source>THIRD FOOTREST M1 </source>
-        <translation type="vanished">ÜÇÜNCÜ AYAK STANDI M1</translation>
+        <translation>ÜÇÜNCÜ AYAK STANDI M1</translation>
     </message>
     <message>
         <source>THIRD FOOTREST M2 </source>
-        <translation type="vanished">ÜÇÜNCÜ AYAK STANDI M2</translation>
+        <translation>ÜÇÜNCÜ AYAK STANDI M2</translation>
     </message>
     <message>
         <source>FOURTH FOOTREST M1 </source>
-        <translation type="vanished">DÖRDÜNCÜ AYAK STANDI M1</translation>
+        <translation>DÖRDÜNCÜ AYAK STANDI M1</translation>
     </message>
     <message>
         <source>FOURTH FOOTREST M2 </source>
-        <translation type="vanished">DÖRDÜNCÜ AYAK STANDI M2 </translation>
+        <translation>DÖRDÜNCÜ AYAK STANDI M2 </translation>
     </message>
     <message>
         <source>THIRD TABLE </source>
-        <translation type="vanished">ÜÇÜNCÜ MASA</translation>
+        <translation>ÜÇÜNCÜ MASA</translation>
     </message>
     <message>
         <source>FOURTH TABLE </source>
-        <translation type="vanished">DÖRDÜNCÜ MASA</translation>
+        <translation>DÖRDÜNCÜ MASA</translation>
+    </message>
+    <message>
+        <source>FIRST SEAT HEAD </source>
+        <translation>BİRİNCİ KOLTUK BAŞLIĞI</translation>
+    </message>
+    <message>
+        <source>SECOND SEAT HEAD </source>
+        <translation>İKİNCİ KOLTUK BAŞLIĞI</translation>
     </message>
 </context>
 <context>
     <name>Cameras</name>
     <message>
         <source>CAMERAS</source>
-        <translation type="vanished">KAMERALAR</translation>
+        <translation>KAMERALAR</translation>
     </message>
     <message>
         <source>Front Camera</source>
-        <translation type="vanished">Ön Kamera</translation>
+        <translation>Ön Kamera</translation>
     </message>
     <message>
         <source>Rear Camera</source>
-        <translation type="vanished">Arka Kamera</translation>
+        <translation>Arka Kamera</translation>
     </message>
 </context>
 <context>
     <name>CeilingScreen</name>
     <message>
         <source>CEILING SCREEN</source>
-        <translation type="vanished">TAVAN EKRANI</translation>
+        <translation>TAVAN EKRANI</translation>
     </message>
     <message>
         <source>On/Off</source>
-        <translation type="vanished">Aç/Kapat</translation>
+        <translation>Aç/Kapat</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="vanished">Kaynak</translation>
+        <translation>Kaynak</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="vanished">Tamam</translation>
+        <translation>Tamam</translation>
     </message>
 </context>
 <context>
     <name>Controls</name>
     <message>
         <source>CONTROLS</source>
-        <translation type="vanished">KONTROLLER</translation>
+        <translation>KONTROLLER</translation>
     </message>
 </context>
 <context>
     <name>Curtains</name>
     <message>
         <source>CURTAINS</source>
-        <translation type="vanished">PERDELER</translation>
+        <translation>PERDELER</translation>
     </message>
     <message>
         <source>First Curtain</source>
-        <translation type="vanished">Birinci Perde</translation>
+        <translation>Birinci Perde</translation>
     </message>
     <message>
         <source>Second Curtain</source>
-        <translation type="vanished">İkinci Perde</translation>
+        <translation>İkinci Perde</translation>
     </message>
     <message>
         <source>Third Curtain</source>
-        <translation type="vanished">Üçüncü Perde</translation>
+        <translation>Üçüncü Perde</translation>
     </message>
     <message>
         <source>Fourth Curtain</source>
-        <translation type="vanished">Dördüncü Perde</translation>
+        <translation>Dördüncü Perde</translation>
     </message>
     <message>
         <source>Luggage Curtain</source>
-        <translation type="vanished">Bagaj Perdesi</translation>
+        <translation>Bagaj Perdesi</translation>
     </message>
 </context>
 <context>
     <name>DVDPlayer</name>
     <message>
         <source>DVD Player</source>
-        <translation type="vanished">DVD Oynatıcı</translation>
+        <translation>DVD Oynatıcı</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation type="vanished">KAPAT</translation>
+        <translation>KAPAT</translation>
     </message>
     <message>
         <source>MUTE</source>
-        <translation type="vanished">SESSİZ</translation>
+        <translation>SESSİZ</translation>
     </message>
     <message>
         <source>MONITOR OFF</source>
-        <translation type="vanished">EKRAN KAPAT</translation>
+        <translation>EKRAN KAPAT</translation>
     </message>
     <message>
         <source>AUDIO</source>
-        <translation type="vanished">SES</translation>
+        <translation>SES</translation>
     </message>
     <message>
         <source>SUBTITLE</source>
-        <translation type="vanished">ALTYAZI</translation>
+        <translation>ALTYAZI</translation>
     </message>
     <message>
         <source>ANGLE</source>
-        <translation type="vanished">AÇI</translation>
+        <translation>AÇI</translation>
     </message>
     <message>
         <source>POSITION</source>
-        <translation type="vanished">KONUM</translation>
+        <translation>KONUM</translation>
     </message>
     <message>
         <source>EQ</source>
-        <translation type="vanished">EQ</translation>
+        <translation>EQ</translation>
     </message>
     <message>
         <source>UP</source>
-        <translation type="vanished">YUKARI</translation>
+        <translation>YUKARI</translation>
     </message>
     <message>
         <source>VOL+</source>
-        <translation type="vanished">SES+</translation>
+        <translation>SES+</translation>
     </message>
     <message>
         <source>LEFT</source>
-        <translation type="vanished">SOL</translation>
+        <translation>SOL</translation>
     </message>
     <message>
         <source>ENTER</source>
-        <translation type="vanished">GİR</translation>
+        <translation>GİR</translation>
     </message>
     <message>
         <source>RIGHT</source>
-        <translation type="vanished">SAĞ</translation>
+        <translation>SAĞ</translation>
     </message>
     <message>
         <source>DOWN</source>
-        <translation type="vanished">AŞAĞI</translation>
+        <translation>AŞAĞI</translation>
     </message>
     <message>
         <source>VOL-</source>
-        <translation type="vanished">SES-</translation>
+        <translation>SES-</translation>
     </message>
     <message>
         <source>1</source>
-        <translation type="vanished">1</translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>2</source>
-        <translation type="vanished">2</translation>
+        <translation>2</translation>
     </message>
     <message>
         <source>3</source>
-        <translation type="vanished">3</translation>
+        <translation>3</translation>
     </message>
     <message>
         <source>TOP MENU</source>
-        <translation type="vanished">ÜST MENÜ</translation>
+        <translation>ÜST MENÜ</translation>
     </message>
     <message>
         <source>MENU</source>
-        <translation type="vanished">MENÜ</translation>
+        <translation>MENÜ</translation>
     </message>
     <message>
         <source>4</source>
-        <translation type="vanished">4</translation>
+        <translation>4</translation>
     </message>
     <message>
         <source>5</source>
-        <translation type="vanished">5</translation>
+        <translation>5</translation>
     </message>
     <message>
         <source>6</source>
-        <translation type="vanished">6</translation>
+        <translation>6</translation>
     </message>
     <message>
         <source>P.SCAN</source>
-        <translation type="vanished">P.SCAN</translation>
+        <translation>P.SCAN</translation>
     </message>
     <message>
         <source>SRC</source>
-        <translation type="vanished">SRC</translation>
+        <translation>SRC</translation>
     </message>
     <message>
         <source>7</source>
-        <translation type="vanished">7</translation>
+        <translation>7</translation>
     </message>
     <message>
         <source>8</source>
-        <translation type="vanished">8</translation>
+        <translation>8</translation>
     </message>
     <message>
         <source>9</source>
-        <translation type="vanished">9</translation>
+        <translation>9</translation>
     </message>
     <message>
         <source>CHANGE</source>
-        <translation type="vanished">DEĞİŞTİR</translation>
+        <translation>DEĞİŞTİR</translation>
     </message>
     <message>
         <source>MODE</source>
-        <translation type="vanished">MOD</translation>
+        <translation>MOD</translation>
     </message>
     <message>
         <source>CLEAR</source>
-        <translation type="vanished">TEMİZLE</translation>
+        <translation>TEMİZLE</translation>
     </message>
     <message>
         <source>0</source>
-        <translation type="vanished">0</translation>
+        <translation>0</translation>
     </message>
 </context>
 <context>
     <name>DockingStation</name>
     <message>
         <source>DOCKING STATION</source>
-        <translation type="vanished">DOCK İSTASYONU</translation>
+        <translation>DOCK İSTASYONU</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
 </context>
 <context>
     <name>DrawerMotor1</name>
     <message>
         <source>Drawer 1 Calibration</source>
-        <translation type="vanished">Çekmece 1 Kalibrasyon</translation>
+        <translation>Çekmece 1 Kalibrasyon</translation>
     </message>
     <message>
         <source>Drawer Up</source>
-        <translation type="vanished">Çekmece Yukarı</translation>
+        <translation>Çekmece Yukarı</translation>
     </message>
     <message>
         <source>Drawer Down</source>
-        <translation type="vanished">Çekmece Aşağı</translation>
+        <translation>Çekmece Aşağı</translation>
     </message>
     <message>
         <source>Drawer Set Minimum</source>
-        <translation type="vanished">Çekmece Minimum Ayarla</translation>
+        <translation>Çekmece Minimum Ayarla</translation>
     </message>
     <message>
         <source>Drawer Set Maximum</source>
-        <translation type="vanished">Çekmece Maksimum Ayarla</translation>
+        <translation>Çekmece Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Drawer Reset</source>
-        <translation type="vanished">Çekmece Sıfırla</translation>
+        <translation>Çekmece Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>DrawerMotor2</name>
     <message>
         <source>Drawer 2 Calibration</source>
-        <translation type="vanished">Çekmece 2 Kalibrasyon</translation>
+        <translation>Çekmece 2 Kalibrasyon</translation>
     </message>
     <message>
         <source>Drawer Up</source>
-        <translation type="vanished">Çekmece Yukarı</translation>
+        <translation>Çekmece Yukarı</translation>
     </message>
     <message>
         <source>Drawer Down</source>
-        <translation type="vanished">Çekmece Aşağı</translation>
+        <translation>Çekmece Aşağı</translation>
     </message>
     <message>
         <source>Drawer Set Minimum</source>
-        <translation type="vanished">Çekmece Minimum Ayarla</translation>
+        <translation>Çekmece Minimum Ayarla</translation>
     </message>
     <message>
         <source>Drawer Set Maximum</source>
-        <translation type="vanished">Çekmece Maksimum Ayarla</translation>
+        <translation>Çekmece Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Drawer Reset</source>
-        <translation type="vanished">Çekmece Sıfırla</translation>
+        <translation>Çekmece Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>DrawerMotor3</name>
     <message>
         <source>Drawer 3 Calibration</source>
-        <translation type="vanished">Çekmece 3 Kalibrasyon</translation>
+        <translation>Çekmece 3 Kalibrasyon</translation>
     </message>
     <message>
         <source>Drawer Up</source>
-        <translation type="vanished">Çekmece Yukarı</translation>
+        <translation>Çekmece Yukarı</translation>
     </message>
     <message>
         <source>Drawer Down</source>
-        <translation type="vanished">Çekmece Aşağı</translation>
+        <translation>Çekmece Aşağı</translation>
     </message>
     <message>
         <source>Drawer Set Minimum</source>
-        <translation type="vanished">Çekmece Minimum Ayarla</translation>
+        <translation>Çekmece Minimum Ayarla</translation>
     </message>
     <message>
         <source>Drawer Set Maximum</source>
-        <translation type="vanished">Çekmece Maksimum Ayarla</translation>
+        <translation>Çekmece Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Drawer Reset</source>
-        <translation type="vanished">Çekmece Sıfırla</translation>
+        <translation>Çekmece Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>DrawerMotor4</name>
     <message>
         <source>Drawer 4 Calibration</source>
-        <translation type="vanished">Çekmece 4 Kalibrasyon</translation>
+        <translation>Çekmece 4 Kalibrasyon</translation>
     </message>
     <message>
         <source>Drawer Up</source>
-        <translation type="vanished">Çekmece Yukarı</translation>
+        <translation>Çekmece Yukarı</translation>
     </message>
     <message>
         <source>Drawer Down</source>
-        <translation type="vanished">Çekmece Aşağı</translation>
+        <translation>Çekmece Aşağı</translation>
     </message>
     <message>
         <source>Drawer Set Minimum</source>
-        <translation type="vanished">Çekmece Minimum Ayarla</translation>
+        <translation>Çekmece Minimum Ayarla</translation>
     </message>
     <message>
         <source>Drawer Set Maximum</source>
-        <translation type="vanished">Çekmece Maksimum Ayarla</translation>
+        <translation>Çekmece Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Drawer Reset</source>
-        <translation type="vanished">Çekmece Sıfırla</translation>
+        <translation>Çekmece Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>Espresso</name>
     <message>
         <source>ESPRESSO</source>
-        <translation type="vanished">ESPRESSO</translation>
+        <translation>ESPRESSO</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <source>You can&apos;t open espresso when first seat ahead</source>
-        <translation type="vanished">Birinci koltuk öndeyken espresso&apos;yu açamazsınız</translation>
+        <translation>Birinci koltuk öndeyken espresso&apos;yu açamazsınız</translation>
     </message>
     <message>
         <source>First Seat Back</source>
-        <translation type="vanished">Koltuk Arkada</translation>
+        <translation>Koltuk Arkada</translation>
     </message>
 </context>
 <context>
     <name>EspressoMotor1</name>
     <message>
         <source>Espresso 1 Calibration</source>
-        <translation type="vanished">Espresso 1 Kalibrasyon</translation>
+        <translation>Espresso 1 Kalibrasyon</translation>
     </message>
     <message>
         <source>Espresso Up</source>
-        <translation type="vanished">Espresso Yukarı</translation>
+        <translation>Espresso Yukarı</translation>
     </message>
     <message>
         <source>Espresso Down</source>
-        <translation type="vanished">Espresso Aşağı</translation>
+        <translation>Espresso Aşağı</translation>
     </message>
     <message>
         <source>Espresso Set Minimum</source>
-        <translation type="vanished">Espresso Minimum Ayarla</translation>
+        <translation>Espresso Minimum Ayarla</translation>
     </message>
     <message>
         <source>Espresso Set Maximum</source>
-        <translation type="vanished">Espresso Maksimum Ayarla</translation>
+        <translation>Espresso Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Espresso Reset</source>
-        <translation type="vanished">Espresso Sıfırla</translation>
+        <translation>Espresso Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>EspressoMotor2</name>
     <message>
         <source>Espresso Motor 2 Calibration</source>
-        <translation type="vanished">Espresso Motor 2 Kalibrasyon</translation>
+        <translation>Espresso Motor 2 Kalibrasyon</translation>
     </message>
     <message>
         <source>Espresso Up</source>
-        <translation type="vanished">Espresso Yukarı</translation>
+        <translation>Espresso Yukarı</translation>
     </message>
     <message>
         <source>Espresso Down</source>
-        <translation type="vanished">Espresso Aşağı</translation>
+        <translation>Espresso Aşağı</translation>
     </message>
     <message>
         <source>Espresso Set Minimum</source>
-        <translation type="vanished">Espresso Minimum Ayarla</translation>
+        <translation>Espresso Minimum Ayarla</translation>
     </message>
     <message>
         <source>Espresso Set Maximum</source>
-        <translation type="vanished">Espresso Maksimum Ayarla</translation>
+        <translation>Espresso Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Espresso Reset</source>
-        <translation type="vanished">Espresso Sıfırla</translation>
+        <translation>Espresso Sıfırla</translation>
+    </message>
+</context>
+<context>
+    <name>FirstSeatHead</name>
+    <message>
+        <source>First Sead Head Calibration</source>
+        <translation>Birinci Koltuk Başlığı Kalibrasyonu</translation>
+    </message>
+    <message>
+        <source>Head Forward</source>
+        <translation>Başlık İleri</translation>
+    </message>
+    <message>
+        <source>Head Backward</source>
+        <translation>Başlık Geri</translation>
+    </message>
+    <message>
+        <source>Head Set</source>
+        <translation>Başlığı Ayarla</translation>
+    </message>
+    <message>
+        <source>Head MIN</source>
+        <translation>Başlık Minimum Ayarla</translation>
+    </message>
+    <message>
+        <source>Head MAX</source>
+        <translation>Başlık Maksimum Ayarla</translation>
     </message>
 </context>
 <context>
     <name>FourthFootrest1</name>
     <message>
         <source>Fourth Footrest M1 Calibration</source>
-        <translation type="vanished">Dördüncü Ayak Standı M1 Kalibrasyon</translation>
+        <translation>Dördüncü Ayak Standı M1 Kalibrasyon</translation>
     </message>
     <message>
         <source>Footrest Up</source>
-        <translation type="vanished">Ayak Standı Yukarı</translation>
+        <translation>Ayak Standı Yukarı</translation>
     </message>
     <message>
         <source>Footrest Down</source>
-        <translation type="vanished">Ayak Standı Aşağı</translation>
+        <translation>Ayak Standı Aşağı</translation>
     </message>
     <message>
         <source>Footrest Set Minimum</source>
-        <translation type="vanished">Ayak Standı Minimum Ayarla</translation>
+        <translation>Ayak Standı Minimum Ayarla</translation>
     </message>
     <message>
         <source>Footrest Set Maximum</source>
-        <translation type="vanished">Ayak Standı Maksimum Ayarla</translation>
+        <translation>Ayak Standı Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Footrest Reset</source>
-        <translation type="vanished">Ayak Standı Sıfırla</translation>
+        <translation>Ayak Standı Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>FourthFootrest2</name>
     <message>
         <source>Fourth Footrest M2 Calibration</source>
-        <translation type="vanished">Dördüncü Ayak Standı M2 Kalibrasyon</translation>
+        <translation>Dördüncü Ayak Standı M2 Kalibrasyon</translation>
     </message>
     <message>
         <source>Footrest Up</source>
-        <translation type="vanished">Ayak Standı Yukarı</translation>
+        <translation>Ayak Standı Yukarı</translation>
     </message>
     <message>
         <source>Footrest Down</source>
-        <translation type="vanished">Ayak Standı Aşağı</translation>
+        <translation>Ayak Standı Aşağı</translation>
     </message>
     <message>
         <source>Footrest Set Minimum</source>
-        <translation type="vanished">Ayak Standı Minimum Ayarla</translation>
+        <translation>Ayak Standı Minimum Ayarla</translation>
     </message>
     <message>
         <source>Footrest Set Maximum</source>
-        <translation type="vanished">Ayak Standı Maksimum Ayarla</translation>
+        <translation>Ayak Standı Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Footrest Reset</source>
-        <translation type="vanished">Ayak Standı Sıfırla</translation>
+        <translation>Ayak Standı Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>FourthTableCalibration</name>
     <message>
         <source>Fourth Table Calibration</source>
-        <translation type="vanished">Dördüncü Masa Kalibrasyon</translation>
+        <translation>Dördüncü Masa Kalibrasyon</translation>
     </message>
     <message>
         <source>Fourth Table Up</source>
-        <translation type="vanished">Dördüncü Masa Yukarı</translation>
+        <translation>Dördüncü Masa Yukarı</translation>
     </message>
     <message>
         <source>Fourth Table Down</source>
-        <translation type="vanished">Dördüncü Masa Aşağı</translation>
+        <translation>Dördüncü Masa Aşağı</translation>
     </message>
     <message>
         <source>Fourth Table Set Minimum</source>
-        <translation type="vanished">Dördüncü Masa Minimum Ayarla</translation>
+        <translation>Dördüncü Masa Minimum Ayarla</translation>
     </message>
     <message>
         <source>Fourth Table Set Maximum</source>
-        <translation type="vanished">Dördüncü Masa Maksimum Ayarla</translation>
+        <translation>Dördüncü Masa Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Fourth Table Reset</source>
-        <translation type="vanished">Dördüncü Masa Sıfırla</translation>
+        <translation>Dördüncü Masa Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>FrontCamera</name>
     <message>
         <source>FRONT CAMERA</source>
-        <translation type="vanished">ÖN KAMERA</translation>
+        <translation>ÖN KAMERA</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
 </context>
 <context>
     <name>GeneralSettings</name>
     <message>
         <source>GENERAL SETTINGS</source>
-        <translation type="vanished">GENEL AYARLAR</translation>
+        <translation>GENEL AYARLAR</translation>
     </message>
     <message>
         <source>Language:</source>
-        <translation type="vanished">Dil:</translation>
+        <translation>Dil:</translation>
     </message>
     <message>
         <source>Auto Time:</source>
-        <translation type="vanished">Oto. Saat:</translation>
+        <translation>Oto. Saat:</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="vanished">Otomatik</translation>
+        <translation>Otomatik</translation>
     </message>
     <message>
         <source>System should be restarted to
  apply all language changes.</source>
-        <translation type="vanished">Tüm dil değişiklerinin uygulanması
+        <translation>Tüm dil değişiklerinin uygulanması
 için sistemin yeniden başlatılması gerekir.</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation type="vanished">Y. Başlat</translation>
+        <translation>Y. Başlat</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="vanished">İptal</translation>
+        <translation>İptal</translation>
     </message>
 </context>
 <context>
     <name>HdmiInput</name>
     <message>
         <source>HDMI INPUT</source>
-        <translation type="vanished">HDMI GİRİŞİ</translation>
+        <translation>HDMI GİRİŞİ</translation>
     </message>
 </context>
 <context>
     <name>KodiMediaPlayer</name>
     <message>
         <source>MEDIA</source>
-        <translation type="vanished">MEDYA</translation>
+        <translation>MEDYA</translation>
     </message>
 </context>
 <context>
     <name>LeftCurtain</name>
     <message>
         <source>LEFT CURTAIN</source>
-        <translation type="vanished">SOL PERDE</translation>
+        <translation>SOL PERDE</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>LeftCurtain2</name>
     <message>
         <source>LEFT CURTAIN</source>
-        <translation type="vanished">SOL PERDE</translation>
+        <translation>SOL PERDE</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>LeftTable</name>
     <message>
         <source>LEFT TABLE</source>
-        <translation type="vanished">SOL MASA</translation>
+        <translation>SOL MASA</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>LeftWindow</name>
     <message>
         <source>LEFT WINDOW</source>
-        <translation type="vanished">SOL CAM</translation>
+        <translation>SOL CAM</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>LightButton</name>
     <message>
         <source>Memory 1</source>
-        <translation type="vanished">Hafıza 1</translation>
+        <translation>Hafıza 1</translation>
     </message>
 </context>
 <context>
     <name>Lights</name>
     <message>
         <source>Lights</source>
-        <translation type="vanished">IŞIKLAR</translation>
+        <translation>IŞIKLAR</translation>
     </message>
     <message>
         <source>Ceiling Light</source>
-        <translation type="vanished">Tavan Aydınlatması</translation>
+        <translation>Tavan Aydınlatması</translation>
     </message>
     <message>
         <source>Side Light</source>
-        <translation type="vanished">Yan Aydınlatma</translation>
+        <translation>Yan Aydınlatma</translation>
     </message>
     <message>
         <source>Inside Light</source>
-        <translation type="vanished">İç Aydınlatma</translation>
+        <translation>İç Aydınlatma</translation>
     </message>
     <message>
         <source>Close All</source>
-        <translation type="vanished">Hepsini Kapat</translation>
+        <translation>Hepsini Kapat</translation>
     </message>
     <message>
         <source>Memory 1</source>
-        <translation type="vanished">Hafıza 1</translation>
+        <translation>Hafıza 1</translation>
     </message>
     <message>
         <source>Memory 2</source>
-        <translation type="vanished">Hafıza 2</translation>
+        <translation>Hafıza 2</translation>
     </message>
     <message>
         <source>Memory 3</source>
-        <translation type="vanished">Hafıza 3</translation>
+        <translation>Hafıza 3</translation>
+    </message>
+    <message>
+        <source>Left Reading Light</source>
+        <translation>Left Reading Light</translation>
+    </message>
+    <message>
+        <source>Right Reading Light</source>
+        <translation>Right Reading Light</translation>
+    </message>
+</context>
+<context>
+    <name>Lights_CH</name>
+    <message>
+        <source>燈火</source>
+        <translation>燈火</translation>
+    </message>
+    <message>
+        <source>天花燈</source>
+        <translation>天花燈</translation>
+    </message>
+    <message>
+        <source>內光</source>
+        <translation>內光</translation>
+    </message>
+    <message>
+        <source>關閉所有</source>
+        <translation>關閉所有</translation>
+    </message>
+    <message>
+        <source>記憶1</source>
+        <translation>記憶1</translation>
+    </message>
+    <message>
+        <source>記憶2</source>
+        <translation>記憶2</translation>
+    </message>
+    <message>
+        <source>記憶3</source>
+        <translation>記憶3</translation>
+    </message>
+    <message>
+        <source>左侧的阅读灯</source>
+        <translation>左侧的阅读灯</translation>
+    </message>
+    <message>
+        <source>右边的阅读灯</source>
+        <translation>右边的阅读灯</translation>
+    </message>
+</context>
+<context>
+    <name>Lights_TR</name>
+    <message>
+        <source>Işıklar</source>
+        <translation>Işıklar</translation>
+    </message>
+    <message>
+        <source>Tavan Aydınlatması</source>
+        <translation>Tavan Aydınlatması</translation>
+    </message>
+    <message>
+        <source>İç Aydınlatma</source>
+        <translation>İç Aydınlatma</translation>
+    </message>
+    <message>
+        <source>Hepsini Kapat</source>
+        <translation>Hepsini Kapat</translation>
+    </message>
+    <message>
+        <source>Hafıza 1</source>
+        <translation>Hafıza 1</translation>
+    </message>
+    <message>
+        <source>Hafıza 2</source>
+        <translation>Hafıza 2</translation>
+    </message>
+    <message>
+        <source>Hafıza 3</source>
+        <translation>Hafıza 3</translation>
+    </message>
+    <message>
+        <source>Sol Okuma Aydınlatması</source>
+        <translation>Sol Okuma Aydınlatması</translation>
+    </message>
+    <message>
+        <source>Sağ Okuma Aydınlatması</source>
+        <translation>Sağ Okuma Aydınlatması</translation>
     </message>
 </context>
 <context>
     <name>LuggageCurtain</name>
     <message>
         <source>LUGGAGE CURTAIN</source>
-        <translation type="vanished">BAGAJ PERDESİ</translation>
+        <translation>BAGAJ PERDESİ</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>Media</name>
     <message>
         <source>MEDIA</source>
-        <translation type="vanished">MEDYA</translation>
+        <translation>MEDYA</translation>
     </message>
 </context>
 <context>
     <name>MediaSettings</name>
     <message>
         <source>MEDIA SETTINGS</source>
-        <translation type="vanished">MEDIA SETTINGS</translation>
+        <translation>MEDIA SETTINGS</translation>
     </message>
     <message>
         <source>MediaPlayer Type:</source>
-        <translation type="vanished">MediaPlayer Type:</translation>
+        <translation>MediaPlayer Type:</translation>
     </message>
     <message>
         <source>MediaPlayer IP:</source>
-        <translation type="vanished">MediaPlayer IP:</translation>
+        <translation>MediaPlayer IP:</translation>
+    </message>
+</context>
+<context>
+    <name>OneSeat</name>
+    <message>
+        <source>Head</source>
+        <translation>Kafa</translation>
+    </message>
+    <message>
+        <source>↑</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>↓</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Seat Back</source>
+        <translation>Koltuk Arkası</translation>
+    </message>
+    <message>
+        <source>←</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>→</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Seat</source>
+        <translation>Koltuk</translation>
+    </message>
+    <message>
+        <source>Drawer</source>
+        <translation>Çekmece</translation>
+    </message>
+    <message>
+        <source>Thigh</source>
+        <translation>Kalça</translation>
+    </message>
+    <message>
+        <source>Seat Cooling</source>
+        <translation>Koltuk Soğutma</translation>
+    </message>
+    <message>
+        <source>Seat Heating</source>
+        <translation>Koltuk Isıtma</translation>
+    </message>
+    <message>
+        <source>Seat Massage</source>
+        <translation>Koltuk Masajı</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tamam</translation>
+    </message>
+    <message>
+        <source>ON</source>
+        <translation>ON</translation>
+    </message>
+    <message>
+        <source>OFF</source>
+        <translation>OFF</translation>
     </message>
 </context>
 <context>
     <name>PcHdmi</name>
     <message>
         <source>PC HDMI</source>
-        <translation type="vanished">PC HDMI</translation>
+        <translation>PC HDMI</translation>
     </message>
     <message>
         <source>On/Off</source>
-        <translation type="vanished">Aç/Kapat</translation>
+        <translation>Aç/Kapat</translation>
     </message>
 </context>
 <context>
     <name>Playstation</name>
     <message>
         <source>PLAYSTATION</source>
-        <translation type="vanished">PLAYSTATION</translation>
+        <translation>PLAYSTATION</translation>
     </message>
 </context>
 <context>
     <name>RadBtnMenu</name>
     <message>
         <source>PRESETS</source>
-        <translation type="vanished">FAVORİ</translation>
+        <translation>FAVORİ</translation>
     </message>
     <message>
         <source>MANUAL SEARCH</source>
-        <translation type="vanished">ÖZEL ARAMA</translation>
+        <translation>ÖZEL ARAMA</translation>
     </message>
 </context>
 <context>
     <name>Radio</name>
     <message>
         <source>RADIO FM</source>
-        <translation type="vanished">RADYO</translation>
+        <translation>RADYO</translation>
     </message>
 </context>
 <context>
     <name>RadioManual</name>
     <message>
         <source>MANUAL RADIO</source>
-        <translation type="vanished">MANUEL RADYO</translation>
+        <translation>MANUEL RADYO</translation>
     </message>
 </context>
 <context>
     <name>RadioModMenu</name>
     <message>
         <source>DAB</source>
-        <translation type="vanished">DAB</translation>
+        <translation>DAB</translation>
     </message>
     <message>
         <source>FM</source>
-        <translation type="vanished">FM</translation>
+        <translation>FM</translation>
     </message>
     <message>
         <source>AM</source>
-        <translation type="vanished">AM</translation>
+        <translation>AM</translation>
     </message>
 </context>
 <context>
     <name>RearCamera</name>
     <message>
         <source>REAR CAMERA</source>
-        <translation type="vanished">ARKA KAMERA</translation>
+        <translation>ARKA KAMERA</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
 </context>
 <context>
     <name>Refrigerator</name>
     <message>
         <source>REFRIGERATOR</source>
-        <translation type="vanished">BUZDOLABI</translation>
+        <translation>BUZDOLABI</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>RightCurtain</name>
     <message>
         <source>RIGHT CURTAIN</source>
-        <translation type="vanished">SAĞ PERDE</translation>
+        <translation>SAĞ PERDE</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>RightCurtain2</name>
     <message>
         <source>RIGHT CURTAIN</source>
-        <translation type="vanished">SAĞ PERDE</translation>
+        <translation>SAĞ PERDE</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>RightTable</name>
     <message>
         <source>RIGHT TABLE</source>
-        <translation type="vanished">SAĞ MASA</translation>
+        <translation>SAĞ MASA</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>RightWindow</name>
     <message>
         <source>RIGHT WINDOW</source>
-        <translation type="vanished">SAĞ CAM</translation>
+        <translation>SAĞ CAM</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>Roof</name>
     <message>
         <source>ROOF</source>
-        <translation type="vanished">TAVAN</translation>
+        <translation>TAVAN</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
@@ -1150,355 +1334,382 @@ için sistemin yeniden başlatılması gerekir.</translation>
     <name>SafeBox</name>
     <message>
         <source>SAFE BOX</source>
-        <translation type="vanished">KASA</translation>
+        <translation>KASA</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="vanished">Aç</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>
     <name>ScreenDivider</name>
     <message>
         <source>SCREEN DIVIDER</source>
-        <translation type="vanished">EKRAN BÖLÜCÜ</translation>
+        <translation>EKRAN BÖLÜCÜ</translation>
     </message>
     <message>
         <source>Divide Screen</source>
-        <translation type="vanished">Ekranı Böl</translation>
+        <translation>Ekranı Böl</translation>
     </message>
     <message>
         <source>Front Camera</source>
-        <translation type="vanished">Ön Kamera</translation>
+        <translation>Ön Kamera</translation>
     </message>
     <message>
         <source>Rear Camera</source>
-        <translation type="vanished">Arka Kamera</translation>
+        <translation>Arka Kamera</translation>
     </message>
 </context>
 <context>
     <name>SeatBack</name>
     <message>
         <source>SEAT BACK</source>
-        <translation type="vanished">KOLTUK ARKASI</translation>
+        <translation>KOLTUK ARKASI</translation>
     </message>
 </context>
 <context>
     <name>SeatCooling</name>
     <message>
         <source>SEAT COOLING</source>
-        <translation type="vanished">KOLTUK SOĞUTMA</translation>
+        <translation>KOLTUK SOĞUTMA</translation>
     </message>
 </context>
 <context>
     <name>SeatDrawer</name>
     <message>
         <source>SEAT DRAWER</source>
-        <translation type="vanished">KOLTUK ÇEKMECESİ</translation>
+        <translation>KOLTUK ÇEKMECESİ</translation>
     </message>
 </context>
 <context>
     <name>SeatFeet</name>
     <message>
         <source>SEAT FOOT REST</source>
-        <translation type="vanished">KOLTUK AYAK STANDI</translation>
+        <translation>KOLTUK AYAK STANDI</translation>
     </message>
 </context>
 <context>
     <name>SeatHead</name>
     <message>
         <source>SEAT HEADSET</source>
-        <translation type="vanished">KOLTUK BAŞLIĞI</translation>
+        <translation>KOLTUK BAŞLIĞI</translation>
     </message>
 </context>
 <context>
     <name>SeatHeating</name>
     <message>
         <source>SEAT HEATING</source>
-        <translation type="vanished">KOLTUK ISITMA</translation>
+        <translation>KOLTUK ISITMA</translation>
     </message>
 </context>
 <context>
     <name>SeatMassage</name>
     <message>
         <source>SEAT MASSAGE</source>
-        <translation type="vanished">KOLTUK MASAJI</translation>
+        <translation>KOLTUK MASAJI</translation>
     </message>
 </context>
 <context>
     <name>SeatPart</name>
     <message>
         <source>SEAT</source>
-        <translation type="vanished">KOLTUK</translation>
+        <translation>KOLTUK</translation>
     </message>
     <message>
         <source>When the espresso cover is open, you cannot take the first seat forward.</source>
-        <translation type="vanished">Espresso kapağı açıkken birinci koltuğu öne çekemezsiniz.</translation>
+        <translation>Espresso kapağı açıkken birinci koltuğu öne çekemezsiniz.</translation>
     </message>
     <message>
         <source>Espresso Close</source>
-        <translation type="vanished">Espresso Kapalı</translation>
+        <translation>Espresso Kapalı</translation>
     </message>
 </context>
 <context>
     <name>SeatThigh</name>
     <message>
         <source>SEAT THIGH</source>
-        <translation type="vanished">KOLTUK TABANI</translation>
+        <translation>KOLTUK TABANI</translation>
     </message>
 </context>
 <context>
     <name>Seats</name>
     <message>
         <source>SEATS</source>
-        <translation type="vanished">KOLTUKLAR</translation>
+        <translation>KOLTUKLAR</translation>
     </message>
     <message>
         <source>First Seat</source>
-        <translation type="vanished">Birinci Koltuk</translation>
+        <translation>Birinci Koltuk</translation>
     </message>
     <message>
         <source>Second Seat</source>
-        <translation type="vanished">İkinci Koltuk</translation>
+        <translation>İkinci Koltuk</translation>
     </message>
     <message>
         <source>Third Seat</source>
-        <translation type="vanished">Üçüncü Koltuk</translation>
+        <translation>Üçüncü Koltuk</translation>
     </message>
     <message>
         <source>Fourth Seat</source>
-        <translation type="vanished">Dördüncü Koltuk</translation>
+        <translation>Dördüncü Koltuk</translation>
+    </message>
+</context>
+<context>
+    <name>SecondSeatHead</name>
+    <message>
+        <source>Second Sead Head Calibration</source>
+        <translation>İkinci Koltuk Başlığı Kalibrasyonu</translation>
+    </message>
+    <message>
+        <source>Head Forward</source>
+        <translation>Başlık İleri</translation>
+    </message>
+    <message>
+        <source>Head Backward</source>
+        <translation>Başlık Geri</translation>
+    </message>
+    <message>
+        <source>Head Set</source>
+        <translation>Başlığı Ayarla</translation>
+    </message>
+    <message>
+        <source>Head MIN</source>
+        <translation>Başlık Minimum Ayarla</translation>
+    </message>
+    <message>
+        <source>Head MAX</source>
+        <translation>Başlık Maksimum Ayarla</translation>
     </message>
 </context>
 <context>
     <name>SerialSettings</name>
     <message>
         <source>SERIAL SETTINGS</source>
-        <translation type="vanished">SERIAL AYARLARI</translation>
+        <translation>SERIAL AYARLARI</translation>
     </message>
     <message>
         <source>Port Name :</source>
-        <translation type="vanished">Port Adı:</translation>
+        <translation>Port Adı:</translation>
     </message>
     <message>
         <source>Baud Rate :</source>
-        <translation type="vanished">Baud Oranı:</translation>
+        <translation>Baud Oranı:</translation>
     </message>
 </context>
 <context>
     <name>Settings</name>
     <message>
         <source>SETTINGS</source>
-        <translation type="vanished">AYARLAR</translation>
+        <translation>AYARLAR</translation>
     </message>
 </context>
 <context>
     <name>SettingsMenu</name>
     <message>
         <source>General</source>
-        <translation type="vanished">Genel</translation>
+        <translation>Genel</translation>
     </message>
     <message>
         <source>Media</source>
-        <translation type="vanished">Medya</translation>
+        <translation>Medya</translation>
     </message>
     <message>
         <source>Serial</source>
-        <translation type="vanished">Serial</translation>
+        <translation>Serial</translation>
     </message>
 </context>
 <context>
     <name>SmokeFan</name>
     <message>
         <source>SMOKE FAN</source>
-        <translation type="vanished">DUMAN FANI</translation>
+        <translation>DUMAN FANI</translation>
     </message>
     <message>
         <source>On/Off</source>
-        <translation type="vanished">Aç/Kapat</translation>
+        <translation>Aç/Kapat</translation>
     </message>
 </context>
 <context>
     <name>Tables</name>
     <message>
         <source>TABLES</source>
-        <translation type="vanished">MASALAR</translation>
+        <translation>MASALAR</translation>
     </message>
     <message>
         <source>Left Table</source>
-        <translation type="vanished">Sol Masa</translation>
+        <translation>Sol Masa</translation>
     </message>
     <message>
         <source>Right Table</source>
-        <translation type="vanished">Sağ Masa</translation>
+        <translation>Sağ Masa</translation>
     </message>
 </context>
 <context>
     <name>Television</name>
     <message>
         <source>TELEVISION</source>
-        <translation type="vanished">TELEVİZYON</translation>
+        <translation>TELEVİZYON</translation>
     </message>
 </context>
 <context>
     <name>ThirdFootrestM1</name>
     <message>
         <source>Third Footrest M1 Calibration</source>
-        <translation type="vanished">Üçüncü Ayak Standı M1 Kalibrasyon</translation>
+        <translation>Üçüncü Ayak Standı M1 Kalibrasyon</translation>
     </message>
     <message>
         <source>Footrest Up</source>
-        <translation type="vanished">Ayak Standı Yukarı</translation>
+        <translation>Ayak Standı Yukarı</translation>
     </message>
     <message>
         <source>Footrest Down</source>
-        <translation type="vanished">Ayak Standı Aşağı</translation>
+        <translation>Ayak Standı Aşağı</translation>
     </message>
     <message>
         <source>Footrest Set Minimum</source>
-        <translation type="vanished">Ayak Standı Minimum Ayarla</translation>
+        <translation>Ayak Standı Minimum Ayarla</translation>
     </message>
     <message>
         <source>Footrest Set Maximum</source>
-        <translation type="vanished">Ayak Standı Maksimum Ayarla</translation>
+        <translation>Ayak Standı Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Footrest Reset</source>
-        <translation type="vanished">Ayak Standı Sıfırla</translation>
+        <translation>Ayak Standı Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>ThirdFootrestM2</name>
     <message>
         <source>Third Footrest M2 Calibration</source>
-        <translation type="vanished">Üçüncü Ayak Standı M2 Kalibrasyon</translation>
+        <translation>Üçüncü Ayak Standı M2 Kalibrasyon</translation>
     </message>
     <message>
         <source>Footrest Up</source>
-        <translation type="vanished">Ayak Standı Yukarı</translation>
+        <translation>Ayak Standı Yukarı</translation>
     </message>
     <message>
         <source>Footrest Down</source>
-        <translation type="vanished">Ayak Standı Aşağı</translation>
+        <translation>Ayak Standı Aşağı</translation>
     </message>
     <message>
         <source>Footrest Set Minimum</source>
-        <translation type="vanished">Ayak Standı Minimum Ayarla</translation>
+        <translation>Ayak Standı Minimum Ayarla</translation>
     </message>
     <message>
         <source>Footrest Set Maximum</source>
-        <translation type="vanished">Ayak Standı Maksimum Ayarla</translation>
+        <translation>Ayak Standı Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Footrest Reset</source>
-        <translation type="vanished">Ayak Standı Sıfırla</translation>
+        <translation>Ayak Standı Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>ThirdTableCalibration</name>
     <message>
         <source>Third Table Calibration</source>
-        <translation type="vanished">Üçüncü Masa Kalibrasyon</translation>
+        <translation>Üçüncü Masa Kalibrasyon</translation>
     </message>
     <message>
         <source>Third Table Up</source>
-        <translation type="vanished">Üçüncü Masa Yukarı</translation>
+        <translation>Üçüncü Masa Yukarı</translation>
     </message>
     <message>
         <source>Third Table Down</source>
-        <translation type="vanished">Üçüncü Masa Aşağı</translation>
+        <translation>Üçüncü Masa Aşağı</translation>
     </message>
     <message>
         <source>Third Table Set Minimum</source>
-        <translation type="vanished">Üçüncü Masa Minimum Ayarla</translation>
+        <translation>Üçüncü Masa Minimum Ayarla</translation>
     </message>
     <message>
         <source>Third Table Set Maximum</source>
-        <translation type="vanished">Üçüncü Masa Maksimum Ayarla</translation>
+        <translation>Üçüncü Masa Maksimum Ayarla</translation>
     </message>
     <message>
         <source>Third Table Reset</source>
-        <translation type="vanished">Üçüncü Masa Sıfırla</translation>
+        <translation>Üçüncü Masa Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>TimeSetter</name>
     <message>
         <source>Date &amp; Time:</source>
-        <translation type="vanished">Tarih &amp; Saat:</translation>
+        <translation>Tarih &amp; Saat:</translation>
     </message>
     <message>
         <source>SET</source>
-        <translation type="vanished">Ayarla</translation>
+        <translation>Ayarla</translation>
     </message>
     <message>
         <source>Region:</source>
-        <translation type="vanished">Bölge:</translation>
+        <translation>Bölge:</translation>
     </message>
 </context>
 <context>
     <name>TopMenu</name>
     <message>
         <source>SEATS</source>
-        <translation type="vanished">KOLTUK</translation>
+        <translation>KOLTUK</translation>
     </message>
     <message>
         <source>CONTROLS</source>
-        <translation type="vanished">KONTROL</translation>
+        <translation>KONTROL</translation>
     </message>
     <message>
         <source>MEDIA</source>
-        <translation type="vanished">MEDYA</translation>
+        <translation>MEDYA</translation>
     </message>
     <message>
         <source>LIGHTS</source>
-        <translation type="vanished">IŞIKLAR</translation>
+        <translation>IŞIKLAR</translation>
     </message>
 </context>
 <context>
     <name>TvMotorCalibration</name>
     <message>
         <source>TV Motor Calibration</source>
-        <translation type="vanished">TV Motor Kalibrasyon</translation>
+        <translation>TV Motor Kalibrasyon</translation>
     </message>
     <message>
         <source>Tv Up</source>
-        <translation type="vanished">Tv Yukarı</translation>
+        <translation>Tv Yukarı</translation>
     </message>
     <message>
         <source>Tv Down</source>
-        <translation type="vanished">Tv Aşağı</translation>
+        <translation>Tv Aşağı</translation>
     </message>
     <message>
         <source>TV Set Minimum</source>
-        <translation type="vanished">TV Minimum Ayarla</translation>
+        <translation>TV Minimum Ayarla</translation>
     </message>
     <message>
         <source>TV Set Maximum</source>
-        <translation type="vanished">TV Maksimum Ayarla</translation>
+        <translation>TV Maksimum Ayarla</translation>
     </message>
     <message>
         <source>TV Reset</source>
-        <translation type="vanished">TV Sıfırla</translation>
+        <translation>TV Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>Windows</name>
     <message>
         <source>WINDOWS</source>
-        <translation type="vanished">CAMLAR</translation>
+        <translation>CAMLAR</translation>
     </message>
     <message>
         <source>Left Window</source>
-        <translation type="vanished">Sol Cam</translation>
+        <translation>Sol Cam</translation>
     </message>
     <message>
         <source>Right Window</source>
-        <translation type="vanished">Sağ Cam</translation>
+        <translation>Sağ Cam</translation>
     </message>
 </context>
 <context>
@@ -3710,6 +3921,29 @@ için sistemin yeniden başlatılması gerekir.</translation>
     <message>
         <source>Turns the System off</source>
         <translation>Sistemi Kapatır</translation>
+    </message>
+</context>
+<context>
+    <name>mainfuncs</name>
+    <message>
+        <source>First Seat</source>
+        <translation>Birinci Koltuk</translation>
+    </message>
+    <message>
+        <source>Second Seat</source>
+        <translation>İkinci Koltuk</translation>
+    </message>
+    <message>
+        <source>Third Seat</source>
+        <translation>Üçüncü Koltuk</translation>
+    </message>
+    <message>
+        <source>Fourth Seat</source>
+        <translation>Dördüncü Koltuk</translation>
+    </message>
+    <message>
+        <source>One Seat</source>
+        <translation>Bir Koltuk</translation>
     </message>
 </context>
 </TS>

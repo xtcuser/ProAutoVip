@@ -32,12 +32,12 @@ BasePage {
 
         }
 
-        Repeater {
-            model:tablesModel
-            Text {
-                text: name
-            }
-        }
+//        Repeater {
+//            model:tablesModel
+//            Text {
+//                text: name
+//            }
+//        }
         Image{
             x:252
             y:208

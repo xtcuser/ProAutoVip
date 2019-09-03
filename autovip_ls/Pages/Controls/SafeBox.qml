@@ -30,12 +30,12 @@ BasePage {
             }
         }
 
-        Repeater {
-            model:tmodel
-            Text {
-                text: name
-            }
-        }
+//        Repeater {
+//            model:tmodel
+//            Text {
+//                text: name
+//            }
+//        }
 
         Image{
             anchors.verticalCenter: parent.verticalCenter

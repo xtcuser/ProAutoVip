@@ -3,11 +3,10 @@ import ck.gmachine 1.0
 
 Rectangle{
             id:root
-            radius: 10
-            color: GSystem.leftTextMenuItemColor
             property alias text: caption.text
-            border.width: 2
-            border.color: "white"
+            color:Qt.rgba(0, 0, 0,0.4)
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             signal clicked;
             signal released;
             signal pressed;

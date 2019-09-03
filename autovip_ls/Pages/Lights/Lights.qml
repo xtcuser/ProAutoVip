@@ -663,7 +663,7 @@ BasePage {
                text:qsTr("Left Reading Light") + mytrans.emptyString
 //               text:qsTr("右边的阅读灯") + mytrans.emptyString
 //               text:qsTr("Sağ Okuma Aydınlatması") + mytrans.emptyString
-               onClicked: {
+               onReleased: {
 //                   console.log("before if " + c3.color + " glow "  + gl1.color + "if result " + (c3.color == "#ffffff"))
                    if (c3.color == "#fff6a6")
                    {

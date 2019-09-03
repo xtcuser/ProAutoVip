@@ -28,11 +28,10 @@ Item {
         anchors.centerIn: parent
         width:300
         height:300
-        radius: 15
         opacity: 0
-        border.width: 4
-        border.color: "white"
-        color:"black"
+        color:Qt.rgba(0, 0, 0,0.4)
+        border.width: 3
+        border.color:Qt.rgba(0/255, 108/255, 128/255,0.8)
 
         Column
         {

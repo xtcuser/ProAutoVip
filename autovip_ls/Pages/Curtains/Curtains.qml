@@ -20,11 +20,13 @@ BasePage {
         x:0
         y:0
         width:parent.width
-        height:parent.height
+        height:parent.height+40
         LeftTextMenu
         {
             id:leftmenu
             model:tmodel
+            height: parent.height
+
         }
         ListModel{
             id: tmodel
@@ -49,12 +51,12 @@ BasePage {
                 st:"LuggageCurtain"
             }
         }
-        Repeater {
-            model:tmodel
-            Text {
-                text: name
-            }
-        }
+//        Repeater {
+//            model:tmodel
+//            Text {
+//                text: name
+//            }
+//        }
 
         Image{
             x:247
@@ -154,79 +156,79 @@ BasePage {
         }
 
         }
-    SequentialAnimation{
-        id:ani
-        loops: Animation.Infinite
-        running: true
-        SequentialAnimation{
-            NumberAnimation{
-                target:c1
-                properties:"y"
-                to:110
-                duration:500
-            }
-            NumberAnimation{
-                target:c1
-                properties:"y"
-                to:122
-                duration:500
-            }
-        }
-        SequentialAnimation{
-            NumberAnimation{
-                target:c2
-                properties:"y"
-                to:110
-                duration:500
-            }
-            NumberAnimation{
-                target:c2
-                properties:"y"
-                to:122
-                duration:500
-            }
-        }
-        SequentialAnimation{
-            NumberAnimation{
-                target:c3
-                properties:"y"
-                to:58
-                duration:500
-            }
-            NumberAnimation{
-                target:c3
-                properties:"y"
-                to:68
-                duration:500
-            }
-        }
-        SequentialAnimation{
-            NumberAnimation{
-                target:c4
-                properties:"y"
-                to:58
-                duration:500
-            }
-            NumberAnimation{
-                target:c4
-                properties:"y"
-                to:68
-                duration:500
-            }
-        }
-        SequentialAnimation{
-            NumberAnimation{
-                target:c5
-                properties:"y"
-                to:2
-                duration:500
-            }
-            NumberAnimation{
-                target:c5
-                properties:"y"
-                to:12
-                duration:500
-            }
-        }
-    }
+//    SequentialAnimation{
+//        id:ani
+//        loops: Animation.Infinite
+//        running: true
+//        SequentialAnimation{
+//            NumberAnimation{
+//                target:c1
+//                properties:"y"
+//                to:110
+//                duration:500
+//            }
+//            NumberAnimation{
+//                target:c1
+//                properties:"y"
+//                to:122
+//                duration:500
+//            }
+//        }
+//        SequentialAnimation{
+//            NumberAnimation{
+//                target:c2
+//                properties:"y"
+//                to:110
+//                duration:500
+//            }
+//            NumberAnimation{
+//                target:c2
+//                properties:"y"
+//                to:122
+//                duration:500
+//            }
+//        }
+//        SequentialAnimation{
+//            NumberAnimation{
+//                target:c3
+//                properties:"y"
+//                to:58
+//                duration:500
+//            }
+//            NumberAnimation{
+//                target:c3
+//                properties:"y"
+//                to:68
+//                duration:500
+//            }
+//        }
+//        SequentialAnimation{
+//            NumberAnimation{
+//                target:c4
+//                properties:"y"
+//                to:58
+//                duration:500
+//            }
+//            NumberAnimation{
+//                target:c4
+//                properties:"y"
+//                to:68
+//                duration:500
+//            }
+//        }
+//        SequentialAnimation{
+//            NumberAnimation{
+//                target:c5
+//                properties:"y"
+//                to:2
+//                duration:500
+//            }
+//            NumberAnimation{
+//                target:c5
+//                properties:"y"
+//                to:12
+//                duration:500
+//            }
+//        }
+//    }
 }

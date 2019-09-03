@@ -14,7 +14,7 @@
 #include "updatecheck.h"
 #include "restarter.h"
 #include <QDir>
-#include <nvidiaconnmanager.h>
+//#include <nvidiaconnmanager.h>
 
 bool changeCD()
 {
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
     imng.setSerialMng(&smng);
 
     // instantiating an NvidiaConnManager object
-    NvidiaConnManager nvidiaConnManager(1234, &smng);
+//    NvidiaConnManager nvidiaConnManager(1234, &smng);
 
     qDebug()<<"init createcreated"<<endl;
     if(imng.init() == false)

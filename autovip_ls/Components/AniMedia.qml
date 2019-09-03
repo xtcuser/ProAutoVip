@@ -56,11 +56,12 @@ import QtQuick 2.0
 //                loops: Animation.Infinite
 //            }
 
-            AnimatedImage{
-                source: "qrc:/design/media/ani/play.gif"
-                width: 1200 * root.cscale
-                height: 800 * root.cscale
-                anchors.centerIn: parent
-            }
+//            AnimatedImage{
+//                source: "qrc:/design/media/ani/play.gif"
+//                width: 1200 * root.cscale
+//                height: 800 * root.cscale
+//                anchors.centerIn: parent
+//                cache: false
+//            }
         }
 //        }

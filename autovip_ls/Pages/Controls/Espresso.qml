@@ -31,12 +31,12 @@ BasePage {
                 releasecode:"controls/espresso_stop"
             }
         }
-        Repeater {
-            model:tmodel
-            Text {
-                text: name
-            }
-        }
+//        Repeater {
+//            model:tmodel
+//            Text {
+//                text: name
+//            }
+//        }
 
         Image{
             id:main
@@ -64,10 +64,9 @@ BasePage {
             id:bg
             width:180
             height:50
-            radius: 10
             color:GSystem.leftTextMenuItemColor
-            border.width: 4
-            border.color: "white"
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             Text{
                 anchors.centerIn: parent
                 text:qsTr("First Seat Back") + mytrans.emptyString

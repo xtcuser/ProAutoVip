@@ -11,7 +11,9 @@ Rectangle {
            property bool selection: false
            signal clicked(int index)
            signal released(int index)
-           color: GSystem.leftTextMenuColor
+           color:Qt.rgba(0, 0, 0,0.4)
+           border.width: 1
+           border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
            width: GSystem.leftTextMenuWidth
            height:GSystem.leftTextMenuHeight
            ListView{

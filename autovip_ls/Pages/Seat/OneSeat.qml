@@ -12,11 +12,11 @@ BasePage {
     property int cheight: (height - oneseat.height) / 2
     function init()
     {
-        ani.restart();
+//        ani.restart();
         GSystem.seatPagePass(); //feedback request
     }
     function end(){
-        ani.stop();
+//        ani.stop();
     }
 
     function selectPart(ppart)
@@ -163,7 +163,7 @@ BasePage {
                     font.family: GSystem.myriadproita.name
                     font.italic: true
                     font.pixelSize: 24
-                    text: qsTr("Head")
+                    text: qsTr("Head") + mytrans.emptyString
                     color: "white"
                     anchors.centerIn: parent
                 }
@@ -242,7 +242,7 @@ BasePage {
                     font.family: GSystem.myriadproita.name
                     font.italic: true
                     font.pixelSize: 24
-                    text: qsTr("Seat Back")
+                    text: qsTr("Seat Back") + mytrans.emptyString
                     color: "white"
                     anchors.centerIn: parent
                 }
@@ -321,7 +321,7 @@ BasePage {
                     font.family: GSystem.myriadproita.name
                     font.italic: true
                     font.pixelSize: 24
-                    text: qsTr("Seat")
+                    text: qsTr("Seat") + mytrans.emptyString
                     color: "white"
                     anchors.centerIn: parent
                 }
@@ -400,7 +400,7 @@ BasePage {
                         font.family: GSystem.myriadproita.name
                         font.italic: true
                         font.pixelSize: 24
-                        text: qsTr("Drawer")
+                        text: qsTr("Drawer") + mytrans.emptyString
                         color: "white"
                         anchors.centerIn: parent
                     }
@@ -524,7 +524,6 @@ BasePage {
                 width: 200
                 height: 250
                 anchors.horizontalCenter: parent.horizontalCenter
-                anchors.top:parent.top
                 color: "transparent"
                 CSeatMassage{
                     anchors.fill: parent
@@ -548,7 +547,7 @@ BasePage {
                         font.family: GSystem.myriadproita.name
                         font.italic: true
                         font.pixelSize: 24
-                        text: qsTr("Thigh")
+                        text: qsTr("Thigh") + mytrans.emptyString
                         color: "white"
                         anchors.centerIn: parent
                     }
@@ -637,7 +636,7 @@ BasePage {
                                 font.family: GSystem.myriadproita.name
                                 font.italic: true
                                 font.pixelSize: 24
-                                text: qsTr("Seat Cooling")
+                                text: qsTr("Seat Cooling") + mytrans.emptyString
                                 color: "white"
                                 anchors.centerIn: parent
                             }
@@ -735,7 +734,7 @@ BasePage {
                                 font.family: GSystem.myriadproita.name
                                 font.italic: true
                                 font.pixelSize: 24
-                                text: qsTr("Seat Heating")
+                                text: qsTr("Seat Heating") + mytrans.emptyString
                                 color: "white"
                                 anchors.centerIn: parent
                             }
@@ -831,7 +830,7 @@ BasePage {
                             font.family: GSystem.myriadproita.name
                             font.italic: true
                             font.pixelSize: 24
-                            text: qsTr("Seat Massage")
+                            text: massagebt.color===Qt.rgba(0, 0, 0,0.4)?qsTr("Seat Massage") + mytrans.emptyString:qsTr("Done") + mytrans.emptyString
                             color: "white"
                             anchors.centerIn: parent
                         }
@@ -852,7 +851,7 @@ BasePage {
                         color:serial_mng.massageon===0?Qt.rgba(0/255, 255/255, 0/255,0.6):Qt.rgba(255/255, 0/255, 0/255,0.6)
                         Text{
                             anchors.centerIn: parent
-                            text: (serial_mng.massageon===0?qsTr("ON"):qsTr("OFF"))  + mytrans.emptyString
+                            text: (serial_mng.massageon===0?qsTr("ON") + mytrans.emptyString:qsTr("OFF") + mytrans.emptyString)  + mytrans.emptyString
                             font.family: GSystem.myriadproita.name
                             font.italic: true
                             font.pixelSize: 24
@@ -885,23 +884,23 @@ BasePage {
 
 
 
-    SequentialAnimation{
-        id:ani
-        loops: Animation.Infinite
-        running: true
-        SequentialAnimation{
-            NumberAnimation{
-                target:oneseat
-                properties:"y"
-                to:root.cheight - 5
-                duration:500
-            }
-            NumberAnimation{
-                target:oneseat
-                properties:"y"
-                to:root.cheight
-                duration:500
-            }
-        }
-    }
+//    SequentialAnimation{
+//        id:ani
+//        loops: Animation.Infinite
+//        running: true
+//        SequentialAnimation{
+//            NumberAnimation{
+//                target:oneseat
+//                properties:"y"
+//                to:root.cheight - 5
+//                duration:500
+//            }
+//            NumberAnimation{
+//                target:oneseat
+//                properties:"y"
+//                to:root.cheight
+//                duration:500
+//            }
+//        }
+//    }
 }

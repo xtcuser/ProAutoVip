@@ -55,21 +55,23 @@ Window {
         y:0
         width:parent.width
         height:parent.height
-        AnimatedImage {
-            x:0
-            y:0
-            source: "qrc:/design/general/background.gif"
-            speed: 1
-            width:parent.width
-            height:parent.height
-        }
-//        Image{
+//        AnimatedImage {
 //            x:0
 //            y:0
-//            width:1230
-//            height:920
-//            source: "qrc:/design/general/firstframe.jpg"
+//            source: "qrc:/design/general/background.gif"
+//            speed: 1
+//            width:parent.width
+//            height:parent.height
+////            cache: false
 //        }
+
+        Image{
+            x:0
+            y:0
+            width:parent.width
+            height:parent.height
+            source: "qrc:/design/general/background.png"
+        }
 
 //        MediaPlayer {
 //            id:player
@@ -1737,12 +1739,12 @@ Window {
        Rectangle{
            id:startBtn
            anchors.centerIn: start;
-           radius: 50
-           width: 200
-           height:200
-           color:"white"
+           border.width: 2
+           border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+           width: 250
+           height: 250
+           color: Qt.rgba(0,0,0,0.8)
            z:334
-           opacity: 1
            property int systemstate: serial_mng.systemstate
            onSystemstateChanged: {
                switch(systemstate)

@@ -26,12 +26,12 @@ BasePage {
                 sericode:"media/rear_camera"
             }
         }
-        Repeater {
-            model:tmodel
-            Text {
-                text: name
-            }
-        }
+//        Repeater {
+//            model:tmodel
+//            Text {
+//                text: name
+//            }
+//        }
     }
 
     Image{

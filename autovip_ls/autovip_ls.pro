@@ -98,7 +98,8 @@ HEADERS += \
     websocketcontroller.h \
     voiceprotohandler.h
 
-RESOURCES += qml.qrc
+RESOURCES += \
+    qml.qrc
 
 TRANSLATIONS = translator/general_TR.ts \
                              translator/general_AR_.ts \
@@ -160,7 +161,7 @@ linux-g++-64:contains(QMAKE_TARGET.arch, aarch64)
 }
 
 lupdate_only{
-SOURCES = Pages/Controls/*.qml Pages/Curtains/*.qml Pages/Lights/*.qml Pages/Media/*.qml Pages/Seat/*.qml Pages/Settings/*.qml Pages/Home.qml Components/*.qml SGlobal.qml /*.qml
+SOURCES = Pages/Controls/*.qml Pages/Curtains/*.qml Pages/Lights/*.qml Pages/Media/*.qml Pages/Seat/*.qml Pages/Settings/*.qml Pages/Home.qml Components/*.qml SGlobal.qml ./*.qml
 }
 
   lupdate_only{

@@ -19,7 +19,9 @@ BasePage {
     function end(){
     }
     GridLayout{
-        anchors.centerIn: parent
+//        anchors.centerIn: parent
+        anchors.horizontalCenter: parent.horizontalCenter
+        y:200
         rows:8
         columns:5
         DVDButton{

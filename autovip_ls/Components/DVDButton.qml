@@ -8,12 +8,11 @@ Rectangle {
     property alias text: btnText.text
     property string presscode
     property  int delay: -1
-    color:"#50696d"
     width:120
     height: 45
-    radius: 10
-    border.color: "black"
+    color:Qt.rgba(0, 0, 0,0.4)
     border.width: 1
+    border.color:"black"
 
     Image{
         anchors.centerIn: parent

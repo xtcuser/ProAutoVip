@@ -18,9 +18,10 @@ Item{
         border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
         Image {
             anchors.centerIn: parent
-            source:"qrc:/design/seats/massage.png"
-            width: 150
-            height: 150
+            source:"qrc:/design/seats/massage2.png"
+            opacity: 0.8
+            width: 300
+            height: 300
         }
         Item{
         id:no
@@ -33,9 +34,10 @@ Item{
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.family: GSystem.centurygothic.name
-            font.pixelSize:  14
-            color: "red"
+            font.family: GSystem.myriadproita.name
+//            font.italic: true
+            font.pixelSize: 14
+            color:"white"
         }
         }
         Item{
@@ -94,8 +96,9 @@ Item{
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.family: GSystem.centurygothic.name
-            font.pixelSize:  14
+            font.family: GSystem.myriadproita.name
+//            font.italic: true
+            font.pixelSize: 14
             color: "white"
         }
         }
@@ -124,8 +127,9 @@ Item{
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.family: GSystem.centurygothic.name
-            font.pixelSize:  14
+            font.family: GSystem.myriadproita.name
+//            font.italic: true
+            font.pixelSize: 14
             color: "white"
         }
         }
@@ -148,8 +152,9 @@ Item{
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.family: GSystem.centurygothic.name
-            font.pixelSize:  14
+            font.family: GSystem.myriadproita.name
+//            font.italic: true
+            font.pixelSize: 14
             color: "white"
         }
         }
@@ -195,8 +200,9 @@ Item{
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.family: GSystem.centurygothic.name
-            font.pixelSize:  21
+            font.family: GSystem.myriadproita.name
+//            font.italic: true
+            font.pixelSize: 14
             color: "white"
         }
         }
@@ -219,8 +225,9 @@ Item{
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.pixelSize:  14
-            font.family: GSystem.centurygothic.name
+            font.family: GSystem.myriadproita.name
+//            font.italic: true
+            font.pixelSize: 14
             color: "white"
         }
         }
@@ -241,9 +248,10 @@ Item{
             anchors.bottomMargin: 7
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
-            font.family: GSystem.centurygothic.name
             horizontalAlignment: Text.AlignHCenter
-            font.pixelSize:  14
+            font.family: GSystem.myriadproita.name
+//            font.italic: true
+            font.pixelSize: 14
             color: "white"
         }
         }
@@ -258,8 +266,9 @@ Item{
             width: parent.width
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.family: GSystem.centurygothic.name
-            font.pixelSize:  14
+            font.family: GSystem.myriadproita.name
+//            font.italic: true
+            font.pixelSize: 14
             color: "white"
         }
         }

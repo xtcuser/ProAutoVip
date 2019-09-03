@@ -31,12 +31,12 @@ BasePage {
                 releasecode:"third_seat/table_stop"
             }
         }
-        Repeater {
-            model:tmodel
-            Text {
-                text: name
-            }
-        }
+//        Repeater {
+//            model:tmodel
+//            Text {
+//                text: name
+//            }
+//        }
 
         }
 

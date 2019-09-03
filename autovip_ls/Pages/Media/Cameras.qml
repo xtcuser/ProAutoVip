@@ -31,12 +31,12 @@ BasePage {
                 }
             }
 
-            Repeater {
-                model:cameraModel
-                Text {
-                    text: name
-                }
-            }
+//            Repeater {
+//                model:cameraModel
+//                Text {
+//                    text: name
+//                }
+//            }
 
         }
 

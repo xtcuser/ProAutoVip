@@ -12,12 +12,11 @@ Rectangle {
     property  int delay: -1
     property string pressedKey;
     property string releaseKey;
-    color : GSystem.leftTextMenuItemColor
     width:150
     height: 45
-    radius: 10
-    border.color: "black"
+    color:Qt.rgba(0, 0, 0,0.4)
     border.width: 1
+    border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
     text: "A button"
     Image{
         anchors.centerIn: parent

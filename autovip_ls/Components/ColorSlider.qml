@@ -39,6 +39,8 @@ Item {
             x:        orientation === Qt.Vertical ? 0 : height / 2 - width / 2
             y:        orientation === Qt.Vertical ? 0 : width / 2 - height / 2
             rotation: orientation === Qt.Vertical ? 0 : 270
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
         }
     }
 

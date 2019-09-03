@@ -28,10 +28,9 @@ BasePage {
             id:onoff
             width:120
             height:50
-            radius: 10
             color:GSystem.leftTextMenuItemColor
-            border.width: 2
-            border.color: "white"
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             Text{
                 anchors.centerIn: parent
                 text:qsTr("On/Off")
@@ -56,10 +55,9 @@ BasePage {
             id:source
             width:120
             height:50
-            radius: 10
             color:GSystem.leftTextMenuItemColor
-            border.width: 2
-            border.color: "white"
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             Text{
                 anchors.centerIn: parent
                 text:qsTr("Source")
@@ -84,10 +82,9 @@ BasePage {
             id:ok
             width:120
             height:50
-            radius: 10
             color:GSystem.leftTextMenuItemColor
-            border.width: 2
-            border.color: "white"
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             Text{
                 anchors.centerIn: parent
                 text:qsTr("Ok")
@@ -95,6 +92,7 @@ BasePage {
                 font.pixelSize: 22
                 horizontalAlignment: Text.AlignHCenter
                 font.family: GSystem.centurygothic.name
+
             }
             MouseArea{
                 anchors.fill: parent

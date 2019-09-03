@@ -63,10 +63,9 @@ BasePage {
             id:screendivide
             width:180
             height:50
-            radius: 10
             color: (root.selected === 0)?GSystem.leftTextMenuItemPressedColor:GSystem.leftTextMenuItemColor
-            border.width: 4
-            border.color: "white"
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             Text{
                 anchors.centerIn: parent
                 text:qsTr("Divide Screen") + mytrans.emptyString
@@ -89,10 +88,9 @@ BasePage {
             id:frontcamera
             width:180
             height:50
-            radius: 10
             color: (root.selected === 1)?GSystem.leftTextMenuItemPressedColor:GSystem.leftTextMenuItemColor
-            border.width: 4
-            border.color: "white"
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             Text{
                 anchors.centerIn: parent
                 text:qsTr("Front Camera") + mytrans.emptyString
@@ -115,10 +113,9 @@ BasePage {
             id:rearcamera
             width:180
             height:50
-            radius: 10
             color: (root.selected === 2)?GSystem.leftTextMenuItemPressedColor:GSystem.leftTextMenuItemColor
-            border.width: 4
-            border.color: "white"
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             Text{
                 anchors.centerIn: parent
                 text:qsTr("Rear Camera") + mytrans.emptyString
