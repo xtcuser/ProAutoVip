@@ -71,47 +71,47 @@
 <context>
     <name>CSeatMassage</name>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="30"/>
+        <location filename="../Components/CSeatMassage.qml" line="33"/>
         <source>MASSAGE OFF</source>
         <translation>按摩被關閉了</translation>
     </message>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="61"/>
+        <location filename="../Components/CSeatMassage.qml" line="64"/>
         <source>SHOULDER AND THIGH</source>
         <translation>肩膀和大腿</translation>
     </message>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="92"/>
+        <location filename="../Components/CSeatMassage.qml" line="95"/>
         <source>WAIST ANT THIGH</source>
         <translation>腰部和大腿</translation>
     </message>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="123"/>
+        <location filename="../Components/CSeatMassage.qml" line="126"/>
         <source>SHOULDER AND WAIST</source>
         <translation>肩部和腰部</translation>
     </message>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="148"/>
+        <location filename="../Components/CSeatMassage.qml" line="151"/>
         <source>PULSE</source>
         <translation>脈衝</translation>
     </message>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="196"/>
+        <location filename="../Components/CSeatMassage.qml" line="199"/>
         <source>SMOOTH</source>
         <translation>平滑</translation>
     </message>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="221"/>
+        <location filename="../Components/CSeatMassage.qml" line="224"/>
         <source>SHOULDER</source>
         <translation>肩</translation>
     </message>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="245"/>
+        <location filename="../Components/CSeatMassage.qml" line="248"/>
         <source>THIGH</source>
         <translation>大腿</translation>
     </message>
     <message>
-        <location filename="../Components/CSeatMassage.qml" line="262"/>
+        <location filename="../Components/CSeatMassage.qml" line="265"/>
         <source>RELAX</source>
         <translation>放鬆</translation>
     </message>
@@ -238,17 +238,17 @@
         <translation>天花板屏幕</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/CeilingScreen.qml" line="37"/>
+        <location filename="../Pages/Media/CeilingScreen.qml" line="36"/>
         <source>On/Off</source>
         <translation>開關</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/CeilingScreen.qml" line="65"/>
+        <location filename="../Pages/Media/CeilingScreen.qml" line="63"/>
         <source>Source</source>
         <translation>輸入</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/CeilingScreen.qml" line="93"/>
+        <location filename="../Pages/Media/CeilingScreen.qml" line="90"/>
         <source>Ok</source>
         <translation>好</translation>
     </message>
@@ -269,27 +269,27 @@
         <translation>窗簾</translation>
     </message>
     <message>
-        <location filename="../Pages/Curtains/Curtains.qml" line="32"/>
+        <location filename="../Pages/Curtains/Curtains.qml" line="34"/>
         <source>First Curtain</source>
         <translation>第一幕</translation>
     </message>
     <message>
-        <location filename="../Pages/Curtains/Curtains.qml" line="36"/>
+        <location filename="../Pages/Curtains/Curtains.qml" line="38"/>
         <source>Second Curtain</source>
         <translation>第二幕</translation>
     </message>
     <message>
-        <location filename="../Pages/Curtains/Curtains.qml" line="40"/>
+        <location filename="../Pages/Curtains/Curtains.qml" line="42"/>
         <source>Third Curtain</source>
         <translation>第三幕</translation>
     </message>
     <message>
-        <location filename="../Pages/Curtains/Curtains.qml" line="44"/>
+        <location filename="../Pages/Curtains/Curtains.qml" line="46"/>
         <source>Fourth Curtain</source>
         <translation>第四幕</translation>
     </message>
     <message>
-        <location filename="../Pages/Curtains/Curtains.qml" line="48"/>
+        <location filename="../Pages/Curtains/Curtains.qml" line="50"/>
         <source>Luggage Curtain</source>
         <translation>行李簾</translation>
     </message>
@@ -302,163 +302,163 @@
         <translation>DVD播放機</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="26"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="28"/>
         <source>OFF</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="33"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="35"/>
         <source>MUTE</source>
         <translation>靜音</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="42"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="44"/>
         <source>MONITOR OFF</source>
         <translation>關閉顯示器</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="46"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="48"/>
         <source>AUDIO</source>
         <translation>音頻</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="50"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="52"/>
         <source>SUBTITLE</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="54"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="56"/>
         <source>ANGLE</source>
         <translation>角度</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="58"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="60"/>
         <source>POSITION</source>
         <translation>位置</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="62"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="64"/>
         <source>EQ</source>
         <translation>均衡器</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="66"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="68"/>
         <source>UP</source>
         <translation>向上</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="73"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="75"/>
         <source>VOL+</source>
         <translation>提高音量</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="80"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="82"/>
         <source>LEFT</source>
         <translation>剩下</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="87"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="89"/>
         <source>ENTER</source>
         <translation>輸入</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="92"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="94"/>
         <source>RIGHT</source>
         <translation>對</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="97"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="99"/>
         <source>DOWN</source>
         <translation>下</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="104"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="106"/>
         <source>VOL-</source>
         <translation>音量減小</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="111"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="113"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="116"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="118"/>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="121"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="123"/>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="126"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="128"/>
         <source>TOP MENU</source>
         <translation>8/5000
 頂部菜單</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="130"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="132"/>
         <source>MENU</source>
         <translation>菜單</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="134"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="136"/>
         <source>4</source>
         <translation>4</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="139"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="141"/>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="144"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="146"/>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="149"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="151"/>
         <source>P.SCAN</source>
         <translation>頁。掃描</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="153"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="155"/>
         <source>SRC</source>
         <translation>輸入</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="157"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="159"/>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="162"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="164"/>
         <source>8</source>
         <translation>8</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="167"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="169"/>
         <source>9</source>
         <translation>9</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="172"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="174"/>
         <source>CHANGE</source>
         <translation>更改</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="176"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="178"/>
         <source>MODE</source>
         <translation>模式</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="180"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="182"/>
         <source>CLEAR</source>
         <translation>明確</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/DVDPlayer.qml" line="184"/>
+        <location filename="../Pages/Media/DVDPlayer.qml" line="186"/>
         <source>0</source>
         <translation>0</translation>
     </message>
@@ -631,7 +631,7 @@
         <translation>第一個座位在前方時，您無法打開濃咖啡</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/Espresso.qml" line="73"/>
+        <location filename="../Pages/Controls/Espresso.qml" line="72"/>
         <source>First Seat Back</source>
         <translation>第一個座位在後面</translation>
     </message>
@@ -878,12 +878,12 @@
         <translation>語言：</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="353"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="368"/>
         <source>Auto Time:</source>
         <translation>自動設置時間：</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="361"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="376"/>
         <source>Auto</source>
         <translation>自動</translation>
     </message>
@@ -979,7 +979,7 @@
 <context>
     <name>LightButton</name>
     <message>
-        <location filename="../Components/LightButton.qml" line="18"/>
+        <location filename="../Components/LightButton.qml" line="17"/>
         <source>Memory 1</source>
         <translation>記憶1</translation>
     </message>
@@ -992,7 +992,6 @@
         <translation>燈火</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="287"/>
         <source>Ceiling Light</source>
         <translation>天花燈</translation>
     </message>
@@ -1001,85 +1000,75 @@
         <translation>側燈</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="301"/>
         <source>Inside Light</source>
         <translation>內光</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="578"/>
+        <location filename="../Pages/Lights/Lights.qml" line="533"/>
         <source>Close All</source>
         <translation>關閉所有</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="588"/>
+        <location filename="../Pages/Lights/Lights.qml" line="546"/>
         <source>Memory 1</source>
         <translation>記憶1</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="609"/>
+        <location filename="../Pages/Lights/Lights.qml" line="567"/>
         <source>Memory 2</source>
         <translation>記憶2</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="630"/>
+        <location filename="../Pages/Lights/Lights.qml" line="588"/>
         <source>Memory 3</source>
         <translation>記憶3</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="663"/>
+        <location filename="../Pages/Lights/Lights.qml" line="621"/>
         <source>Left Reading Light</source>
-        <translation>Left Reading Light</translation>
+        <translation>左侧的阅读灯</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="684"/>
+        <location filename="../Pages/Lights/Lights.qml" line="642"/>
         <source>Right Reading Light</source>
-        <translation>Right Reading Light</translation>
+        <translation>右边的阅读灯</translation>
     </message>
 </context>
 <context>
     <name>Lights_CH</name>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="11"/>
         <source>燈火</source>
         <translation>燈火</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="288"/>
         <source>天花燈</source>
         <translation>天花燈</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="302"/>
         <source>內光</source>
         <translation>內光</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="579"/>
         <source>關閉所有</source>
         <translation>關閉所有</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="589"/>
         <source>記憶1</source>
         <translation>記憶1</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="610"/>
         <source>記憶2</source>
         <translation>記憶2</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="631"/>
         <source>記憶3</source>
         <translation>記憶3</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="664"/>
         <source>左侧的阅读灯</source>
         <translation>左侧的阅读灯</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_CH.qml" line="685"/>
         <source>右边的阅读灯</source>
         <translation>右边的阅读灯</translation>
     </message>
@@ -1087,47 +1076,38 @@
 <context>
     <name>Lights_TR</name>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="12"/>
         <source>Işıklar</source>
         <translation>Işıklar</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="289"/>
         <source>Tavan Aydınlatması</source>
         <translation>Tavan Aydınlatması</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="303"/>
         <source>İç Aydınlatma</source>
         <translation>İç Aydınlatma</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="580"/>
         <source>Hepsini Kapat</source>
         <translation>Hepsini Kapat</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="590"/>
         <source>Hafıza 1</source>
         <translation>Hafıza 1</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="611"/>
         <source>Hafıza 2</source>
         <translation>Hafıza 2</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="632"/>
         <source>Hafıza 3</source>
         <translation>Hafıza 3</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="665"/>
         <source>Sol Okuma Aydınlatması</source>
         <translation>Sol Okuma Aydınlatması</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights_TR.qml" line="686"/>
         <source>Sağ Okuma Aydınlatması</source>
         <translation>Sağ Okuma Aydınlatması</translation>
     </message>
@@ -1268,7 +1248,7 @@
         <translation>HDMI輸入</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/PcHdmi.qml" line="40"/>
+        <location filename="../Pages/Media/PcHdmi.qml" line="39"/>
         <source>On/Off</source>
         <translation>開關</translation>
     </message>
@@ -1452,198 +1432,216 @@
 <context>
     <name>SGlobal</name>
     <message>
-        <location filename="../SGlobal.qml" line="113"/>
+        <location filename="../SGlobal.qml" line="114"/>
         <source>FIRST</source>
         <translation>第一</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="115"/>
+        <location filename="../SGlobal.qml" line="116"/>
         <source>SECOND</source>
         <translation>第二</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="117"/>
+        <location filename="../SGlobal.qml" line="118"/>
         <source>THIRD</source>
         <translation>第三</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="119"/>
+        <location filename="../SGlobal.qml" line="120"/>
         <source>FOURTH</source>
         <translation>第四</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="121"/>
+        <location filename="../SGlobal.qml" line="122"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="197"/>
-        <location filename="../SGlobal.qml" line="671"/>
+        <location filename="../SGlobal.qml" line="198"/>
+        <location filename="../SGlobal.qml" line="683"/>
         <source>Head</source>
         <translation>頭</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="198"/>
+        <location filename="../SGlobal.qml" line="199"/>
         <source>SeatBack</source>
         <translation>椅背</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="199"/>
-        <location filename="../SGlobal.qml" line="681"/>
+        <location filename="../SGlobal.qml" line="200"/>
+        <location filename="../SGlobal.qml" line="693"/>
         <source>Seat</source>
         <translation>座位</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="202"/>
-        <location filename="../SGlobal.qml" line="691"/>
+        <location filename="../SGlobal.qml" line="203"/>
+        <location filename="../SGlobal.qml" line="703"/>
         <source>Drawer</source>
         <translation>抽屜</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="206"/>
-        <location filename="../SGlobal.qml" line="686"/>
+        <location filename="../SGlobal.qml" line="207"/>
+        <location filename="../SGlobal.qml" line="698"/>
         <source>Foot Rest</source>
         <translation>踏板</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="210"/>
+        <location filename="../SGlobal.qml" line="211"/>
         <source>Thigh</source>
         <translation>大腿</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="214"/>
+        <location filename="../SGlobal.qml" line="215"/>
         <source>Seat Heating</source>
         <translation>座椅加熱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="218"/>
+        <location filename="../SGlobal.qml" line="219"/>
         <source>Seat Cooling</source>
         <translation>座椅冷卻</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="222"/>
+        <location filename="../SGlobal.qml" line="223"/>
         <source>Seat Massage</source>
         <translation>座椅按摩</translation>
     </message>
     <message>
+        <location filename="../SGlobal.qml" line="229"/>
+        <location filename="../SGlobal.qml" line="775"/>
+        <source>Ceiling Light</source>
+        <translation>天花燈</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="230"/>
+        <location filename="../SGlobal.qml" line="780"/>
+        <source>Inside Light</source>
+        <translation>內光</translation>
+    </message>
+    <message>
         <location filename="../SGlobal.qml" line="232"/>
-        <location filename="../SGlobal.qml" line="763"/>
+        <location filename="../SGlobal.qml" line="785"/>
+        <source>Side Light</source>
+        <translation>側燈</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="243"/>
+        <location filename="../SGlobal.qml" line="794"/>
         <source>Kodi Player</source>
         <translation>Kodi媒體播放器</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="242"/>
+        <location filename="../SGlobal.qml" line="253"/>
         <source>Apple Tv</source>
         <translation>Apple Tv</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="253"/>
-        <location filename="../SGlobal.qml" line="768"/>
+        <location filename="../SGlobal.qml" line="264"/>
+        <location filename="../SGlobal.qml" line="799"/>
         <source>Playstation</source>
         <translation>遊戲機</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="264"/>
-        <location filename="../SGlobal.qml" line="773"/>
+        <location filename="../SGlobal.qml" line="276"/>
+        <location filename="../SGlobal.qml" line="804"/>
         <source>Docking Stations</source>
         <translation>擴展塢</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="272"/>
-        <location filename="../SGlobal.qml" line="778"/>
+        <location filename="../SGlobal.qml" line="284"/>
+        <location filename="../SGlobal.qml" line="809"/>
         <source>Screen Divider</source>
         <translation>屏幕分隔線</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="279"/>
-        <location filename="../SGlobal.qml" line="783"/>
+        <location filename="../SGlobal.qml" line="291"/>
+        <location filename="../SGlobal.qml" line="814"/>
         <source>Television</source>
         <translation>電視</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="288"/>
-        <location filename="../SGlobal.qml" line="788"/>
+        <location filename="../SGlobal.qml" line="300"/>
+        <location filename="../SGlobal.qml" line="819"/>
         <source>Radio</source>
         <translation>無線電</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="296"/>
-        <location filename="../SGlobal.qml" line="793"/>
+        <location filename="../SGlobal.qml" line="308"/>
+        <location filename="../SGlobal.qml" line="824"/>
         <source>Pc Hdmi</source>
         <translation>HDMI輸入</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="305"/>
+        <location filename="../SGlobal.qml" line="317"/>
         <source>Ceiling Screen</source>
         <translation>天花板屏幕</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="316"/>
+        <location filename="../SGlobal.qml" line="328"/>
         <source>DVD Player</source>
         <translation>DVD播放機</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="329"/>
-        <location filename="../SGlobal.qml" line="703"/>
+        <location filename="../SGlobal.qml" line="341"/>
+        <location filename="../SGlobal.qml" line="715"/>
         <source>Tables</source>
         <translation>表</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="338"/>
-        <location filename="../SGlobal.qml" line="708"/>
+        <location filename="../SGlobal.qml" line="350"/>
+        <location filename="../SGlobal.qml" line="720"/>
         <source>Curtains</source>
         <translation>窗簾</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="348"/>
-        <location filename="../SGlobal.qml" line="713"/>
+        <location filename="../SGlobal.qml" line="360"/>
+        <location filename="../SGlobal.qml" line="725"/>
         <source>Refrigerator</source>
         <translation>冰箱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="358"/>
-        <location filename="../SGlobal.qml" line="718"/>
+        <location filename="../SGlobal.qml" line="370"/>
+        <location filename="../SGlobal.qml" line="730"/>
         <source>Safe Box</source>
         <translation>保險箱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="368"/>
-        <location filename="../SGlobal.qml" line="723"/>
+        <location filename="../SGlobal.qml" line="380"/>
+        <location filename="../SGlobal.qml" line="735"/>
         <source>Air Condition</source>
         <translation>冷气机</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="375"/>
-        <location filename="../SGlobal.qml" line="728"/>
+        <location filename="../SGlobal.qml" line="387"/>
+        <location filename="../SGlobal.qml" line="740"/>
         <source>Smoke Fan</source>
         <translation>煙風扇</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="383"/>
-        <location filename="../SGlobal.qml" line="733"/>
+        <location filename="../SGlobal.qml" line="395"/>
+        <location filename="../SGlobal.qml" line="745"/>
         <source>Windows</source>
         <translation>視窗</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="392"/>
-        <location filename="../SGlobal.qml" line="738"/>
+        <location filename="../SGlobal.qml" line="404"/>
+        <location filename="../SGlobal.qml" line="750"/>
         <source>Bar</source>
         <translation>酒吧</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="402"/>
-        <location filename="../SGlobal.qml" line="743"/>
+        <location filename="../SGlobal.qml" line="414"/>
+        <location filename="../SGlobal.qml" line="755"/>
         <source>Espresso</source>
         <translation>濃咖啡</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="411"/>
-        <location filename="../SGlobal.qml" line="748"/>
+        <location filename="../SGlobal.qml" line="423"/>
+        <location filename="../SGlobal.qml" line="760"/>
         <source>Roof</source>
         <translation>屋頂</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="676"/>
+        <location filename="../SGlobal.qml" line="688"/>
         <source>Back</source>
         <translation>背部</translation>
     </message>
@@ -1669,7 +1667,7 @@
 <context>
     <name>ScreenDivider</name>
     <message>
-        <location filename="../Pages/Media/ScreenDivider.qml" line="9"/>
+        <location filename="../Pages/Media/ScreenDivider.qml" line="10"/>
         <source>SCREEN DIVIDER</source>
         <translation>屏幕分隔線</translation>
     </message>
@@ -1679,12 +1677,12 @@
         <translation>劃分屏幕</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/ScreenDivider.qml" line="98"/>
+        <location filename="../Pages/Media/ScreenDivider.qml" line="97"/>
         <source>Front Camera</source>
         <translation>前置攝像頭</translation>
     </message>
     <message>
-        <location filename="../Pages/Media/ScreenDivider.qml" line="124"/>
+        <location filename="../Pages/Media/ScreenDivider.qml" line="122"/>
         <source>Rear Camera</source>
         <translation>後置攝像頭</translation>
     </message>
@@ -1779,22 +1777,22 @@
         <translation>座位</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/Seats.qml" line="113"/>
+        <location filename="../Pages/Seat/Seats.qml" line="183"/>
         <source>First Seat</source>
         <translation>第一個座位</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/Seats.qml" line="118"/>
+        <location filename="../Pages/Seat/Seats.qml" line="188"/>
         <source>Second Seat</source>
         <translation>第二個座位</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/Seats.qml" line="123"/>
+        <location filename="../Pages/Seat/Seats.qml" line="193"/>
         <source>Third Seat</source>
         <translation>第三個座位</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/Seats.qml" line="128"/>
+        <location filename="../Pages/Seat/Seats.qml" line="198"/>
         <source>Fourth Seat</source>
         <translation>第四個座位</translation>
     </message>
@@ -1886,7 +1884,7 @@
         <translation>煙風扇</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/SmokeFan.qml" line="40"/>
+        <location filename="../Pages/Controls/SmokeFan.qml" line="39"/>
         <source>On/Off</source>
         <translation>開關</translation>
     </message>
@@ -2099,12 +2097,24 @@
         <translation>視窗</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/Windows.qml" line="24"/>
+        <location filename="../Pages/Controls/Windows.qml" line="49"/>
         <source>Left Window</source>
         <translation>左窗口</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/Windows.qml" line="29"/>
+        <location filename="../Pages/Controls/Windows.qml" line="86"/>
+        <location filename="../Pages/Controls/Windows.qml" line="187"/>
+        <source>Open</source>
+        <translation>打开</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Controls/Windows.qml" line="113"/>
+        <location filename="../Pages/Controls/Windows.qml" line="214"/>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Controls/Windows.qml" line="150"/>
         <source>Right Window</source>
         <translation>右窗口</translation>
     </message>

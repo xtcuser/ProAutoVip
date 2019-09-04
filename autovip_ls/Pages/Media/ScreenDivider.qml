@@ -1,3 +1,4 @@
+
 import QtQuick 2.4
 import QtQuick.Controls 2.3
 import QtQuick.Layouts 1.3
@@ -23,7 +24,7 @@ BasePage {
        case 0:
         serial_mng.sendKey("media/ready_divide",true,root.delay);
         serial_mng.sendKey("media/screen_divider",true,root.delay);
-                        main.source="qrc:/design/media/ekran-bolme.svg";
+                        main.source="qrc:/design/media/ekran-bolme.png";
            break;
        case 1:
         serial_mng.sendKey("media/ready_divide",true,root.delay);
@@ -49,7 +50,7 @@ BasePage {
         height:parent.height
     Image{
         id:main
-        source:"qrc:/design/media/ekran-bolme.svg"
+        source:"qrc:/design/media/ekran-bolme.png"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
         sourceSize.height : 300

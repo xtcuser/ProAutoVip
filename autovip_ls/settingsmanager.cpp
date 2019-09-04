@@ -53,6 +53,11 @@ bool SettingsManager::radio()
     return this->general->value("main/radio",false).toBool();
 }
 
+bool SettingsManager::slboolean()
+{
+    return this->general->value("lights/sidelight",false).toBool();
+}
+
 bool SettingsManager::sunroof()
 {
 
@@ -102,6 +107,11 @@ bool SettingsManager::intro()
 {
 
     return this->general->value("main/intro",false).toBool();
+}
+
+bool SettingsManager::sidelight()
+{
+    return this->general->value("lights/sidelight",true).toBool();
 }
 
 void SettingsManager::setActype(uint type)
@@ -273,6 +283,7 @@ bool SettingsManager::init()
     general->setValue("mem3_inside","#FFFFFF");
     general->setValue("white","#FFFFFF");
     general->setValue("sunlight","#FF9B2E");
+    general->setValue("sidelight","true");
     general->endGroup();
 
     this->general->beginGroup("logging");

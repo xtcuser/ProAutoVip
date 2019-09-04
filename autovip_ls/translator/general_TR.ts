@@ -811,7 +811,7 @@ için sistemin yeniden başlatılması gerekir.</translation>
     <name>Lights</name>
     <message>
         <source>Lights</source>
-        <translation>IŞIKLAR</translation>
+        <translation>Işıklar</translation>
     </message>
     <message>
         <source>Ceiling Light</source>
@@ -843,11 +843,11 @@ için sistemin yeniden başlatılması gerekir.</translation>
     </message>
     <message>
         <source>Left Reading Light</source>
-        <translation>Left Reading Light</translation>
+        <translation>Sol Okuma Işığı</translation>
     </message>
     <message>
         <source>Right Reading Light</source>
-        <translation>Right Reading Light</translation>
+        <translation>Sağ Okuma Işığı</translation>
     </message>
 </context>
 <context>
@@ -1329,6 +1329,18 @@ için sistemin yeniden başlatılması gerekir.</translation>
         <source>Back</source>
         <translation>Arka</translation>
     </message>
+    <message>
+        <source>Ceiling Light</source>
+        <translation>Tavan Aydınlatması</translation>
+    </message>
+    <message>
+        <source>Inside Light</source>
+        <translation>İç Aydınlatma</translation>
+    </message>
+    <message>
+        <source>Side Light</source>
+        <translation>Yan Aydınlatma</translation>
+    </message>
 </context>
 <context>
     <name>SafeBox</name>
@@ -1710,6 +1722,14 @@ için sistemin yeniden başlatılması gerekir.</translation>
     <message>
         <source>Right Window</source>
         <translation>Sağ Cam</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Aç</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kapat</translation>
     </message>
 </context>
 <context>

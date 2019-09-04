@@ -43,14 +43,6 @@ Item {
         id:lights
     }
 
-    LightPages.Lights_TR{
-        id:lightstr
-    }
-
-    LightPages.Lights_CH{
-        id:lightsch
-    }
-
     MediaPages.Radio{
         id:radio
     }
@@ -172,14 +164,6 @@ Item {
 
     ControlPages.Windows{
         id:windows
-    }
-
-    ControlPages.LeftWindow{
-        id:leftwindow
-    }
-
-    ControlPages.RightWindow{
-        id:rightwindow
     }
 
     MediaPages.Cameras
@@ -311,8 +295,6 @@ Item {
         GSystem.addPageItem("Controls",controls);
         GSystem.addPageItem("Media",media);
         GSystem.addPageItem("Lights",lights);
-        GSystem.addPageItem("Lights_CH",lightsch);
-        GSystem.addPageItem("Lights_TR",lightstr);
         GSystem.addPageItem("Radio",radio);
         GSystem.addPageItem("RadioManual",radiomanual);
         GSystem.addPageItem("Tables",tables);

@@ -221,8 +221,6 @@
         <file>Pages/Controls/Windows.qml</file>
         <file>design/controls/right-window.png</file>
         <file>design/controls/left-window.png</file>
-        <file>Pages/Controls/LeftWindow.qml</file>
-        <file>Pages/Controls/RightWindow.qml</file>
         <file>design/controls/fan1.png</file>
         <file>Pages/Media/KodiMediaPlayer.qml</file>
         <file>design/media/mediaplayer.png</file>
@@ -255,8 +253,6 @@
         <file>Pages/Settings/MediaSettings.qml</file>
         <file>Pages/Settings/SerialSettings.qml</file>
         <file>Pages/Settings/Settings.qml</file>
-        <file>design/settings/english.svg</file>
-        <file>design/settings/turkish.svg</file>
         <file>design/seats/head.svg</file>
         <file>scripts/mainfuncs.js</file>
         <file>design/general/System.png</file>
@@ -319,11 +315,6 @@
         <file>design/media/ani/cogwhell.svg</file>
         <file>design/media/ani/shadow.svg</file>
         <file>design/media/ani/work.svg</file>
-        <file>design/controls/ani/circle.svg</file>
-        <file>design/controls/ani/cogwheelbig.svg</file>
-        <file>design/controls/ani/cogwheelmid.svg</file>
-        <file>design/controls/ani/cogwheelsmall.svg</file>
-        <file>design/controls/ani/shadow.svg</file>
         <file>Components/AniCogWheel.qml</file>
         <file>Components/AniMedia.qml</file>
         <file>design/general/Door_ps.svg</file>
@@ -390,9 +381,6 @@
         <file>Components/CalibreSettingsButton.qml</file>
         <file>translator/general_CH.qm</file>
         <file>design/settings/chinese.png</file>
-        <file>design/settings/chinese.svg</file>
-        <file>Pages/Lights/Lights_TR.qml</file>
-        <file>Pages/Lights/Lights_CH.qml</file>
         <file>design/general/info.svg</file>
         <file>design/general/Mute_on.svg</file>
         <file>design/general/Mute_off.svg</file>
@@ -400,7 +388,6 @@
         <file>Pages/Settings/SecondSeatHead.qml</file>
         <file>design/radio/dvlogo1.png</file>
         <file>design/media/ani/play.gif</file>
-        <file>design/controls/ani/gears.gif</file>
         <file>design/general/background.png</file>
         <file>design/general/background.webp</file>
         <file>design/general/background.gif</file>
@@ -492,5 +479,11 @@
         <file>design/media/appletv-kumanda/up.png</file>
         <file>design/media/appletv-kumanda/playpause.png</file>
         <file>design/media/appletv-kumanda/click.png</file>
+        <file>design/seats/topview/seats.png</file>
+        <file>design/media/ekran-bolme.png</file>
+        <file>design/media/hdmi.png</file>
+        <file>design/controls/ani/orta.png</file>
+        <file>design/controls/ani/kucuk.png</file>
+        <file>design/controls/ani/buyuk.png</file>
     </qresource>
 </RCC>

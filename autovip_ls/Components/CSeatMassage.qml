@@ -20,8 +20,10 @@ Item{
             anchors.centerIn: parent
             source:"qrc:/design/seats/massage2.png"
             opacity: 0.8
-            width: 300
-            height: 300
+            width: 188
+            height: 282
+            anchors.verticalCenterOffset: 8
+            anchors.horizontalCenterOffset: -6
         }
         Item{
         id:no
@@ -45,15 +47,15 @@ Item{
         anchors.fill: parent
         visible:serial_mng.massagemod === 1
         Image{
-            x:193
-            y:92
+            x:151
+            y:85
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
         }
         Image{
-            x:119
-            y:154
+            x:131
+            y:136
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
@@ -75,16 +77,16 @@ Item{
         anchors.fill: parent
         visible:serial_mng.massagemod === 2
         Image{
-            x:121
-            y:152
+            x:131
+            y:136
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
         }
 
         Image{
-            x:162
-            y:137
+            x:151
+            y:122
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
@@ -107,15 +109,15 @@ Item{
         anchors.fill: parent
         visible:serial_mng.massagemod === 3
         Image{
-            x:199
-            y:91
+            x:151
+            y:85
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
         }
         Image{
-            x:161
-            y:131
+            x:151
+            y:123
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
@@ -138,8 +140,8 @@ Item{
         anchors.fill: parent
         visible:serial_mng.massagemod === 4
         Image{
-            x:114
-            y:131
+            x:97
+            y:129
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
@@ -164,30 +166,30 @@ Item{
         visible:serial_mng.massagemod === 5
 
         Image{
-            x:68
-            y:178
+            x:75
+            y:180
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
         }
         Image{
-            x:129
-            y:147
+            x:132
+            y:137
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
         }
 
         Image{
-            x:185
-            y:105
+            x:152
+            y:85
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
         }
         Image{
-            x:206
-            y:71
+            x:165
+            y:59
             rotation: -50
             source:"qrc:/design/seats/pointer.png"
             width:32
@@ -211,8 +213,8 @@ Item{
         anchors.fill: parent
         visible:serial_mng.massagemod === 6
         Image{
-            x:200
-            y:96
+            x:152
+            y:85
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit
@@ -236,8 +238,8 @@ Item{
         anchors.fill: parent
         visible:serial_mng.massagemod === 7
         Image{
-            x:138
-            y:154
+            x:132
+            y:137
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit

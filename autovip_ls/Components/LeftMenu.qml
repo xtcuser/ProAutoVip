@@ -9,7 +9,7 @@ Rectangle{
             x:0
             clip: true
             anchors.verticalCenter: parent.verticalCenter
-            anchors.verticalCenterOffset: 20
+            anchors.verticalCenterOffset: 32
             property alias delegate: mview.delegate
             property alias model: mview.model
             PathView{

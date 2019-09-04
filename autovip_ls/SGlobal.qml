@@ -52,6 +52,7 @@ Item {
     property alias oneSeatRightModel: oneSeatRightModel
     property alias mediaModel: mediaModel
     property alias controlsModel: controlsModel
+    property alias lightsModel: lightsModel
     property Item info;
 
     onLangChanged: function(){
@@ -222,6 +223,16 @@ Item {
             oneSeatRightModel.append({name:qsTr("Seat Massage"),st:"SeatMassage"});
         }
     }
+
+    function createLightsModel(){
+        lightsModel.clear();
+        lightsModel.append({name:qsTr("Ceiling Light"),target:1,selected:false});
+        lightsModel.append({name:qsTr("Inside Light"),target:2,selected:false});
+        if(SM.slboolean === true){
+            lightsModel.append({name:qsTr("Side Light"),target:3,selected:false});
+        }
+    }
+
     function createMediaModel()
     {
         mediaModel.clear();
@@ -257,6 +268,7 @@ Item {
                     }
                     );
         }
+
         if(SM.dockingstation === true)
         {
         mediaModel.append(
@@ -623,10 +635,6 @@ Item {
             ,
                 "Windows"
             ,
-                "LeftWindow"
-            ,
-                "RightWindow"
-            ,
                 "Settings"
             ,
                 "GeneralSettings"
@@ -756,6 +764,25 @@ ListModel {
             text: qsTr(model.name) + mytrans.emptyString
         }
     }
+
+ListModel{
+    id: lightsModel
+    ListElement{
+        name:QT_TR_NOOP("Ceiling Light")
+        target:1
+        selected:false
+    }
+    ListElement{
+        name:QT_TR_NOOP("Inside Light")
+        target:2
+        selected:false
+    }
+    ListElement{
+        name:QT_TR_NOOP("Side Light")
+        target:3
+        selected:false
+    }
+}
 
 ListModel {
     id: mediaModel
@@ -953,11 +980,11 @@ ListModel {
     }
     Timer {
         id:ccheck
-        interval: 3000;
+        interval: 7000;
         running: true;
-        repeat: true
+        repeat: false
         onTriggered: function(){
-            if(serial_mng.systemstate != 1)
+            if(serial_mng.systemstate !== 1)
             {
                 serial_mng.sendKey("main/system_request");
                 serial_mng.sendKey("main/setclock",false,root.delay,(Qt.formatDateTime(new Date(), "h")*1 + smngr.value("main/hourdiff")*1)+ ":" + (Qt.formatDateTime(new Date(), "m")*1 + smngr.value("main/mindiff")*1));
