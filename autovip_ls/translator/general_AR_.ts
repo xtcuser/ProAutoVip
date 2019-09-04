@@ -805,14 +805,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Ceiling Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Inside Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Close All</source>
         <translation type="unfinished"></translation>
     </message>
@@ -834,84 +826,6 @@
     </message>
     <message>
         <source>Right Reading Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>Lights_CH</name>
-    <message>
-        <source>燈火</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>天花燈</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>內光</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>關閉所有</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>記憶1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>記憶2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>記憶3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>左侧的阅读灯</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>右边的阅读灯</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>Lights_TR</name>
-    <message>
-        <source>Işıklar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Tavan Aydınlatması</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>İç Aydınlatma</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hepsini Kapat</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hafıza 1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hafıza 2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hafıza 3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sol Okuma Aydınlatması</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sağ Okuma Aydınlatması</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1316,6 +1230,18 @@
         <source>Back</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Ceiling Light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inside Light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Side Light</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SafeBox</name>
@@ -1696,6 +1622,14 @@
     </message>
     <message>
         <source>Right Window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

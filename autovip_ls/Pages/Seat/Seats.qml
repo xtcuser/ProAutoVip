@@ -25,59 +25,129 @@ BasePage {
     }
     Image{
         id: seatsimg
-        anchors.centerIn: parent
-        width:580
-        source:"qrc:/design/seats/seats_bg.png"
+//        anchors.centerIn: parent
+        anchors.verticalCenter: parent.verticalCenter
+        x:250
+        width:700
+        source:"qrc:/design/seats/topview/seats.png"
         fillMode: Image.PreserveAspectFit
             Image{
                 id:one
-                x:340
-                y:122
+                x:296
+                y:88
                 source:"qrc:/design/general/one.svg"
                 sourceSize.height: 55
                 fillMode: Image.PreserveAspectFit
-                MouseArea{
-                    anchors.fill: parent
-                    onClicked: selectSeat(1)
-                }
             }
             Image{
                 id:two
-                x:390
-                y:159
+                x:296
+                y:199
                 source:"qrc:/design/general/two.svg"
                 sourceSize.height: 55
                 fillMode: Image.PreserveAspectFit
-                MouseArea{
-                    anchors.fill: parent
-                    onClicked: selectSeat(2)
-                }
             }
             Image{
                 id:three
-                x:161
-                y:134
+                x:136
+                y:96
                 source:"qrc:/design/general/three.svg"
                 sourceSize.height: 55
                 fillMode: Image.PreserveAspectFit
-                MouseArea{
-                    anchors.fill: parent
-                    onClicked: selectSeat(3)
-                }
             }
             Image{
                 id:four
-                x:205
-                y:165
+                x:136
+                y:194
                 source:"qrc:/design/general/four.svg"
                 sourceSize.height: 55
                 fillMode: Image.PreserveAspectFit
+            }
+
+            Rectangle {
+                id: firstoverlay
+                x: 285
+                y: 80
+                width: 91
+                height: 71
+                color: "transparent"
+                radius: 20
+                opacity: 0.35
                 MouseArea{
+                    anchors.rightMargin: 0
+                    anchors.bottomMargin: 0
+                    anchors.leftMargin: 0
+                    anchors.topMargin: 0
                     anchors.fill: parent
-                    onClicked: selectSeat(4)
+                    onClicked: selectSeat(1)
+                    onPressed: firstoverlay.color = "#db0000"
+                    onReleased: firstoverlay.color = "transparent"
                 }
             }
-        }
+
+            Rectangle {
+                id: secondoverlay
+                x: 285
+                y: 194
+                width: 91
+                height: 71
+                color: "transparent"
+                radius: 20
+                opacity: 0.35
+                MouseArea{
+                    anchors.rightMargin: 0
+                    anchors.bottomMargin: 0
+                    anchors.leftMargin: 0
+                    anchors.topMargin: 0
+                    anchors.fill: parent
+                    onClicked: selectSeat(2)
+                    onPressed: secondoverlay.color = "#db0000"
+                    onReleased: secondoverlay.color = "transparent"
+                }
+            }
+
+            Rectangle {
+                id: thirdoverlay
+                x: 80
+                y: 88
+                width: 106
+                height: 71
+                color: "transparent"
+                radius: 20
+                opacity: 0.35
+                MouseArea{
+                    anchors.rightMargin: 0
+                    anchors.bottomMargin: 0
+                    anchors.leftMargin: 0
+                    anchors.topMargin: 0
+                    anchors.fill: parent
+                    onClicked: selectSeat(3)
+                    onPressed: thirdoverlay.color = "#db0000"
+                    onReleased: thirdoverlay.color = "transparent"
+                }
+            }
+
+            Rectangle {
+                id: fourthoverlay
+                x: 80
+                y: 186
+                width: 106
+                height: 71
+                color: "transparent"
+                radius: 20
+                opacity: 0.35
+                MouseArea{
+                    anchors.rightMargin: 0
+                    anchors.bottomMargin: 0
+                    anchors.leftMargin: 0
+                    anchors.topMargin: 0
+                    anchors.fill: parent
+                    onClicked: selectSeat(4)
+                    onPressed: fourthoverlay.color = "#db0000"
+                    onReleased: fourthoverlay.color = "transparent"
+                }
+            }
+    }
     LeftTextMenu{
             id:leftMenu
             model:seatsModel

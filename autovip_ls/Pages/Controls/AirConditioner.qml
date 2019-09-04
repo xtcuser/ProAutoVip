@@ -32,13 +32,13 @@ BasePage {
                             switch(SM.actype)
                             {
                                 case 1:
-                                    if(serial_mng.fandeg != 7)
+                                    if(serial_mng.fandeg !== 7)
                                     {
                                         serial_mng.fandeg++;
                                     }
                                 break;
                                 case 2:
-                                    if(serial_mng.fandeg != 5)
+                                    if(serial_mng.fandeg !== 5)
                                     {
                                         serial_mng.fandeg++;
                                     }
@@ -51,13 +51,13 @@ BasePage {
                             switch(SM.actype)
                             {
                                 case 1:
-                                    if(serial_mng.fandeg != 0)
+                                    if(serial_mng.fandeg !== 0)
                                     {
                                         serial_mng.fandeg--;
                                     }
                                 break;
                                 case 2:
-                                    if(serial_mng.fandeg != 0)
+                                    if(serial_mng.fandeg !== 0)
                                     {
                                         serial_mng.fandeg--;
                                     }
@@ -265,7 +265,7 @@ Item{
                         id: c_level1
                         width: 15
                         height: 10
-                        color: serial_mng.fandeg == 0?"gray":GSystem.leftTextMenuItemPressedColor
+                        color: serial_mng.fandeg === 0?"gray":GSystem.leftTextMenuItemPressedColor
                         radius: 2
                         Layout.alignment: Qt.AlignBottom
 
@@ -406,7 +406,7 @@ Item{
                         id:mb_level1
                         width: 15
                         height: 10
-                        color: serial_mng.fandeg == 0?"gray":GSystem.leftTextMenuItemPressedColor
+                        color: serial_mng.fandeg === 0?"gray":GSystem.leftTextMenuItemPressedColor
                         radius: 2
                         Layout.alignment: Qt.AlignBottom
 
@@ -521,7 +521,7 @@ Item{
         Text{
             id: degreeText
             font.pointSize: 60
-            text: ((serial_mng.acdeg < 13) ? (serial_mng.acdeg != -1) ? (serial_mng.acdeg > 0) ? (serial_mng.acdeg+15) + "°" : "LO" : "OFF" : "HI")
+            text: ((serial_mng.acdeg < 13) ? (serial_mng.acdeg !== -1) ? (serial_mng.acdeg > 0) ? (serial_mng.acdeg+15) + "°" : "LO" : "OFF" : "HI")
             color:"white"
         }
     }
@@ -554,10 +554,10 @@ Item{
                     MouseArea{
                         anchors.fill: parent
                         onPressed: {
-                            if(SM.actype == 1)
+                            if(SM.actype === 1)
                             {
                                 serial_mng.sendKey("controls/can_ai_degree_up");
-                            }else if(SM.actype == 2)
+                            }else if(SM.actype === 2)
                             {
                                 serial_mng.sendKey("controls/modbus_ai_degree_up");
                             }

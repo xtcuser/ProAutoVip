@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
     //QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication app(argc, argv);
     qputenv("QT_QUICK_CONTROLS_STYLE", "material");
+//    qputenv("QSG_RENDER_LOOP", "basic"); // PC ANIMATION
     changeCD();
     QQmlApplicationEngine engine;
     qDebug()<<"apps created"<<endl;
@@ -63,7 +64,7 @@ int main(int argc, char *argv[])
          return -1;
     }
     	qDebug()<<"init successful"<<endl;
-    CronJobs cjobs;
+//    CronJobs cjobs;
     UpdateCheck updatecheck;
     return app.exec();
 }

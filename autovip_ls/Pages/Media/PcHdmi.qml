@@ -11,7 +11,7 @@ BasePage {
 
     Image{
         id:image
-        source:"qrc:/design/media/ikon-PC.svg"
+        source:"qrc:/design/media/hdmi.png"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
         sourceSize.width: 400

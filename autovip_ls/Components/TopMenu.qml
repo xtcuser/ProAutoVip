@@ -103,14 +103,7 @@ Image {
                             onClicked: function(){
                                 console.log("lights clicked");
                                 GSystem.state = "Lights";
-                                if(smanager.lang==125){
-                                GSystem.changePage("Lights_TR");
-                                }else if (smanager.lang==25)
-                                {
-                                    GSystem.changePage("Lights_CH");
-                                }else{
-                                    GSystem.changePage("Lights");
-                                }
+                                GSystem.changePage("Lights");
                             }
                     }
 

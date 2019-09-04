@@ -33,6 +33,7 @@ class SettingsManager : public QObject
     Q_PROPERTY(uint tvtype READ tvtype)
 
     Q_PROPERTY(bool playstation READ playstation)
+    Q_PROPERTY(bool slboolean READ slboolean)
     Q_PROPERTY(bool dockingstation READ dockingstation)
     Q_PROPERTY(bool twodoor READ twodoor)
     Q_PROPERTY(bool refrigerator READ regrigerator)
@@ -58,6 +59,7 @@ public:
     bool twodoor();
     bool regrigerator();
     bool radio();
+    bool slboolean();
     bool sunroof();
     bool espresso();
     bool bar();
@@ -83,6 +85,7 @@ Q_INVOKABLE uint mediaplayertype();
 
 
 Q_INVOKABLE  QVariant value(QString key);
+Q_INVOKABLE  bool sidelight();
 Q_INVOKABLE  bool seatHeating(int seat_no);
 Q_INVOKABLE  bool seatCooling(int seat_no);
 Q_INVOKABLE  bool seatMassage(int seat_no);

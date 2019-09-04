@@ -230,15 +230,19 @@ BasePage {
                     Rectangle
                     {
                         id:languageRectangle
-                        width:80
+                        width:120
                         height:80
                         color: "transparent"
+                        border.width: 2
+                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
                         Image{
                             id:turkish
                             source:"qrc:/design/settings/turkish.png"
                             sourceSize.height: 80
+                            sourceSize.width: 120
+                            width: 120
                             height: 80
-                            fillMode: Image.PreserveAspectFit
+                            fillMode: Image.Stretch
                             antialiasing: true
                             smooth: true
                             opacity: smanager.lang==125 ? 1 : 0.2
@@ -266,18 +270,25 @@ BasePage {
 
 
                     Rectangle{
-                        width:80
+                        id: rectangle
+                        width:120
                         height:80
                         color: "transparent"
+                        border.width: 2
+                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
                         Image{
                             id:english
+                            x: 0
+                            y: 0
                             source:"qrc:/design/settings/english.png"
                             sourceSize.height: 80
+                            sourceSize.width: 120
+                            width: 120
                             height:80
                             opacity: smanager.lang==31 ? 1 : 0.2
-                            fillMode: Image.PreserveAspectFit
+                            fillMode: Image.Stretch
                             MouseArea{
-                            anchors.fill: parent
+                                anchors.fill: parent
                             onClicked: {
                                 SM.lang = MyLang.ENG
                                 chinese.opacity = 0.2
@@ -300,15 +311,19 @@ BasePage {
 
                     Rectangle{
                         id:chRectangle
-                        width:80
+                        width:120
                         height:80
                         color: "transparent"
+                        border.width: 2
+                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
                         Image{
                             id:chinese
                             source:"qrc:/design/settings/chinese.png"
                             sourceSize.height: 80
+                            sourceSize.width: 120
+                            width: 120
                             height:80
-                            fillMode: Image.PreserveAspectFit
+                            fillMode: Image.Stretch
                             antialiasing: true
                             smooth: true
                             opacity: smanager.lang==25 ? 1 : 0.2
@@ -376,3 +391,8 @@ BasePage {
 
 
 
+
+/*##^## Designer {
+    D{i:33;anchors_y:0}
+}
+ ##^##*/
