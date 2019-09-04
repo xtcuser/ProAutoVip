@@ -14,7 +14,7 @@
 #include "updatecheck.h"
 #include "restarter.h"
 #include <QDir>
-//#include <nvidiaconnmanager.h>
+#include <nvidiaconnmanager.h>
 
 bool changeCD()
 {
@@ -55,16 +55,19 @@ int main(int argc, char *argv[])
     imng.setSerialMng(&smng);
 
     // instantiating an NvidiaConnManager object
-//    NvidiaConnManager nvidiaConnManager(1234, &smng);
+    NvidiaConnManager nvidiaConnManager(1234, &smng);
+    engine.rootContext()->setContextProperty("nvidia_conn_manager", &nvidiaConnManager);
 
     qDebug()<<"init createcreated"<<endl;
     if(imng.init() == false)
     {
-    	qDebug()<<"init unsuccessful"<<endl;
+        qDebug()<<"init unsuccessful"<<endl;
          return -1;
     }
-    	qDebug()<<"init successful"<<endl;
+
+    qDebug()<<"init successful"<<endl;
 //    CronJobs cjobs;
+//    CronJobsMgr cronJobsMgr;
     UpdateCheck updatecheck;
     return app.exec();
 }

@@ -20,19 +20,26 @@ class NvidiaConnManager: public QObject
     QWebSocketServer *webSocketServer;
     QList<QWebSocket *> clients;
     SerialMng* serial_mng;
-    QColor lastUserColor;               // last color the user chose
+    QJsonObject stateObject {};
+
+private:
+    void initializeStateObject();
 public:
     NvidiaConnManager(quint16 port, SerialMng *serial_mng , QObject * parent = nullptr);
     //virtual ~NvidiaConnManager();
 
 signals:
     void closed();
+    void stateJsonUpdatedSignal(QString ID, QString value);
     //void sendSuggestion(QString suggestion);        //suggestion based on emotional analysis performed by AI
 
 private slots:
     void onNewConnection();
     void processMessage(const QString &message);
     void socketDisconnected();
+
+public slots:
+    void stateJsonUpdated(QString ID, QString value);
 
 };
 

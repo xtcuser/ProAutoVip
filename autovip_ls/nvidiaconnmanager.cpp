@@ -1,5 +1,5 @@
 #include "nvidiaconnmanager.h"
-
+#include <QColor>
 
 NvidiaConnManager::NvidiaConnManager(quint16 port, SerialMng *serial_mng, QObject *parent):
     QObject(parent),
@@ -19,7 +19,26 @@ NvidiaConnManager::NvidiaConnManager(quint16 port, SerialMng *serial_mng, QObjec
                 &NvidiaConnManager::onNewConnection);
     }
 
+    this->initializeStateObject();
+
 }
+
+void NvidiaConnManager::initializeStateObject(){
+    stateObject["CeilColor"] = serial_mng->ceilingcolor().name();
+    stateObject["InsideColor"] = serial_mng->insidecolor().name();
+    stateObject["SideColor"] = serial_mng->sidecolor().name();
+
+    connect(this->serial_mng, &SerialMng::ceilingcolorChanged, [this](QColor color){
+        this->stateObject["CeilColor"] = color.name();  });
+
+    connect(this->serial_mng, &SerialMng::insidecolorChanged, [this](QColor color){
+        this->stateObject["insidecolorChanged"] = color.name(); });
+
+    connect(this->serial_mng, &SerialMng::sidecolorChanged, [this](QColor color){
+        this->stateObject["sidecolor"] = color.name(); });
+
+}
+
 
 void NvidiaConnManager::onNewConnection()
 {
@@ -43,36 +62,25 @@ void NvidiaConnManager::processMessage(const QString &message)
     if (message == "blue")
     {
         QColor color(Qt::blue);
-        if (color != this->lastUserColor)
-            lastUserColor = this->serial_mng->ceilingcolor();
         this->serial_mng->setCeilingcolor(color);
     }
     else if (message == "red")
     {
         QColor color(Qt::red);
-        if (color != this->lastUserColor)
-            lastUserColor = this->serial_mng->ceilingcolor();
         this->serial_mng->setCeilingcolor(color);
     }
     else if (message == "green")
     {
         QColor color(Qt::green);
-        if (color != this->lastUserColor)
-            lastUserColor = this->serial_mng->ceilingcolor();
         this->serial_mng->setCeilingcolor(color);
     }
     else if (message == "yellow")
     {
         QColor color(Qt::yellow);
-        if (color != this->lastUserColor)
-            lastUserColor = this->serial_mng->ceilingcolor();
         this->serial_mng->setCeilingcolor(color);
     }
-    else if (message =="reset_color")
-    {
-        this->serial_mng->setCeilingcolor(lastUserColor);
-    }
     qDebug() << clients.size();
+    qDebug()<<(this->stateObject);
 }
 
 void NvidiaConnManager::socketDisconnected()
@@ -84,5 +92,14 @@ void NvidiaConnManager::socketDisconnected()
         clients.removeAll(client_ptr);
         client_ptr->deleteLater();
     }
+
+}
+
+
+void NvidiaConnManager::stateJsonUpdated(QString ID, QString value)
+{
+    stateObject[ID] = value;
+//    qDebug() <<"state json updated " + ID +" " + value;
+    qDebug() <<"stateJsonObject: " << stateObject;
 
 }
