@@ -1618,19 +1618,25 @@ Window {
 
             }
             TableView {
-                width: 770
+                width: 800
                 height: 450
                 anchors.centerIn: infomenu
+                horizontalScrollBarPolicy : Qt.ScrollBarAlwaysOff
+                verticalScrollBarPolicy : Qt.ScrollBarAlwaysOff
 
                 TableViewColumn {
                     role: "command"
                     title: qsTr("Command") + mytrans.emptyString
-                    width: 350
+                    width: 400
+                    movable: false
+                    resizable: false
                 }
                 TableViewColumn {
                     role: "action"
                     title: qsTr("Action") + mytrans.emptyString
                     width: 400
+                    movable: false
+                    resizable: false
                 }
                 model: libraryModel
 
