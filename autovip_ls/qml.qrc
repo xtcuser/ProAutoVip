@@ -309,10 +309,6 @@
         <file>design/media/leftmenu/appletv.png</file>
         <file>design/general/volumedown.svg</file>
         <file>design/media/ani/camera.svg</file>
-        <file>design/media/ani/circle.svg</file>
-        <file>design/media/ani/cogwhell.svg</file>
-        <file>design/media/ani/shadow.svg</file>
-        <file>design/media/ani/work.svg</file>
         <file>Components/AniCogWheel.qml</file>
         <file>Components/AniMedia.qml</file>
         <file>design/general/Door_ps.svg</file>
@@ -380,7 +376,6 @@
         <file>Pages/Settings/FirstSeatHead.qml</file>
         <file>Pages/Settings/SecondSeatHead.qml</file>
         <file>design/radio/dvlogo1.png</file>
-        <file>design/media/ani/play.gif</file>
         <file>design/general/background.png</file>
         <file>design/general/background.webp</file>
         <file>design/general/background.gif</file>
@@ -475,13 +470,14 @@
         <file>design/seats/topview/seats.png</file>
         <file>design/media/ekran-bolme.png</file>
         <file>design/media/hdmi.png</file>
-        <file>design/controls/ani/orta.png</file>
-        <file>design/controls/ani/kucuk.png</file>
-        <file>design/controls/ani/buyuk.png</file>
         <file>design/general/five.png</file>
         <file>design/general/two.png</file>
         <file>design/general/three.png</file>
         <file>design/general/one.png</file>
         <file>design/general/four.png</file>
+        <file>design/controls/ani/orta.svg</file>
+        <file>design/controls/ani/kucuk.svg</file>
+        <file>design/controls/ani/buyuk.svg</file>
+        <file>design/media/ani/cark.svg</file>
     </qresource>
 </RCC>

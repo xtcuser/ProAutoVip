@@ -16,28 +16,30 @@ Item {
 //        }
         Image{
             id:cw1
-            x:100 * root.cscale
+            x: 140
             y: 10 * root.cscale
             sourceSize.width: 140 * root.cscale
             sourceSize.height: 140 * root.cscale
-            source:"qrc:/design/controls/ani/buyuk.png"
+            source:"qrc:/design/controls/ani/buyuk.svg"
         }
 
         Image{
             id:cw2
-            x:20 * root.cscale
-            y: 100 * root.cscale
+            x: 40
+            y: 80
             sourceSize.width:  100 * root.cscale
             sourceSize.height: 100 * root.cscale
-            source:"qrc:/design/controls/ani/orta.png"
+            source:"qrc:/design/controls/ani/orta.svg"
         }
         Image{
             id:cw3
-            x: 98 * root.cscale
-            y: 140 * root.cscale
+            x: 140
+            y: 160
+            width: 65
+            height: 65
             sourceSize.width:  100*root.cscale
             sourceSize.height: 100*root.cscale
-            source:"qrc:/design/controls/ani/kucuk.png"
+            source:"qrc:/design/controls/ani/kucuk.svg"
         }
 //    }
 
