@@ -479,5 +479,9 @@
         <file>design/controls/ani/kucuk.svg</file>
         <file>design/controls/ani/buyuk.svg</file>
         <file>design/media/ani/cark.svg</file>
+        <file>design/seats/overlays/back.svg</file>
+        <file>design/seats/overlays/feat.svg</file>
+        <file>design/seats/overlays/head.svg</file>
+        <file>design/seats/overlays/seat.svg</file>
     </qresource>
 </RCC>

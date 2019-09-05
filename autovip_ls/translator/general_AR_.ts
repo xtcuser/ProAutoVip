@@ -898,6 +898,10 @@
         <source>OFF</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Footrest</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PcHdmi</name>

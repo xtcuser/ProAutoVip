@@ -1027,6 +1027,10 @@ için sistemin yeniden başlatılması gerekir.</translation>
         <source>OFF</source>
         <translation>OFF</translation>
     </message>
+    <message>
+        <source>Footrest</source>
+        <translation>Ayak Standı</translation>
+    </message>
 </context>
 <context>
     <name>PcHdmi</name>

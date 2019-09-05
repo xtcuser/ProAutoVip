@@ -1153,83 +1153,88 @@
 <context>
     <name>OneSeat</name>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="166"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="172"/>
         <source>Head</source>
         <translation>頭</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="182"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="566"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="188"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="589"/>
         <source>↑</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="213"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="597"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="221"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="620"/>
         <source>↓</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="245"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="255"/>
         <source>Seat Back</source>
         <translation>椅背</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="261"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="340"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="419"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="271"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="354"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="437"/>
         <source>←</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="292"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="370"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="450"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="304"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="386"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="470"/>
         <source>→</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="324"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="338"/>
         <source>Seat</source>
         <translation>座位</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="403"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="421"/>
         <source>Drawer</source>
         <translation>抽屜</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="550"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="421"/>
+        <source>Footrest</source>
+        <translation type="unfinished">踏板</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Seat/OneSeat.qml" line="573"/>
         <source>Thigh</source>
         <translation>大腿</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="639"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="663"/>
         <source>Seat Cooling</source>
         <translation>座椅冷卻</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="737"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="762"/>
         <source>Seat Heating</source>
         <translation>座椅加熱</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="833"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="859"/>
         <source>Seat Massage</source>
         <translation>座椅按摩</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="833"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="859"/>
         <source>Done</source>
         <translation>好的</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="854"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="880"/>
         <source>ON</source>
         <translation>開</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="854"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="880"/>
         <source>OFF</source>
         <translation>关闭</translation>
     </message>
@@ -1446,7 +1451,7 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="198"/>
-        <location filename="../SGlobal.qml" line="675"/>
+        <location filename="../SGlobal.qml" line="676"/>
         <source>Head</source>
         <translation>頭</translation>
     </message>
@@ -1457,19 +1462,19 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="200"/>
-        <location filename="../SGlobal.qml" line="685"/>
+        <location filename="../SGlobal.qml" line="686"/>
         <source>Seat</source>
         <translation>座位</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="203"/>
-        <location filename="../SGlobal.qml" line="695"/>
+        <location filename="../SGlobal.qml" line="696"/>
         <source>Drawer</source>
         <translation>抽屜</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="207"/>
-        <location filename="../SGlobal.qml" line="690"/>
+        <location filename="../SGlobal.qml" line="691"/>
         <source>Foot Rest</source>
         <translation>踏板</translation>
     </message>
@@ -1495,25 +1500,25 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="229"/>
-        <location filename="../SGlobal.qml" line="767"/>
+        <location filename="../SGlobal.qml" line="768"/>
         <source>Ceiling Light</source>
         <translation>天花燈</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="230"/>
-        <location filename="../SGlobal.qml" line="772"/>
+        <location filename="../SGlobal.qml" line="773"/>
         <source>Inside Light</source>
         <translation>內光</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="232"/>
-        <location filename="../SGlobal.qml" line="777"/>
+        <location filename="../SGlobal.qml" line="778"/>
         <source>Side Light</source>
         <translation>側燈</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="243"/>
-        <location filename="../SGlobal.qml" line="786"/>
+        <location filename="../SGlobal.qml" line="787"/>
         <source>Kodi Player</source>
         <translation>Kodi媒體播放器</translation>
     </message>
@@ -1524,37 +1529,37 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="264"/>
-        <location filename="../SGlobal.qml" line="791"/>
+        <location filename="../SGlobal.qml" line="792"/>
         <source>Playstation</source>
         <translation>遊戲機</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="276"/>
-        <location filename="../SGlobal.qml" line="796"/>
+        <location filename="../SGlobal.qml" line="797"/>
         <source>Docking Stations</source>
         <translation>擴展塢</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="284"/>
-        <location filename="../SGlobal.qml" line="801"/>
+        <location filename="../SGlobal.qml" line="802"/>
         <source>Screen Divider</source>
         <translation>屏幕分隔線</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="291"/>
-        <location filename="../SGlobal.qml" line="806"/>
+        <location filename="../SGlobal.qml" line="807"/>
         <source>Television</source>
         <translation>電視</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="300"/>
-        <location filename="../SGlobal.qml" line="811"/>
+        <location filename="../SGlobal.qml" line="812"/>
         <source>Radio</source>
         <translation>無線電</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="308"/>
-        <location filename="../SGlobal.qml" line="816"/>
+        <location filename="../SGlobal.qml" line="817"/>
         <source>Pc Hdmi</source>
         <translation>HDMI輸入</translation>
     </message>
@@ -1570,66 +1575,66 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="341"/>
-        <location filename="../SGlobal.qml" line="707"/>
+        <location filename="../SGlobal.qml" line="708"/>
         <source>Tables</source>
         <translation>表</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="350"/>
-        <location filename="../SGlobal.qml" line="712"/>
+        <location filename="../SGlobal.qml" line="713"/>
         <source>Curtains</source>
         <translation>窗簾</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="360"/>
-        <location filename="../SGlobal.qml" line="717"/>
+        <location filename="../SGlobal.qml" line="718"/>
         <source>Refrigerator</source>
         <translation>冰箱</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="370"/>
-        <location filename="../SGlobal.qml" line="722"/>
+        <location filename="../SGlobal.qml" line="723"/>
         <source>Safe Box</source>
         <translation>保險箱</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="380"/>
-        <location filename="../SGlobal.qml" line="727"/>
+        <location filename="../SGlobal.qml" line="728"/>
         <source>Air Condition</source>
         <translation>冷气机</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="387"/>
-        <location filename="../SGlobal.qml" line="732"/>
+        <location filename="../SGlobal.qml" line="733"/>
         <source>Smoke Fan</source>
         <translation>煙風扇</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="395"/>
-        <location filename="../SGlobal.qml" line="737"/>
+        <location filename="../SGlobal.qml" line="738"/>
         <source>Windows</source>
         <translation>視窗</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="404"/>
-        <location filename="../SGlobal.qml" line="742"/>
+        <location filename="../SGlobal.qml" line="743"/>
         <source>Bar</source>
         <translation>酒吧</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="414"/>
-        <location filename="../SGlobal.qml" line="747"/>
+        <location filename="../SGlobal.qml" line="748"/>
         <source>Espresso</source>
         <translation>濃咖啡</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="423"/>
-        <location filename="../SGlobal.qml" line="752"/>
+        <location filename="../SGlobal.qml" line="753"/>
         <source>Roof</source>
         <translation>屋頂</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="680"/>
+        <location filename="../SGlobal.qml" line="681"/>
         <source>Back</source>
         <translation>背部</translation>
     </message>
@@ -2131,2832 +2136,2832 @@
         <translation>autovip</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="189"/>
+        <location filename="../main.qml" line="196"/>
         <source>First table open</source>
         <translation>弹出第一桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="190"/>
+        <location filename="../main.qml" line="197"/>
         <source>Opens the First Table</source>
         <translation>弹出第一桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="193"/>
+        <location filename="../main.qml" line="200"/>
         <source>First table close</source>
         <translation>收回第一桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="194"/>
+        <location filename="../main.qml" line="201"/>
         <source>Closes the First Table</source>
         <translation>收回第一桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="197"/>
+        <location filename="../main.qml" line="204"/>
         <source>Second table open</source>
         <translation>弹出第二桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="198"/>
+        <location filename="../main.qml" line="205"/>
         <source>Opens the Second Table</source>
         <translation>弹出第二桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="201"/>
+        <location filename="../main.qml" line="208"/>
         <source>Second table close</source>
         <translation>收回第二桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="202"/>
+        <location filename="../main.qml" line="209"/>
         <source>Closes the Second Table</source>
         <translation>收回第二桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="205"/>
+        <location filename="../main.qml" line="212"/>
         <source>Third table open</source>
         <translation>弹出第三桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="206"/>
+        <location filename="../main.qml" line="213"/>
         <source>Opens the Third Table</source>
         <translation>弹出第三桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="209"/>
+        <location filename="../main.qml" line="216"/>
         <source>Third table close</source>
         <translation>收回第三桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="210"/>
+        <location filename="../main.qml" line="217"/>
         <source>Closes the Third Table</source>
         <translation>收回第三桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="213"/>
+        <location filename="../main.qml" line="220"/>
         <source>Fourth table open</source>
         <translation>弹出第四桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="214"/>
+        <location filename="../main.qml" line="221"/>
         <source>Opens the Fourth Table</source>
         <translation>弹出第四桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="217"/>
+        <location filename="../main.qml" line="224"/>
         <source>Fourth table close</source>
         <translation>收回第四桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="218"/>
+        <location filename="../main.qml" line="225"/>
         <source>Closes the Fourth Table</source>
         <translation>收回第四桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="221"/>
+        <location filename="../main.qml" line="228"/>
         <source>Fifth table open</source>
         <translation>弹出第五桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="222"/>
+        <location filename="../main.qml" line="229"/>
         <source>Opens the Fifth Table</source>
         <translation>弹出第五桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="225"/>
+        <location filename="../main.qml" line="232"/>
         <source>Fifth table close</source>
         <translation>收回第五桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="226"/>
+        <location filename="../main.qml" line="233"/>
         <source>Closes the Fifth Table</source>
         <translation>收回第五桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="229"/>
+        <location filename="../main.qml" line="236"/>
         <source>Sixth table open</source>
         <translation>弹出第六桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="230"/>
+        <location filename="../main.qml" line="237"/>
         <source>Opens the Sixth Table</source>
         <translation>弹出第六桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="233"/>
+        <location filename="../main.qml" line="240"/>
         <source>Sixth table close</source>
         <translation>收回第六桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="234"/>
+        <location filename="../main.qml" line="241"/>
         <source>Closes the Sixth Table</source>
         <translation>收回第六桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="237"/>
+        <location filename="../main.qml" line="244"/>
         <source>Left table open</source>
         <translation>弹出左侧桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="238"/>
+        <location filename="../main.qml" line="245"/>
         <source>Opens the Left Table</source>
         <translation>弹出左侧桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="241"/>
+        <location filename="../main.qml" line="248"/>
         <source>Left table close</source>
         <translation>收回左侧桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="242"/>
+        <location filename="../main.qml" line="249"/>
         <source>Closes the Left Table</source>
         <translation>收回左侧桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="245"/>
+        <location filename="../main.qml" line="252"/>
         <source>Right table open</source>
         <translation>弹出右侧桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="246"/>
+        <location filename="../main.qml" line="253"/>
         <source>Opens the Right Table</source>
         <translation>弹出右侧桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="249"/>
+        <location filename="../main.qml" line="256"/>
         <source>Right table close</source>
         <translation>收回右侧桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="250"/>
+        <location filename="../main.qml" line="257"/>
         <source>Closes the Right Table</source>
         <translation>收回右侧桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="257"/>
+        <location filename="../main.qml" line="264"/>
         <source>First seat footrest open</source>
         <translation>伸出第一座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="258"/>
+        <location filename="../main.qml" line="265"/>
         <source>Opens the First seat footrest</source>
         <translation>伸出第一座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="261"/>
+        <location filename="../main.qml" line="268"/>
         <source>First seat footrest close</source>
         <translation>收回第一座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="262"/>
+        <location filename="../main.qml" line="269"/>
         <source>Closes the First seat footrest</source>
         <translation>收回第一座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="265"/>
+        <location filename="../main.qml" line="272"/>
         <source>Second seat footrest open</source>
         <translation>伸出第二座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="266"/>
+        <location filename="../main.qml" line="273"/>
         <source>Opens the Second seat footrest</source>
         <translation>伸出第二座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="269"/>
+        <location filename="../main.qml" line="276"/>
         <source>Second seat footrest close</source>
         <translation>收回第二座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="270"/>
+        <location filename="../main.qml" line="277"/>
         <source>Closes the Second seat footrest</source>
         <translation>收回第二座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="273"/>
+        <location filename="../main.qml" line="280"/>
         <source>Third seat footrest open</source>
         <translation>伸出第三座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="274"/>
+        <location filename="../main.qml" line="281"/>
         <source>Opens the Third seat footrest</source>
         <translation>伸出第三座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="277"/>
+        <location filename="../main.qml" line="284"/>
         <source>Third seat footrest close</source>
         <translation>收回第三座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="278"/>
+        <location filename="../main.qml" line="285"/>
         <source>Closes the Third seat footrest</source>
         <translation>收回第三座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="281"/>
+        <location filename="../main.qml" line="288"/>
         <source>Fourth seat footrest open</source>
         <translation>伸出第四座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="282"/>
+        <location filename="../main.qml" line="289"/>
         <source>Opens the Fourth seat footrest</source>
         <translation>伸出第四座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="285"/>
+        <location filename="../main.qml" line="292"/>
         <source>Fourth seat footrest close</source>
         <translation>收回第四座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="286"/>
+        <location filename="../main.qml" line="293"/>
         <source>Closes the Fourth seat footrest</source>
         <translation>收回第四座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="289"/>
+        <location filename="../main.qml" line="296"/>
         <source>Fifth seat footrest open</source>
         <translation>伸出第五座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="290"/>
+        <location filename="../main.qml" line="297"/>
         <source>Opens the Fifth seat footrest</source>
         <translation>伸出第五座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="293"/>
+        <location filename="../main.qml" line="300"/>
         <source>Fifth seat footrest close</source>
         <translation>收回第五座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="294"/>
+        <location filename="../main.qml" line="301"/>
         <source>Closes the Fifth seat footrest</source>
         <translation>收回第五座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="297"/>
+        <location filename="../main.qml" line="304"/>
         <source>Sixth seat footrest open</source>
         <translation>伸出第六座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="298"/>
+        <location filename="../main.qml" line="305"/>
         <source>Opens the Sixth seat footrest</source>
         <translation>伸出第六座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="301"/>
+        <location filename="../main.qml" line="308"/>
         <source>Sixth seat footrest close</source>
         <translation>收回第六座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="302"/>
+        <location filename="../main.qml" line="309"/>
         <source>Closes the Sixth seat footrest</source>
         <translation>收回第六座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="305"/>
+        <location filename="../main.qml" line="312"/>
         <source>Right seat footrest open</source>
         <translation>伸出右侧座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="306"/>
+        <location filename="../main.qml" line="313"/>
         <source>Opens the Right seat footrest</source>
         <translation>伸出右侧座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="309"/>
+        <location filename="../main.qml" line="316"/>
         <source>Right seat footrest close</source>
         <translation>收回右侧座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="310"/>
+        <location filename="../main.qml" line="317"/>
         <source>Closes the Right seat footrest</source>
         <translation>收回右侧座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="313"/>
+        <location filename="../main.qml" line="320"/>
         <source>Left seat footrest open</source>
         <translation>收回第六座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="314"/>
+        <location filename="../main.qml" line="321"/>
         <source>Opens the Left seat footrest</source>
         <translation>收回第六座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="317"/>
+        <location filename="../main.qml" line="324"/>
         <source>Left seat footrest close</source>
         <translation>收回左侧座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="318"/>
+        <location filename="../main.qml" line="325"/>
         <source>Closes the Left seat footrest</source>
         <translation>收回左侧座椅腿托</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="325"/>
+        <location filename="../main.qml" line="332"/>
         <source>First Curtain open</source>
         <translation>打开第一窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="326"/>
+        <location filename="../main.qml" line="333"/>
         <source>Opens the First Curtain</source>
         <translation>打开第一窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="329"/>
+        <location filename="../main.qml" line="336"/>
         <source>First Curtain close</source>
         <translation>关闭第一窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="330"/>
+        <location filename="../main.qml" line="337"/>
         <source>Closes the First Curtain</source>
         <translation>关闭第一窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="333"/>
+        <location filename="../main.qml" line="340"/>
         <source>Second Curtain open</source>
         <translation>打开第二窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="334"/>
+        <location filename="../main.qml" line="341"/>
         <source>Opens the Second Curtain</source>
         <translation>打开第二窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="337"/>
+        <location filename="../main.qml" line="344"/>
         <source>Second Curtain close</source>
         <translation>关闭第二窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="338"/>
+        <location filename="../main.qml" line="345"/>
         <source>Closes the Second Curtain</source>
         <translation>关闭第二窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="341"/>
+        <location filename="../main.qml" line="348"/>
         <source>Third Curtain open</source>
         <translation>打开第三窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="342"/>
+        <location filename="../main.qml" line="349"/>
         <source>Opens the Third Curtain</source>
         <translation>打开第三窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="345"/>
+        <location filename="../main.qml" line="352"/>
         <source>Third Curtain close</source>
         <translation>关闭第三窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="346"/>
+        <location filename="../main.qml" line="353"/>
         <source>Closes the Third Curtain</source>
         <translation>关闭第三窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="349"/>
+        <location filename="../main.qml" line="356"/>
         <source>Fourth Curtain open</source>
         <translation>打开第四窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="350"/>
+        <location filename="../main.qml" line="357"/>
         <source>Opens the Fourth Curtain</source>
         <translation>打开第四窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="353"/>
+        <location filename="../main.qml" line="360"/>
         <source>Fourth Curtain close</source>
         <translation>关闭第四窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="354"/>
+        <location filename="../main.qml" line="361"/>
         <source>Closes the Fourth Curtain</source>
         <translation>关闭第四窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="357"/>
+        <location filename="../main.qml" line="364"/>
         <source>Fifth Curtain open</source>
         <translation>打开第五窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="358"/>
+        <location filename="../main.qml" line="365"/>
         <source>Opens the Fifth Curtain</source>
         <translation>打开第五窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="361"/>
+        <location filename="../main.qml" line="368"/>
         <source>Fifth Curtain close</source>
         <translation>关闭第五窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="362"/>
+        <location filename="../main.qml" line="369"/>
         <source>Closes the Fifth Curtain</source>
         <translation>关闭第五窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="365"/>
+        <location filename="../main.qml" line="372"/>
         <source>Sixth Curtain open</source>
         <translation>打开第六窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="366"/>
+        <location filename="../main.qml" line="373"/>
         <source>Opens the Sixth Curtain</source>
         <translation>打开第六窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="369"/>
+        <location filename="../main.qml" line="376"/>
         <source>Sixth Curtain close</source>
         <translation>关闭第六窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="370"/>
+        <location filename="../main.qml" line="377"/>
         <source>Closes the Sixth Curtain</source>
         <translation>关闭第六窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="373"/>
+        <location filename="../main.qml" line="380"/>
         <source>Right Curtain open</source>
         <translation>打开右侧窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="374"/>
+        <location filename="../main.qml" line="381"/>
         <source>Opens the Right Curtain</source>
         <translation>打开右侧窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="377"/>
+        <location filename="../main.qml" line="384"/>
         <source>Right Curtain close</source>
         <translation>关闭右侧窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="378"/>
+        <location filename="../main.qml" line="385"/>
         <source>Closes the Right Curtain</source>
         <translation>关闭右侧窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="381"/>
+        <location filename="../main.qml" line="388"/>
         <source>Left Curtain open</source>
         <translation>打开左侧窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="382"/>
+        <location filename="../main.qml" line="389"/>
         <source>Opens the Left Curtain</source>
         <translation>打开左侧窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="385"/>
+        <location filename="../main.qml" line="392"/>
         <source>Left Curtain close</source>
         <translation>关闭左侧窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="386"/>
+        <location filename="../main.qml" line="393"/>
         <source>Closes the Left Curtain</source>
         <translation>关闭左侧窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="394"/>
+        <location filename="../main.qml" line="401"/>
         <source>First Seat Massage open</source>
         <translation>打开第一座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="395"/>
+        <location filename="../main.qml" line="402"/>
         <source>Opens the First Seat Massage</source>
         <translation>打开第一座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="398"/>
+        <location filename="../main.qml" line="405"/>
         <source>First Seat Massage close</source>
         <translation>关闭第一座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="399"/>
+        <location filename="../main.qml" line="406"/>
         <source>Closes the First Seat Massage</source>
         <translation>关闭第一座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="402"/>
+        <location filename="../main.qml" line="409"/>
         <source>Second Seat Massage open</source>
         <translation>打开第二座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="403"/>
+        <location filename="../main.qml" line="410"/>
         <source>Opens the Second Seat Massage</source>
         <translation>打开第二座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="406"/>
+        <location filename="../main.qml" line="413"/>
         <source>Second Seat Massage close</source>
         <translation>关闭第二座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="407"/>
+        <location filename="../main.qml" line="414"/>
         <source>Closes the Second Seat Massage</source>
         <translation>关闭第二座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="410"/>
+        <location filename="../main.qml" line="417"/>
         <source>Third Seat Massage open</source>
         <translation>打开第三座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="411"/>
+        <location filename="../main.qml" line="418"/>
         <source>Opens the Third Seat Massage</source>
         <translation>打开第三座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="414"/>
+        <location filename="../main.qml" line="421"/>
         <source>Third Seat Massage close</source>
         <translation>关闭第三座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="415"/>
+        <location filename="../main.qml" line="422"/>
         <source>Closes the Third Seat Massage</source>
         <translation>关闭第三座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="418"/>
+        <location filename="../main.qml" line="425"/>
         <source>Fourth Seat Massage open</source>
         <translation>打开第四座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="419"/>
+        <location filename="../main.qml" line="426"/>
         <source>Opens the Fourth Seat Massage</source>
         <translation>打开第四座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="422"/>
+        <location filename="../main.qml" line="429"/>
         <source>Fourth Seat Massage close</source>
         <translation>关闭第四座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="423"/>
+        <location filename="../main.qml" line="430"/>
         <source>Closes the Fourth Seat Massage</source>
         <translation>关闭第四座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="426"/>
+        <location filename="../main.qml" line="433"/>
         <source>Fifth Seat Massage open</source>
         <translation>打开第五座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="427"/>
+        <location filename="../main.qml" line="434"/>
         <source>Opens the Fifth Seat Massage</source>
         <translation>打开第五座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="430"/>
+        <location filename="../main.qml" line="437"/>
         <source>Fifth Seat Massage close</source>
         <translation>关闭第五座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="431"/>
+        <location filename="../main.qml" line="438"/>
         <source>Closes the Fifth Seat Massage</source>
         <translation>关闭第五座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="434"/>
+        <location filename="../main.qml" line="441"/>
         <source>Sixth Seat Massage open</source>
         <translation>打开第六座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="435"/>
+        <location filename="../main.qml" line="442"/>
         <source>Opens the Sixth Seat Massage</source>
         <translation>打开第六座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="438"/>
+        <location filename="../main.qml" line="445"/>
         <source>Sixth Seat Massage close</source>
         <translation>关闭第六座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="439"/>
+        <location filename="../main.qml" line="446"/>
         <source>Closes the Sixth Seat Massage</source>
         <translation>关闭第六座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="442"/>
+        <location filename="../main.qml" line="449"/>
         <source>Right Seat Massage open</source>
         <translation>打开右侧座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="443"/>
+        <location filename="../main.qml" line="450"/>
         <source>Opens the Right Seat Massage</source>
         <translation>打开右侧座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="446"/>
+        <location filename="../main.qml" line="453"/>
         <source>Right Seat Massage close</source>
         <translation>关闭右侧座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="447"/>
+        <location filename="../main.qml" line="454"/>
         <source>Closes the Right Seat Massage</source>
         <translation>关闭右侧座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="450"/>
+        <location filename="../main.qml" line="457"/>
         <source>Left Seat Massage open</source>
         <translation>打开左侧座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="451"/>
+        <location filename="../main.qml" line="458"/>
         <source>Opens the Left Seat Massage</source>
         <translation>打开左侧座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="454"/>
+        <location filename="../main.qml" line="461"/>
         <source>Left Seat Massage close</source>
         <translation>关闭左侧座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="455"/>
+        <location filename="../main.qml" line="462"/>
         <source>Closes the Left Seat Massage</source>
         <translation>关闭左侧座椅按摩</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="463"/>
+        <location filename="../main.qml" line="470"/>
         <source>Nespresso open</source>
         <translation>伸出咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="464"/>
+        <location filename="../main.qml" line="471"/>
         <source>Opens the Nespresso</source>
         <translation>伸出咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="467"/>
+        <location filename="../main.qml" line="474"/>
         <source>Nespresso close</source>
         <translation>收回咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="468"/>
+        <location filename="../main.qml" line="475"/>
         <source>Closes the Nespresso</source>
         <translation>收回咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="471"/>
+        <location filename="../main.qml" line="478"/>
         <source>Front Nespresso open</source>
         <translation>伸出前咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="472"/>
+        <location filename="../main.qml" line="479"/>
         <source>Opens the Front Nespresso</source>
         <translation>伸出前咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="475"/>
+        <location filename="../main.qml" line="482"/>
         <source>Front Nespresso close</source>
         <translation>收回前咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="476"/>
+        <location filename="../main.qml" line="483"/>
         <source>Closes the Front Nespresso</source>
         <translation>收回前咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="479"/>
+        <location filename="../main.qml" line="486"/>
         <source>Rear Nespresso open</source>
         <translation>伸出后咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="480"/>
+        <location filename="../main.qml" line="487"/>
         <source>Opens the Rear Nespresso</source>
         <translation>伸出后咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="483"/>
+        <location filename="../main.qml" line="490"/>
         <source>Rear Nespresso close</source>
         <translation>收回后咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="484"/>
+        <location filename="../main.qml" line="491"/>
         <source>Closes the Rear Nespresso</source>
         <translation>收回后咖啡机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="490"/>
+        <location filename="../main.qml" line="497"/>
         <source>Door open</source>
         <translation>打开车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="491"/>
+        <location filename="../main.qml" line="498"/>
         <source>Opens the Door</source>
         <translation>打开车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="494"/>
+        <location filename="../main.qml" line="501"/>
         <source>Door close</source>
         <translation>关闭车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="495"/>
+        <location filename="../main.qml" line="502"/>
         <source>Closes the Door</source>
         <translation>关闭车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="498"/>
+        <location filename="../main.qml" line="505"/>
         <source>Right Door open</source>
         <translation>打开右车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="499"/>
+        <location filename="../main.qml" line="506"/>
         <source>Opens the Right Door</source>
         <translation>打开右车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="502"/>
+        <location filename="../main.qml" line="509"/>
         <source>Right Door close</source>
         <translation>关闭右车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="503"/>
+        <location filename="../main.qml" line="510"/>
         <source>Closes the Right Door</source>
         <translation>关闭右车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="506"/>
+        <location filename="../main.qml" line="513"/>
         <source>Left Door open</source>
         <translation>打开左车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="507"/>
+        <location filename="../main.qml" line="514"/>
         <source>Opens the Left Door</source>
         <translation>打开左车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="510"/>
+        <location filename="../main.qml" line="517"/>
         <source>Left Door close</source>
         <translation>关闭左车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="511"/>
+        <location filename="../main.qml" line="518"/>
         <source>Closes the Left Door</source>
         <translation>关闭左车门</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="518"/>
+        <location filename="../main.qml" line="525"/>
         <source>TV up</source>
         <translation>升起电视机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="519"/>
+        <location filename="../main.qml" line="526"/>
         <source>Puts the TV up</source>
         <translation>升起电视机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="522"/>
+        <location filename="../main.qml" line="529"/>
         <source>Tv down</source>
         <translation>降下电视机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="523"/>
+        <location filename="../main.qml" line="530"/>
         <source>Puts the TV down</source>
         <translation>降下电视机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="526"/>
-        <location filename="../main.qml" line="530"/>
+        <location filename="../main.qml" line="533"/>
+        <location filename="../main.qml" line="537"/>
         <source>Turn on TV</source>
         <translation>打开电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="527"/>
+        <location filename="../main.qml" line="534"/>
         <source>Turns the TV on</source>
         <translation>打开电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="531"/>
+        <location filename="../main.qml" line="538"/>
         <source>Turns the TV off</source>
         <translation>关闭电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="534"/>
+        <location filename="../main.qml" line="541"/>
         <source>TV Volume up</source>
         <translation>调大音量</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="535"/>
+        <location filename="../main.qml" line="542"/>
         <source>Increases the TV volume</source>
         <translation>调大音量</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="538"/>
+        <location filename="../main.qml" line="545"/>
         <source>TV Volume down</source>
         <translation>调小音量</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="539"/>
+        <location filename="../main.qml" line="546"/>
         <source>Decreases the TV volume</source>
         <translation>调小音量</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="546"/>
+        <location filename="../main.qml" line="553"/>
         <source>Open Apple TV</source>
         <translation>接通苹果电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="547"/>
+        <location filename="../main.qml" line="554"/>
         <source>Opens the Apple TV</source>
         <translation>接通苹果电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="555"/>
+        <location filename="../main.qml" line="562"/>
         <source>Front camera open</source>
         <translation>接通前摄像头</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="556"/>
+        <location filename="../main.qml" line="563"/>
         <source>Opens the Front Camera</source>
         <translation>接通前摄像头</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="559"/>
+        <location filename="../main.qml" line="566"/>
         <source>Rear camera open</source>
         <translation>接通后摄像头</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="560"/>
+        <location filename="../main.qml" line="567"/>
         <source>Opens the Rear Camera</source>
         <translation>接通后摄像头</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="563"/>
+        <location filename="../main.qml" line="570"/>
         <source>Screen divider open</source>
         <translation>分屏显示</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="564"/>
+        <location filename="../main.qml" line="571"/>
         <source>Opens the the Screen Divider</source>
         <translation>分屏显示</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="567"/>
+        <location filename="../main.qml" line="574"/>
         <source>DVD open</source>
         <translation>接通DVD</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="568"/>
+        <location filename="../main.qml" line="575"/>
         <source>Opens the DVD</source>
         <translation>接通DVD</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="571"/>
+        <location filename="../main.qml" line="578"/>
         <source>Computer projection</source>
         <translation>接通投影机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="572"/>
+        <location filename="../main.qml" line="579"/>
         <source>Enables Computer Projection</source>
         <translation>接通投影机</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="575"/>
+        <location filename="../main.qml" line="582"/>
         <source>Samsung dock projection</source>
         <translation>接通三星投影</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="576"/>
+        <location filename="../main.qml" line="583"/>
         <source>Enables Samsung Dock Projection</source>
         <translation>接通三星投影</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="583"/>
+        <location filename="../main.qml" line="590"/>
         <source>Turn on lights white</source>
         <translation>打开白灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="584"/>
+        <location filename="../main.qml" line="591"/>
         <source>Turns white lights on</source>
         <translation>打开白灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="587"/>
+        <location filename="../main.qml" line="594"/>
         <source>Turn on lights red</source>
         <translation>打开红灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="588"/>
+        <location filename="../main.qml" line="595"/>
         <source>Turns red lights on</source>
         <translation>打开红灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="591"/>
+        <location filename="../main.qml" line="598"/>
         <source>Turn on lights green</source>
         <translation>打开绿灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="592"/>
+        <location filename="../main.qml" line="599"/>
         <source>Turns green lights on</source>
         <translation>打开绿灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="595"/>
+        <location filename="../main.qml" line="602"/>
         <source>Turn on lights blue</source>
         <translation>打开蓝灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="596"/>
+        <location filename="../main.qml" line="603"/>
         <source>Turns blue lights on</source>
         <translation>打开蓝灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="599"/>
+        <location filename="../main.qml" line="606"/>
         <source>Turn off lights</source>
         <translation>关闭灯光</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="600"/>
+        <location filename="../main.qml" line="607"/>
         <source>Turns the lights off</source>
         <translation>关闭灯光</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="607"/>
+        <location filename="../main.qml" line="614"/>
         <source>Ceiling lights white turn on</source>
         <translation>打开白色天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="608"/>
+        <location filename="../main.qml" line="615"/>
         <source>Turns white ceiling lights on</source>
         <translation>打开白色天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="611"/>
+        <location filename="../main.qml" line="618"/>
         <source>Ceiling lights red turn on</source>
         <translation>打开红色天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="612"/>
+        <location filename="../main.qml" line="619"/>
         <source>Turns red ceiling lights on</source>
         <translation>打开红色天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="615"/>
+        <location filename="../main.qml" line="622"/>
         <source>Ceiling lights green turn on</source>
         <translation>打开绿色天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="616"/>
+        <location filename="../main.qml" line="623"/>
         <source>Turns green ceiling lights on</source>
         <translation>打开绿色天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="619"/>
+        <location filename="../main.qml" line="626"/>
         <source>Ceiling lights blue turn on</source>
         <translation>打开蓝色天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="620"/>
+        <location filename="../main.qml" line="627"/>
         <source>Turns blue ceiling lights on</source>
         <translation>打开蓝色天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="623"/>
-        <location filename="../main.qml" line="1595"/>
+        <location filename="../main.qml" line="630"/>
+        <location filename="../main.qml" line="1602"/>
         <source>Ceiling lights turn off</source>
         <translation>关闭天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="624"/>
+        <location filename="../main.qml" line="631"/>
         <source>Turns ceiling lights off</source>
         <translation>关闭天花灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="638"/>
         <source>Interior lights white turn on</source>
         <translation>打开白色内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="639"/>
         <source>Turns white Interior lights on</source>
         <translation>打开白色内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="635"/>
+        <location filename="../main.qml" line="642"/>
         <source>Interior lights red turn on</source>
         <translation>打开白色内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="643"/>
         <source>Turns red Interior lights on</source>
         <translation>打开白色内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="639"/>
+        <location filename="../main.qml" line="646"/>
         <source>Interior lights green turn on</source>
         <translation>打开白色内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="647"/>
         <source>Turns green Interior lights on</source>
         <translation>打开白色内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="650"/>
         <source>Interior lights blue turn on</source>
         <translation>打开白色内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="644"/>
+        <location filename="../main.qml" line="651"/>
         <source>Turns blue Interior lights on</source>
         <translation>打开白色内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="647"/>
+        <location filename="../main.qml" line="654"/>
         <source>Interior lights turn off</source>
         <translation>关闭内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="648"/>
+        <location filename="../main.qml" line="655"/>
         <source>Turns Interior lights off</source>
         <translation>关闭内部灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="655"/>
+        <location filename="../main.qml" line="662"/>
         <source>Side lights white turn on</source>
         <translation>打开白色侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="656"/>
+        <location filename="../main.qml" line="663"/>
         <source>Turns white Side lights on</source>
         <translation>打开白色侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="659"/>
+        <location filename="../main.qml" line="666"/>
         <source>Side lights red turn on</source>
         <translation>打开白色侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="660"/>
+        <location filename="../main.qml" line="667"/>
         <source>Turns red Side lights on</source>
         <translation>打开白色侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="663"/>
+        <location filename="../main.qml" line="670"/>
         <source>Side lights green turn on</source>
         <translation>打开白色侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="664"/>
+        <location filename="../main.qml" line="671"/>
         <source>Turns green Side lights on</source>
         <translation>打开白色侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="667"/>
+        <location filename="../main.qml" line="674"/>
         <source>Side lights blue turn on</source>
         <translation>打开白色侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="668"/>
+        <location filename="../main.qml" line="675"/>
         <source>Turns blue Side lights on</source>
         <translation>打开白色侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="671"/>
-        <location filename="../main.qml" line="1587"/>
+        <location filename="../main.qml" line="678"/>
+        <location filename="../main.qml" line="1594"/>
         <source>Side lights turn off</source>
         <translation>关闭侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="672"/>
+        <location filename="../main.qml" line="679"/>
         <source>Turns Side lights off</source>
         <translation>关闭侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="678"/>
+        <location filename="../main.qml" line="685"/>
         <source>Left Make Up Lights turn on</source>
         <translation>接通左侧化妆灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="679"/>
+        <location filename="../main.qml" line="686"/>
         <source>Turns Left Make Up Light on</source>
         <translation>接通左侧化妆灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="682"/>
+        <location filename="../main.qml" line="689"/>
         <source>Left Make Up Light turn off</source>
         <translation>关闭左侧化妆灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="683"/>
+        <location filename="../main.qml" line="690"/>
         <source>Turns Left Make Up Light off</source>
         <translation>关闭左侧化妆灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="686"/>
+        <location filename="../main.qml" line="693"/>
         <source>Right Make Up Light turn on</source>
         <translation>接通右侧化妆灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="687"/>
+        <location filename="../main.qml" line="694"/>
         <source>Turns Right Make Up Light on</source>
         <translation>接通右侧化妆灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="690"/>
+        <location filename="../main.qml" line="697"/>
         <source>Right Make Up Light turn off</source>
         <translation>关闭右侧化妆灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="691"/>
+        <location filename="../main.qml" line="698"/>
         <source>Turns Right Make Up Light off</source>
         <translation>关闭右侧化妆灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="697"/>
+        <location filename="../main.qml" line="704"/>
         <source>Left Reading Lights turn on</source>
         <translation>接通左侧阅读灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="698"/>
+        <location filename="../main.qml" line="705"/>
         <source>Turns Left Reading Light on</source>
         <translation>接通左侧阅读灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="701"/>
+        <location filename="../main.qml" line="708"/>
         <source>Left Reading Light turn off</source>
         <translation>关闭左侧阅读灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="702"/>
+        <location filename="../main.qml" line="709"/>
         <source>Turns Left Reading Light off</source>
         <translation>关闭左侧阅读灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="705"/>
+        <location filename="../main.qml" line="712"/>
         <source>Right Reading Light turn on</source>
         <translation>接通右侧阅读灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="706"/>
+        <location filename="../main.qml" line="713"/>
         <source>Turns Right Reading Light on</source>
         <translation>接通右侧阅读灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="709"/>
+        <location filename="../main.qml" line="716"/>
         <source>Right Reading Light turn off</source>
         <translation>关闭右侧阅读灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="710"/>
+        <location filename="../main.qml" line="717"/>
         <source>Turns Right Reading Light off</source>
         <translation>关闭右侧阅读灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="715"/>
+        <location filename="../main.qml" line="722"/>
         <source>Right Drawer Open</source>
         <translation>伸出右侧抽屉</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="716"/>
+        <location filename="../main.qml" line="723"/>
         <source>Opens the Right Drawer</source>
         <translation>伸出右侧抽屉</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="719"/>
+        <location filename="../main.qml" line="726"/>
         <source>Right Drawer Close</source>
         <translation>收回右侧抽屉</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="720"/>
+        <location filename="../main.qml" line="727"/>
         <source>Closes the Right Drawer</source>
         <translation>收回右侧抽屉</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="723"/>
+        <location filename="../main.qml" line="730"/>
         <source>Left Drawer Open</source>
         <translation>伸出左侧抽屉</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="724"/>
+        <location filename="../main.qml" line="731"/>
         <source>Opens the Left Drawer</source>
         <translation>伸出左侧抽屉</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="727"/>
+        <location filename="../main.qml" line="734"/>
         <source>Left Drawer Close</source>
         <translation>收回左侧抽屉</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="728"/>
+        <location filename="../main.qml" line="735"/>
         <source>Closes the Left Drawer</source>
         <translation>收回左侧抽屉</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="735"/>
+        <location filename="../main.qml" line="742"/>
         <source>Air conditioner turn on</source>
         <translation>打开空调</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="736"/>
+        <location filename="../main.qml" line="743"/>
         <source>Turns on the Air Conditioner</source>
         <translation>打开空调</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="739"/>
+        <location filename="../main.qml" line="746"/>
         <source>Air conditioner turn off</source>
         <translation>关闭空调</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="740"/>
+        <location filename="../main.qml" line="747"/>
         <source>Turns off the Air Conditioner</source>
         <translation>关闭空调</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="743"/>
+        <location filename="../main.qml" line="750"/>
         <source>Air conditioner Degree Increase</source>
         <translation>提高温度                          </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="744"/>
+        <location filename="../main.qml" line="751"/>
         <source>Increases the heat degree of AC</source>
         <translation>提高温度                          </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="747"/>
+        <location filename="../main.qml" line="754"/>
         <source>Air conditioner Degree Decrease</source>
         <translation>降低温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="748"/>
+        <location filename="../main.qml" line="755"/>
         <source>Decreases the heat degree of AC</source>
         <translation>降低温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="751"/>
+        <location filename="../main.qml" line="758"/>
         <source>Air conditioner Fan Increase</source>
         <translation>加大风量</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="752"/>
+        <location filename="../main.qml" line="759"/>
         <source>Increases the Fan Speed of AC</source>
         <translation>加大风量</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="755"/>
+        <location filename="../main.qml" line="762"/>
         <source>Air conditioner Fan Decrease</source>
         <translation>减小风量</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="756"/>
+        <location filename="../main.qml" line="763"/>
         <source>Decreases the Fan Speed of AC</source>
         <translation>减小风量</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="763"/>
+        <location filename="../main.qml" line="770"/>
         <source>Fridge degree increase</source>
         <translation>升高冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="764"/>
+        <location filename="../main.qml" line="771"/>
         <source>Increases heat of Fridge</source>
         <translation>升高冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="767"/>
+        <location filename="../main.qml" line="774"/>
         <source>Fridge degree decrease</source>
         <translation>降低冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="768"/>
+        <location filename="../main.qml" line="775"/>
         <source>Decreases heat of Fridge</source>
         <translation>降低冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="771"/>
+        <location filename="../main.qml" line="778"/>
         <source>Front Fridge degree increase</source>
         <translation>升高前置冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="772"/>
+        <location filename="../main.qml" line="779"/>
         <source>Increases heat of Front Fridge</source>
         <translation>升高前置冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="775"/>
+        <location filename="../main.qml" line="782"/>
         <source>Front Fridge degree decrease</source>
         <translation>降低前置冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="776"/>
+        <location filename="../main.qml" line="783"/>
         <source>Decreases heat of Front Fridge</source>
         <translation>降低前置冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="779"/>
+        <location filename="../main.qml" line="786"/>
         <source>Rear Fridge degree increase</source>
         <translation>升高后置冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="780"/>
+        <location filename="../main.qml" line="787"/>
         <source>Increases heat of Rear Fridge</source>
         <translation>升高后置冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="783"/>
+        <location filename="../main.qml" line="790"/>
         <source>Rear Fridge degree decrease</source>
         <translation>降低后置冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="784"/>
+        <location filename="../main.qml" line="791"/>
         <source>Decreases heat of Rear Fridge</source>
         <translation>降低后置冰箱温度</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="791"/>
+        <location filename="../main.qml" line="798"/>
         <source>Bottles Open</source>
         <translation>打开酒柜</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="792"/>
+        <location filename="../main.qml" line="799"/>
         <source>Opens the Bottles</source>
         <translation>打开酒柜</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="795"/>
+        <location filename="../main.qml" line="802"/>
         <source>Bottles Close</source>
         <translation>关闭酒柜</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="796"/>
+        <location filename="../main.qml" line="803"/>
         <source>Closes the Bottles</source>
         <translation>关闭酒柜</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="799"/>
+        <location filename="../main.qml" line="806"/>
         <source>Glasses Open</source>
         <translation>打开眼镜盒</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="800"/>
+        <location filename="../main.qml" line="807"/>
         <source>Opens the Glasses</source>
         <translation>打开眼镜盒</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="803"/>
+        <location filename="../main.qml" line="810"/>
         <source>Glasses Close</source>
         <translation>关闭眼镜盒</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="804"/>
+        <location filename="../main.qml" line="811"/>
         <source>Closes the Glasses</source>
         <translation>关闭眼镜盒</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="810"/>
+        <location filename="../main.qml" line="817"/>
         <source>Radio Channel Change</source>
         <translation>搜索电台</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="811"/>
+        <location filename="../main.qml" line="818"/>
         <source>Changes the Radio Channel</source>
         <translation>搜索电台</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="814"/>
+        <location filename="../main.qml" line="821"/>
         <source>Radio Channel Forward</source>
         <translation>向上搜索</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="815"/>
+        <location filename="../main.qml" line="822"/>
         <source>Forwards the Radio Channel</source>
         <translation>向上搜索</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="818"/>
+        <location filename="../main.qml" line="825"/>
         <source>Radio Channel Backward</source>
         <translation>向下搜索</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="819"/>
+        <location filename="../main.qml" line="826"/>
         <source>Backwards the Radio Channel</source>
         <translation>向下搜索</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="825"/>
+        <location filename="../main.qml" line="832"/>
         <source>Roof Monitor Open</source>
         <translation>打开头上显示器</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="826"/>
+        <location filename="../main.qml" line="833"/>
         <source>Opens the Roof Monitor</source>
         <translation>打开头上显示器</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="829"/>
+        <location filename="../main.qml" line="836"/>
         <source>Roof Monitor Close</source>
         <translation>关闭头上显示器</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="830"/>
+        <location filename="../main.qml" line="837"/>
         <source>Closes the Roof Monitor</source>
         <translation>关闭头上显示器</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="833"/>
+        <location filename="../main.qml" line="840"/>
         <source>Rear TV Open</source>
         <translation>打开后部电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="834"/>
+        <location filename="../main.qml" line="841"/>
         <source>Opens the Rear TV</source>
         <translation>打开后部电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="837"/>
+        <location filename="../main.qml" line="844"/>
         <source>Rear TV Close</source>
         <translation>关闭后部电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="838"/>
+        <location filename="../main.qml" line="845"/>
         <source>Closes the Rear TV</source>
         <translation>关闭后部电视</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="844"/>
+        <location filename="../main.qml" line="851"/>
         <source>Bar Open</source>
         <translation>打开酒吧</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="845"/>
+        <location filename="../main.qml" line="852"/>
         <source>Opens the Bar</source>
         <translation>打开酒吧</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="848"/>
+        <location filename="../main.qml" line="855"/>
         <source>Bar Close</source>
         <translation>关闭酒吧</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="849"/>
+        <location filename="../main.qml" line="856"/>
         <source>Closes the Bar</source>
         <translation>关闭酒吧</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="856"/>
+        <location filename="../main.qml" line="863"/>
         <source>First seat back take one step forward</source>
         <translation>第一座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="857"/>
+        <location filename="../main.qml" line="864"/>
         <source>Takes First Seat back one step forward</source>
         <translation>第一座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="860"/>
+        <location filename="../main.qml" line="867"/>
         <source>First seat back take two step forward</source>
         <translation>第一座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="861"/>
+        <location filename="../main.qml" line="868"/>
         <source>Takes First Seat back two step forward</source>
         <translation>第一座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="864"/>
+        <location filename="../main.qml" line="871"/>
         <source>First seat back take last point forward</source>
         <translation>第一座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="865"/>
+        <location filename="../main.qml" line="872"/>
         <source>Takes First Seat back last point forward</source>
         <translation>第一座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="868"/>
+        <location filename="../main.qml" line="875"/>
         <source>First seat back take one step backward</source>
         <translation>第一座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="869"/>
+        <location filename="../main.qml" line="876"/>
         <source>Takes First Seat back one step backward</source>
         <translation>第一座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="872"/>
+        <location filename="../main.qml" line="879"/>
         <source>First seat back take two step backward</source>
         <translation>第一座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="873"/>
+        <location filename="../main.qml" line="880"/>
         <source>Takes First Seat back two step backward</source>
         <translation>第一座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="876"/>
+        <location filename="../main.qml" line="883"/>
         <source>First seat back take last point backward</source>
         <translation>第一座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="877"/>
+        <location filename="../main.qml" line="884"/>
         <source>Takes First Seat back last point backward</source>
         <translation>第一座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="883"/>
-        <location filename="../main.qml" line="910"/>
+        <location filename="../main.qml" line="890"/>
+        <location filename="../main.qml" line="917"/>
         <source>First Seat take one step forward</source>
         <translation>第一座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="884"/>
-        <location filename="../main.qml" line="911"/>
+        <location filename="../main.qml" line="891"/>
+        <location filename="../main.qml" line="918"/>
         <source>Takes First Seat one step forward</source>
         <translation>第一座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="887"/>
-        <location filename="../main.qml" line="914"/>
+        <location filename="../main.qml" line="894"/>
+        <location filename="../main.qml" line="921"/>
         <source>First Seat take two step forward</source>
         <translation>第一座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="888"/>
-        <location filename="../main.qml" line="915"/>
+        <location filename="../main.qml" line="895"/>
+        <location filename="../main.qml" line="922"/>
         <source>Takes First Seat two step forward</source>
         <translation>第一座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="891"/>
-        <location filename="../main.qml" line="918"/>
+        <location filename="../main.qml" line="898"/>
+        <location filename="../main.qml" line="925"/>
         <source>First Seat take last point forward</source>
         <translation>第一座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="892"/>
-        <location filename="../main.qml" line="919"/>
+        <location filename="../main.qml" line="899"/>
+        <location filename="../main.qml" line="926"/>
         <source>Takes First Seat last point forward</source>
         <translation>第一座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="895"/>
-        <location filename="../main.qml" line="922"/>
+        <location filename="../main.qml" line="902"/>
+        <location filename="../main.qml" line="929"/>
         <source>First Seat take one step backward</source>
         <translation>第一座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="896"/>
-        <location filename="../main.qml" line="923"/>
+        <location filename="../main.qml" line="903"/>
+        <location filename="../main.qml" line="930"/>
         <source>Takes First Seat one step backward</source>
         <translation>第一座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="899"/>
-        <location filename="../main.qml" line="926"/>
+        <location filename="../main.qml" line="906"/>
+        <location filename="../main.qml" line="933"/>
         <source>First Seat take two step backward</source>
         <translation>第一座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="900"/>
-        <location filename="../main.qml" line="927"/>
+        <location filename="../main.qml" line="907"/>
+        <location filename="../main.qml" line="934"/>
         <source>Takes First Seat two step backward</source>
         <translation>第一座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="903"/>
-        <location filename="../main.qml" line="930"/>
+        <location filename="../main.qml" line="910"/>
+        <location filename="../main.qml" line="937"/>
         <source>First Seat take last point backward</source>
         <translation>第一座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="904"/>
-        <location filename="../main.qml" line="931"/>
+        <location filename="../main.qml" line="911"/>
+        <location filename="../main.qml" line="938"/>
         <source>Takes First Seat last point backward</source>
         <translation>第一座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="938"/>
+        <location filename="../main.qml" line="945"/>
         <source>First Seat Head take one step forward</source>
         <translation>第一座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="939"/>
+        <location filename="../main.qml" line="946"/>
         <source>Takes First Seat Head one step forward</source>
         <translation>第一座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="942"/>
+        <location filename="../main.qml" line="949"/>
         <source>First Seat Head take two step forward</source>
         <translation>第一座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="943"/>
+        <location filename="../main.qml" line="950"/>
         <source>Takes First Seat Head two step forward</source>
         <translation>第一座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="946"/>
+        <location filename="../main.qml" line="953"/>
         <source>First Seat Head take last point forward</source>
         <translation>第一座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="947"/>
+        <location filename="../main.qml" line="954"/>
         <source>Takes First Seat Head last point forward</source>
         <translation>第一座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="950"/>
+        <location filename="../main.qml" line="957"/>
         <source>First Seat Head take one step backward</source>
         <translation>第一座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="951"/>
+        <location filename="../main.qml" line="958"/>
         <source>Takes First Seat Head one step backward</source>
         <translation>第一座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="954"/>
+        <location filename="../main.qml" line="961"/>
         <source>First Seat Head take two step backward</source>
         <translation>第一座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="955"/>
+        <location filename="../main.qml" line="962"/>
         <source>Takes First Seat Head two step backward</source>
         <translation>第一座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="958"/>
+        <location filename="../main.qml" line="965"/>
         <source>First Seat Head take last point backward</source>
         <translation>第一座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="959"/>
+        <location filename="../main.qml" line="966"/>
         <source>Takes First Seat Head last point backward</source>
         <translation>第一座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="966"/>
+        <location filename="../main.qml" line="973"/>
         <source>Second seat back take one step forward</source>
         <translation>第二座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="967"/>
+        <location filename="../main.qml" line="974"/>
         <source>Takes Second Seat back one step forward</source>
         <translation>第二座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="970"/>
+        <location filename="../main.qml" line="977"/>
         <source>Second seat back take two step forward</source>
         <translation>第二座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="971"/>
+        <location filename="../main.qml" line="978"/>
         <source>Takes Second Seat back two step forward</source>
         <translation>第二座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="974"/>
+        <location filename="../main.qml" line="981"/>
         <source>Second seat back take last point forward</source>
         <translation>第二座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="975"/>
+        <location filename="../main.qml" line="982"/>
         <source>Takes Second Seat back last point forward</source>
         <translation>第二座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="978"/>
+        <location filename="../main.qml" line="985"/>
         <source>Second seat back take one step backward</source>
         <translation>第二座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="979"/>
+        <location filename="../main.qml" line="986"/>
         <source>Takes Second Seat back one step backward</source>
         <translation>第二座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="982"/>
+        <location filename="../main.qml" line="989"/>
         <source>Second seat back take two step backward</source>
         <translation>第二座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="983"/>
+        <location filename="../main.qml" line="990"/>
         <source>Takes Second Seat back two step backward</source>
         <translation>第二座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="986"/>
+        <location filename="../main.qml" line="993"/>
         <source>Second seat back take last point backward</source>
         <translation>第二座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="987"/>
+        <location filename="../main.qml" line="994"/>
         <source>Takes Second Seat back last point backward</source>
         <translation>第二座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="993"/>
-        <location filename="../main.qml" line="1020"/>
+        <location filename="../main.qml" line="1000"/>
+        <location filename="../main.qml" line="1027"/>
         <source>Second Seat take one step forward</source>
         <translation>第二座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="994"/>
-        <location filename="../main.qml" line="1021"/>
+        <location filename="../main.qml" line="1001"/>
+        <location filename="../main.qml" line="1028"/>
         <source>Takes Second Seat one step forward</source>
         <translation>第二座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="997"/>
-        <location filename="../main.qml" line="1024"/>
+        <location filename="../main.qml" line="1004"/>
+        <location filename="../main.qml" line="1031"/>
         <source>Second Seat take two step forward</source>
         <translation>第二座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="998"/>
-        <location filename="../main.qml" line="1025"/>
+        <location filename="../main.qml" line="1005"/>
+        <location filename="../main.qml" line="1032"/>
         <source>Takes Second Seat two step forward</source>
         <translation>第二座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1001"/>
-        <location filename="../main.qml" line="1028"/>
+        <location filename="../main.qml" line="1008"/>
+        <location filename="../main.qml" line="1035"/>
         <source>Second Seat take last point forward</source>
         <translation>第二座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1002"/>
-        <location filename="../main.qml" line="1029"/>
+        <location filename="../main.qml" line="1009"/>
+        <location filename="../main.qml" line="1036"/>
         <source>Takes Second Seat last point forward</source>
         <translation>第二座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1005"/>
-        <location filename="../main.qml" line="1032"/>
+        <location filename="../main.qml" line="1012"/>
+        <location filename="../main.qml" line="1039"/>
         <source>Second Seat take one step backward</source>
         <translation>第二座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1006"/>
-        <location filename="../main.qml" line="1033"/>
+        <location filename="../main.qml" line="1013"/>
+        <location filename="../main.qml" line="1040"/>
         <source>Takes Second Seat one step backward</source>
         <translation>第二座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1009"/>
-        <location filename="../main.qml" line="1036"/>
+        <location filename="../main.qml" line="1016"/>
+        <location filename="../main.qml" line="1043"/>
         <source>Second Seat take two step backward</source>
         <translation>第二座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1010"/>
-        <location filename="../main.qml" line="1037"/>
+        <location filename="../main.qml" line="1017"/>
+        <location filename="../main.qml" line="1044"/>
         <source>Takes Second Seat two step backward</source>
         <translation>第二座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1013"/>
-        <location filename="../main.qml" line="1040"/>
+        <location filename="../main.qml" line="1020"/>
+        <location filename="../main.qml" line="1047"/>
         <source>Second Seat take last point backward</source>
         <translation>第二座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1014"/>
-        <location filename="../main.qml" line="1041"/>
+        <location filename="../main.qml" line="1021"/>
+        <location filename="../main.qml" line="1048"/>
         <source>Takes Second Seat last point backward</source>
         <translation>第二座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1048"/>
+        <location filename="../main.qml" line="1055"/>
         <source>Second Seat Head take one step forward</source>
         <translation>第二座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1049"/>
+        <location filename="../main.qml" line="1056"/>
         <source>Takes Second Seat Head one step forward</source>
         <translation>第二座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1052"/>
+        <location filename="../main.qml" line="1059"/>
         <source>Second Seat Head take two step forward</source>
         <translation>第二座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1053"/>
+        <location filename="../main.qml" line="1060"/>
         <source>Takes Second Seat Head two step forward</source>
         <translation>第二座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1056"/>
+        <location filename="../main.qml" line="1063"/>
         <source>Second Seat Head take last point forward</source>
         <translation>第二座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1057"/>
+        <location filename="../main.qml" line="1064"/>
         <source>Takes Second Seat Head last point forward</source>
         <translation>第二座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1060"/>
+        <location filename="../main.qml" line="1067"/>
         <source>Second Seat Head take one step backward</source>
         <translation>第二座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1061"/>
+        <location filename="../main.qml" line="1068"/>
         <source>Takes Second Seat Head one step backward</source>
         <translation>第二座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1064"/>
+        <location filename="../main.qml" line="1071"/>
         <source>Second Seat Head take two step backward</source>
         <translation>第二座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1065"/>
+        <location filename="../main.qml" line="1072"/>
         <source>Takes Second Seat Head two step backward</source>
         <translation>第二座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1068"/>
+        <location filename="../main.qml" line="1075"/>
         <source>Second Seat Head take last point backward</source>
         <translation>第二座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1069"/>
+        <location filename="../main.qml" line="1076"/>
         <source>Takes Second Seat Head last point backward</source>
         <translation>第二座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1076"/>
+        <location filename="../main.qml" line="1083"/>
         <source>Third seat back take one step forward</source>
         <translation>第三座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1077"/>
+        <location filename="../main.qml" line="1084"/>
         <source>Takes Third Seat back one step forward</source>
         <translation>第三座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1080"/>
+        <location filename="../main.qml" line="1087"/>
         <source>Third seat back take two step forward</source>
         <translation>第三座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1081"/>
+        <location filename="../main.qml" line="1088"/>
         <source>Takes Third Seat back two step forward</source>
         <translation>第三座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1084"/>
+        <location filename="../main.qml" line="1091"/>
         <source>Third seat back take last point forward</source>
         <translation>第三座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1085"/>
+        <location filename="../main.qml" line="1092"/>
         <source>Takes Third Seat back last point forward</source>
         <translation>第三座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1088"/>
+        <location filename="../main.qml" line="1095"/>
         <source>Third seat back take one step backward</source>
         <translation>第三座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1089"/>
+        <location filename="../main.qml" line="1096"/>
         <source>Takes Third Seat back one step backward</source>
         <translation>第三座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1092"/>
+        <location filename="../main.qml" line="1099"/>
         <source>Third seat back take two step backward</source>
         <translation>第三座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1093"/>
+        <location filename="../main.qml" line="1100"/>
         <source>Takes Third Seat back two step backward</source>
         <translation>第三座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1096"/>
+        <location filename="../main.qml" line="1103"/>
         <source>Third seat back take last point backward</source>
         <translation>第三座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1097"/>
+        <location filename="../main.qml" line="1104"/>
         <source>Takes Third Seat back last point backward</source>
         <translation>第三座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1103"/>
-        <location filename="../main.qml" line="1130"/>
+        <location filename="../main.qml" line="1110"/>
+        <location filename="../main.qml" line="1137"/>
         <source>Third Seat take one step forward</source>
         <translation>第三座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1104"/>
-        <location filename="../main.qml" line="1131"/>
+        <location filename="../main.qml" line="1111"/>
+        <location filename="../main.qml" line="1138"/>
         <source>Takes Third Seat one step forward</source>
         <translation>第三座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1107"/>
-        <location filename="../main.qml" line="1134"/>
+        <location filename="../main.qml" line="1114"/>
+        <location filename="../main.qml" line="1141"/>
         <source>Third Seat take two step forward</source>
         <translation>第三座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1108"/>
-        <location filename="../main.qml" line="1135"/>
+        <location filename="../main.qml" line="1115"/>
+        <location filename="../main.qml" line="1142"/>
         <source>Takes Third Seat two step forward</source>
         <translation>第三座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1111"/>
-        <location filename="../main.qml" line="1138"/>
+        <location filename="../main.qml" line="1118"/>
+        <location filename="../main.qml" line="1145"/>
         <source>Third Seat take last point forward</source>
         <translation>第三座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1112"/>
-        <location filename="../main.qml" line="1139"/>
+        <location filename="../main.qml" line="1119"/>
+        <location filename="../main.qml" line="1146"/>
         <source>Takes Third Seat last point forward</source>
         <translation>第三座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1115"/>
-        <location filename="../main.qml" line="1142"/>
+        <location filename="../main.qml" line="1122"/>
+        <location filename="../main.qml" line="1149"/>
         <source>Third Seat take one step backward</source>
         <translation>第三座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1116"/>
-        <location filename="../main.qml" line="1143"/>
+        <location filename="../main.qml" line="1123"/>
+        <location filename="../main.qml" line="1150"/>
         <source>Takes Third Seat one step backward</source>
         <translation>第三座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1119"/>
-        <location filename="../main.qml" line="1146"/>
+        <location filename="../main.qml" line="1126"/>
+        <location filename="../main.qml" line="1153"/>
         <source>Third Seat take two step backward</source>
         <translation>第三座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1120"/>
-        <location filename="../main.qml" line="1147"/>
+        <location filename="../main.qml" line="1127"/>
+        <location filename="../main.qml" line="1154"/>
         <source>Takes Third Seat two step backward</source>
         <translation>第三座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1123"/>
-        <location filename="../main.qml" line="1150"/>
+        <location filename="../main.qml" line="1130"/>
+        <location filename="../main.qml" line="1157"/>
         <source>Third Seat take last point backward</source>
         <translation>第三座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1124"/>
-        <location filename="../main.qml" line="1151"/>
+        <location filename="../main.qml" line="1131"/>
+        <location filename="../main.qml" line="1158"/>
         <source>Takes Third Seat last point backward</source>
         <translation>第三座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1158"/>
+        <location filename="../main.qml" line="1165"/>
         <source>Third Seat Head take one step forward</source>
         <translation>第三座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1159"/>
+        <location filename="../main.qml" line="1166"/>
         <source>Takes Third Seat Head one step forward</source>
         <translation>第三座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1162"/>
+        <location filename="../main.qml" line="1169"/>
         <source>Third Seat Head take two step forward</source>
         <translation>第三座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1163"/>
+        <location filename="../main.qml" line="1170"/>
         <source>Takes Third Seat Head two step forward</source>
         <translation>第三座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1166"/>
+        <location filename="../main.qml" line="1173"/>
         <source>Third Seat Head take last point forward</source>
         <translation>第三座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1167"/>
+        <location filename="../main.qml" line="1174"/>
         <source>Takes Third Seat Head last point forward</source>
         <translation>第三座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1170"/>
+        <location filename="../main.qml" line="1177"/>
         <source>Third Seat Head take one step backward</source>
         <translation>第三座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1171"/>
+        <location filename="../main.qml" line="1178"/>
         <source>Takes Third Seat Head one step backward</source>
         <translation>第三座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1174"/>
+        <location filename="../main.qml" line="1181"/>
         <source>Third Seat Head take two step backward</source>
         <translation>第三座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1175"/>
+        <location filename="../main.qml" line="1182"/>
         <source>Takes Third Seat Head two step backward</source>
         <translation>第三座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1178"/>
+        <location filename="../main.qml" line="1185"/>
         <source>Third Seat Head take last point backward</source>
         <translation>第三座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1179"/>
+        <location filename="../main.qml" line="1186"/>
         <source>Takes Third Seat Head last point backward</source>
         <translation>第三座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1186"/>
+        <location filename="../main.qml" line="1193"/>
         <source>Fourth seat back take one step forward</source>
         <translation>第四座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1187"/>
+        <location filename="../main.qml" line="1194"/>
         <source>Takes Fourth Seat back one step forward</source>
         <translation>第四座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1190"/>
+        <location filename="../main.qml" line="1197"/>
         <source>Fourth seat back take two step forward</source>
         <translation>第四座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1191"/>
+        <location filename="../main.qml" line="1198"/>
         <source>Takes Fourth Seat back two step forward</source>
         <translation>第四座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1194"/>
+        <location filename="../main.qml" line="1201"/>
         <source>Fourth seat back take last point forward</source>
         <translation>第四座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1195"/>
+        <location filename="../main.qml" line="1202"/>
         <source>Takes Fourth Seat back last point forward</source>
         <translation>第四座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1198"/>
+        <location filename="../main.qml" line="1205"/>
         <source>Fourth seat back take one step backward</source>
         <translation>第四座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1199"/>
+        <location filename="../main.qml" line="1206"/>
         <source>Takes Fourth Seat back one step backward</source>
         <translation>第四座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1202"/>
+        <location filename="../main.qml" line="1209"/>
         <source>Fourth seat back take two step backward</source>
         <translation>第四座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1203"/>
+        <location filename="../main.qml" line="1210"/>
         <source>Takes Fourth Seat back two step backward</source>
         <translation>第四座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1206"/>
+        <location filename="../main.qml" line="1213"/>
         <source>Fourth seat back take last point backward</source>
         <translation>第四座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1207"/>
+        <location filename="../main.qml" line="1214"/>
         <source>Takes Fourth Seat back last point backward</source>
         <translation>第四座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1213"/>
-        <location filename="../main.qml" line="1240"/>
+        <location filename="../main.qml" line="1220"/>
+        <location filename="../main.qml" line="1247"/>
         <source>Fourth Seat take one step forward</source>
         <translation>第四座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1214"/>
-        <location filename="../main.qml" line="1241"/>
+        <location filename="../main.qml" line="1221"/>
+        <location filename="../main.qml" line="1248"/>
         <source>Takes Fourth Seat one step forward</source>
         <translation>第四座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1217"/>
-        <location filename="../main.qml" line="1244"/>
+        <location filename="../main.qml" line="1224"/>
+        <location filename="../main.qml" line="1251"/>
         <source>Fourth Seat take two step forward</source>
         <translation>第四座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1218"/>
-        <location filename="../main.qml" line="1245"/>
+        <location filename="../main.qml" line="1225"/>
+        <location filename="../main.qml" line="1252"/>
         <source>Takes Fourth Seat two step forward</source>
         <translation>第四座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1221"/>
-        <location filename="../main.qml" line="1248"/>
+        <location filename="../main.qml" line="1228"/>
+        <location filename="../main.qml" line="1255"/>
         <source>Fourth Seat take last point forward</source>
         <translation>第四座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1222"/>
-        <location filename="../main.qml" line="1249"/>
+        <location filename="../main.qml" line="1229"/>
+        <location filename="../main.qml" line="1256"/>
         <source>Takes Fourth Seat last point forward</source>
         <translation>第四座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1225"/>
-        <location filename="../main.qml" line="1252"/>
+        <location filename="../main.qml" line="1232"/>
+        <location filename="../main.qml" line="1259"/>
         <source>Fourth Seat take one step backward</source>
         <translation>第四座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1226"/>
-        <location filename="../main.qml" line="1253"/>
+        <location filename="../main.qml" line="1233"/>
+        <location filename="../main.qml" line="1260"/>
         <source>Takes Fourth Seat one step backward</source>
         <translation>第四座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1229"/>
-        <location filename="../main.qml" line="1256"/>
+        <location filename="../main.qml" line="1236"/>
+        <location filename="../main.qml" line="1263"/>
         <source>Fourth Seat take two step backward</source>
         <translation>第四座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1230"/>
-        <location filename="../main.qml" line="1257"/>
+        <location filename="../main.qml" line="1237"/>
+        <location filename="../main.qml" line="1264"/>
         <source>Takes Fourth Seat two step backward</source>
         <translation>第四座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1233"/>
-        <location filename="../main.qml" line="1260"/>
+        <location filename="../main.qml" line="1240"/>
+        <location filename="../main.qml" line="1267"/>
         <source>Fourth Seat take last point backward</source>
         <translation>第四座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1234"/>
-        <location filename="../main.qml" line="1261"/>
+        <location filename="../main.qml" line="1241"/>
+        <location filename="../main.qml" line="1268"/>
         <source>Takes Fourth Seat last point backward</source>
         <translation>第四座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1268"/>
+        <location filename="../main.qml" line="1275"/>
         <source>Fourth Seat Head take one step forward</source>
         <translation>第四座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1269"/>
+        <location filename="../main.qml" line="1276"/>
         <source>Takes Fourth Seat Head one step forward</source>
         <translation>第四座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1272"/>
+        <location filename="../main.qml" line="1279"/>
         <source>Fourth Seat Head take two step forward</source>
         <translation>第四座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1273"/>
+        <location filename="../main.qml" line="1280"/>
         <source>Takes Fourth Seat Head two step forward</source>
         <translation>第四座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1276"/>
+        <location filename="../main.qml" line="1283"/>
         <source>Fourth Seat Head take last point forward</source>
         <translation>第四座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1277"/>
+        <location filename="../main.qml" line="1284"/>
         <source>Takes Fourth Seat Head last point forward</source>
         <translation>第四座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1280"/>
+        <location filename="../main.qml" line="1287"/>
         <source>Fourth Seat Head take one step backward</source>
         <translation>第四座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1281"/>
+        <location filename="../main.qml" line="1288"/>
         <source>Takes Fourth Seat Head one step backward</source>
         <translation>第四座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1284"/>
+        <location filename="../main.qml" line="1291"/>
         <source>Fourth Seat Head take two step backward</source>
         <translation>第四座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1285"/>
+        <location filename="../main.qml" line="1292"/>
         <source>Takes Fourth Seat Head two step backward</source>
         <translation>第四座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1288"/>
+        <location filename="../main.qml" line="1295"/>
         <source>Fourth Seat Head take last point backward</source>
         <translation>第四座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1289"/>
+        <location filename="../main.qml" line="1296"/>
         <source>Takes Fourth Seat Head last point backward</source>
         <translation>第四座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1296"/>
+        <location filename="../main.qml" line="1303"/>
         <source>Fifth seat back take one step forward</source>
         <translation>第五座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1297"/>
+        <location filename="../main.qml" line="1304"/>
         <source>Takes Fifth Seat back one step forward</source>
         <translation>第五座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1300"/>
+        <location filename="../main.qml" line="1307"/>
         <source>Fifth seat back take two step forward</source>
         <translation>第五座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1301"/>
+        <location filename="../main.qml" line="1308"/>
         <source>Takes Fifth Seat back two step forward</source>
         <translation>第五座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1304"/>
+        <location filename="../main.qml" line="1311"/>
         <source>Fifth seat back take last point forward</source>
         <translation>第五座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1305"/>
+        <location filename="../main.qml" line="1312"/>
         <source>Takes Fifth Seat back last point forward</source>
         <translation>第五座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1308"/>
+        <location filename="../main.qml" line="1315"/>
         <source>Fifth seat back take one step backward</source>
         <translation>第五座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1309"/>
+        <location filename="../main.qml" line="1316"/>
         <source>Takes Fifth Seat back one step backward</source>
         <translation>第五座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1312"/>
+        <location filename="../main.qml" line="1319"/>
         <source>Fifth seat back take two step backward</source>
         <translation>第五座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1313"/>
+        <location filename="../main.qml" line="1320"/>
         <source>Takes Fifth Seat back two step backward</source>
         <translation>第五座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1316"/>
+        <location filename="../main.qml" line="1323"/>
         <source>Fifth seat back take last point backward</source>
         <translation>第五座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1317"/>
+        <location filename="../main.qml" line="1324"/>
         <source>Takes Fifth Seat back last point backward</source>
         <translation>第五座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1323"/>
-        <location filename="../main.qml" line="1350"/>
+        <location filename="../main.qml" line="1330"/>
+        <location filename="../main.qml" line="1357"/>
         <source>Fifth Seat take one step forward</source>
         <translation>第五座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1324"/>
-        <location filename="../main.qml" line="1351"/>
+        <location filename="../main.qml" line="1331"/>
+        <location filename="../main.qml" line="1358"/>
         <source>Takes Fifth Seat one step forward</source>
         <translation>第五座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1327"/>
-        <location filename="../main.qml" line="1354"/>
+        <location filename="../main.qml" line="1334"/>
+        <location filename="../main.qml" line="1361"/>
         <source>Fifth Seat take two step forward</source>
         <translation>第五座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1328"/>
-        <location filename="../main.qml" line="1355"/>
+        <location filename="../main.qml" line="1335"/>
+        <location filename="../main.qml" line="1362"/>
         <source>Takes Fifth Seat two step forward</source>
         <translation>第五座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1331"/>
-        <location filename="../main.qml" line="1358"/>
+        <location filename="../main.qml" line="1338"/>
+        <location filename="../main.qml" line="1365"/>
         <source>Fifth Seat take last point forward</source>
         <translation>第五座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1332"/>
-        <location filename="../main.qml" line="1359"/>
+        <location filename="../main.qml" line="1339"/>
+        <location filename="../main.qml" line="1366"/>
         <source>Takes Fifth Seat last point forward</source>
         <translation>第五座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1335"/>
-        <location filename="../main.qml" line="1362"/>
+        <location filename="../main.qml" line="1342"/>
+        <location filename="../main.qml" line="1369"/>
         <source>Fifth Seat take one step backward</source>
         <translation>第五座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1336"/>
-        <location filename="../main.qml" line="1363"/>
+        <location filename="../main.qml" line="1343"/>
+        <location filename="../main.qml" line="1370"/>
         <source>Takes Fifth Seat one step backward</source>
         <translation>第五座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1339"/>
-        <location filename="../main.qml" line="1366"/>
+        <location filename="../main.qml" line="1346"/>
+        <location filename="../main.qml" line="1373"/>
         <source>Fifth Seat take two step backward</source>
         <translation>第五座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1340"/>
-        <location filename="../main.qml" line="1367"/>
+        <location filename="../main.qml" line="1347"/>
+        <location filename="../main.qml" line="1374"/>
         <source>Takes Fifth Seat two step backward</source>
         <translation>第五座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1343"/>
-        <location filename="../main.qml" line="1370"/>
+        <location filename="../main.qml" line="1350"/>
+        <location filename="../main.qml" line="1377"/>
         <source>Fifth Seat take last point backward</source>
         <translation>第五座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1344"/>
-        <location filename="../main.qml" line="1371"/>
+        <location filename="../main.qml" line="1351"/>
+        <location filename="../main.qml" line="1378"/>
         <source>Takes Fifth Seat last point backward</source>
         <translation>第五座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1378"/>
+        <location filename="../main.qml" line="1385"/>
         <source>Fifth Seat Head take one step forward</source>
         <translation>第五座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1379"/>
+        <location filename="../main.qml" line="1386"/>
         <source>Takes Fifth Seat Head one step forward</source>
         <translation>第五座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1382"/>
+        <location filename="../main.qml" line="1389"/>
         <source>Fifth Seat Head take two step forward</source>
         <translation>第五座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1383"/>
+        <location filename="../main.qml" line="1390"/>
         <source>Takes Fifth Seat Head two step forward</source>
         <translation>第五座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1386"/>
+        <location filename="../main.qml" line="1393"/>
         <source>Fifth Seat Head take last point forward</source>
         <translation>第五座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1387"/>
+        <location filename="../main.qml" line="1394"/>
         <source>Takes Fifth Seat Head last point forward</source>
         <translation>第五座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1390"/>
+        <location filename="../main.qml" line="1397"/>
         <source>Fifth Seat Head take one step backward</source>
         <translation>第五座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1391"/>
+        <location filename="../main.qml" line="1398"/>
         <source>Takes Fifth Seat Head one step backward</source>
         <translation>第五座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1394"/>
+        <location filename="../main.qml" line="1401"/>
         <source>Fifth Seat Head take two step backward</source>
         <translation>第五座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1395"/>
+        <location filename="../main.qml" line="1402"/>
         <source>Takes Fifth Seat Head two step backward</source>
         <translation>第五座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1398"/>
+        <location filename="../main.qml" line="1405"/>
         <source>Fifth Seat Head take last point backward</source>
         <translation>第五座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1399"/>
+        <location filename="../main.qml" line="1406"/>
         <source>Takes Fifth Seat Head last point backward</source>
         <translation>第五座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1406"/>
+        <location filename="../main.qml" line="1413"/>
         <source>Sixth seat back take one step forward</source>
         <translation>第六座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1407"/>
+        <location filename="../main.qml" line="1414"/>
         <source>Takes Sixth Seat back one step forward</source>
         <translation>第六座椅靠背向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1410"/>
+        <location filename="../main.qml" line="1417"/>
         <source>Sixth seat back take two step forward</source>
         <translation>第六座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1411"/>
+        <location filename="../main.qml" line="1418"/>
         <source>Takes Sixth Seat back two step forward</source>
         <translation>第六座椅靠背向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1414"/>
+        <location filename="../main.qml" line="1421"/>
         <source>Sixth seat back take last point forward</source>
         <translation>第六座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1415"/>
+        <location filename="../main.qml" line="1422"/>
         <source>Takes Sixth Seat back last point forward</source>
         <translation>第六座椅靠背向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1418"/>
+        <location filename="../main.qml" line="1425"/>
         <source>Sixth seat back take one step backward</source>
         <translation>第六座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1419"/>
+        <location filename="../main.qml" line="1426"/>
         <source>Takes Sixth Seat back one step backward</source>
         <translation>第六座椅靠背向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1422"/>
+        <location filename="../main.qml" line="1429"/>
         <source>Sixth seat back take two step backward</source>
         <translation>第六座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1423"/>
+        <location filename="../main.qml" line="1430"/>
         <source>Takes Sixth Seat back two step backward</source>
         <translation>第六座椅靠背向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1426"/>
+        <location filename="../main.qml" line="1433"/>
         <source>Sixth seat back take last point backward</source>
         <translation>第六座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1427"/>
+        <location filename="../main.qml" line="1434"/>
         <source>Takes Sixth Seat back last point backward</source>
         <translation>第六座椅靠背向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1433"/>
-        <location filename="../main.qml" line="1460"/>
+        <location filename="../main.qml" line="1440"/>
+        <location filename="../main.qml" line="1467"/>
         <source>Sixth Seat take one step forward</source>
         <translation>第六座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1434"/>
-        <location filename="../main.qml" line="1461"/>
+        <location filename="../main.qml" line="1441"/>
+        <location filename="../main.qml" line="1468"/>
         <source>Takes Sixth Seat one step forward</source>
         <translation>第六座椅向前一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1437"/>
-        <location filename="../main.qml" line="1464"/>
+        <location filename="../main.qml" line="1444"/>
+        <location filename="../main.qml" line="1471"/>
         <source>Sixth Seat take two step forward</source>
         <translation>第六座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1438"/>
-        <location filename="../main.qml" line="1465"/>
+        <location filename="../main.qml" line="1445"/>
+        <location filename="../main.qml" line="1472"/>
         <source>Takes Sixth Seat two step forward</source>
         <translation>第六座椅向前两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1441"/>
-        <location filename="../main.qml" line="1468"/>
+        <location filename="../main.qml" line="1448"/>
+        <location filename="../main.qml" line="1475"/>
         <source>Sixth Seat take last point forward</source>
         <translation>第六座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1442"/>
-        <location filename="../main.qml" line="1469"/>
+        <location filename="../main.qml" line="1449"/>
+        <location filename="../main.qml" line="1476"/>
         <source>Takes Sixth Seat last point forward</source>
         <translation>第六座椅向前到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1445"/>
-        <location filename="../main.qml" line="1472"/>
+        <location filename="../main.qml" line="1452"/>
+        <location filename="../main.qml" line="1479"/>
         <source>Sixth Seat take one step backward</source>
         <translation>第六座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1446"/>
-        <location filename="../main.qml" line="1473"/>
+        <location filename="../main.qml" line="1453"/>
+        <location filename="../main.qml" line="1480"/>
         <source>Takes Sixth Seat one step backward</source>
         <translation>第六座椅向后一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1449"/>
-        <location filename="../main.qml" line="1476"/>
+        <location filename="../main.qml" line="1456"/>
+        <location filename="../main.qml" line="1483"/>
         <source>Sixth Seat take two step backward</source>
         <translation>第六座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1450"/>
-        <location filename="../main.qml" line="1477"/>
+        <location filename="../main.qml" line="1457"/>
+        <location filename="../main.qml" line="1484"/>
         <source>Takes Sixth Seat two step backward</source>
         <translation>第六座椅向后两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1453"/>
-        <location filename="../main.qml" line="1480"/>
+        <location filename="../main.qml" line="1460"/>
+        <location filename="../main.qml" line="1487"/>
         <source>Sixth Seat take last point backward</source>
         <translation>第六座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1454"/>
-        <location filename="../main.qml" line="1481"/>
+        <location filename="../main.qml" line="1461"/>
+        <location filename="../main.qml" line="1488"/>
         <source>Takes Sixth Seat last point backward</source>
         <translation>第六座椅向后到位 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1488"/>
+        <location filename="../main.qml" line="1495"/>
         <source>Sixth Seat Head take one step forward</source>
         <translation>第六座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1489"/>
+        <location filename="../main.qml" line="1496"/>
         <source>Takes Sixth Seat Head one step forward</source>
         <translation>第六座椅头枕向上一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1492"/>
+        <location filename="../main.qml" line="1499"/>
         <source>Sixth Seat Head take two step forward</source>
         <translation>第六座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1493"/>
+        <location filename="../main.qml" line="1500"/>
         <source>Takes Sixth Seat Head two step forward</source>
         <translation>第六座椅头枕向上两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1496"/>
+        <location filename="../main.qml" line="1503"/>
         <source>Sixth Seat Head take last point forward</source>
         <translation>第六座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1497"/>
+        <location filename="../main.qml" line="1504"/>
         <source>Takes Sixth Seat Head last point forward</source>
         <translation>第六座椅头枕向上到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1500"/>
+        <location filename="../main.qml" line="1507"/>
         <source>Sixth Seat Head take one step backward</source>
         <translation>第六座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1501"/>
+        <location filename="../main.qml" line="1508"/>
         <source>Takes Sixth Seat Head one step backward</source>
         <translation>第六座椅头枕向下一步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1504"/>
+        <location filename="../main.qml" line="1511"/>
         <source>Sixth Seat Head take two step backward</source>
         <translation>第六座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1505"/>
+        <location filename="../main.qml" line="1512"/>
         <source>Takes Sixth Seat Head two step backward</source>
         <translation>第六座椅头枕向下两步</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1508"/>
+        <location filename="../main.qml" line="1515"/>
         <source>Sixth Seat Head take last point backward</source>
         <translation>第六座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1509"/>
+        <location filename="../main.qml" line="1516"/>
         <source>Takes Sixth Seat Head last point backward</source>
         <translation>第六座椅头枕向下到位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1516"/>
+        <location filename="../main.qml" line="1523"/>
         <source>Luggage Curtain Open</source>
         <translation>打开行李箱窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1517"/>
+        <location filename="../main.qml" line="1524"/>
         <source>Opens the Luggage Curtain</source>
         <translation>打开行李箱窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1520"/>
+        <location filename="../main.qml" line="1527"/>
         <source>Luggage Curtain Close</source>
         <translation>关闭行李箱窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1521"/>
+        <location filename="../main.qml" line="1528"/>
         <source>Closes the Luggage Curtain</source>
         <translation>关闭行李箱窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1524"/>
+        <location filename="../main.qml" line="1531"/>
         <source>All Curtain Open</source>
         <translation>打开全部窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1525"/>
+        <location filename="../main.qml" line="1532"/>
         <source>Opens all the Curtain</source>
         <translation>打开全部窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1528"/>
+        <location filename="../main.qml" line="1535"/>
         <source>All Curtain Close</source>
         <translation>关闭全部窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1529"/>
+        <location filename="../main.qml" line="1536"/>
         <source>Closes all the Curtain</source>
         <translation>关闭全部窗帘</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1536"/>
+        <location filename="../main.qml" line="1543"/>
         <source>Take the first seat in sleep mode</source>
         <translation>第一座椅睡眠模式 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1537"/>
+        <location filename="../main.qml" line="1544"/>
         <source>Takes the first seat in sleep mode</source>
         <translation>第一座椅睡眠模式 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1540"/>
+        <location filename="../main.qml" line="1547"/>
         <source>Take the second seat in sleep mode</source>
         <translation>第二座椅睡眠模式 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1541"/>
+        <location filename="../main.qml" line="1548"/>
         <source>Takes the second seat in sleep mode</source>
         <translation>第二座椅睡眠模式 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1544"/>
+        <location filename="../main.qml" line="1551"/>
         <source>Gather first seat</source>
         <translation>第一座椅回位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1545"/>
+        <location filename="../main.qml" line="1552"/>
         <source>Gathers first seat</source>
         <translation>第一座椅回位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1548"/>
+        <location filename="../main.qml" line="1555"/>
         <source>Gather second seat</source>
         <translation>第二座椅回位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1549"/>
+        <location filename="../main.qml" line="1556"/>
         <source>Gathers second seat</source>
         <translation>第二座椅回位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1552"/>
+        <location filename="../main.qml" line="1559"/>
         <source>Take cinema mode</source>
         <translation>进入电影院模式</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1553"/>
+        <location filename="../main.qml" line="1560"/>
         <source>Takes cinema mode</source>
         <translation>进入电影院模式</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1556"/>
+        <location filename="../main.qml" line="1563"/>
         <source>Take conference mode</source>
         <translation>进入会议模式</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1557"/>
+        <location filename="../main.qml" line="1564"/>
         <source>Takes conference mode</source>
         <translation>进入会议模式</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1560"/>
+        <location filename="../main.qml" line="1567"/>
         <source>All tables open</source>
         <translation>打开所有的桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1561"/>
+        <location filename="../main.qml" line="1568"/>
         <source>Opens all tables</source>
         <translation>打开所有的桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1564"/>
+        <location filename="../main.qml" line="1571"/>
         <source>All tables close</source>
         <translation>关闭所有的桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1565"/>
+        <location filename="../main.qml" line="1572"/>
         <source>Closes all tables</source>
         <translation>关闭所有的桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1568"/>
+        <location filename="../main.qml" line="1575"/>
         <source>Gather all seats</source>
         <translation>收集所有座位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1569"/>
+        <location filename="../main.qml" line="1576"/>
         <source>Gathers all seats</source>
         <translation>收集所有座位</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1575"/>
+        <location filename="../main.qml" line="1582"/>
         <source>In lights turn on</source>
         <translation>打开室内灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1576"/>
+        <location filename="../main.qml" line="1583"/>
         <source>Turns on in lights</source>
         <translation>打开室内灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1579"/>
+        <location filename="../main.qml" line="1586"/>
         <source>In lights turn off</source>
         <translation>在灯光下关闭</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1580"/>
+        <location filename="../main.qml" line="1587"/>
         <source>Turns off in lights</source>
         <translation>在灯光下关闭</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1583"/>
+        <location filename="../main.qml" line="1590"/>
         <source>Side lights turn on</source>
         <translation>打开侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1584"/>
+        <location filename="../main.qml" line="1591"/>
         <source>Turns on Side lights</source>
         <translation>打开侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1588"/>
+        <location filename="../main.qml" line="1595"/>
         <source>Turns off Side lights</source>
         <translation>关掉侧灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1591"/>
+        <location filename="../main.qml" line="1598"/>
         <source>Ceiling lights turn on</source>
         <translation>打开天花板灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1592"/>
+        <location filename="../main.qml" line="1599"/>
         <source>Turns on Ceiling lights</source>
         <translation>打开天花板灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1596"/>
+        <location filename="../main.qml" line="1603"/>
         <source>Turns off Ceiling lights</source>
         <translation>关掉天花板灯</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1599"/>
+        <location filename="../main.qml" line="1606"/>
         <source>System off</source>
         <translation>系统开关</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1600"/>
+        <location filename="../main.qml" line="1607"/>
         <source>Turns the System off</source>
         <translation>系统开关</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1605"/>
+        <location filename="../main.qml" line="1612"/>
         <source>Return to The Homepage</source>
         <translation>返回主页</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1606"/>
+        <location filename="../main.qml" line="1613"/>
         <source>Returns to The Homepage</source>
         <translation>返回主页</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1620"/>
+        <location filename="../main.qml" line="1627"/>
         <source>Command</source>
         <translation>命令</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1625"/>
+        <location filename="../main.qml" line="1632"/>
         <source>Action</source>
         <translation>行动</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1686"/>
+        <location filename="../main.qml" line="1693"/>
         <source>Command list that you can ask from the voice assistant.</source>
         <translation>您可以从语音助手处询问的命令列表</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1705"/>
+        <location filename="../main.qml" line="1712"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
