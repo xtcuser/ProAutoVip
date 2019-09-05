@@ -73,10 +73,11 @@ BasePage {
        Rectangle{
            id:restartbtn
            anchors.centerIn: restart;
-           radius: 8
            width: 400
            height:220
-           color:"#212121"
+           color: "#1c1c1c"
+           border.width: 3
+           border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
            z:344
            opacity: 1
            visible: false
@@ -101,7 +102,8 @@ BasePage {
                        anchors.centerIn: parent
                        text:qsTr("System should be restarted to\n apply all language changes.") + mytrans.emptyString
                        font.family:GSystem.myriadproita.name
-                       font.pixelSize: 18
+                       font.pixelSize: 22
+                       font.italic: true
                        color: "white"
                    }
                }
@@ -121,8 +123,9 @@ BasePage {
                                id: restartbg
                                width: 120
                                height: 70
-                               radius: 8
                                color:"black"
+                               border.width: 1
+                               border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
                                anchors.centerIn: parent
                                z:344
                                Text{
@@ -138,7 +141,7 @@ BasePage {
                                        restarter.makeRestart()
                                    }
                                    onPressed: {
-                                       restartbg.color = "#1c1c1c"
+                                       restartbg.color = Qt.rgba(0/255, 108/255, 128/255,0.6)
                                    }
                                    onReleased: {
                                        restartbg.color = "black"
@@ -156,7 +159,8 @@ BasePage {
                                width: 120
                                height: 70
                                color:"black"
-                               radius: 8
+                               border.width: 1
+                               border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
                                anchors.centerIn: parent
                                z:344
                                Text{
@@ -173,10 +177,10 @@ BasePage {
                                        restartbtn.visible=false;
                                    }
                                    onPressed: {
-                                       cancelbg.color = "#1c1c1c"
+                                       cancelbg.color =  Qt.rgba(0/255, 108/255, 128/255,0.6)
                                    }
                                    onReleased: {
-                                       cancelbg.color = "black"
+                                       cancelbg.color =  "black"
                                    }
                                }
                            }

@@ -173,10 +173,11 @@ Window {
     Rectangle{
         id:infomenu
         anchors.centerIn: infoverlay;
-        radius: 8
         width: 900
         height:600
-        color:"#212121"
+        color:"#1c1c1c"
+        border.width: 3
+        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
         z:344
         opacity: 1
         visible: false
@@ -1698,6 +1699,7 @@ Window {
         z:345
         text:qsTr("Command list that you can ask from the voice assistant.") + mytrans.emptyString
         font.family:GSystem.myriadproita.name
+        font.italic: true
         font.pixelSize: 25
         color: "white"
     }
@@ -1708,7 +1710,8 @@ Window {
             width: 120
             height: 50
             color:"black"
-            radius: 8
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             visible: false
             anchors.horizontalCenter: parent.horizontalCenter
             y:620
@@ -1717,6 +1720,7 @@ Window {
                 anchors.centerIn: parent
                 text:qsTr("Close") + mytrans.emptyString
                 font.family:GSystem.myriadproita.name
+                font.italic: true
                 font.pixelSize: 18
                 color: "white"
             }
@@ -1729,7 +1733,7 @@ Window {
                     infoclose.visible=false;
                 }
                 onPressed: {
-                    infoclose.color = "#1c1c1c"
+                    infoclose.color = Qt.rgba(0/255, 108/255, 128/255,0.6)
                 }
                 onReleased: {
                     infoclose.color = "black"
