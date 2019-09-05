@@ -30,6 +30,13 @@ Window {
         height:768
         opacity: 1
     }
+    Connections{
+       target: nvidia_conn_manager
+       onChangeQmlPage: function(page){
+           GSystem.state = page;
+           GSystem.changePage(page,false);
+       }
+    }
 
 //    AnimatedImage {
 //        x:0

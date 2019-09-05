@@ -505,6 +505,7 @@ Item {
                 {
                 phistory.shift();
                 }
+            nvidia_conn_manager.setUsersLastPage(pageName);
             }
             root.activePage = pageName;
             root.currentPageItm = getPageItem(pageName);

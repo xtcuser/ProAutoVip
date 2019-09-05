@@ -9,6 +9,7 @@
 #include <iostream>
 #include <memory>
 #include "serialmng.h"
+#include "settingsmanager.h"
 
 class NvidiaConnManager;
 
@@ -20,26 +21,35 @@ class NvidiaConnManager: public QObject
     QWebSocketServer *webSocketServer;
     QList<QWebSocket *> clients;
     SerialMng* serial_mng;
+    SettingsManager* SM;
     QJsonObject stateObject {};
+    QMap<QString, QString> bustype;
+    QTimer * menuReturnTimer = nullptr;
+    int changePageTimeout = 2000;
+
+    QString usersLastPage = "Home";
 
 private:
     void initializeStateObject();
+    void setProtocolBusType();
 public:
-    NvidiaConnManager(quint16 port, SerialMng *serial_mng , QObject * parent = nullptr);
+    NvidiaConnManager(quint16 port, SerialMng *serial_mng , SettingsManager *SM, QObject * parent = nullptr);
     //virtual ~NvidiaConnManager();
 
 signals:
     void closed();
-    void stateJsonUpdatedSignal(QString ID, QString value);
+    void changeQmlPage(QString page);
     //void sendSuggestion(QString suggestion);        //suggestion based on emotional analysis performed by AI
 
 private slots:
     void onNewConnection();
     void processMessage(const QString &message);
+    void returnToUsersPage();
     void socketDisconnected();
 
 public slots:
     void stateJsonUpdated(QString ID, QString value);
+    void setUsersLastPage(QString page);
 
 };
 

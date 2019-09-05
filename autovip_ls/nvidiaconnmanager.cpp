@@ -1,7 +1,12 @@
 #include "nvidiaconnmanager.h"
 #include <QColor>
 
-NvidiaConnManager::NvidiaConnManager(quint16 port, SerialMng *serial_mng, QObject *parent):
+
+void NvidiaConnManager::setProtocolBusType(){
+    bustype["ac"] = SM->actype() == 1 ? "can" : (SM->actype() == 2 ? "modbus" : nullptr);
+}
+
+NvidiaConnManager::NvidiaConnManager(quint16 port, SerialMng *serial_mng,  SettingsManager *SM, QObject *parent):
     QObject(parent),
     webSocketServer(new QWebSocketServer(
                            QStringLiteral("nvidia_websocket_server"),
@@ -9,6 +14,7 @@ NvidiaConnManager::NvidiaConnManager(quint16 port, SerialMng *serial_mng, QObjec
                            this))
 {
     this->serial_mng = serial_mng;
+    this->SM = SM;
 
     if (webSocketServer->listen(QHostAddress::Any, port))
     {
@@ -19,24 +25,34 @@ NvidiaConnManager::NvidiaConnManager(quint16 port, SerialMng *serial_mng, QObjec
                 &NvidiaConnManager::onNewConnection);
     }
 
-    this->initializeStateObject();
-
+    initializeStateObject();
+    setProtocolBusType();
+    menuReturnTimer = new QTimer();
+    menuReturnTimer->setInterval(changePageTimeout);
+    connect(menuReturnTimer,&QTimer::timeout,this,&NvidiaConnManager::returnToUsersPage);
 }
 
 void NvidiaConnManager::initializeStateObject(){
     stateObject["CeilColor"] = serial_mng->ceilingcolor().name();
     stateObject["InsideColor"] = serial_mng->insidecolor().name();
     stateObject["SideColor"] = serial_mng->sidecolor().name();
+    stateObject["fandeg"] = serial_mng->fandeg();
+    stateObject["acdeg"] = serial_mng->acdeg();
 
     connect(this->serial_mng, &SerialMng::ceilingcolorChanged, [this](QColor color){
         this->stateObject["CeilColor"] = color.name();  });
 
     connect(this->serial_mng, &SerialMng::insidecolorChanged, [this](QColor color){
-        this->stateObject["insidecolorChanged"] = color.name(); });
+        this->stateObject["InsideColor"] = color.name(); });
 
     connect(this->serial_mng, &SerialMng::sidecolorChanged, [this](QColor color){
-        this->stateObject["sidecolor"] = color.name(); });
+        this->stateObject["SideColor"] = color.name(); });
 
+    connect(this->serial_mng, &SerialMng::fandegChanged, [this](int fandeg){
+        this->stateObject["fandeg"] = fandeg; });
+
+    connect(this->serial_mng, &SerialMng::acdegChanged, [this](int acdeg){
+        this->stateObject["acdeg"] = acdeg; });
 }
 
 
@@ -55,32 +71,55 @@ void NvidiaConnManager::onNewConnection()
     clients << socket_ptr;
 }
 
-
+// TODO: remove the color string validation
+// TODO: implement specific temperature setting
+// TODO: implement curtains
+// TODO: OO implementation of ui and serialmanager things
 void NvidiaConnManager::processMessage(const QString &message)
 {
-    qDebug()<<"msg : "<<message<<endl;
-    if (message == "blue")
+    QStringList msg_parts = message.split(" ");
+    if (msg_parts[0] == "ceilingcolor" && msg_parts.length()==2 && QColor::isValidColor(msg_parts[1]))
     {
-        QColor color(Qt::blue);
+        if (usersLastPage == "Home")
+            emit changeQmlPage("Lights");
+        QColor color = QColor(msg_parts[1]);
         this->serial_mng->setCeilingcolor(color);
     }
-    else if (message == "red")
+    else if (msg_parts[0] == "fandeg" && msg_parts.length()==2)
     {
-        QColor color(Qt::red);
-        this->serial_mng->setCeilingcolor(color);
+//        if (usersLastPage != "Home"){
+//            menuReturnTimer->stop();
+//            menuReturnTimer->start();}
+        if (usersLastPage == "Home")
+            emit changeQmlPage("AirConditioner");
+        if(msg_parts[1]=="up"){
+            this->serial_mng->sendKey("controls/" + bustype["ac"] + "_ai_fan_up");
+        }
+        else if (msg_parts[1]=="down"){
+            this->serial_mng->sendKey("controls/" + bustype["ac"] + "_ai_fan_down");
+        }
     }
-    else if (message == "green")
+    else if (msg_parts[0] == "acdeg" && msg_parts.length()==2)
     {
-        QColor color(Qt::green);
-        this->serial_mng->setCeilingcolor(color);
+        int current_acdeg = serial_mng->acdeg();
+//        if (usersLastPage != "Home"){
+//            menuReturnTimer->stop();
+//            menuReturnTimer->start();}
+        if (usersLastPage == "Home")
+            emit changeQmlPage("AirConditioner");
+        if(msg_parts[1]=="up"){
+            this->serial_mng->sendKey("controls/" + bustype["ac"] + "_ai_degree_up");
+            if(current_acdeg < 13)
+                this->serial_mng->setACDeg(current_acdeg + 1);
+        }
+        else if (msg_parts[1]=="down"){
+            this->serial_mng->sendKey("controls/" + bustype["ac"] + "_ai_degree_down");
+            if(current_acdeg > -1 )
+                this->serial_mng->setACDeg(current_acdeg - 1);
+        }
     }
-    else if (message == "yellow")
-    {
-        QColor color(Qt::yellow);
-        this->serial_mng->setCeilingcolor(color);
-    }
-    qDebug() << clients.size();
-    qDebug()<<(this->stateObject);
+//    qDebug() << clients.size();
+//    qDebug()<<(this->stateObject);
 }
 
 void NvidiaConnManager::socketDisconnected()
@@ -102,4 +141,13 @@ void NvidiaConnManager::stateJsonUpdated(QString ID, QString value)
 //    qDebug() <<"state json updated " + ID +" " + value;
     qDebug() <<"stateJsonObject: " << stateObject;
 
+}
+void NvidiaConnManager::setUsersLastPage(QString page)
+{
+    usersLastPage = page;
+}
+void NvidiaConnManager::returnToUsersPage()
+{
+    menuReturnTimer->stop();
+    emit changeQmlPage(usersLastPage);
 }
