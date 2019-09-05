@@ -36,6 +36,7 @@ class SettingsManager : public QObject
     Q_PROPERTY(bool slboolean READ slboolean)
     Q_PROPERTY(bool dockingstation READ dockingstation)
     Q_PROPERTY(bool twodoor READ twodoor)
+    Q_PROPERTY(bool amp READ amp)
     Q_PROPERTY(bool refrigerator READ regrigerator)
     Q_PROPERTY(bool radio READ radio)
     Q_PROPERTY(bool sunroof READ sunroof)
@@ -69,6 +70,7 @@ public:
     bool curtains();
     bool demomode();
     bool intro();
+    bool amp();
 
     void setActype(uint p_actype);
 Q_INVOKABLE uint mediaplayertype();

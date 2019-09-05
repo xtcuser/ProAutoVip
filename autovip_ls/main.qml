@@ -1741,8 +1741,8 @@ Window {
            anchors.centerIn: start;
            border.width: 2
            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-           width: 250
-           height: 250
+           width: 300
+           height: 300
            color: Qt.rgba(0,0,0,0.8)
            z:334
            property int systemstate: serial_mng.systemstate
@@ -1763,8 +1763,8 @@ Window {
            Image{
                anchors.centerIn: parent
                source:"qrc:/design/general/on-button.svg"
-               sourceSize.width: 150
-               sourceSize.height: 150
+               sourceSize.width: 200
+               sourceSize.height: 200
               z:334
                MouseArea{
                    anchors.fill: parent

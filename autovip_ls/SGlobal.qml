@@ -565,10 +565,6 @@ Item {
             ,
                 "Tables"
             ,
-                "RightTable"
-            ,
-                "LeftTable"
-            ,
                 "Refrigerator"
             ,
                 "SafeBox"

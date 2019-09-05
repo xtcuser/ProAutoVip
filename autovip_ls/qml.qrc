@@ -147,9 +147,7 @@
         <file>Pages/Controls/Tables.qml</file>
         <file>Pages/Controls/SmokeFan.qml</file>
         <file>Pages/Controls/SafeBox.qml</file>
-        <file>Pages/Controls/RightTable.qml</file>
         <file>Pages/Controls/Refrigerator.qml</file>
-        <file>Pages/Controls/LeftTable.qml</file>
         <file>Pages/Controls/Controls.qml</file>
         <file>Pages/Controls/AirConditioner.qml</file>
         <file>Pages/Lights/Lights.qml</file>
@@ -343,11 +341,6 @@
         <file>design/fonts/myriad-pro/MYRIADPRO-BOLD.OTF</file>
         <file>design/settings/english.png</file>
         <file>design/settings/turkish.png</file>
-        <file>design/general/two.svg</file>
-        <file>design/general/one.svg</file>
-        <file>design/general/three.svg</file>
-        <file>design/general/four.svg</file>
-        <file>design/general/five.svg</file>
         <file>design/media/leftmenu/ceiling_screen.png</file>
         <file>Pages/Media/CeilingScreen.qml</file>
         <file>design/media/ceiling_screen.png</file>
@@ -485,5 +478,10 @@
         <file>design/controls/ani/orta.png</file>
         <file>design/controls/ani/kucuk.png</file>
         <file>design/controls/ani/buyuk.png</file>
+        <file>design/general/five.png</file>
+        <file>design/general/two.png</file>
+        <file>design/general/three.png</file>
+        <file>design/general/one.png</file>
+        <file>design/general/four.png</file>
     </qresource>
 </RCC>

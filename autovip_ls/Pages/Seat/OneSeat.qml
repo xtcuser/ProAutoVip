@@ -392,6 +392,7 @@ BasePage {
                     id:drawerbt
                     width:275
                     height:75
+                    visible: SM.seatDrawer(GSystem.selectedSeat) === true
                     anchors.horizontalCenter: parent.horizontalCenter
                     color:Qt.rgba(0, 0, 0,0.4)
                     border.width: 1
@@ -539,6 +540,7 @@ BasePage {
                     id:thighbt
                     width:275
                     height:75
+                    visible: SM.seatThigh(GSystem.selectedSeat) === true
                     anchors.horizontalCenter: parent.horizontalCenter
                     color:Qt.rgba(0, 0, 0,0.4)
                     border.width: 1
@@ -618,6 +620,7 @@ BasePage {
                     id:coolinbt
                     width:275
                     height:75
+                    visible: SM.seatCooling(GSystem.selectedSeat) === true
                     anchors.horizontalCenter: parent.horizontalCenter
                     color:Qt.rgba(0, 0, 0,0.4)
                     border.width: 1
@@ -716,6 +719,7 @@ BasePage {
                     id:heatinbt
                     width:275
                     height:75
+                    visible: SM.seatHeating(GSystem.selectedSeat) === true
                     anchors.horizontalCenter: parent.horizontalCenter
                     color:Qt.rgba(0, 0, 0,0.4)
                     border.width: 1
@@ -814,6 +818,7 @@ BasePage {
                 id:massageroot
                 width: 275
                 height: 75
+                visible: SM.seatMassage(GSystem.selectedSeat) === true
                 anchors.horizontalCenter: parent.horizontalCenter
                 color:"transparent"
                 RowLayout{
@@ -848,10 +853,10 @@ BasePage {
                         width: 75
                         border.color: Qt.rgba(0/255, 108/255, 128/255,0.6)
                         border.width: 1
-                        color:serial_mng.massageon===0?Qt.rgba(0/255, 255/255, 0/255,0.6):Qt.rgba(255/255, 0/255, 0/255,0.6)
+                        color:serial_mng.massageon===0?Qt.rgba(255/255, 0/255, 0/255,0.6):Qt.rgba(0/255, 255/255, 0/255,0.6)
                         Text{
                             anchors.centerIn: parent
-                            text: (serial_mng.massageon===0?qsTr("ON") + mytrans.emptyString:qsTr("OFF") + mytrans.emptyString)  + mytrans.emptyString
+                            text: (serial_mng.massageon===0?qsTr("OFF") + mytrans.emptyString:qsTr("ON") + mytrans.emptyString)  + mytrans.emptyString
                             font.family: GSystem.myriadproita.name
                             font.italic: true
                             font.pixelSize: 24

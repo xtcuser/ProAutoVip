@@ -6,90 +6,241 @@ import "../../Components"
 
 BasePage {
     id:root
-    caption: qsTr("TABLES") + mytrans.emptyString
+    caption: qsTr("Tables") + mytrans.emptyString
+    pageName: "Tables"
     Image{
         x:0
         y:0
         width:parent.width
         height:parent.height
-        LeftTextMenu{
-            id:leftMenu
-            model:tablesModel
+        Rectangle{
+            width: 800
+            height: 450
+            color:"transparent"
+            anchors.centerIn:  parent
 
-        }
-        ListModel{
-            id:tablesModel
-            ListElement
-            {
-                name: qsTr("Left Table")
-                st:"LeftTable"
-            }
-            ListElement
-            {
-                name: qsTr("Right Table")
-                st:"RightTable"
-            }
+            RowLayout{
+                anchors.fill:parent
+                spacing:100
 
-        }
+                ColumnLayout{
+                    spacing: 0
+                    anchors.left:parent.left
+                    width:350
+                    height: 400
 
-//        Repeater {
-//            model:tablesModel
-//            Text {
-//                text: name
-//            }
-//        }
-        Image{
-            x:252
-            y:208
-            source:"qrc:/design/controls/tables.png"
-            Item{
-                id:ltable
-                x:0
-                y:120
-                width:322
-                height:94
-                Rectangle{
-                    anchors.centerIn: parent
-                    color:"white"
-                    width: 20
-                    height: 20
-                    radius: width/2
-                }
-
-                MouseArea{
-                    anchors.fill: parent
-                    onClicked: {
-                                GSystem.state = "LeftTable";
-                                GSystem.changePage("LeftTable");
+                    Rectangle {
+                        id:leftwrect
+                        width:350
+                        height:350
+                        anchors.verticalCenter: parent.verticalCenter
+                        color:Qt.rgba(0, 0, 0,0.4)
+                        border.width: 1
+                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                        ColumnLayout{
+                            width: 275
+                            height: 275
+                            spacing: 20
+                            anchors.centerIn: parent
+                            Text{
+                                font.family: GSystem.myriadproita.name
+                                font.italic: true
+                                font.pixelSize: 24
+                                text: qsTr("Left Table") + mytrans.emptyString
+                                color: "white"
+                                anchors.horizontalCenter: parent.horizontalCenter
+                                anchors.top:parent.top
+                                anchors.topMargin: 7
+                            }
+                            Image {
+                                id: lwpic
+                                width:275
+                                height: 275
+                                sourceSize.height: 275
+                                sourceSize.width: 275
+                                anchors.horizontalCenter: parent.horizontalCenter
+                                source: "qrc:/design/controls/lefttable.png"
+                            }
+                        }
                     }
-                    cursorShape: Qt.PointingHandCursor
-                }
-            }
-            Item{
-                id:rtable
-                x:parent.width - width
-                y:120
-                width:322
-                height:94
-                Rectangle{
-                    anchors.centerIn: parent
-                    color:"white"
-                    width: 20
-                    height: 20
-                    radius: width/2
-                }
 
-                MouseArea{
-                    anchors.fill: parent
-                    onClicked:{
-                                GSystem.state = "RightTable";
-                                GSystem.changePage("RightTable");
+                    RowLayout{
+                        id:leftbuttonslayout
+                        anchors.horizontalCenter: leftwrect.horizontalCenter
+                        anchors.top:leftwrect.bottom
+                        spacing: 0
+                        width: 350
+                        height: 50
+                        Rectangle{
+                            id:leftwopen
+                            width: 175
+                            height: 50
+                            anchors.left: parent.left
+                            color:Qt.rgba(0, 0, 0,0.4)
+                            border.width: 1
+                            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                            Text {
+                                font.family: GSystem.myriadproita.name
+                                font.pixelSize: 24
+                                font.italic: true
+                                text: qsTr("Open")
+                                color: "white"
+                                anchors.centerIn: parent
+                            }
+                            MouseArea{
+                                anchors.fill: parent
+                                cursorShape: Qt.PointingHandCursor
+                                onPressed: {
+                                    serial_mng.sendKey("third_seat/table_open");
+                                    leftwopen.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                }
+                                onReleased: {
+                                    serial_mng.sendKey("third_seat/table_stop");
+                                    leftwopen.color = Qt.rgba(0, 0, 0,0.4)
+                                }
+                            }
+                        }
+
+                        Rectangle{
+                            id:leftwclose
+                            width: 175
+                            height: 50
+                            anchors.right:parent.right
+                            color:Qt.rgba(0, 0, 0,0.4)
+                            border.width: 1
+                            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                            Text {
+                                font.family: GSystem.myriadproita.name
+                                font.pixelSize: 24
+                                font.italic: true
+                                text: qsTr("Close")
+                                color: "white"
+                                anchors.centerIn: parent
+                            }
+                            MouseArea{
+                                anchors.fill: parent
+                                cursorShape: Qt.PointingHandCursor
+                                onPressed: {
+                                    serial_mng.sendKey("third_seat/table_close");
+                                    leftwclose.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                }
+                                onReleased: {
+                                    serial_mng.sendKey("third_seat/table_stop");
+                                    leftwclose.color = Qt.rgba(0, 0, 0,0.4)
+                                }
+                            }
+                        }
                     }
-                    cursorShape: Qt.PointingHandCursor
-                }
-            }
+                } //columnlayout
+
+
+                ColumnLayout{
+                    spacing: 0
+                    anchors.right:parent.right
+
+                    Rectangle {
+                        id:rightwrect
+                        width:350
+                        height:350
+                        anchors.verticalCenter: parent.verticalCenter
+                        color:Qt.rgba(0, 0, 0,0.4)
+                        border.width: 1
+                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                        ColumnLayout{
+                            spacing: 20
+                            anchors.centerIn: parent
+                            Text{
+                                font.family: GSystem.myriadproita.name
+                                font.italic: true
+                                font.pixelSize: 24
+                                text: qsTr("Right Table") + mytrans.emptyString
+                                color: "white"
+                                anchors.horizontalCenter: parent.horizontalCenter
+                                anchors.top:parent.top
+                                anchors.topMargin: 0
+                            }
+                            Image {
+                                id: rwpic
+                                width:275
+                                height: 275
+                                sourceSize.height: 275
+                                sourceSize.width: 275
+                                anchors.horizontalCenter: parent.horizontalCenter
+                                source: "qrc:/design/controls/righttable.png"
+                            }
+                        }
+                    }
+
+                    RowLayout{
+                        id:rightbuttonslayout
+                        anchors.horizontalCenter: rightwrect.horizontalCenter
+                        anchors.top:rightwrect.bottom
+                        spacing: 0
+                        width: 350
+                        height: 50
+                        Rectangle{
+                            id:rightwopen
+                            width: 175
+                            height: 50
+                            anchors.left: parent.left
+                            color:Qt.rgba(0, 0, 0,0.4)
+                            border.width: 1
+                            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                            Text {
+                                font.family: GSystem.myriadproita.name
+                                font.pixelSize: 24
+                                font.italic: true
+                                text: qsTr("Open")
+                                color: "white"
+                                anchors.centerIn: parent
+                            }
+                            MouseArea{
+                                anchors.fill: parent
+                                cursorShape: Qt.PointingHandCursor
+                                onPressed: {
+                                    serial_mng.sendKey("fourth_seat/table_open");
+                                    rightwopen.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                }
+                                onReleased: {
+                                    serial_mng.sendKey("fourth_seat/table_stop");
+                                    rightwopen.color = Qt.rgba(0, 0, 0,0.4)
+                                }
+                            }
+                        }
+
+                        Rectangle{
+                            id:rightwclose
+                            width: 175
+                            height: 50
+                            anchors.right:parent.right
+                            color:Qt.rgba(0, 0, 0,0.4)
+                            border.width: 1
+                            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                            Text {
+                                font.family: GSystem.myriadproita.name
+                                font.pixelSize: 24
+                                font.italic: true
+                                text: qsTr("Close")
+                                color: "white"
+                                anchors.centerIn: parent
+                            }
+                            MouseArea{
+                                anchors.fill: parent
+                                cursorShape: Qt.PointingHandCursor
+                                onPressed: {
+                                    serial_mng.sendKey("fourth_seat/table_close");
+                                    rightwclose.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                }
+                                onReleased: {
+                                    serial_mng.sendKey("fourth_seat/table_stop");
+                                    rightwclose.color = Qt.rgba(0, 0, 0,0.4)
+                                }
+                            }
+                        }
+                    }
+                } //columnlayout2
+             }
         }
 
-        }
-
+    }
 }

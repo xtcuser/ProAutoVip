@@ -114,6 +114,11 @@ bool SettingsManager::sidelight()
     return this->general->value("lights/sidelight",true).toBool();
 }
 
+bool SettingsManager::amp()
+{
+    return this->general->value("media/amp",false).toBool();
+}
+
 void SettingsManager::setActype(uint type)
 {
     this->general->value("main/actype",type);
@@ -226,6 +231,7 @@ bool SettingsManager::init()
 
     this->general->beginGroup("media");
     this->general->setValue("url","ws://192.168.1.38:9090");
+    this->general->setValue("amp",true);
     this->general->endGroup();
 
     this->general->beginGroup("serial");

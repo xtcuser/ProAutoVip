@@ -25,6 +25,15 @@ BasePage {
                 }
             }
         }
+        NumberAnimation {
+            target: fan
+            properties: "rotation"
+            from:0
+            to:360
+            duration:6000
+            running: true
+            loops: Animation.Infinite
+        }
         Rectangle{
             anchors.top:fan.bottom
             anchors.horizontalCenter: parent.horizontalCenter

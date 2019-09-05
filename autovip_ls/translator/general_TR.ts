@@ -1559,6 +1559,18 @@ için sistemin yeniden başlatılması gerekir.</translation>
         <source>Right Table</source>
         <translation>Sağ Masa</translation>
     </message>
+    <message>
+        <source>Tables</source>
+        <translation>Masalar</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Aç</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kapat</translation>
+    </message>
 </context>
 <context>
     <name>Television</name>

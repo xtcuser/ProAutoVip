@@ -9,11 +9,11 @@ BasePage {
     caption:  qsTr("SEATS") + mytrans.emptyString
     function init()
     {
-        ani.restart();
+//        ani.restart();
     }
     function end()
     {
-        ani.stop();
+//        ani.stop();
     }
     function selectSeat(seat_no)
     {
@@ -35,7 +35,7 @@ BasePage {
                 id:one
                 x:296
                 y:88
-                source:"qrc:/design/general/one.svg"
+                source:"qrc:/design/general/one.png"
                 sourceSize.height: 55
                 fillMode: Image.PreserveAspectFit
             }
@@ -43,7 +43,7 @@ BasePage {
                 id:two
                 x:296
                 y:199
-                source:"qrc:/design/general/two.svg"
+                source:"qrc:/design/general/two.png"
                 sourceSize.height: 55
                 fillMode: Image.PreserveAspectFit
             }
@@ -51,7 +51,7 @@ BasePage {
                 id:three
                 x:136
                 y:96
-                source:"qrc:/design/general/three.svg"
+                source:"qrc:/design/general/three.png"
                 sourceSize.height: 55
                 fillMode: Image.PreserveAspectFit
             }
@@ -59,7 +59,7 @@ BasePage {
                 id:four
                 x:136
                 y:194
-                source:"qrc:/design/general/four.svg"
+                source:"qrc:/design/general/four.png"
                 sourceSize.height: 55
                 fillMode: Image.PreserveAspectFit
             }

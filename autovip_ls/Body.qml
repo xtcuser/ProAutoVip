@@ -57,12 +57,6 @@ Item {
     ControlPages.Tables{
         id:tables
     }
-    ControlPages.RightTable{
-        id:righttable
-    }
-    ControlPages.LeftTable{
-        id:lefttable
-    }
 
     ControlPages.Refrigerator{
         id:refrigerator
@@ -298,8 +292,6 @@ Item {
         GSystem.addPageItem("Radio",radio);
         GSystem.addPageItem("RadioManual",radiomanual);
         GSystem.addPageItem("Tables",tables);
-        GSystem.addPageItem("RightTable",righttable);
-        GSystem.addPageItem("LeftTable",lefttable);
         GSystem.addPageItem("Refrigerator",refrigerator);
         GSystem.addPageItem("SafeBox",safebox);
         GSystem.addPageItem("AirConditioner",airconditioner);
@@ -334,8 +326,6 @@ Item {
         GSystem.addPageItem("Television",television);
         GSystem.addPageItem("PcHdmi",pchdmi);
         GSystem.addPageItem("Windows",windows);
-        GSystem.addPageItem("LeftWindow",leftwindow);
-        GSystem.addPageItem("RightWindow",rightwindow);
         GSystem.addPageItem("Settings",settings);
         GSystem.addPageItem("GeneralSettings",generalsettings);
         GSystem.addPageItem("Calibration",calibration);

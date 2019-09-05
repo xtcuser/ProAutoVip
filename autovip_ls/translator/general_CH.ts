@@ -943,17 +943,14 @@
 <context>
     <name>LeftTable</name>
     <message>
-        <location filename="../Pages/Controls/LeftTable.qml" line="9"/>
         <source>LEFT TABLE</source>
         <translation>左表</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/LeftTable.qml" line="24"/>
         <source>Open</source>
         <translation>打开</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/LeftTable.qml" line="29"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
@@ -961,17 +958,14 @@
 <context>
     <name>LeftWindow</name>
     <message>
-        <location filename="../Pages/Controls/LeftWindow.qml" line="9"/>
         <source>LEFT WINDOW</source>
         <translation>左窗口</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/LeftWindow.qml" line="24"/>
         <source>Open</source>
         <translation>打开</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/LeftWindow.qml" line="29"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
@@ -1378,17 +1372,14 @@
 <context>
     <name>RightTable</name>
     <message>
-        <location filename="../Pages/Controls/RightTable.qml" line="9"/>
         <source>RIGHT TABLE</source>
         <translation>右表</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/RightTable.qml" line="24"/>
         <source>Open</source>
         <translation>打开</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/RightTable.qml" line="29"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
@@ -1396,17 +1387,14 @@
 <context>
     <name>RightWindow</name>
     <message>
-        <location filename="../Pages/Controls/RightWindow.qml" line="9"/>
         <source>RIGHT WINDOW</source>
         <translation>右窗口</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/RightWindow.qml" line="24"/>
         <source>Open</source>
         <translation>打开</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/RightWindow.qml" line="28"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
@@ -1458,7 +1446,7 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="198"/>
-        <location filename="../SGlobal.qml" line="683"/>
+        <location filename="../SGlobal.qml" line="675"/>
         <source>Head</source>
         <translation>頭</translation>
     </message>
@@ -1469,19 +1457,19 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="200"/>
-        <location filename="../SGlobal.qml" line="693"/>
+        <location filename="../SGlobal.qml" line="685"/>
         <source>Seat</source>
         <translation>座位</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="203"/>
-        <location filename="../SGlobal.qml" line="703"/>
+        <location filename="../SGlobal.qml" line="695"/>
         <source>Drawer</source>
         <translation>抽屜</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="207"/>
-        <location filename="../SGlobal.qml" line="698"/>
+        <location filename="../SGlobal.qml" line="690"/>
         <source>Foot Rest</source>
         <translation>踏板</translation>
     </message>
@@ -1507,25 +1495,25 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="229"/>
-        <location filename="../SGlobal.qml" line="775"/>
+        <location filename="../SGlobal.qml" line="767"/>
         <source>Ceiling Light</source>
         <translation>天花燈</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="230"/>
-        <location filename="../SGlobal.qml" line="780"/>
+        <location filename="../SGlobal.qml" line="772"/>
         <source>Inside Light</source>
         <translation>內光</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="232"/>
-        <location filename="../SGlobal.qml" line="785"/>
+        <location filename="../SGlobal.qml" line="777"/>
         <source>Side Light</source>
         <translation>側燈</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="243"/>
-        <location filename="../SGlobal.qml" line="794"/>
+        <location filename="../SGlobal.qml" line="786"/>
         <source>Kodi Player</source>
         <translation>Kodi媒體播放器</translation>
     </message>
@@ -1536,37 +1524,37 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="264"/>
-        <location filename="../SGlobal.qml" line="799"/>
+        <location filename="../SGlobal.qml" line="791"/>
         <source>Playstation</source>
         <translation>遊戲機</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="276"/>
-        <location filename="../SGlobal.qml" line="804"/>
+        <location filename="../SGlobal.qml" line="796"/>
         <source>Docking Stations</source>
         <translation>擴展塢</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="284"/>
-        <location filename="../SGlobal.qml" line="809"/>
+        <location filename="../SGlobal.qml" line="801"/>
         <source>Screen Divider</source>
         <translation>屏幕分隔線</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="291"/>
-        <location filename="../SGlobal.qml" line="814"/>
+        <location filename="../SGlobal.qml" line="806"/>
         <source>Television</source>
         <translation>電視</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="300"/>
-        <location filename="../SGlobal.qml" line="819"/>
+        <location filename="../SGlobal.qml" line="811"/>
         <source>Radio</source>
         <translation>無線電</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="308"/>
-        <location filename="../SGlobal.qml" line="824"/>
+        <location filename="../SGlobal.qml" line="816"/>
         <source>Pc Hdmi</source>
         <translation>HDMI輸入</translation>
     </message>
@@ -1582,66 +1570,66 @@
     </message>
     <message>
         <location filename="../SGlobal.qml" line="341"/>
-        <location filename="../SGlobal.qml" line="715"/>
+        <location filename="../SGlobal.qml" line="707"/>
         <source>Tables</source>
         <translation>表</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="350"/>
-        <location filename="../SGlobal.qml" line="720"/>
+        <location filename="../SGlobal.qml" line="712"/>
         <source>Curtains</source>
         <translation>窗簾</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="360"/>
-        <location filename="../SGlobal.qml" line="725"/>
+        <location filename="../SGlobal.qml" line="717"/>
         <source>Refrigerator</source>
         <translation>冰箱</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="370"/>
-        <location filename="../SGlobal.qml" line="730"/>
+        <location filename="../SGlobal.qml" line="722"/>
         <source>Safe Box</source>
         <translation>保險箱</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="380"/>
-        <location filename="../SGlobal.qml" line="735"/>
+        <location filename="../SGlobal.qml" line="727"/>
         <source>Air Condition</source>
         <translation>冷气机</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="387"/>
-        <location filename="../SGlobal.qml" line="740"/>
+        <location filename="../SGlobal.qml" line="732"/>
         <source>Smoke Fan</source>
         <translation>煙風扇</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="395"/>
-        <location filename="../SGlobal.qml" line="745"/>
+        <location filename="../SGlobal.qml" line="737"/>
         <source>Windows</source>
         <translation>視窗</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="404"/>
-        <location filename="../SGlobal.qml" line="750"/>
+        <location filename="../SGlobal.qml" line="742"/>
         <source>Bar</source>
         <translation>酒吧</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="414"/>
-        <location filename="../SGlobal.qml" line="755"/>
+        <location filename="../SGlobal.qml" line="747"/>
         <source>Espresso</source>
         <translation>濃咖啡</translation>
     </message>
     <message>
         <location filename="../SGlobal.qml" line="423"/>
-        <location filename="../SGlobal.qml" line="760"/>
+        <location filename="../SGlobal.qml" line="752"/>
         <source>Roof</source>
         <translation>屋頂</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="688"/>
+        <location filename="../SGlobal.qml" line="680"/>
         <source>Back</source>
         <translation>背部</translation>
     </message>
@@ -1884,7 +1872,7 @@
         <translation>煙風扇</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/SmokeFan.qml" line="39"/>
+        <location filename="../Pages/Controls/SmokeFan.qml" line="48"/>
         <source>On/Off</source>
         <translation>開關</translation>
     </message>
@@ -1892,17 +1880,33 @@
 <context>
     <name>Tables</name>
     <message>
-        <location filename="../Pages/Controls/Tables.qml" line="9"/>
         <source>TABLES</source>
         <translation>表</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/Tables.qml" line="24"/>
+        <location filename="../Pages/Controls/Tables.qml" line="9"/>
+        <source>Tables</source>
+        <translation type="unfinished">表</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Controls/Tables.qml" line="49"/>
         <source>Left Table</source>
         <translation>左表</translation>
     </message>
     <message>
-        <location filename="../Pages/Controls/Tables.qml" line="29"/>
+        <location filename="../Pages/Controls/Tables.qml" line="86"/>
+        <location filename="../Pages/Controls/Tables.qml" line="193"/>
+        <source>Open</source>
+        <translation type="unfinished">打开</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Controls/Tables.qml" line="116"/>
+        <location filename="../Pages/Controls/Tables.qml" line="223"/>
+        <source>Close</source>
+        <translation type="unfinished">关闭</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Controls/Tables.qml" line="156"/>
         <source>Right Table</source>
         <translation>右表</translation>
     </message>

@@ -33,7 +33,7 @@ Item{
                         visible: false
                         anchors.fill: btnImage
                         source: btnImage
-                        color: Qt.rgba(191/255, 63/255, 191/255,0.6)
+                        color: Qt.rgba(0/255, 108/255, 128/255,0.6)
          }
     }
 

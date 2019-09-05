@@ -68,7 +68,7 @@ BasePage {
                 y:122
                 sourceSize.height:48
                 fillMode: Image.PreserveAspectFit
-                source:"qrc:/design/general/two.svg"
+                source:"qrc:/design/general/two.png"
                 MouseArea{
                     width: 75
                     height: 75
@@ -86,7 +86,7 @@ BasePage {
                 y:122
                 sourceSize.height:48
                 fillMode: Image.PreserveAspectFit
-                source:"qrc:/design/general/one.svg"
+                source:"qrc:/design/general/one.png"
                 MouseArea{
                     width: 75
                     height: 75
@@ -104,7 +104,7 @@ BasePage {
                 y:68
                 sourceSize.height:48
                 fillMode: Image.PreserveAspectFit
-                source:"qrc:/design/general/four.svg"
+                source:"qrc:/design/general/four.png"
                 MouseArea{
                     width: 75
                     height: 75
@@ -122,7 +122,7 @@ BasePage {
                 y:68
                 sourceSize.height:48
                 fillMode: Image.PreserveAspectFit
-                source:"qrc:/design/general/three.svg"
+                source:"qrc:/design/general/three.png"
                 MouseArea{
                     width: 75
                     height: 75
@@ -140,7 +140,7 @@ BasePage {
                 anchors.horizontalCenter: parent.horizontalCenter
                 sourceSize.height:48
                 fillMode: Image.PreserveAspectFit
-                source:"qrc:/design/general/five.svg"
+                source:"qrc:/design/general/five.png"
                 MouseArea{
                     width: 75
                     height: 75

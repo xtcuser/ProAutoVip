@@ -140,8 +140,8 @@ Item{
         anchors.fill: parent
         visible:serial_mng.massagemod === 4
         Image{
-            x:97
-            y:129
+            x:94
+            y:128
             source:"qrc:/design/seats/pointer.png"
             width:32
             fillMode: Image.PreserveAspectFit

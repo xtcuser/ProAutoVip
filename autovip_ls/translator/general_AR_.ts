@@ -762,36 +762,6 @@
     </message>
 </context>
 <context>
-    <name>LeftTable</name>
-    <message>
-        <source>LEFT TABLE</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>LeftWindow</name>
-    <message>
-        <source>LEFT WINDOW</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>LightButton</name>
     <message>
         <source>Memory 1</source>
@@ -1032,36 +1002,6 @@
     <name>RightCurtain2</name>
     <message>
         <source>RIGHT CURTAIN</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>RightTable</name>
-    <message>
-        <source>RIGHT TABLE</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>RightWindow</name>
-    <message>
-        <source>RIGHT WINDOW</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1449,15 +1389,23 @@
 <context>
     <name>Tables</name>
     <message>
-        <source>TABLES</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Left Table</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Right Table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
