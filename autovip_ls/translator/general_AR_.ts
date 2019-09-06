@@ -716,6 +716,10 @@
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Restart the system!</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HdmiInput</name>
@@ -1184,435 +1188,6 @@
     </message>
     <message>
         <source>Side Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SafeBox</name>
-    <message>
-        <source>SAFE BOX</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>ScreenDivider</name>
-    <message>
-        <source>SCREEN DIVIDER</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Divide Screen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Front Camera</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Rear Camera</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatBack</name>
-    <message>
-        <source>SEAT BACK</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatCooling</name>
-    <message>
-        <source>SEAT COOLING</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatDrawer</name>
-    <message>
-        <source>SEAT DRAWER</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatFeet</name>
-    <message>
-        <source>SEAT FOOT REST</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatHead</name>
-    <message>
-        <source>SEAT HEADSET</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatHeating</name>
-    <message>
-        <source>SEAT HEATING</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatMassage</name>
-    <message>
-        <source>SEAT MASSAGE</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatPart</name>
-    <message>
-        <source>SEAT</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>When the espresso cover is open, you cannot take the first seat forward.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Espresso Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SeatThigh</name>
-    <message>
-        <source>SEAT THIGH</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>Seats</name>
-    <message>
-        <source>SEATS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>First Seat</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Second Seat</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Third Seat</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Fourth Seat</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SecondSeatHead</name>
-    <message>
-        <source>Second Sead Head Calibration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Head Forward</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Head Backward</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Head Set</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Head MIN</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Head MAX</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SerialSettings</name>
-    <message>
-        <source>SERIAL SETTINGS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Port Name :</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Baud Rate :</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>Settings</name>
-    <message>
-        <source>SETTINGS</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SettingsMenu</name>
-    <message>
-        <source>General</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Media</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Serial</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SmokeFan</name>
-    <message>
-        <source>SMOKE FAN</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>On/Off</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>Tables</name>
-    <message>
-        <source>Left Table</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Right Table</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Tables</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>Television</name>
-    <message>
-        <source>TELEVISION</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>ThirdFootrestM1</name>
-    <message>
-        <source>Third Footrest M1 Calibration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Set Minimum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Set Maximum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Reset</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>ThirdFootrestM2</name>
-    <message>
-        <source>Third Footrest M2 Calibration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Set Minimum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Set Maximum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Footrest Reset</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>ThirdTableCalibration</name>
-    <message>
-        <source>Third Table Calibration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Third Table Up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Third Table Down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Third Table Set Minimum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Third Table Set Maximum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Third Table Reset</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>TimeSetter</name>
-    <message>
-        <source>Date &amp; Time:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>SET</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Region:</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>TopMenu</name>
-    <message>
-        <source>SEATS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>CONTROLS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>MEDIA</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>LIGHTS</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>TvMotorCalibration</name>
-    <message>
-        <source>TV Motor Calibration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Tv Up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Tv Down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>TV Set Minimum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>TV Set Maximum</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>TV Reset</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>Windows</name>
-    <message>
-        <source>WINDOWS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Left Window</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Right Window</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>main</name>
-    <message>
-        <source>autovip</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Return to The Homepage</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Returns to The Homepage</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Command</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Action</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Command list that you can ask from the voice assistant.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3793,6 +3368,435 @@
     </message>
     <message>
         <source>Turns the System off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Return to The Homepage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Returns to The Homepage</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SafeBox</name>
+    <message>
+        <source>SAFE BOX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ScreenDivider</name>
+    <message>
+        <source>SCREEN DIVIDER</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Divide Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Front Camera</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rear Camera</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatBack</name>
+    <message>
+        <source>SEAT BACK</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatCooling</name>
+    <message>
+        <source>SEAT COOLING</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatDrawer</name>
+    <message>
+        <source>SEAT DRAWER</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatFeet</name>
+    <message>
+        <source>SEAT FOOT REST</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatHead</name>
+    <message>
+        <source>SEAT HEADSET</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatHeating</name>
+    <message>
+        <source>SEAT HEATING</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatMassage</name>
+    <message>
+        <source>SEAT MASSAGE</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatPart</name>
+    <message>
+        <source>SEAT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When the espresso cover is open, you cannot take the first seat forward.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Espresso Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SeatThigh</name>
+    <message>
+        <source>SEAT THIGH</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Seats</name>
+    <message>
+        <source>SEATS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First Seat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Second Seat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third Seat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fourth Seat</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SecondSeatHead</name>
+    <message>
+        <source>Second Sead Head Calibration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Head Forward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Head Backward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Head Set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Head MIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Head MAX</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SerialSettings</name>
+    <message>
+        <source>SERIAL SETTINGS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Port Name :</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Baud Rate :</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Settings</name>
+    <message>
+        <source>SETTINGS</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SettingsMenu</name>
+    <message>
+        <source>General</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Serial</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SmokeFan</name>
+    <message>
+        <source>SMOKE FAN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On/Off</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Tables</name>
+    <message>
+        <source>Left Table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right Table</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Television</name>
+    <message>
+        <source>TELEVISION</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ThirdFootrestM1</name>
+    <message>
+        <source>Third Footrest M1 Calibration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Set Minimum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Set Maximum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ThirdFootrestM2</name>
+    <message>
+        <source>Third Footrest M2 Calibration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Set Minimum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Set Maximum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Footrest Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ThirdTableCalibration</name>
+    <message>
+        <source>Third Table Calibration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third Table Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third Table Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third Table Set Minimum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third Table Set Maximum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third Table Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TimeSetter</name>
+    <message>
+        <source>Date &amp; Time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SET</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Region:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TopMenu</name>
+    <message>
+        <source>SEATS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CONTROLS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MEDIA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LIGHTS</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TvMotorCalibration</name>
+    <message>
+        <source>TV Motor Calibration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tv Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tv Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TV Set Minimum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TV Set Maximum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TV Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Windows</name>
+    <message>
+        <source>WINDOWS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left Window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right Window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <source>autovip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Command list that you can ask from the voice assistant.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

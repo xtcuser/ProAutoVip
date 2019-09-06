@@ -346,8 +346,8 @@ BasePage {
     ColorSlider{
         id: hSlider
         x:274
-        y:210
-        height:350
+        y:200
+        height:360
         width:60
         color:"black"
         value: 1.0 - targetColorItem.hue
@@ -363,6 +363,7 @@ BasePage {
 
         onMouseYChanged: { targetColorItem.hue = Math.max(0.0, Math.min(1.0 - mouseY / height, 1.0)); targetColorItem.value = 1; }
     }
+
     Item{
         id:cmodel
         x:366
@@ -382,6 +383,7 @@ BasePage {
 
         }
         Image{
+            id:imagem
             width: 622
             height: 362
             anchors.verticalCenterOffset: -69
@@ -395,8 +397,8 @@ BasePage {
             z: 1
             scale: 1
             transformOrigin: Item.Center
-            anchors.rightMargin: -7
-            anchors.leftMargin: -7
+            anchors.rightMargin: 0
+            anchors.leftMargin: 0
             //            anchors.bottomMargin: 4
             //            anchors.rightMargin: 0
 //            //            anchors.bottomMargin: -64
@@ -418,9 +420,9 @@ BasePage {
             }
         Rectangle{
             id:rb
-            x:572
+            x:565
             y:187
-            width:63
+            width:55
             height:175
             rotation: 0
             color:inSideColor
@@ -428,9 +430,9 @@ BasePage {
             }
         Rectangle{
             id:lb
-            x:-21
+            x:0
             y:187
-            width:63
+            width:44
             height:175
             rotation: 0
             color:inSideColor
@@ -438,9 +440,9 @@ BasePage {
             }
          Rectangle{
              id:c1
-             x:40
+             x:50
              y:259
-             width:55
+             width:45
              height:82
              color:sideColor
              rotation: 0
@@ -451,7 +453,7 @@ BasePage {
              id:c2
              x:517
              y:266
-             width:55
+             width:48
              height:75
              color:sideColor
              antialiasing: true
@@ -504,11 +506,12 @@ BasePage {
 
     ColorSlider{
         id: sSlider
-        x:284
-        y:hSlider.y + hSlider.height + 10
+        x:274
+        width: 712
         height:30
-        width:cmodel.width + hSlider.width + 18
         color:"black"
+        anchors.top: parent.top
+        anchors.topMargin: 570
         orientation: Qt.Horizontal
         value: 1.0 - targetColorItem.saturation
         gradient: Gradient {
@@ -522,7 +525,8 @@ BasePage {
         spacing: 10
         id:cl1
         anchors.top:sSlider.bottom
-        x:284
+        x:274
+        anchors.topMargin: 5
 
 
 

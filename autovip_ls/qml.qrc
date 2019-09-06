@@ -54,7 +54,6 @@
         <file>design/general/System.svg</file>
         <file>design/general/System_ps.svg</file>
         <file>SGlobal.qml</file>
-        <file>design/general/logo.png</file>
         <file>Pages/Home.qml</file>
         <file>Components/BasePage.qml</file>
         <file>Components/BottomMenu.qml</file>
@@ -483,5 +482,6 @@
         <file>design/seats/overlays/feat.svg</file>
         <file>design/seats/overlays/head.svg</file>
         <file>design/seats/overlays/seat.svg</file>
+        <file>design/general/logo.png</file>
     </qresource>
 </RCC>

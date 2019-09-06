@@ -74,7 +74,7 @@ BasePage {
            id:restartbtn
            anchors.centerIn: restart;
            width: 400
-           height:220
+           height:240
            color: "#1c1c1c"
            border.width: 3
            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
@@ -92,11 +92,29 @@ BasePage {
            {
                width: 400
                height: 200
-
+               Rectangle{
+                   id: restartheader
+                   width: 394
+                   height: 30
+                   anchors.top: parent.top
+                   anchors.topMargin: 3
+                   anchors.left: parent.left
+                   anchors.leftMargin: 3
+                   color: "#0f0f0f"
+                   Text {
+                       anchors.centerIn: parent
+                       text: qsTr("Restart the system!") + mytrans.emptyString
+                       font.pixelSize: 16
+                       font.italic: true
+                       color: "white"
+                   }
+               }
 
                Rectangle{
                    width:400
                    height: 100
+                   anchors.top: restartheader.bottom
+                   anchors.topMargin: 20
                    color:"transparent"
                    Text{
                        anchors.centerIn: parent
@@ -122,11 +140,13 @@ BasePage {
                            Rectangle{
                                id: restartbg
                                width: 120
-                               height: 70
-                               color:"black"
+                               height: 50
+                               color:"#0f0f0f"
                                border.width: 1
                                border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-                               anchors.centerIn: parent
+                               anchors.verticalCenter: parent.verticalCenter
+                               anchors.right: parent.right
+                               anchors.rightMargin: 20
                                z:344
                                Text{
                                    anchors.centerIn: parent
@@ -144,7 +164,7 @@ BasePage {
                                        restartbg.color = Qt.rgba(0/255, 108/255, 128/255,0.6)
                                    }
                                    onReleased: {
-                                       restartbg.color = "black"
+                                       restartbg.color = "#0f0f0f"
                                    }
                                }
                            }
@@ -157,11 +177,13 @@ BasePage {
                            Rectangle{
                                id: cancelbg
                                width: 120
-                               height: 70
-                               color:"black"
+                               height: 50
+                               color:"#0f0f0f"
                                border.width: 1
                                border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-                               anchors.centerIn: parent
+                               anchors.verticalCenter: parent.verticalCenter
+                               anchors.left: parent.left
+                               anchors.leftMargin: 20
                                z:344
                                Text{
                                    anchors.centerIn: parent
@@ -180,7 +202,7 @@ BasePage {
                                        cancelbg.color =  Qt.rgba(0/255, 108/255, 128/255,0.6)
                                    }
                                    onReleased: {
-                                       cancelbg.color =  "black"
+                                       cancelbg.color =  "#0f0f0f"
                                    }
                                }
                            }
@@ -231,129 +253,112 @@ BasePage {
                             color: "white"
                         }
                     }
-                    Rectangle
-                    {
-                        id:languageRectangle
-                        width:120
-                        height:80
-                        color: "transparent"
-                        border.width: 2
-                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-                        Image{
-                            id:turkish
-                            source:"qrc:/design/settings/turkish.png"
-                            sourceSize.height: 80
-                            sourceSize.width: 120
-                            width: 120
-                            height: 80
-                            fillMode: Image.Stretch
-                            antialiasing: true
-                            smooth: true
-                            opacity: smanager.lang==125 ? 1 : 0.2
+                    RowLayout{
+                        width: 400
+                        height: 80
+                        Layout.leftMargin: 60
+                        spacing:20
+                        anchors.verticalCenter: parent.verticalCenter
+                        Rectangle
+                        {
+                            id:languageRectangle
+                            width:120
+                            height:80
+                            color: "transparent"
+                            border.width: 2
+                            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                            anchors.verticalCenter: parent.verticalCenter
+                            Image{
+                                id:turkish
+                                source:"qrc:/design/settings/turkish.png"
+                                sourceSize.height: 80
+                                sourceSize.width: 120
+                                width: 120
+                                height: 80
+                                fillMode: Image.Stretch
+                                antialiasing: true
+                                smooth: true
+                                opacity: smanager.lang==125 ? 1 : 0.2
                                 MouseArea{
-                                anchors.fill: parent
-                                onClicked: {
-                                    SM.lang = MyLang.TR
-                                    chinese.opacity = 0.2
-                                    english.opacity = 0.2
-                                    turkish.opacity = 1
-//                                    restarter.makeRestart()
-                                    restart.visible=true;
-                                    restartbtn.visible=true;
+                                    anchors.fill: parent
+                                    onClicked: {
+                                        SM.lang = MyLang.TR
+                                        chinese.opacity = 0.2
+                                        english.opacity = 0.2
+                                        turkish.opacity = 1
+                                        restart.visible=true;
+                                        restartbtn.visible=true;
                                     }
                                 }
                             }
-                    }
+                        }
 
-
-
-
-
-
-
-
-
-                    Rectangle{
-                        id: rectangle
-                        width:120
-                        height:80
-                        color: "transparent"
-                        border.width: 2
-                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-                        Image{
-                            id:english
-                            x: 0
-                            y: 0
-                            source:"qrc:/design/settings/english.png"
-                            sourceSize.height: 80
-                            sourceSize.width: 120
-                            width: 120
+                        Rectangle{
+                            id: rectangle
+                            width:120
                             height:80
-                            opacity: smanager.lang==31 ? 1 : 0.2
-                            fillMode: Image.Stretch
-                            MouseArea{
-                                anchors.fill: parent
-                            onClicked: {
-                                SM.lang = MyLang.ENG
-                                chinese.opacity = 0.2
-                                turkish.opacity = 0.2
-                                english.opacity = 1
-                                restart.visible=true;
-                                restartbtn.visible=true;
+                            color: "transparent"
+                            border.width: 2
+                            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                            anchors.verticalCenter: parent.verticalCenter
+                            Image{
+                                id:english
+                                x: 0
+                                y: 0
+                                source:"qrc:/design/settings/english.png"
+                                sourceSize.height: 80
+                                sourceSize.width: 120
+                                width: 120
+                                height:80
+                                opacity: smanager.lang==31 ? 1 : 0.2
+                                fillMode: Image.Stretch
+                                MouseArea{
+                                    anchors.fill: parent
+                                    onClicked: {
+                                        SM.lang = MyLang.ENG
+                                        chinese.opacity = 0.2
+                                        turkish.opacity = 0.2
+                                        english.opacity = 1
+                                        restart.visible=true;
+                                        restartbtn.visible=true;
+                                        }
+                                    }
+                                }
+                            }
+
+                        Rectangle{
+                            id:chRectangle
+                            width:120
+                            height:80
+                            color: "transparent"
+                            border.width: 2
+                            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                            anchors.verticalCenter: parent.verticalCenter
+                            Image{
+                                id:chinese
+                                source:"qrc:/design/settings/chinese.png"
+                                sourceSize.height: 80
+                                sourceSize.width: 120
+                                width: 120
+                                height:80
+                                fillMode: Image.Stretch
+                                antialiasing: true
+                                smooth: true
+                                opacity: smanager.lang==25 ? 1 : 0.2
+                                    MouseArea{
+                                    anchors.fill: parent
+                                    onClicked: {
+                                        SM.lang = MyLang.CH
+                                        chinese.opacity = 1
+                                        turkish.opacity = 0.2
+                                        english.opacity = 0.2
+                                        restart.visible=true;
+                                        restartbtn.visible=true;
+                                    }
                                 }
                             }
                         }
                     }
-
-
-
-
-
-
-
-
-
-                    Rectangle{
-                        id:chRectangle
-                        width:120
-                        height:80
-                        color: "transparent"
-                        border.width: 2
-                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-                        Image{
-                            id:chinese
-                            source:"qrc:/design/settings/chinese.png"
-                            sourceSize.height: 80
-                            sourceSize.width: 120
-                            width: 120
-                            height:80
-                            fillMode: Image.Stretch
-                            antialiasing: true
-                            smooth: true
-                            opacity: smanager.lang==25 ? 1 : 0.2
-                            MouseArea{
-                            anchors.fill: parent
-                            onClicked: {
-                                SM.lang = MyLang.CH
-                                chinese.opacity = 1
-                                turkish.opacity = 0.2
-                                english.opacity = 0.2
-                                restart.visible=true;
-                                restartbtn.visible=true;
-                                }
-                            }
-                            }
-//                        DropShadow {
-//                            anchors.fill: english
-//                            radius: 8
-//                            samples: 12
-//                            visible: (SM.lang == MyLang.ENG)?true:false
-//                            verticalOffset: 3
-//                            color: "blue"
-//                            source:english
-//                        }
-                    }
-
                 }
             }
             Rectangle{
@@ -377,6 +382,7 @@ BasePage {
                     }
                     Switch{
                         id:autotime
+                        x: 50
                         text:qsTr("Auto") + mytrans.emptyString
 
                     }
@@ -391,6 +397,12 @@ BasePage {
         }
 
 }
+
+
+
+
+
+
 
 
 
