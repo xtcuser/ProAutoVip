@@ -2416,9 +2416,21 @@ ListModel {
         onTriggered: function(){
             if(serial_mng.systemstate !== 1)
             {
-                serial_mng.sendKey("main/system_request");
                 serial_mng.sendKey("main/setclock",false,root.delay,(Qt.formatDateTime(new Date(), "h")*1 + smngr.value("main/hourdiff")*1)+ ":" + (Qt.formatDateTime(new Date(), "m")*1 + smngr.value("main/mindiff")*1));
 
+            }
+
+        }
+    }
+    Timer {
+        id:syscheck
+        interval: 400;
+        running: true;,0
+        repeat: false
+        onTriggered: function(){
+            if(serial_mng.systemstate !== 1)
+            {
+                serial_mng.sendKey("main/system_request");
             }
 
         }

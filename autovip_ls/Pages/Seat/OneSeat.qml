@@ -672,6 +672,7 @@ BasePage {
                                 anchors.fill: parent
                                 onPressed: function(){
                                     coolintext.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                    GSystem.sendSeatCommand("cooling");
                                 }
                                 onReleased: function(){
                                     coolintext.color = "transparent";
@@ -724,18 +725,6 @@ BasePage {
                                             }
                                         }
                             }
-                            MouseArea{
-                                        anchors.fill: parent
-                                        onPressed: {
-                                            GSystem.sendSeatCommand("cooling");
-    //                                        var plus =  GSystem.sendSeatCommand("cooling");
-    //                                        if(plus)
-    //                                        {
-    //                                            //feedback'den geleceği için yorum satırı yapıldı
-    //                                            //serial_mng.cool = (serial_mng.cool +1) % 4;
-    //                                        }
-                                        }
-                                    }
                         }
                     }
                 }
@@ -770,6 +759,7 @@ BasePage {
                             MouseArea{
                                 anchors.fill: parent
                                 onPressed: function(){
+                                    GSystem.sendSeatCommand("heating");
                                     heatintext.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
                                 }
                                 onReleased: function(){
@@ -794,7 +784,7 @@ BasePage {
                                         radius: 5
                                         width:30
                                         height:5
-                                        color:serial_mng.cool>2?"#f92814":"white"
+                                        color:serial_mng.heat>2?"#f92814":"white"
                                             MouseArea{
                                                anchors.fill: parent
                                                cursorShape: Qt.IBeamCursor;
@@ -805,7 +795,7 @@ BasePage {
                                         radius: 5
                                         width:30
                                         height:5
-                                        color:serial_mng.cool>1?"#f92814":"white"
+                                        color:serial_mng.heat>1?"#f92814":"white"
                                             MouseArea{
                                                anchors.fill: parent
                                                cursorShape: Qt.IBeamCursor;
@@ -816,25 +806,13 @@ BasePage {
                                         radius: 5
                                         width:30
                                         height:5
-                                        color:serial_mng.cool>0?"#f92814":"white"
+                                        color:serial_mng.heat>0?"#f92814":"white"
                                             MouseArea{
                                                anchors.fill: parent
                                                cursorShape: Qt.IBeamCursor;
                                             }
                                         }
-                            }
-                            MouseArea{
-                                        anchors.fill: parent
-                                        onPressed: {
-                                            GSystem.sendSeatCommand("heating");
-    //                                        var plus =  GSystem.sendSeatCommand("heating");
-    //                                        if(plus)
-    //                                        {
-    //                                            //feedback'den geleceği için yorum satırı yapıldı
-    //                                            //serial_mng.cool = (serial_mng.cool +1) % 4;
-    //                                        }
-                                        }
-                                    }
+                                }
                             }
                         }
                     }
