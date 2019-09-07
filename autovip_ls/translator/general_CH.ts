@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="zh" sourcelanguage="en">
+<TS version="2.1" language="zh" sourcelanguage="en">
 <context>
     <name>AirConditioner</name>
     <message>
@@ -117,11 +117,11 @@
     </message>
     <message>
         <source>ON</source>
-        <translation>開</translation>
+        <translation type="vanished">開</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
@@ -949,30 +949,30 @@
     <name>LeftTable</name>
     <message>
         <source>LEFT TABLE</source>
-        <translation>左表</translation>
+        <translation type="vanished">左表</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>LeftWindow</name>
     <message>
         <source>LEFT WINDOW</source>
-        <translation>左窗口</translation>
+        <translation type="vanished">左窗口</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
@@ -992,15 +992,15 @@
     </message>
     <message>
         <source>Ceiling Light</source>
-        <translation>天花燈</translation>
+        <translation type="vanished">天花燈</translation>
     </message>
     <message>
         <source>Side Light</source>
-        <translation>側燈</translation>
+        <translation type="vanished">側燈</translation>
     </message>
     <message>
         <source>Inside Light</source>
-        <translation>內光</translation>
+        <translation type="vanished">內光</translation>
     </message>
     <message>
         <location filename="../Pages/Lights/Lights.qml" line="540"/>
@@ -1037,78 +1037,78 @@
     <name>Lights_CH</name>
     <message>
         <source>燈火</source>
-        <translation>燈火</translation>
+        <translation type="vanished">燈火</translation>
     </message>
     <message>
         <source>天花燈</source>
-        <translation>天花燈</translation>
+        <translation type="vanished">天花燈</translation>
     </message>
     <message>
         <source>內光</source>
-        <translation>內光</translation>
+        <translation type="vanished">內光</translation>
     </message>
     <message>
         <source>關閉所有</source>
-        <translation>關閉所有</translation>
+        <translation type="vanished">關閉所有</translation>
     </message>
     <message>
         <source>記憶1</source>
-        <translation>記憶1</translation>
+        <translation type="vanished">記憶1</translation>
     </message>
     <message>
         <source>記憶2</source>
-        <translation>記憶2</translation>
+        <translation type="vanished">記憶2</translation>
     </message>
     <message>
         <source>記憶3</source>
-        <translation>記憶3</translation>
+        <translation type="vanished">記憶3</translation>
     </message>
     <message>
         <source>左侧的阅读灯</source>
-        <translation>左侧的阅读灯</translation>
+        <translation type="vanished">左侧的阅读灯</translation>
     </message>
     <message>
         <source>右边的阅读灯</source>
-        <translation>右边的阅读灯</translation>
+        <translation type="vanished">右边的阅读灯</translation>
     </message>
 </context>
 <context>
     <name>Lights_TR</name>
     <message>
         <source>Işıklar</source>
-        <translation>Işıklar</translation>
+        <translation type="vanished">Işıklar</translation>
     </message>
     <message>
         <source>Tavan Aydınlatması</source>
-        <translation>Tavan Aydınlatması</translation>
+        <translation type="vanished">Tavan Aydınlatması</translation>
     </message>
     <message>
         <source>İç Aydınlatma</source>
-        <translation>İç Aydınlatma</translation>
+        <translation type="vanished">İç Aydınlatma</translation>
     </message>
     <message>
         <source>Hepsini Kapat</source>
-        <translation>Hepsini Kapat</translation>
+        <translation type="vanished">Hepsini Kapat</translation>
     </message>
     <message>
         <source>Hafıza 1</source>
-        <translation>Hafıza 1</translation>
+        <translation type="vanished">Hafıza 1</translation>
     </message>
     <message>
         <source>Hafıza 2</source>
-        <translation>Hafıza 2</translation>
+        <translation type="vanished">Hafıza 2</translation>
     </message>
     <message>
         <source>Hafıza 3</source>
-        <translation>Hafıza 3</translation>
+        <translation type="vanished">Hafıza 3</translation>
     </message>
     <message>
         <source>Sol Okuma Aydınlatması</source>
-        <translation>Sol Okuma Aydınlatması</translation>
+        <translation type="vanished">Sol Okuma Aydınlatması</translation>
     </message>
     <message>
         <source>Sağ Okuma Aydınlatması</source>
-        <translation>Sağ Okuma Aydınlatması</translation>
+        <translation type="vanished">Sağ Okuma Aydınlatması</translation>
     </message>
 </context>
 <context>
@@ -1219,27 +1219,27 @@
         <translation>座椅冷卻</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="766"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="755"/>
         <source>Seat Heating</source>
         <translation>座椅加熱</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="863"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="841"/>
         <source>Seat Massage</source>
         <translation>座椅按摩</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="863"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="841"/>
         <source>Done</source>
         <translation>好的</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="884"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="862"/>
         <source>ON</source>
         <translation>開</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="884"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="862"/>
         <source>OFF</source>
         <translation>关闭</translation>
     </message>
@@ -1383,30 +1383,30 @@
     <name>RightTable</name>
     <message>
         <source>RIGHT TABLE</source>
-        <translation>右表</translation>
+        <translation type="vanished">右表</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>RightWindow</name>
     <message>
         <source>RIGHT WINDOW</source>
-        <translation>右窗口</translation>
+        <translation type="vanished">右窗口</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
@@ -4701,7 +4701,7 @@
     <name>Tables</name>
     <message>
         <source>TABLES</source>
-        <translation>表</translation>
+        <translation type="vanished">表</translation>
     </message>
     <message>
         <location filename="../Pages/Controls/Tables.qml" line="9"/>
@@ -4952,2191 +4952,2191 @@
     </message>
     <message>
         <source>First table open</source>
-        <translation>弹出第一桌板</translation>
+        <translation type="vanished">弹出第一桌板</translation>
     </message>
     <message>
         <source>Opens the First Table</source>
-        <translation>弹出第一桌板</translation>
+        <translation type="vanished">弹出第一桌板</translation>
     </message>
     <message>
         <source>First table close</source>
-        <translation>收回第一桌板</translation>
+        <translation type="vanished">收回第一桌板</translation>
     </message>
     <message>
         <source>Closes the First Table</source>
-        <translation>收回第一桌板</translation>
+        <translation type="vanished">收回第一桌板</translation>
     </message>
     <message>
         <source>Second table open</source>
-        <translation>弹出第二桌板</translation>
+        <translation type="vanished">弹出第二桌板</translation>
     </message>
     <message>
         <source>Opens the Second Table</source>
-        <translation>弹出第二桌板</translation>
+        <translation type="vanished">弹出第二桌板</translation>
     </message>
     <message>
         <source>Second table close</source>
-        <translation>收回第二桌板</translation>
+        <translation type="vanished">收回第二桌板</translation>
     </message>
     <message>
         <source>Closes the Second Table</source>
-        <translation>收回第二桌板</translation>
+        <translation type="vanished">收回第二桌板</translation>
     </message>
     <message>
         <source>Third table open</source>
-        <translation>弹出第三桌板</translation>
+        <translation type="vanished">弹出第三桌板</translation>
     </message>
     <message>
         <source>Opens the Third Table</source>
-        <translation>弹出第三桌板</translation>
+        <translation type="vanished">弹出第三桌板</translation>
     </message>
     <message>
         <source>Third table close</source>
-        <translation>收回第三桌板</translation>
+        <translation type="vanished">收回第三桌板</translation>
     </message>
     <message>
         <source>Closes the Third Table</source>
-        <translation>收回第三桌板</translation>
+        <translation type="vanished">收回第三桌板</translation>
     </message>
     <message>
         <source>Fourth table open</source>
-        <translation>弹出第四桌板</translation>
+        <translation type="vanished">弹出第四桌板</translation>
     </message>
     <message>
         <source>Opens the Fourth Table</source>
-        <translation>弹出第四桌板</translation>
+        <translation type="vanished">弹出第四桌板</translation>
     </message>
     <message>
         <source>Fourth table close</source>
-        <translation>收回第四桌板</translation>
+        <translation type="vanished">收回第四桌板</translation>
     </message>
     <message>
         <source>Closes the Fourth Table</source>
-        <translation>收回第四桌板</translation>
+        <translation type="vanished">收回第四桌板</translation>
     </message>
     <message>
         <source>Fifth table open</source>
-        <translation>弹出第五桌板</translation>
+        <translation type="vanished">弹出第五桌板</translation>
     </message>
     <message>
         <source>Opens the Fifth Table</source>
-        <translation>弹出第五桌板</translation>
+        <translation type="vanished">弹出第五桌板</translation>
     </message>
     <message>
         <source>Fifth table close</source>
-        <translation>收回第五桌板</translation>
+        <translation type="vanished">收回第五桌板</translation>
     </message>
     <message>
         <source>Closes the Fifth Table</source>
-        <translation>收回第五桌板</translation>
+        <translation type="vanished">收回第五桌板</translation>
     </message>
     <message>
         <source>Sixth table open</source>
-        <translation>弹出第六桌板</translation>
+        <translation type="vanished">弹出第六桌板</translation>
     </message>
     <message>
         <source>Opens the Sixth Table</source>
-        <translation>弹出第六桌板</translation>
+        <translation type="vanished">弹出第六桌板</translation>
     </message>
     <message>
         <source>Sixth table close</source>
-        <translation>收回第六桌板</translation>
+        <translation type="vanished">收回第六桌板</translation>
     </message>
     <message>
         <source>Closes the Sixth Table</source>
-        <translation>收回第六桌板</translation>
+        <translation type="vanished">收回第六桌板</translation>
     </message>
     <message>
         <source>Left table open</source>
-        <translation>弹出左侧桌板</translation>
+        <translation type="vanished">弹出左侧桌板</translation>
     </message>
     <message>
         <source>Opens the Left Table</source>
-        <translation>弹出左侧桌板</translation>
+        <translation type="vanished">弹出左侧桌板</translation>
     </message>
     <message>
         <source>Left table close</source>
-        <translation>收回左侧桌板</translation>
+        <translation type="vanished">收回左侧桌板</translation>
     </message>
     <message>
         <source>Closes the Left Table</source>
-        <translation>收回左侧桌板</translation>
+        <translation type="vanished">收回左侧桌板</translation>
     </message>
     <message>
         <source>Right table open</source>
-        <translation>弹出右侧桌板</translation>
+        <translation type="vanished">弹出右侧桌板</translation>
     </message>
     <message>
         <source>Opens the Right Table</source>
-        <translation>弹出右侧桌板</translation>
+        <translation type="vanished">弹出右侧桌板</translation>
     </message>
     <message>
         <source>Right table close</source>
-        <translation>收回右侧桌板</translation>
+        <translation type="vanished">收回右侧桌板</translation>
     </message>
     <message>
         <source>Closes the Right Table</source>
-        <translation>收回右侧桌板</translation>
+        <translation type="vanished">收回右侧桌板</translation>
     </message>
     <message>
         <source>First seat footrest open</source>
-        <translation>伸出第一座椅腿托</translation>
+        <translation type="vanished">伸出第一座椅腿托</translation>
     </message>
     <message>
         <source>Opens the First seat footrest</source>
-        <translation>伸出第一座椅腿托</translation>
+        <translation type="vanished">伸出第一座椅腿托</translation>
     </message>
     <message>
         <source>First seat footrest close</source>
-        <translation>收回第一座椅腿托</translation>
+        <translation type="vanished">收回第一座椅腿托</translation>
     </message>
     <message>
         <source>Closes the First seat footrest</source>
-        <translation>收回第一座椅腿托</translation>
+        <translation type="vanished">收回第一座椅腿托</translation>
     </message>
     <message>
         <source>Second seat footrest open</source>
-        <translation>伸出第二座椅腿托</translation>
+        <translation type="vanished">伸出第二座椅腿托</translation>
     </message>
     <message>
         <source>Opens the Second seat footrest</source>
-        <translation>伸出第二座椅腿托</translation>
+        <translation type="vanished">伸出第二座椅腿托</translation>
     </message>
     <message>
         <source>Second seat footrest close</source>
-        <translation>收回第二座椅腿托</translation>
+        <translation type="vanished">收回第二座椅腿托</translation>
     </message>
     <message>
         <source>Closes the Second seat footrest</source>
-        <translation>收回第二座椅腿托</translation>
+        <translation type="vanished">收回第二座椅腿托</translation>
     </message>
     <message>
         <source>Third seat footrest open</source>
-        <translation>伸出第三座椅腿托</translation>
+        <translation type="vanished">伸出第三座椅腿托</translation>
     </message>
     <message>
         <source>Opens the Third seat footrest</source>
-        <translation>伸出第三座椅腿托</translation>
+        <translation type="vanished">伸出第三座椅腿托</translation>
     </message>
     <message>
         <source>Third seat footrest close</source>
-        <translation>收回第三座椅腿托</translation>
+        <translation type="vanished">收回第三座椅腿托</translation>
     </message>
     <message>
         <source>Closes the Third seat footrest</source>
-        <translation>收回第三座椅腿托</translation>
+        <translation type="vanished">收回第三座椅腿托</translation>
     </message>
     <message>
         <source>Fourth seat footrest open</source>
-        <translation>伸出第四座椅腿托</translation>
+        <translation type="vanished">伸出第四座椅腿托</translation>
     </message>
     <message>
         <source>Opens the Fourth seat footrest</source>
-        <translation>伸出第四座椅腿托</translation>
+        <translation type="vanished">伸出第四座椅腿托</translation>
     </message>
     <message>
         <source>Fourth seat footrest close</source>
-        <translation>收回第四座椅腿托</translation>
+        <translation type="vanished">收回第四座椅腿托</translation>
     </message>
     <message>
         <source>Closes the Fourth seat footrest</source>
-        <translation>收回第四座椅腿托</translation>
+        <translation type="vanished">收回第四座椅腿托</translation>
     </message>
     <message>
         <source>Fifth seat footrest open</source>
-        <translation>伸出第五座椅腿托</translation>
+        <translation type="vanished">伸出第五座椅腿托</translation>
     </message>
     <message>
         <source>Opens the Fifth seat footrest</source>
-        <translation>伸出第五座椅腿托</translation>
+        <translation type="vanished">伸出第五座椅腿托</translation>
     </message>
     <message>
         <source>Fifth seat footrest close</source>
-        <translation>收回第五座椅腿托</translation>
+        <translation type="vanished">收回第五座椅腿托</translation>
     </message>
     <message>
         <source>Closes the Fifth seat footrest</source>
-        <translation>收回第五座椅腿托</translation>
+        <translation type="vanished">收回第五座椅腿托</translation>
     </message>
     <message>
         <source>Sixth seat footrest open</source>
-        <translation>伸出第六座椅腿托</translation>
+        <translation type="vanished">伸出第六座椅腿托</translation>
     </message>
     <message>
         <source>Opens the Sixth seat footrest</source>
-        <translation>伸出第六座椅腿托</translation>
+        <translation type="vanished">伸出第六座椅腿托</translation>
     </message>
     <message>
         <source>Sixth seat footrest close</source>
-        <translation>收回第六座椅腿托</translation>
+        <translation type="vanished">收回第六座椅腿托</translation>
     </message>
     <message>
         <source>Closes the Sixth seat footrest</source>
-        <translation>收回第六座椅腿托</translation>
+        <translation type="vanished">收回第六座椅腿托</translation>
     </message>
     <message>
         <source>Right seat footrest open</source>
-        <translation>伸出右侧座椅腿托</translation>
+        <translation type="vanished">伸出右侧座椅腿托</translation>
     </message>
     <message>
         <source>Opens the Right seat footrest</source>
-        <translation>伸出右侧座椅腿托</translation>
+        <translation type="vanished">伸出右侧座椅腿托</translation>
     </message>
     <message>
         <source>Right seat footrest close</source>
-        <translation>收回右侧座椅腿托</translation>
+        <translation type="vanished">收回右侧座椅腿托</translation>
     </message>
     <message>
         <source>Closes the Right seat footrest</source>
-        <translation>收回右侧座椅腿托</translation>
+        <translation type="vanished">收回右侧座椅腿托</translation>
     </message>
     <message>
         <source>Left seat footrest open</source>
-        <translation>收回第六座椅腿托</translation>
+        <translation type="vanished">收回第六座椅腿托</translation>
     </message>
     <message>
         <source>Opens the Left seat footrest</source>
-        <translation>收回第六座椅腿托</translation>
+        <translation type="vanished">收回第六座椅腿托</translation>
     </message>
     <message>
         <source>Left seat footrest close</source>
-        <translation>收回左侧座椅腿托</translation>
+        <translation type="vanished">收回左侧座椅腿托</translation>
     </message>
     <message>
         <source>Closes the Left seat footrest</source>
-        <translation>收回左侧座椅腿托</translation>
+        <translation type="vanished">收回左侧座椅腿托</translation>
     </message>
     <message>
         <source>First Curtain open</source>
-        <translation>打开第一窗帘</translation>
+        <translation type="vanished">打开第一窗帘</translation>
     </message>
     <message>
         <source>Opens the First Curtain</source>
-        <translation>打开第一窗帘</translation>
+        <translation type="vanished">打开第一窗帘</translation>
     </message>
     <message>
         <source>First Curtain close</source>
-        <translation>关闭第一窗帘</translation>
+        <translation type="vanished">关闭第一窗帘</translation>
     </message>
     <message>
         <source>Closes the First Curtain</source>
-        <translation>关闭第一窗帘</translation>
+        <translation type="vanished">关闭第一窗帘</translation>
     </message>
     <message>
         <source>Second Curtain open</source>
-        <translation>打开第二窗帘</translation>
+        <translation type="vanished">打开第二窗帘</translation>
     </message>
     <message>
         <source>Opens the Second Curtain</source>
-        <translation>打开第二窗帘</translation>
+        <translation type="vanished">打开第二窗帘</translation>
     </message>
     <message>
         <source>Second Curtain close</source>
-        <translation>关闭第二窗帘</translation>
+        <translation type="vanished">关闭第二窗帘</translation>
     </message>
     <message>
         <source>Closes the Second Curtain</source>
-        <translation>关闭第二窗帘</translation>
+        <translation type="vanished">关闭第二窗帘</translation>
     </message>
     <message>
         <source>Third Curtain open</source>
-        <translation>打开第三窗帘</translation>
+        <translation type="vanished">打开第三窗帘</translation>
     </message>
     <message>
         <source>Opens the Third Curtain</source>
-        <translation>打开第三窗帘</translation>
+        <translation type="vanished">打开第三窗帘</translation>
     </message>
     <message>
         <source>Third Curtain close</source>
-        <translation>关闭第三窗帘</translation>
+        <translation type="vanished">关闭第三窗帘</translation>
     </message>
     <message>
         <source>Closes the Third Curtain</source>
-        <translation>关闭第三窗帘</translation>
+        <translation type="vanished">关闭第三窗帘</translation>
     </message>
     <message>
         <source>Fourth Curtain open</source>
-        <translation>打开第四窗帘</translation>
+        <translation type="vanished">打开第四窗帘</translation>
     </message>
     <message>
         <source>Opens the Fourth Curtain</source>
-        <translation>打开第四窗帘</translation>
+        <translation type="vanished">打开第四窗帘</translation>
     </message>
     <message>
         <source>Fourth Curtain close</source>
-        <translation>关闭第四窗帘</translation>
+        <translation type="vanished">关闭第四窗帘</translation>
     </message>
     <message>
         <source>Closes the Fourth Curtain</source>
-        <translation>关闭第四窗帘</translation>
+        <translation type="vanished">关闭第四窗帘</translation>
     </message>
     <message>
         <source>Fifth Curtain open</source>
-        <translation>打开第五窗帘</translation>
+        <translation type="vanished">打开第五窗帘</translation>
     </message>
     <message>
         <source>Opens the Fifth Curtain</source>
-        <translation>打开第五窗帘</translation>
+        <translation type="vanished">打开第五窗帘</translation>
     </message>
     <message>
         <source>Fifth Curtain close</source>
-        <translation>关闭第五窗帘</translation>
+        <translation type="vanished">关闭第五窗帘</translation>
     </message>
     <message>
         <source>Closes the Fifth Curtain</source>
-        <translation>关闭第五窗帘</translation>
+        <translation type="vanished">关闭第五窗帘</translation>
     </message>
     <message>
         <source>Sixth Curtain open</source>
-        <translation>打开第六窗帘</translation>
+        <translation type="vanished">打开第六窗帘</translation>
     </message>
     <message>
         <source>Opens the Sixth Curtain</source>
-        <translation>打开第六窗帘</translation>
+        <translation type="vanished">打开第六窗帘</translation>
     </message>
     <message>
         <source>Sixth Curtain close</source>
-        <translation>关闭第六窗帘</translation>
+        <translation type="vanished">关闭第六窗帘</translation>
     </message>
     <message>
         <source>Closes the Sixth Curtain</source>
-        <translation>关闭第六窗帘</translation>
+        <translation type="vanished">关闭第六窗帘</translation>
     </message>
     <message>
         <source>Right Curtain open</source>
-        <translation>打开右侧窗帘</translation>
+        <translation type="vanished">打开右侧窗帘</translation>
     </message>
     <message>
         <source>Opens the Right Curtain</source>
-        <translation>打开右侧窗帘</translation>
+        <translation type="vanished">打开右侧窗帘</translation>
     </message>
     <message>
         <source>Right Curtain close</source>
-        <translation>关闭右侧窗帘</translation>
+        <translation type="vanished">关闭右侧窗帘</translation>
     </message>
     <message>
         <source>Closes the Right Curtain</source>
-        <translation>关闭右侧窗帘</translation>
+        <translation type="vanished">关闭右侧窗帘</translation>
     </message>
     <message>
         <source>Left Curtain open</source>
-        <translation>打开左侧窗帘</translation>
+        <translation type="vanished">打开左侧窗帘</translation>
     </message>
     <message>
         <source>Opens the Left Curtain</source>
-        <translation>打开左侧窗帘</translation>
+        <translation type="vanished">打开左侧窗帘</translation>
     </message>
     <message>
         <source>Left Curtain close</source>
-        <translation>关闭左侧窗帘</translation>
+        <translation type="vanished">关闭左侧窗帘</translation>
     </message>
     <message>
         <source>Closes the Left Curtain</source>
-        <translation>关闭左侧窗帘</translation>
+        <translation type="vanished">关闭左侧窗帘</translation>
     </message>
     <message>
         <source>First Seat Massage open</source>
-        <translation>打开第一座椅按摩</translation>
+        <translation type="vanished">打开第一座椅按摩</translation>
     </message>
     <message>
         <source>Opens the First Seat Massage</source>
-        <translation>打开第一座椅按摩</translation>
+        <translation type="vanished">打开第一座椅按摩</translation>
     </message>
     <message>
         <source>First Seat Massage close</source>
-        <translation>关闭第一座椅按摩</translation>
+        <translation type="vanished">关闭第一座椅按摩</translation>
     </message>
     <message>
         <source>Closes the First Seat Massage</source>
-        <translation>关闭第一座椅按摩</translation>
+        <translation type="vanished">关闭第一座椅按摩</translation>
     </message>
     <message>
         <source>Second Seat Massage open</source>
-        <translation>打开第二座椅按摩</translation>
+        <translation type="vanished">打开第二座椅按摩</translation>
     </message>
     <message>
         <source>Opens the Second Seat Massage</source>
-        <translation>打开第二座椅按摩</translation>
+        <translation type="vanished">打开第二座椅按摩</translation>
     </message>
     <message>
         <source>Second Seat Massage close</source>
-        <translation>关闭第二座椅按摩</translation>
+        <translation type="vanished">关闭第二座椅按摩</translation>
     </message>
     <message>
         <source>Closes the Second Seat Massage</source>
-        <translation>关闭第二座椅按摩</translation>
+        <translation type="vanished">关闭第二座椅按摩</translation>
     </message>
     <message>
         <source>Third Seat Massage open</source>
-        <translation>打开第三座椅按摩</translation>
+        <translation type="vanished">打开第三座椅按摩</translation>
     </message>
     <message>
         <source>Opens the Third Seat Massage</source>
-        <translation>打开第三座椅按摩</translation>
+        <translation type="vanished">打开第三座椅按摩</translation>
     </message>
     <message>
         <source>Third Seat Massage close</source>
-        <translation>关闭第三座椅按摩</translation>
+        <translation type="vanished">关闭第三座椅按摩</translation>
     </message>
     <message>
         <source>Closes the Third Seat Massage</source>
-        <translation>关闭第三座椅按摩</translation>
+        <translation type="vanished">关闭第三座椅按摩</translation>
     </message>
     <message>
         <source>Fourth Seat Massage open</source>
-        <translation>打开第四座椅按摩</translation>
+        <translation type="vanished">打开第四座椅按摩</translation>
     </message>
     <message>
         <source>Opens the Fourth Seat Massage</source>
-        <translation>打开第四座椅按摩</translation>
+        <translation type="vanished">打开第四座椅按摩</translation>
     </message>
     <message>
         <source>Fourth Seat Massage close</source>
-        <translation>关闭第四座椅按摩</translation>
+        <translation type="vanished">关闭第四座椅按摩</translation>
     </message>
     <message>
         <source>Closes the Fourth Seat Massage</source>
-        <translation>关闭第四座椅按摩</translation>
+        <translation type="vanished">关闭第四座椅按摩</translation>
     </message>
     <message>
         <source>Fifth Seat Massage open</source>
-        <translation>打开第五座椅按摩</translation>
+        <translation type="vanished">打开第五座椅按摩</translation>
     </message>
     <message>
         <source>Opens the Fifth Seat Massage</source>
-        <translation>打开第五座椅按摩</translation>
+        <translation type="vanished">打开第五座椅按摩</translation>
     </message>
     <message>
         <source>Fifth Seat Massage close</source>
-        <translation>关闭第五座椅按摩</translation>
+        <translation type="vanished">关闭第五座椅按摩</translation>
     </message>
     <message>
         <source>Closes the Fifth Seat Massage</source>
-        <translation>关闭第五座椅按摩</translation>
+        <translation type="vanished">关闭第五座椅按摩</translation>
     </message>
     <message>
         <source>Sixth Seat Massage open</source>
-        <translation>打开第六座椅按摩</translation>
+        <translation type="vanished">打开第六座椅按摩</translation>
     </message>
     <message>
         <source>Opens the Sixth Seat Massage</source>
-        <translation>打开第六座椅按摩</translation>
+        <translation type="vanished">打开第六座椅按摩</translation>
     </message>
     <message>
         <source>Sixth Seat Massage close</source>
-        <translation>关闭第六座椅按摩</translation>
+        <translation type="vanished">关闭第六座椅按摩</translation>
     </message>
     <message>
         <source>Closes the Sixth Seat Massage</source>
-        <translation>关闭第六座椅按摩</translation>
+        <translation type="vanished">关闭第六座椅按摩</translation>
     </message>
     <message>
         <source>Right Seat Massage open</source>
-        <translation>打开右侧座椅按摩</translation>
+        <translation type="vanished">打开右侧座椅按摩</translation>
     </message>
     <message>
         <source>Opens the Right Seat Massage</source>
-        <translation>打开右侧座椅按摩</translation>
+        <translation type="vanished">打开右侧座椅按摩</translation>
     </message>
     <message>
         <source>Right Seat Massage close</source>
-        <translation>关闭右侧座椅按摩</translation>
+        <translation type="vanished">关闭右侧座椅按摩</translation>
     </message>
     <message>
         <source>Closes the Right Seat Massage</source>
-        <translation>关闭右侧座椅按摩</translation>
+        <translation type="vanished">关闭右侧座椅按摩</translation>
     </message>
     <message>
         <source>Left Seat Massage open</source>
-        <translation>打开左侧座椅按摩</translation>
+        <translation type="vanished">打开左侧座椅按摩</translation>
     </message>
     <message>
         <source>Opens the Left Seat Massage</source>
-        <translation>打开左侧座椅按摩</translation>
+        <translation type="vanished">打开左侧座椅按摩</translation>
     </message>
     <message>
         <source>Left Seat Massage close</source>
-        <translation>关闭左侧座椅按摩</translation>
+        <translation type="vanished">关闭左侧座椅按摩</translation>
     </message>
     <message>
         <source>Closes the Left Seat Massage</source>
-        <translation>关闭左侧座椅按摩</translation>
+        <translation type="vanished">关闭左侧座椅按摩</translation>
     </message>
     <message>
         <source>Nespresso open</source>
-        <translation>伸出咖啡机</translation>
+        <translation type="vanished">伸出咖啡机</translation>
     </message>
     <message>
         <source>Opens the Nespresso</source>
-        <translation>伸出咖啡机</translation>
+        <translation type="vanished">伸出咖啡机</translation>
     </message>
     <message>
         <source>Nespresso close</source>
-        <translation>收回咖啡机</translation>
+        <translation type="vanished">收回咖啡机</translation>
     </message>
     <message>
         <source>Closes the Nespresso</source>
-        <translation>收回咖啡机</translation>
+        <translation type="vanished">收回咖啡机</translation>
     </message>
     <message>
         <source>Front Nespresso open</source>
-        <translation>伸出前咖啡机</translation>
+        <translation type="vanished">伸出前咖啡机</translation>
     </message>
     <message>
         <source>Opens the Front Nespresso</source>
-        <translation>伸出前咖啡机</translation>
+        <translation type="vanished">伸出前咖啡机</translation>
     </message>
     <message>
         <source>Front Nespresso close</source>
-        <translation>收回前咖啡机</translation>
+        <translation type="vanished">收回前咖啡机</translation>
     </message>
     <message>
         <source>Closes the Front Nespresso</source>
-        <translation>收回前咖啡机</translation>
+        <translation type="vanished">收回前咖啡机</translation>
     </message>
     <message>
         <source>Rear Nespresso open</source>
-        <translation>伸出后咖啡机</translation>
+        <translation type="vanished">伸出后咖啡机</translation>
     </message>
     <message>
         <source>Opens the Rear Nespresso</source>
-        <translation>伸出后咖啡机</translation>
+        <translation type="vanished">伸出后咖啡机</translation>
     </message>
     <message>
         <source>Rear Nespresso close</source>
-        <translation>收回后咖啡机</translation>
+        <translation type="vanished">收回后咖啡机</translation>
     </message>
     <message>
         <source>Closes the Rear Nespresso</source>
-        <translation>收回后咖啡机</translation>
+        <translation type="vanished">收回后咖啡机</translation>
     </message>
     <message>
         <source>Door open</source>
-        <translation>打开车门</translation>
+        <translation type="vanished">打开车门</translation>
     </message>
     <message>
         <source>Opens the Door</source>
-        <translation>打开车门</translation>
+        <translation type="vanished">打开车门</translation>
     </message>
     <message>
         <source>Door close</source>
-        <translation>关闭车门</translation>
+        <translation type="vanished">关闭车门</translation>
     </message>
     <message>
         <source>Closes the Door</source>
-        <translation>关闭车门</translation>
+        <translation type="vanished">关闭车门</translation>
     </message>
     <message>
         <source>Right Door open</source>
-        <translation>打开右车门</translation>
+        <translation type="vanished">打开右车门</translation>
     </message>
     <message>
         <source>Opens the Right Door</source>
-        <translation>打开右车门</translation>
+        <translation type="vanished">打开右车门</translation>
     </message>
     <message>
         <source>Right Door close</source>
-        <translation>关闭右车门</translation>
+        <translation type="vanished">关闭右车门</translation>
     </message>
     <message>
         <source>Closes the Right Door</source>
-        <translation>关闭右车门</translation>
+        <translation type="vanished">关闭右车门</translation>
     </message>
     <message>
         <source>Left Door open</source>
-        <translation>打开左车门</translation>
+        <translation type="vanished">打开左车门</translation>
     </message>
     <message>
         <source>Opens the Left Door</source>
-        <translation>打开左车门</translation>
+        <translation type="vanished">打开左车门</translation>
     </message>
     <message>
         <source>Left Door close</source>
-        <translation>关闭左车门</translation>
+        <translation type="vanished">关闭左车门</translation>
     </message>
     <message>
         <source>Closes the Left Door</source>
-        <translation>关闭左车门</translation>
+        <translation type="vanished">关闭左车门</translation>
     </message>
     <message>
         <source>TV up</source>
-        <translation>升起电视机</translation>
+        <translation type="vanished">升起电视机</translation>
     </message>
     <message>
         <source>Puts the TV up</source>
-        <translation>升起电视机</translation>
+        <translation type="vanished">升起电视机</translation>
     </message>
     <message>
         <source>Tv down</source>
-        <translation>降下电视机</translation>
+        <translation type="vanished">降下电视机</translation>
     </message>
     <message>
         <source>Puts the TV down</source>
-        <translation>降下电视机</translation>
+        <translation type="vanished">降下电视机</translation>
     </message>
     <message>
         <source>Turn on TV</source>
-        <translation>打开电视</translation>
+        <translation type="vanished">打开电视</translation>
     </message>
     <message>
         <source>Turns the TV on</source>
-        <translation>打开电视</translation>
+        <translation type="vanished">打开电视</translation>
     </message>
     <message>
         <source>Turns the TV off</source>
-        <translation>关闭电视</translation>
+        <translation type="vanished">关闭电视</translation>
     </message>
     <message>
         <source>TV Volume up</source>
-        <translation>调大音量</translation>
+        <translation type="vanished">调大音量</translation>
     </message>
     <message>
         <source>Increases the TV volume</source>
-        <translation>调大音量</translation>
+        <translation type="vanished">调大音量</translation>
     </message>
     <message>
         <source>TV Volume down</source>
-        <translation>调小音量</translation>
+        <translation type="vanished">调小音量</translation>
     </message>
     <message>
         <source>Decreases the TV volume</source>
-        <translation>调小音量</translation>
+        <translation type="vanished">调小音量</translation>
     </message>
     <message>
         <source>Open Apple TV</source>
-        <translation>接通苹果电视</translation>
+        <translation type="vanished">接通苹果电视</translation>
     </message>
     <message>
         <source>Opens the Apple TV</source>
-        <translation>接通苹果电视</translation>
+        <translation type="vanished">接通苹果电视</translation>
     </message>
     <message>
         <source>Front camera open</source>
-        <translation>接通前摄像头</translation>
+        <translation type="vanished">接通前摄像头</translation>
     </message>
     <message>
         <source>Opens the Front Camera</source>
-        <translation>接通前摄像头</translation>
+        <translation type="vanished">接通前摄像头</translation>
     </message>
     <message>
         <source>Rear camera open</source>
-        <translation>接通后摄像头</translation>
+        <translation type="vanished">接通后摄像头</translation>
     </message>
     <message>
         <source>Opens the Rear Camera</source>
-        <translation>接通后摄像头</translation>
+        <translation type="vanished">接通后摄像头</translation>
     </message>
     <message>
         <source>Screen divider open</source>
-        <translation>分屏显示</translation>
+        <translation type="vanished">分屏显示</translation>
     </message>
     <message>
         <source>Opens the the Screen Divider</source>
-        <translation>分屏显示</translation>
+        <translation type="vanished">分屏显示</translation>
     </message>
     <message>
         <source>DVD open</source>
-        <translation>接通DVD</translation>
+        <translation type="vanished">接通DVD</translation>
     </message>
     <message>
         <source>Opens the DVD</source>
-        <translation>接通DVD</translation>
+        <translation type="vanished">接通DVD</translation>
     </message>
     <message>
         <source>Computer projection</source>
-        <translation>接通投影机</translation>
+        <translation type="vanished">接通投影机</translation>
     </message>
     <message>
         <source>Enables Computer Projection</source>
-        <translation>接通投影机</translation>
+        <translation type="vanished">接通投影机</translation>
     </message>
     <message>
         <source>Samsung dock projection</source>
-        <translation>接通三星投影</translation>
+        <translation type="vanished">接通三星投影</translation>
     </message>
     <message>
         <source>Enables Samsung Dock Projection</source>
-        <translation>接通三星投影</translation>
+        <translation type="vanished">接通三星投影</translation>
     </message>
     <message>
         <source>Turn on lights white</source>
-        <translation>打开白灯</translation>
+        <translation type="vanished">打开白灯</translation>
     </message>
     <message>
         <source>Turns white lights on</source>
-        <translation>打开白灯</translation>
+        <translation type="vanished">打开白灯</translation>
     </message>
     <message>
         <source>Turn on lights red</source>
-        <translation>打开红灯</translation>
+        <translation type="vanished">打开红灯</translation>
     </message>
     <message>
         <source>Turns red lights on</source>
-        <translation>打开红灯</translation>
+        <translation type="vanished">打开红灯</translation>
     </message>
     <message>
         <source>Turn on lights green</source>
-        <translation>打开绿灯</translation>
+        <translation type="vanished">打开绿灯</translation>
     </message>
     <message>
         <source>Turns green lights on</source>
-        <translation>打开绿灯</translation>
+        <translation type="vanished">打开绿灯</translation>
     </message>
     <message>
         <source>Turn on lights blue</source>
-        <translation>打开蓝灯</translation>
+        <translation type="vanished">打开蓝灯</translation>
     </message>
     <message>
         <source>Turns blue lights on</source>
-        <translation>打开蓝灯</translation>
+        <translation type="vanished">打开蓝灯</translation>
     </message>
     <message>
         <source>Turn off lights</source>
-        <translation>关闭灯光</translation>
+        <translation type="vanished">关闭灯光</translation>
     </message>
     <message>
         <source>Turns the lights off</source>
-        <translation>关闭灯光</translation>
+        <translation type="vanished">关闭灯光</translation>
     </message>
     <message>
         <source>Ceiling lights white turn on</source>
-        <translation>打开白色天花灯</translation>
+        <translation type="vanished">打开白色天花灯</translation>
     </message>
     <message>
         <source>Turns white ceiling lights on</source>
-        <translation>打开白色天花灯</translation>
+        <translation type="vanished">打开白色天花灯</translation>
     </message>
     <message>
         <source>Ceiling lights red turn on</source>
-        <translation>打开红色天花灯</translation>
+        <translation type="vanished">打开红色天花灯</translation>
     </message>
     <message>
         <source>Turns red ceiling lights on</source>
-        <translation>打开红色天花灯</translation>
+        <translation type="vanished">打开红色天花灯</translation>
     </message>
     <message>
         <source>Ceiling lights green turn on</source>
-        <translation>打开绿色天花灯</translation>
+        <translation type="vanished">打开绿色天花灯</translation>
     </message>
     <message>
         <source>Turns green ceiling lights on</source>
-        <translation>打开绿色天花灯</translation>
+        <translation type="vanished">打开绿色天花灯</translation>
     </message>
     <message>
         <source>Ceiling lights blue turn on</source>
-        <translation>打开蓝色天花灯</translation>
+        <translation type="vanished">打开蓝色天花灯</translation>
     </message>
     <message>
         <source>Turns blue ceiling lights on</source>
-        <translation>打开蓝色天花灯</translation>
+        <translation type="vanished">打开蓝色天花灯</translation>
     </message>
     <message>
         <source>Ceiling lights turn off</source>
-        <translation>关闭天花灯</translation>
+        <translation type="vanished">关闭天花灯</translation>
     </message>
     <message>
         <source>Turns ceiling lights off</source>
-        <translation>关闭天花灯</translation>
+        <translation type="vanished">关闭天花灯</translation>
     </message>
     <message>
         <source>Interior lights white turn on</source>
-        <translation>打开白色内部灯</translation>
+        <translation type="vanished">打开白色内部灯</translation>
     </message>
     <message>
         <source>Turns white Interior lights on</source>
-        <translation>打开白色内部灯</translation>
+        <translation type="vanished">打开白色内部灯</translation>
     </message>
     <message>
         <source>Interior lights red turn on</source>
-        <translation>打开白色内部灯</translation>
+        <translation type="vanished">打开白色内部灯</translation>
     </message>
     <message>
         <source>Turns red Interior lights on</source>
-        <translation>打开白色内部灯</translation>
+        <translation type="vanished">打开白色内部灯</translation>
     </message>
     <message>
         <source>Interior lights green turn on</source>
-        <translation>打开白色内部灯</translation>
+        <translation type="vanished">打开白色内部灯</translation>
     </message>
     <message>
         <source>Turns green Interior lights on</source>
-        <translation>打开白色内部灯</translation>
+        <translation type="vanished">打开白色内部灯</translation>
     </message>
     <message>
         <source>Interior lights blue turn on</source>
-        <translation>打开白色内部灯</translation>
+        <translation type="vanished">打开白色内部灯</translation>
     </message>
     <message>
         <source>Turns blue Interior lights on</source>
-        <translation>打开白色内部灯</translation>
+        <translation type="vanished">打开白色内部灯</translation>
     </message>
     <message>
         <source>Interior lights turn off</source>
-        <translation>关闭内部灯</translation>
+        <translation type="vanished">关闭内部灯</translation>
     </message>
     <message>
         <source>Turns Interior lights off</source>
-        <translation>关闭内部灯</translation>
+        <translation type="vanished">关闭内部灯</translation>
     </message>
     <message>
         <source>Side lights white turn on</source>
-        <translation>打开白色侧灯</translation>
+        <translation type="vanished">打开白色侧灯</translation>
     </message>
     <message>
         <source>Turns white Side lights on</source>
-        <translation>打开白色侧灯</translation>
+        <translation type="vanished">打开白色侧灯</translation>
     </message>
     <message>
         <source>Side lights red turn on</source>
-        <translation>打开白色侧灯</translation>
+        <translation type="vanished">打开白色侧灯</translation>
     </message>
     <message>
         <source>Turns red Side lights on</source>
-        <translation>打开白色侧灯</translation>
+        <translation type="vanished">打开白色侧灯</translation>
     </message>
     <message>
         <source>Side lights green turn on</source>
-        <translation>打开白色侧灯</translation>
+        <translation type="vanished">打开白色侧灯</translation>
     </message>
     <message>
         <source>Turns green Side lights on</source>
-        <translation>打开白色侧灯</translation>
+        <translation type="vanished">打开白色侧灯</translation>
     </message>
     <message>
         <source>Side lights blue turn on</source>
-        <translation>打开白色侧灯</translation>
+        <translation type="vanished">打开白色侧灯</translation>
     </message>
     <message>
         <source>Turns blue Side lights on</source>
-        <translation>打开白色侧灯</translation>
+        <translation type="vanished">打开白色侧灯</translation>
     </message>
     <message>
         <source>Side lights turn off</source>
-        <translation>关闭侧灯</translation>
+        <translation type="vanished">关闭侧灯</translation>
     </message>
     <message>
         <source>Turns Side lights off</source>
-        <translation>关闭侧灯</translation>
+        <translation type="vanished">关闭侧灯</translation>
     </message>
     <message>
         <source>Left Make Up Lights turn on</source>
-        <translation>接通左侧化妆灯</translation>
+        <translation type="vanished">接通左侧化妆灯</translation>
     </message>
     <message>
         <source>Turns Left Make Up Light on</source>
-        <translation>接通左侧化妆灯</translation>
+        <translation type="vanished">接通左侧化妆灯</translation>
     </message>
     <message>
         <source>Left Make Up Light turn off</source>
-        <translation>关闭左侧化妆灯</translation>
+        <translation type="vanished">关闭左侧化妆灯</translation>
     </message>
     <message>
         <source>Turns Left Make Up Light off</source>
-        <translation>关闭左侧化妆灯</translation>
+        <translation type="vanished">关闭左侧化妆灯</translation>
     </message>
     <message>
         <source>Right Make Up Light turn on</source>
-        <translation>接通右侧化妆灯</translation>
+        <translation type="vanished">接通右侧化妆灯</translation>
     </message>
     <message>
         <source>Turns Right Make Up Light on</source>
-        <translation>接通右侧化妆灯</translation>
+        <translation type="vanished">接通右侧化妆灯</translation>
     </message>
     <message>
         <source>Right Make Up Light turn off</source>
-        <translation>关闭右侧化妆灯</translation>
+        <translation type="vanished">关闭右侧化妆灯</translation>
     </message>
     <message>
         <source>Turns Right Make Up Light off</source>
-        <translation>关闭右侧化妆灯</translation>
+        <translation type="vanished">关闭右侧化妆灯</translation>
     </message>
     <message>
         <source>Left Reading Lights turn on</source>
-        <translation>接通左侧阅读灯</translation>
+        <translation type="vanished">接通左侧阅读灯</translation>
     </message>
     <message>
         <source>Turns Left Reading Light on</source>
-        <translation>接通左侧阅读灯</translation>
+        <translation type="vanished">接通左侧阅读灯</translation>
     </message>
     <message>
         <source>Left Reading Light turn off</source>
-        <translation>关闭左侧阅读灯</translation>
+        <translation type="vanished">关闭左侧阅读灯</translation>
     </message>
     <message>
         <source>Turns Left Reading Light off</source>
-        <translation>关闭左侧阅读灯</translation>
+        <translation type="vanished">关闭左侧阅读灯</translation>
     </message>
     <message>
         <source>Right Reading Light turn on</source>
-        <translation>接通右侧阅读灯</translation>
+        <translation type="vanished">接通右侧阅读灯</translation>
     </message>
     <message>
         <source>Turns Right Reading Light on</source>
-        <translation>接通右侧阅读灯</translation>
+        <translation type="vanished">接通右侧阅读灯</translation>
     </message>
     <message>
         <source>Right Reading Light turn off</source>
-        <translation>关闭右侧阅读灯</translation>
+        <translation type="vanished">关闭右侧阅读灯</translation>
     </message>
     <message>
         <source>Turns Right Reading Light off</source>
-        <translation>关闭右侧阅读灯</translation>
+        <translation type="vanished">关闭右侧阅读灯</translation>
     </message>
     <message>
         <source>Right Drawer Open</source>
-        <translation>伸出右侧抽屉</translation>
+        <translation type="vanished">伸出右侧抽屉</translation>
     </message>
     <message>
         <source>Opens the Right Drawer</source>
-        <translation>伸出右侧抽屉</translation>
+        <translation type="vanished">伸出右侧抽屉</translation>
     </message>
     <message>
         <source>Right Drawer Close</source>
-        <translation>收回右侧抽屉</translation>
+        <translation type="vanished">收回右侧抽屉</translation>
     </message>
     <message>
         <source>Closes the Right Drawer</source>
-        <translation>收回右侧抽屉</translation>
+        <translation type="vanished">收回右侧抽屉</translation>
     </message>
     <message>
         <source>Left Drawer Open</source>
-        <translation>伸出左侧抽屉</translation>
+        <translation type="vanished">伸出左侧抽屉</translation>
     </message>
     <message>
         <source>Opens the Left Drawer</source>
-        <translation>伸出左侧抽屉</translation>
+        <translation type="vanished">伸出左侧抽屉</translation>
     </message>
     <message>
         <source>Left Drawer Close</source>
-        <translation>收回左侧抽屉</translation>
+        <translation type="vanished">收回左侧抽屉</translation>
     </message>
     <message>
         <source>Closes the Left Drawer</source>
-        <translation>收回左侧抽屉</translation>
+        <translation type="vanished">收回左侧抽屉</translation>
     </message>
     <message>
         <source>Air conditioner turn on</source>
-        <translation>打开空调</translation>
+        <translation type="vanished">打开空调</translation>
     </message>
     <message>
         <source>Turns on the Air Conditioner</source>
-        <translation>打开空调</translation>
+        <translation type="vanished">打开空调</translation>
     </message>
     <message>
         <source>Air conditioner turn off</source>
-        <translation>关闭空调</translation>
+        <translation type="vanished">关闭空调</translation>
     </message>
     <message>
         <source>Turns off the Air Conditioner</source>
-        <translation>关闭空调</translation>
+        <translation type="vanished">关闭空调</translation>
     </message>
     <message>
         <source>Air conditioner Degree Increase</source>
-        <translation>提高温度                          </translation>
+        <translation type="vanished">提高温度                          </translation>
     </message>
     <message>
         <source>Increases the heat degree of AC</source>
-        <translation>提高温度                          </translation>
+        <translation type="vanished">提高温度                          </translation>
     </message>
     <message>
         <source>Air conditioner Degree Decrease</source>
-        <translation>降低温度</translation>
+        <translation type="vanished">降低温度</translation>
     </message>
     <message>
         <source>Decreases the heat degree of AC</source>
-        <translation>降低温度</translation>
+        <translation type="vanished">降低温度</translation>
     </message>
     <message>
         <source>Air conditioner Fan Increase</source>
-        <translation>加大风量</translation>
+        <translation type="vanished">加大风量</translation>
     </message>
     <message>
         <source>Increases the Fan Speed of AC</source>
-        <translation>加大风量</translation>
+        <translation type="vanished">加大风量</translation>
     </message>
     <message>
         <source>Air conditioner Fan Decrease</source>
-        <translation>减小风量</translation>
+        <translation type="vanished">减小风量</translation>
     </message>
     <message>
         <source>Decreases the Fan Speed of AC</source>
-        <translation>减小风量</translation>
+        <translation type="vanished">减小风量</translation>
     </message>
     <message>
         <source>Fridge degree increase</source>
-        <translation>升高冰箱温度</translation>
+        <translation type="vanished">升高冰箱温度</translation>
     </message>
     <message>
         <source>Increases heat of Fridge</source>
-        <translation>升高冰箱温度</translation>
+        <translation type="vanished">升高冰箱温度</translation>
     </message>
     <message>
         <source>Fridge degree decrease</source>
-        <translation>降低冰箱温度</translation>
+        <translation type="vanished">降低冰箱温度</translation>
     </message>
     <message>
         <source>Decreases heat of Fridge</source>
-        <translation>降低冰箱温度</translation>
+        <translation type="vanished">降低冰箱温度</translation>
     </message>
     <message>
         <source>Front Fridge degree increase</source>
-        <translation>升高前置冰箱温度</translation>
+        <translation type="vanished">升高前置冰箱温度</translation>
     </message>
     <message>
         <source>Increases heat of Front Fridge</source>
-        <translation>升高前置冰箱温度</translation>
+        <translation type="vanished">升高前置冰箱温度</translation>
     </message>
     <message>
         <source>Front Fridge degree decrease</source>
-        <translation>降低前置冰箱温度</translation>
+        <translation type="vanished">降低前置冰箱温度</translation>
     </message>
     <message>
         <source>Decreases heat of Front Fridge</source>
-        <translation>降低前置冰箱温度</translation>
+        <translation type="vanished">降低前置冰箱温度</translation>
     </message>
     <message>
         <source>Rear Fridge degree increase</source>
-        <translation>升高后置冰箱温度</translation>
+        <translation type="vanished">升高后置冰箱温度</translation>
     </message>
     <message>
         <source>Increases heat of Rear Fridge</source>
-        <translation>升高后置冰箱温度</translation>
+        <translation type="vanished">升高后置冰箱温度</translation>
     </message>
     <message>
         <source>Rear Fridge degree decrease</source>
-        <translation>降低后置冰箱温度</translation>
+        <translation type="vanished">降低后置冰箱温度</translation>
     </message>
     <message>
         <source>Decreases heat of Rear Fridge</source>
-        <translation>降低后置冰箱温度</translation>
+        <translation type="vanished">降低后置冰箱温度</translation>
     </message>
     <message>
         <source>Bottles Open</source>
-        <translation>打开酒柜</translation>
+        <translation type="vanished">打开酒柜</translation>
     </message>
     <message>
         <source>Opens the Bottles</source>
-        <translation>打开酒柜</translation>
+        <translation type="vanished">打开酒柜</translation>
     </message>
     <message>
         <source>Bottles Close</source>
-        <translation>关闭酒柜</translation>
+        <translation type="vanished">关闭酒柜</translation>
     </message>
     <message>
         <source>Closes the Bottles</source>
-        <translation>关闭酒柜</translation>
+        <translation type="vanished">关闭酒柜</translation>
     </message>
     <message>
         <source>Glasses Open</source>
-        <translation>打开眼镜盒</translation>
+        <translation type="vanished">打开眼镜盒</translation>
     </message>
     <message>
         <source>Opens the Glasses</source>
-        <translation>打开眼镜盒</translation>
+        <translation type="vanished">打开眼镜盒</translation>
     </message>
     <message>
         <source>Glasses Close</source>
-        <translation>关闭眼镜盒</translation>
+        <translation type="vanished">关闭眼镜盒</translation>
     </message>
     <message>
         <source>Closes the Glasses</source>
-        <translation>关闭眼镜盒</translation>
+        <translation type="vanished">关闭眼镜盒</translation>
     </message>
     <message>
         <source>Radio Channel Change</source>
-        <translation>搜索电台</translation>
+        <translation type="vanished">搜索电台</translation>
     </message>
     <message>
         <source>Changes the Radio Channel</source>
-        <translation>搜索电台</translation>
+        <translation type="vanished">搜索电台</translation>
     </message>
     <message>
         <source>Radio Channel Forward</source>
-        <translation>向上搜索</translation>
+        <translation type="vanished">向上搜索</translation>
     </message>
     <message>
         <source>Forwards the Radio Channel</source>
-        <translation>向上搜索</translation>
+        <translation type="vanished">向上搜索</translation>
     </message>
     <message>
         <source>Radio Channel Backward</source>
-        <translation>向下搜索</translation>
+        <translation type="vanished">向下搜索</translation>
     </message>
     <message>
         <source>Backwards the Radio Channel</source>
-        <translation>向下搜索</translation>
+        <translation type="vanished">向下搜索</translation>
     </message>
     <message>
         <source>Roof Monitor Open</source>
-        <translation>打开头上显示器</translation>
+        <translation type="vanished">打开头上显示器</translation>
     </message>
     <message>
         <source>Opens the Roof Monitor</source>
-        <translation>打开头上显示器</translation>
+        <translation type="vanished">打开头上显示器</translation>
     </message>
     <message>
         <source>Roof Monitor Close</source>
-        <translation>关闭头上显示器</translation>
+        <translation type="vanished">关闭头上显示器</translation>
     </message>
     <message>
         <source>Closes the Roof Monitor</source>
-        <translation>关闭头上显示器</translation>
+        <translation type="vanished">关闭头上显示器</translation>
     </message>
     <message>
         <source>Rear TV Open</source>
-        <translation>打开后部电视</translation>
+        <translation type="vanished">打开后部电视</translation>
     </message>
     <message>
         <source>Opens the Rear TV</source>
-        <translation>打开后部电视</translation>
+        <translation type="vanished">打开后部电视</translation>
     </message>
     <message>
         <source>Rear TV Close</source>
-        <translation>关闭后部电视</translation>
+        <translation type="vanished">关闭后部电视</translation>
     </message>
     <message>
         <source>Closes the Rear TV</source>
-        <translation>关闭后部电视</translation>
+        <translation type="vanished">关闭后部电视</translation>
     </message>
     <message>
         <source>Bar Open</source>
-        <translation>打开酒吧</translation>
+        <translation type="vanished">打开酒吧</translation>
     </message>
     <message>
         <source>Opens the Bar</source>
-        <translation>打开酒吧</translation>
+        <translation type="vanished">打开酒吧</translation>
     </message>
     <message>
         <source>Bar Close</source>
-        <translation>关闭酒吧</translation>
+        <translation type="vanished">关闭酒吧</translation>
     </message>
     <message>
         <source>Closes the Bar</source>
-        <translation>关闭酒吧</translation>
+        <translation type="vanished">关闭酒吧</translation>
     </message>
     <message>
         <source>First seat back take one step forward</source>
-        <translation>第一座椅靠背向前一步</translation>
+        <translation type="vanished">第一座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Takes First Seat back one step forward</source>
-        <translation>第一座椅靠背向前一步</translation>
+        <translation type="vanished">第一座椅靠背向前一步</translation>
     </message>
     <message>
         <source>First seat back take two step forward</source>
-        <translation>第一座椅靠背向前两步</translation>
+        <translation type="vanished">第一座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Takes First Seat back two step forward</source>
-        <translation>第一座椅靠背向前两步</translation>
+        <translation type="vanished">第一座椅靠背向前两步</translation>
     </message>
     <message>
         <source>First seat back take last point forward</source>
-        <translation>第一座椅靠背向前到位 </translation>
+        <translation type="vanished">第一座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Takes First Seat back last point forward</source>
-        <translation>第一座椅靠背向前到位 </translation>
+        <translation type="vanished">第一座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>First seat back take one step backward</source>
-        <translation>第一座椅靠背向后一步</translation>
+        <translation type="vanished">第一座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Takes First Seat back one step backward</source>
-        <translation>第一座椅靠背向后一步</translation>
+        <translation type="vanished">第一座椅靠背向后一步</translation>
     </message>
     <message>
         <source>First seat back take two step backward</source>
-        <translation>第一座椅靠背向后两步</translation>
+        <translation type="vanished">第一座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Takes First Seat back two step backward</source>
-        <translation>第一座椅靠背向后两步</translation>
+        <translation type="vanished">第一座椅靠背向后两步</translation>
     </message>
     <message>
         <source>First seat back take last point backward</source>
-        <translation>第一座椅靠背向后到位 </translation>
+        <translation type="vanished">第一座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Takes First Seat back last point backward</source>
-        <translation>第一座椅靠背向后到位 </translation>
+        <translation type="vanished">第一座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>First Seat take one step forward</source>
-        <translation>第一座椅向前一步</translation>
+        <translation type="vanished">第一座椅向前一步</translation>
     </message>
     <message>
         <source>Takes First Seat one step forward</source>
-        <translation>第一座椅向前一步</translation>
+        <translation type="vanished">第一座椅向前一步</translation>
     </message>
     <message>
         <source>First Seat take two step forward</source>
-        <translation>第一座椅向前两步</translation>
+        <translation type="vanished">第一座椅向前两步</translation>
     </message>
     <message>
         <source>Takes First Seat two step forward</source>
-        <translation>第一座椅向前两步</translation>
+        <translation type="vanished">第一座椅向前两步</translation>
     </message>
     <message>
         <source>First Seat take last point forward</source>
-        <translation>第一座椅向前到位 </translation>
+        <translation type="vanished">第一座椅向前到位 </translation>
     </message>
     <message>
         <source>Takes First Seat last point forward</source>
-        <translation>第一座椅向前到位 </translation>
+        <translation type="vanished">第一座椅向前到位 </translation>
     </message>
     <message>
         <source>First Seat take one step backward</source>
-        <translation>第一座椅向后一步</translation>
+        <translation type="vanished">第一座椅向后一步</translation>
     </message>
     <message>
         <source>Takes First Seat one step backward</source>
-        <translation>第一座椅向后一步</translation>
+        <translation type="vanished">第一座椅向后一步</translation>
     </message>
     <message>
         <source>First Seat take two step backward</source>
-        <translation>第一座椅向后两步</translation>
+        <translation type="vanished">第一座椅向后两步</translation>
     </message>
     <message>
         <source>Takes First Seat two step backward</source>
-        <translation>第一座椅向后两步</translation>
+        <translation type="vanished">第一座椅向后两步</translation>
     </message>
     <message>
         <source>First Seat take last point backward</source>
-        <translation>第一座椅向后到位 </translation>
+        <translation type="vanished">第一座椅向后到位 </translation>
     </message>
     <message>
         <source>Takes First Seat last point backward</source>
-        <translation>第一座椅向后到位 </translation>
+        <translation type="vanished">第一座椅向后到位 </translation>
     </message>
     <message>
         <source>First Seat Head take one step forward</source>
-        <translation>第一座椅头枕向上一步</translation>
+        <translation type="vanished">第一座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Takes First Seat Head one step forward</source>
-        <translation>第一座椅头枕向上一步</translation>
+        <translation type="vanished">第一座椅头枕向上一步</translation>
     </message>
     <message>
         <source>First Seat Head take two step forward</source>
-        <translation>第一座椅头枕向上两步</translation>
+        <translation type="vanished">第一座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Takes First Seat Head two step forward</source>
-        <translation>第一座椅头枕向上两步</translation>
+        <translation type="vanished">第一座椅头枕向上两步</translation>
     </message>
     <message>
         <source>First Seat Head take last point forward</source>
-        <translation>第一座椅头枕向上到位</translation>
+        <translation type="vanished">第一座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Takes First Seat Head last point forward</source>
-        <translation>第一座椅头枕向上到位</translation>
+        <translation type="vanished">第一座椅头枕向上到位</translation>
     </message>
     <message>
         <source>First Seat Head take one step backward</source>
-        <translation>第一座椅头枕向下一步</translation>
+        <translation type="vanished">第一座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Takes First Seat Head one step backward</source>
-        <translation>第一座椅头枕向下一步</translation>
+        <translation type="vanished">第一座椅头枕向下一步</translation>
     </message>
     <message>
         <source>First Seat Head take two step backward</source>
-        <translation>第一座椅头枕向下两步</translation>
+        <translation type="vanished">第一座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Takes First Seat Head two step backward</source>
-        <translation>第一座椅头枕向下两步</translation>
+        <translation type="vanished">第一座椅头枕向下两步</translation>
     </message>
     <message>
         <source>First Seat Head take last point backward</source>
-        <translation>第一座椅头枕向下到位</translation>
+        <translation type="vanished">第一座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Takes First Seat Head last point backward</source>
-        <translation>第一座椅头枕向下到位</translation>
+        <translation type="vanished">第一座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Second seat back take one step forward</source>
-        <translation>第二座椅靠背向前一步</translation>
+        <translation type="vanished">第二座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Takes Second Seat back one step forward</source>
-        <translation>第二座椅靠背向前一步</translation>
+        <translation type="vanished">第二座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Second seat back take two step forward</source>
-        <translation>第二座椅靠背向前两步</translation>
+        <translation type="vanished">第二座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Takes Second Seat back two step forward</source>
-        <translation>第二座椅靠背向前两步</translation>
+        <translation type="vanished">第二座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Second seat back take last point forward</source>
-        <translation>第二座椅靠背向前到位 </translation>
+        <translation type="vanished">第二座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Takes Second Seat back last point forward</source>
-        <translation>第二座椅靠背向前到位 </translation>
+        <translation type="vanished">第二座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Second seat back take one step backward</source>
-        <translation>第二座椅靠背向后一步</translation>
+        <translation type="vanished">第二座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Takes Second Seat back one step backward</source>
-        <translation>第二座椅靠背向后一步</translation>
+        <translation type="vanished">第二座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Second seat back take two step backward</source>
-        <translation>第二座椅靠背向后两步</translation>
+        <translation type="vanished">第二座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Takes Second Seat back two step backward</source>
-        <translation>第二座椅靠背向后两步</translation>
+        <translation type="vanished">第二座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Second seat back take last point backward</source>
-        <translation>第二座椅靠背向后到位 </translation>
+        <translation type="vanished">第二座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Takes Second Seat back last point backward</source>
-        <translation>第二座椅靠背向后到位 </translation>
+        <translation type="vanished">第二座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Second Seat take one step forward</source>
-        <translation>第二座椅向前一步</translation>
+        <translation type="vanished">第二座椅向前一步</translation>
     </message>
     <message>
         <source>Takes Second Seat one step forward</source>
-        <translation>第二座椅向前一步</translation>
+        <translation type="vanished">第二座椅向前一步</translation>
     </message>
     <message>
         <source>Second Seat take two step forward</source>
-        <translation>第二座椅向前两步</translation>
+        <translation type="vanished">第二座椅向前两步</translation>
     </message>
     <message>
         <source>Takes Second Seat two step forward</source>
-        <translation>第二座椅向前两步</translation>
+        <translation type="vanished">第二座椅向前两步</translation>
     </message>
     <message>
         <source>Second Seat take last point forward</source>
-        <translation>第二座椅向前到位 </translation>
+        <translation type="vanished">第二座椅向前到位 </translation>
     </message>
     <message>
         <source>Takes Second Seat last point forward</source>
-        <translation>第二座椅向前到位 </translation>
+        <translation type="vanished">第二座椅向前到位 </translation>
     </message>
     <message>
         <source>Second Seat take one step backward</source>
-        <translation>第二座椅向后一步</translation>
+        <translation type="vanished">第二座椅向后一步</translation>
     </message>
     <message>
         <source>Takes Second Seat one step backward</source>
-        <translation>第二座椅向后一步</translation>
+        <translation type="vanished">第二座椅向后一步</translation>
     </message>
     <message>
         <source>Second Seat take two step backward</source>
-        <translation>第二座椅向后两步</translation>
+        <translation type="vanished">第二座椅向后两步</translation>
     </message>
     <message>
         <source>Takes Second Seat two step backward</source>
-        <translation>第二座椅向后两步</translation>
+        <translation type="vanished">第二座椅向后两步</translation>
     </message>
     <message>
         <source>Second Seat take last point backward</source>
-        <translation>第二座椅向后到位 </translation>
+        <translation type="vanished">第二座椅向后到位 </translation>
     </message>
     <message>
         <source>Takes Second Seat last point backward</source>
-        <translation>第二座椅向后到位 </translation>
+        <translation type="vanished">第二座椅向后到位 </translation>
     </message>
     <message>
         <source>Second Seat Head take one step forward</source>
-        <translation>第二座椅头枕向上一步</translation>
+        <translation type="vanished">第二座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Takes Second Seat Head one step forward</source>
-        <translation>第二座椅头枕向上一步</translation>
+        <translation type="vanished">第二座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Second Seat Head take two step forward</source>
-        <translation>第二座椅头枕向上两步</translation>
+        <translation type="vanished">第二座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Takes Second Seat Head two step forward</source>
-        <translation>第二座椅头枕向上两步</translation>
+        <translation type="vanished">第二座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Second Seat Head take last point forward</source>
-        <translation>第二座椅头枕向上到位</translation>
+        <translation type="vanished">第二座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Takes Second Seat Head last point forward</source>
-        <translation>第二座椅头枕向上到位</translation>
+        <translation type="vanished">第二座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Second Seat Head take one step backward</source>
-        <translation>第二座椅头枕向下一步</translation>
+        <translation type="vanished">第二座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Takes Second Seat Head one step backward</source>
-        <translation>第二座椅头枕向下一步</translation>
+        <translation type="vanished">第二座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Second Seat Head take two step backward</source>
-        <translation>第二座椅头枕向下两步</translation>
+        <translation type="vanished">第二座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Takes Second Seat Head two step backward</source>
-        <translation>第二座椅头枕向下两步</translation>
+        <translation type="vanished">第二座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Second Seat Head take last point backward</source>
-        <translation>第二座椅头枕向下到位</translation>
+        <translation type="vanished">第二座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Takes Second Seat Head last point backward</source>
-        <translation>第二座椅头枕向下到位</translation>
+        <translation type="vanished">第二座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Third seat back take one step forward</source>
-        <translation>第三座椅靠背向前一步</translation>
+        <translation type="vanished">第三座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Takes Third Seat back one step forward</source>
-        <translation>第三座椅靠背向前一步</translation>
+        <translation type="vanished">第三座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Third seat back take two step forward</source>
-        <translation>第三座椅靠背向前两步</translation>
+        <translation type="vanished">第三座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Takes Third Seat back two step forward</source>
-        <translation>第三座椅靠背向前两步</translation>
+        <translation type="vanished">第三座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Third seat back take last point forward</source>
-        <translation>第三座椅靠背向前到位 </translation>
+        <translation type="vanished">第三座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Takes Third Seat back last point forward</source>
-        <translation>第三座椅靠背向前到位 </translation>
+        <translation type="vanished">第三座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Third seat back take one step backward</source>
-        <translation>第三座椅靠背向后一步</translation>
+        <translation type="vanished">第三座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Takes Third Seat back one step backward</source>
-        <translation>第三座椅靠背向后一步</translation>
+        <translation type="vanished">第三座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Third seat back take two step backward</source>
-        <translation>第三座椅靠背向后两步</translation>
+        <translation type="vanished">第三座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Takes Third Seat back two step backward</source>
-        <translation>第三座椅靠背向后两步</translation>
+        <translation type="vanished">第三座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Third seat back take last point backward</source>
-        <translation>第三座椅靠背向后到位 </translation>
+        <translation type="vanished">第三座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Takes Third Seat back last point backward</source>
-        <translation>第三座椅靠背向后到位 </translation>
+        <translation type="vanished">第三座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Third Seat take one step forward</source>
-        <translation>第三座椅向前一步</translation>
+        <translation type="vanished">第三座椅向前一步</translation>
     </message>
     <message>
         <source>Takes Third Seat one step forward</source>
-        <translation>第三座椅向前一步</translation>
+        <translation type="vanished">第三座椅向前一步</translation>
     </message>
     <message>
         <source>Third Seat take two step forward</source>
-        <translation>第三座椅向前两步</translation>
+        <translation type="vanished">第三座椅向前两步</translation>
     </message>
     <message>
         <source>Takes Third Seat two step forward</source>
-        <translation>第三座椅向前两步</translation>
+        <translation type="vanished">第三座椅向前两步</translation>
     </message>
     <message>
         <source>Third Seat take last point forward</source>
-        <translation>第三座椅向前到位 </translation>
+        <translation type="vanished">第三座椅向前到位 </translation>
     </message>
     <message>
         <source>Takes Third Seat last point forward</source>
-        <translation>第三座椅向前到位 </translation>
+        <translation type="vanished">第三座椅向前到位 </translation>
     </message>
     <message>
         <source>Third Seat take one step backward</source>
-        <translation>第三座椅向后一步</translation>
+        <translation type="vanished">第三座椅向后一步</translation>
     </message>
     <message>
         <source>Takes Third Seat one step backward</source>
-        <translation>第三座椅向后一步</translation>
+        <translation type="vanished">第三座椅向后一步</translation>
     </message>
     <message>
         <source>Third Seat take two step backward</source>
-        <translation>第三座椅向后两步</translation>
+        <translation type="vanished">第三座椅向后两步</translation>
     </message>
     <message>
         <source>Takes Third Seat two step backward</source>
-        <translation>第三座椅向后两步</translation>
+        <translation type="vanished">第三座椅向后两步</translation>
     </message>
     <message>
         <source>Third Seat take last point backward</source>
-        <translation>第三座椅向后到位 </translation>
+        <translation type="vanished">第三座椅向后到位 </translation>
     </message>
     <message>
         <source>Takes Third Seat last point backward</source>
-        <translation>第三座椅向后到位 </translation>
+        <translation type="vanished">第三座椅向后到位 </translation>
     </message>
     <message>
         <source>Third Seat Head take one step forward</source>
-        <translation>第三座椅头枕向上一步</translation>
+        <translation type="vanished">第三座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Takes Third Seat Head one step forward</source>
-        <translation>第三座椅头枕向上一步</translation>
+        <translation type="vanished">第三座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Third Seat Head take two step forward</source>
-        <translation>第三座椅头枕向上两步</translation>
+        <translation type="vanished">第三座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Takes Third Seat Head two step forward</source>
-        <translation>第三座椅头枕向上两步</translation>
+        <translation type="vanished">第三座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Third Seat Head take last point forward</source>
-        <translation>第三座椅头枕向上到位</translation>
+        <translation type="vanished">第三座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Takes Third Seat Head last point forward</source>
-        <translation>第三座椅头枕向上到位</translation>
+        <translation type="vanished">第三座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Third Seat Head take one step backward</source>
-        <translation>第三座椅头枕向下一步</translation>
+        <translation type="vanished">第三座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Takes Third Seat Head one step backward</source>
-        <translation>第三座椅头枕向下一步</translation>
+        <translation type="vanished">第三座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Third Seat Head take two step backward</source>
-        <translation>第三座椅头枕向下两步</translation>
+        <translation type="vanished">第三座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Takes Third Seat Head two step backward</source>
-        <translation>第三座椅头枕向下两步</translation>
+        <translation type="vanished">第三座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Third Seat Head take last point backward</source>
-        <translation>第三座椅头枕向下到位</translation>
+        <translation type="vanished">第三座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Takes Third Seat Head last point backward</source>
-        <translation>第三座椅头枕向下到位</translation>
+        <translation type="vanished">第三座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Fourth seat back take one step forward</source>
-        <translation>第四座椅靠背向前一步</translation>
+        <translation type="vanished">第四座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat back one step forward</source>
-        <translation>第四座椅靠背向前一步</translation>
+        <translation type="vanished">第四座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Fourth seat back take two step forward</source>
-        <translation>第四座椅靠背向前两步</translation>
+        <translation type="vanished">第四座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat back two step forward</source>
-        <translation>第四座椅靠背向前两步</translation>
+        <translation type="vanished">第四座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Fourth seat back take last point forward</source>
-        <translation>第四座椅靠背向前到位 </translation>
+        <translation type="vanished">第四座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Takes Fourth Seat back last point forward</source>
-        <translation>第四座椅靠背向前到位 </translation>
+        <translation type="vanished">第四座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Fourth seat back take one step backward</source>
-        <translation>第四座椅靠背向后一步</translation>
+        <translation type="vanished">第四座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat back one step backward</source>
-        <translation>第四座椅靠背向后一步</translation>
+        <translation type="vanished">第四座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Fourth seat back take two step backward</source>
-        <translation>第四座椅靠背向后两步</translation>
+        <translation type="vanished">第四座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat back two step backward</source>
-        <translation>第四座椅靠背向后两步</translation>
+        <translation type="vanished">第四座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Fourth seat back take last point backward</source>
-        <translation>第四座椅靠背向后到位 </translation>
+        <translation type="vanished">第四座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Takes Fourth Seat back last point backward</source>
-        <translation>第四座椅靠背向后到位 </translation>
+        <translation type="vanished">第四座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Fourth Seat take one step forward</source>
-        <translation>第四座椅向前一步</translation>
+        <translation type="vanished">第四座椅向前一步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat one step forward</source>
-        <translation>第四座椅向前一步</translation>
+        <translation type="vanished">第四座椅向前一步</translation>
     </message>
     <message>
         <source>Fourth Seat take two step forward</source>
-        <translation>第四座椅向前两步</translation>
+        <translation type="vanished">第四座椅向前两步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat two step forward</source>
-        <translation>第四座椅向前两步</translation>
+        <translation type="vanished">第四座椅向前两步</translation>
     </message>
     <message>
         <source>Fourth Seat take last point forward</source>
-        <translation>第四座椅向前到位 </translation>
+        <translation type="vanished">第四座椅向前到位 </translation>
     </message>
     <message>
         <source>Takes Fourth Seat last point forward</source>
-        <translation>第四座椅向前到位 </translation>
+        <translation type="vanished">第四座椅向前到位 </translation>
     </message>
     <message>
         <source>Fourth Seat take one step backward</source>
-        <translation>第四座椅向后一步</translation>
+        <translation type="vanished">第四座椅向后一步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat one step backward</source>
-        <translation>第四座椅向后一步</translation>
+        <translation type="vanished">第四座椅向后一步</translation>
     </message>
     <message>
         <source>Fourth Seat take two step backward</source>
-        <translation>第四座椅向后两步</translation>
+        <translation type="vanished">第四座椅向后两步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat two step backward</source>
-        <translation>第四座椅向后两步</translation>
+        <translation type="vanished">第四座椅向后两步</translation>
     </message>
     <message>
         <source>Fourth Seat take last point backward</source>
-        <translation>第四座椅向后到位 </translation>
+        <translation type="vanished">第四座椅向后到位 </translation>
     </message>
     <message>
         <source>Takes Fourth Seat last point backward</source>
-        <translation>第四座椅向后到位 </translation>
+        <translation type="vanished">第四座椅向后到位 </translation>
     </message>
     <message>
         <source>Fourth Seat Head take one step forward</source>
-        <translation>第四座椅头枕向上一步</translation>
+        <translation type="vanished">第四座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat Head one step forward</source>
-        <translation>第四座椅头枕向上一步</translation>
+        <translation type="vanished">第四座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Fourth Seat Head take two step forward</source>
-        <translation>第四座椅头枕向上两步</translation>
+        <translation type="vanished">第四座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat Head two step forward</source>
-        <translation>第四座椅头枕向上两步</translation>
+        <translation type="vanished">第四座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Fourth Seat Head take last point forward</source>
-        <translation>第四座椅头枕向上到位</translation>
+        <translation type="vanished">第四座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Takes Fourth Seat Head last point forward</source>
-        <translation>第四座椅头枕向上到位</translation>
+        <translation type="vanished">第四座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Fourth Seat Head take one step backward</source>
-        <translation>第四座椅头枕向下一步</translation>
+        <translation type="vanished">第四座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat Head one step backward</source>
-        <translation>第四座椅头枕向下一步</translation>
+        <translation type="vanished">第四座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Fourth Seat Head take two step backward</source>
-        <translation>第四座椅头枕向下两步</translation>
+        <translation type="vanished">第四座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Takes Fourth Seat Head two step backward</source>
-        <translation>第四座椅头枕向下两步</translation>
+        <translation type="vanished">第四座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Fourth Seat Head take last point backward</source>
-        <translation>第四座椅头枕向下到位</translation>
+        <translation type="vanished">第四座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Takes Fourth Seat Head last point backward</source>
-        <translation>第四座椅头枕向下到位</translation>
+        <translation type="vanished">第四座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Fifth seat back take one step forward</source>
-        <translation>第五座椅靠背向前一步</translation>
+        <translation type="vanished">第五座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat back one step forward</source>
-        <translation>第五座椅靠背向前一步</translation>
+        <translation type="vanished">第五座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Fifth seat back take two step forward</source>
-        <translation>第五座椅靠背向前两步</translation>
+        <translation type="vanished">第五座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat back two step forward</source>
-        <translation>第五座椅靠背向前两步</translation>
+        <translation type="vanished">第五座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Fifth seat back take last point forward</source>
-        <translation>第五座椅靠背向前到位 </translation>
+        <translation type="vanished">第五座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Takes Fifth Seat back last point forward</source>
-        <translation>第五座椅靠背向前到位 </translation>
+        <translation type="vanished">第五座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Fifth seat back take one step backward</source>
-        <translation>第五座椅靠背向后一步</translation>
+        <translation type="vanished">第五座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat back one step backward</source>
-        <translation>第五座椅靠背向后一步</translation>
+        <translation type="vanished">第五座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Fifth seat back take two step backward</source>
-        <translation>第五座椅靠背向后两步</translation>
+        <translation type="vanished">第五座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat back two step backward</source>
-        <translation>第五座椅靠背向后两步</translation>
+        <translation type="vanished">第五座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Fifth seat back take last point backward</source>
-        <translation>第五座椅靠背向后到位 </translation>
+        <translation type="vanished">第五座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Takes Fifth Seat back last point backward</source>
-        <translation>第五座椅靠背向后到位 </translation>
+        <translation type="vanished">第五座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Fifth Seat take one step forward</source>
-        <translation>第五座椅向前一步</translation>
+        <translation type="vanished">第五座椅向前一步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat one step forward</source>
-        <translation>第五座椅向前一步</translation>
+        <translation type="vanished">第五座椅向前一步</translation>
     </message>
     <message>
         <source>Fifth Seat take two step forward</source>
-        <translation>第五座椅向前两步</translation>
+        <translation type="vanished">第五座椅向前两步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat two step forward</source>
-        <translation>第五座椅向前两步</translation>
+        <translation type="vanished">第五座椅向前两步</translation>
     </message>
     <message>
         <source>Fifth Seat take last point forward</source>
-        <translation>第五座椅向前到位 </translation>
+        <translation type="vanished">第五座椅向前到位 </translation>
     </message>
     <message>
         <source>Takes Fifth Seat last point forward</source>
-        <translation>第五座椅向前到位 </translation>
+        <translation type="vanished">第五座椅向前到位 </translation>
     </message>
     <message>
         <source>Fifth Seat take one step backward</source>
-        <translation>第五座椅向后一步</translation>
+        <translation type="vanished">第五座椅向后一步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat one step backward</source>
-        <translation>第五座椅向后一步</translation>
+        <translation type="vanished">第五座椅向后一步</translation>
     </message>
     <message>
         <source>Fifth Seat take two step backward</source>
-        <translation>第五座椅向后两步</translation>
+        <translation type="vanished">第五座椅向后两步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat two step backward</source>
-        <translation>第五座椅向后两步</translation>
+        <translation type="vanished">第五座椅向后两步</translation>
     </message>
     <message>
         <source>Fifth Seat take last point backward</source>
-        <translation>第五座椅向后到位 </translation>
+        <translation type="vanished">第五座椅向后到位 </translation>
     </message>
     <message>
         <source>Takes Fifth Seat last point backward</source>
-        <translation>第五座椅向后到位 </translation>
+        <translation type="vanished">第五座椅向后到位 </translation>
     </message>
     <message>
         <source>Fifth Seat Head take one step forward</source>
-        <translation>第五座椅头枕向上一步</translation>
+        <translation type="vanished">第五座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat Head one step forward</source>
-        <translation>第五座椅头枕向上一步</translation>
+        <translation type="vanished">第五座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Fifth Seat Head take two step forward</source>
-        <translation>第五座椅头枕向上两步</translation>
+        <translation type="vanished">第五座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat Head two step forward</source>
-        <translation>第五座椅头枕向上两步</translation>
+        <translation type="vanished">第五座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Fifth Seat Head take last point forward</source>
-        <translation>第五座椅头枕向上到位</translation>
+        <translation type="vanished">第五座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Takes Fifth Seat Head last point forward</source>
-        <translation>第五座椅头枕向上到位</translation>
+        <translation type="vanished">第五座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Fifth Seat Head take one step backward</source>
-        <translation>第五座椅头枕向下一步</translation>
+        <translation type="vanished">第五座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat Head one step backward</source>
-        <translation>第五座椅头枕向下一步</translation>
+        <translation type="vanished">第五座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Fifth Seat Head take two step backward</source>
-        <translation>第五座椅头枕向下两步</translation>
+        <translation type="vanished">第五座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Takes Fifth Seat Head two step backward</source>
-        <translation>第五座椅头枕向下两步</translation>
+        <translation type="vanished">第五座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Fifth Seat Head take last point backward</source>
-        <translation>第五座椅头枕向下到位</translation>
+        <translation type="vanished">第五座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Takes Fifth Seat Head last point backward</source>
-        <translation>第五座椅头枕向下到位</translation>
+        <translation type="vanished">第五座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Sixth seat back take one step forward</source>
-        <translation>第六座椅靠背向前一步</translation>
+        <translation type="vanished">第六座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat back one step forward</source>
-        <translation>第六座椅靠背向前一步</translation>
+        <translation type="vanished">第六座椅靠背向前一步</translation>
     </message>
     <message>
         <source>Sixth seat back take two step forward</source>
-        <translation>第六座椅靠背向前两步</translation>
+        <translation type="vanished">第六座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat back two step forward</source>
-        <translation>第六座椅靠背向前两步</translation>
+        <translation type="vanished">第六座椅靠背向前两步</translation>
     </message>
     <message>
         <source>Sixth seat back take last point forward</source>
-        <translation>第六座椅靠背向前到位 </translation>
+        <translation type="vanished">第六座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Takes Sixth Seat back last point forward</source>
-        <translation>第六座椅靠背向前到位 </translation>
+        <translation type="vanished">第六座椅靠背向前到位 </translation>
     </message>
     <message>
         <source>Sixth seat back take one step backward</source>
-        <translation>第六座椅靠背向后一步</translation>
+        <translation type="vanished">第六座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat back one step backward</source>
-        <translation>第六座椅靠背向后一步</translation>
+        <translation type="vanished">第六座椅靠背向后一步</translation>
     </message>
     <message>
         <source>Sixth seat back take two step backward</source>
-        <translation>第六座椅靠背向后两步</translation>
+        <translation type="vanished">第六座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat back two step backward</source>
-        <translation>第六座椅靠背向后两步</translation>
+        <translation type="vanished">第六座椅靠背向后两步</translation>
     </message>
     <message>
         <source>Sixth seat back take last point backward</source>
-        <translation>第六座椅靠背向后到位 </translation>
+        <translation type="vanished">第六座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Takes Sixth Seat back last point backward</source>
-        <translation>第六座椅靠背向后到位 </translation>
+        <translation type="vanished">第六座椅靠背向后到位 </translation>
     </message>
     <message>
         <source>Sixth Seat take one step forward</source>
-        <translation>第六座椅向前一步</translation>
+        <translation type="vanished">第六座椅向前一步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat one step forward</source>
-        <translation>第六座椅向前一步</translation>
+        <translation type="vanished">第六座椅向前一步</translation>
     </message>
     <message>
         <source>Sixth Seat take two step forward</source>
-        <translation>第六座椅向前两步</translation>
+        <translation type="vanished">第六座椅向前两步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat two step forward</source>
-        <translation>第六座椅向前两步</translation>
+        <translation type="vanished">第六座椅向前两步</translation>
     </message>
     <message>
         <source>Sixth Seat take last point forward</source>
-        <translation>第六座椅向前到位 </translation>
+        <translation type="vanished">第六座椅向前到位 </translation>
     </message>
     <message>
         <source>Takes Sixth Seat last point forward</source>
-        <translation>第六座椅向前到位 </translation>
+        <translation type="vanished">第六座椅向前到位 </translation>
     </message>
     <message>
         <source>Sixth Seat take one step backward</source>
-        <translation>第六座椅向后一步</translation>
+        <translation type="vanished">第六座椅向后一步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat one step backward</source>
-        <translation>第六座椅向后一步</translation>
+        <translation type="vanished">第六座椅向后一步</translation>
     </message>
     <message>
         <source>Sixth Seat take two step backward</source>
-        <translation>第六座椅向后两步</translation>
+        <translation type="vanished">第六座椅向后两步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat two step backward</source>
-        <translation>第六座椅向后两步</translation>
+        <translation type="vanished">第六座椅向后两步</translation>
     </message>
     <message>
         <source>Sixth Seat take last point backward</source>
-        <translation>第六座椅向后到位 </translation>
+        <translation type="vanished">第六座椅向后到位 </translation>
     </message>
     <message>
         <source>Takes Sixth Seat last point backward</source>
-        <translation>第六座椅向后到位 </translation>
+        <translation type="vanished">第六座椅向后到位 </translation>
     </message>
     <message>
         <source>Sixth Seat Head take one step forward</source>
-        <translation>第六座椅头枕向上一步</translation>
+        <translation type="vanished">第六座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat Head one step forward</source>
-        <translation>第六座椅头枕向上一步</translation>
+        <translation type="vanished">第六座椅头枕向上一步</translation>
     </message>
     <message>
         <source>Sixth Seat Head take two step forward</source>
-        <translation>第六座椅头枕向上两步</translation>
+        <translation type="vanished">第六座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat Head two step forward</source>
-        <translation>第六座椅头枕向上两步</translation>
+        <translation type="vanished">第六座椅头枕向上两步</translation>
     </message>
     <message>
         <source>Sixth Seat Head take last point forward</source>
-        <translation>第六座椅头枕向上到位</translation>
+        <translation type="vanished">第六座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Takes Sixth Seat Head last point forward</source>
-        <translation>第六座椅头枕向上到位</translation>
+        <translation type="vanished">第六座椅头枕向上到位</translation>
     </message>
     <message>
         <source>Sixth Seat Head take one step backward</source>
-        <translation>第六座椅头枕向下一步</translation>
+        <translation type="vanished">第六座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat Head one step backward</source>
-        <translation>第六座椅头枕向下一步</translation>
+        <translation type="vanished">第六座椅头枕向下一步</translation>
     </message>
     <message>
         <source>Sixth Seat Head take two step backward</source>
-        <translation>第六座椅头枕向下两步</translation>
+        <translation type="vanished">第六座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Takes Sixth Seat Head two step backward</source>
-        <translation>第六座椅头枕向下两步</translation>
+        <translation type="vanished">第六座椅头枕向下两步</translation>
     </message>
     <message>
         <source>Sixth Seat Head take last point backward</source>
-        <translation>第六座椅头枕向下到位</translation>
+        <translation type="vanished">第六座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Takes Sixth Seat Head last point backward</source>
-        <translation>第六座椅头枕向下到位</translation>
+        <translation type="vanished">第六座椅头枕向下到位</translation>
     </message>
     <message>
         <source>Luggage Curtain Open</source>
-        <translation>打开行李箱窗帘</translation>
+        <translation type="vanished">打开行李箱窗帘</translation>
     </message>
     <message>
         <source>Opens the Luggage Curtain</source>
-        <translation>打开行李箱窗帘</translation>
+        <translation type="vanished">打开行李箱窗帘</translation>
     </message>
     <message>
         <source>Luggage Curtain Close</source>
-        <translation>关闭行李箱窗帘</translation>
+        <translation type="vanished">关闭行李箱窗帘</translation>
     </message>
     <message>
         <source>Closes the Luggage Curtain</source>
-        <translation>关闭行李箱窗帘</translation>
+        <translation type="vanished">关闭行李箱窗帘</translation>
     </message>
     <message>
         <source>All Curtain Open</source>
-        <translation>打开全部窗帘</translation>
+        <translation type="vanished">打开全部窗帘</translation>
     </message>
     <message>
         <source>Opens all the Curtain</source>
-        <translation>打开全部窗帘</translation>
+        <translation type="vanished">打开全部窗帘</translation>
     </message>
     <message>
         <source>All Curtain Close</source>
-        <translation>关闭全部窗帘</translation>
+        <translation type="vanished">关闭全部窗帘</translation>
     </message>
     <message>
         <source>Closes all the Curtain</source>
-        <translation>关闭全部窗帘</translation>
+        <translation type="vanished">关闭全部窗帘</translation>
     </message>
     <message>
         <source>Take the first seat in sleep mode</source>
-        <translation>第一座椅睡眠模式 </translation>
+        <translation type="vanished">第一座椅睡眠模式 </translation>
     </message>
     <message>
         <source>Takes the first seat in sleep mode</source>
-        <translation>第一座椅睡眠模式 </translation>
+        <translation type="vanished">第一座椅睡眠模式 </translation>
     </message>
     <message>
         <source>Take the second seat in sleep mode</source>
-        <translation>第二座椅睡眠模式 </translation>
+        <translation type="vanished">第二座椅睡眠模式 </translation>
     </message>
     <message>
         <source>Takes the second seat in sleep mode</source>
-        <translation>第二座椅睡眠模式 </translation>
+        <translation type="vanished">第二座椅睡眠模式 </translation>
     </message>
     <message>
         <source>Gather first seat</source>
-        <translation>第一座椅回位</translation>
+        <translation type="vanished">第一座椅回位</translation>
     </message>
     <message>
         <source>Gathers first seat</source>
-        <translation>第一座椅回位</translation>
+        <translation type="vanished">第一座椅回位</translation>
     </message>
     <message>
         <source>Gather second seat</source>
-        <translation>第二座椅回位</translation>
+        <translation type="vanished">第二座椅回位</translation>
     </message>
     <message>
         <source>Gathers second seat</source>
-        <translation>第二座椅回位</translation>
+        <translation type="vanished">第二座椅回位</translation>
     </message>
     <message>
         <source>Take cinema mode</source>
-        <translation>进入电影院模式</translation>
+        <translation type="vanished">进入电影院模式</translation>
     </message>
     <message>
         <source>Takes cinema mode</source>
-        <translation>进入电影院模式</translation>
+        <translation type="vanished">进入电影院模式</translation>
     </message>
     <message>
         <source>Take conference mode</source>
-        <translation>进入会议模式</translation>
+        <translation type="vanished">进入会议模式</translation>
     </message>
     <message>
         <source>Takes conference mode</source>
-        <translation>进入会议模式</translation>
+        <translation type="vanished">进入会议模式</translation>
     </message>
     <message>
         <source>All tables open</source>
-        <translation>打开所有的桌板</translation>
+        <translation type="vanished">打开所有的桌板</translation>
     </message>
     <message>
         <source>Opens all tables</source>
-        <translation>打开所有的桌板</translation>
+        <translation type="vanished">打开所有的桌板</translation>
     </message>
     <message>
         <source>All tables close</source>
-        <translation>关闭所有的桌板</translation>
+        <translation type="vanished">关闭所有的桌板</translation>
     </message>
     <message>
         <source>Closes all tables</source>
-        <translation>关闭所有的桌板</translation>
+        <translation type="vanished">关闭所有的桌板</translation>
     </message>
     <message>
         <source>Gather all seats</source>
-        <translation>收集所有座位</translation>
+        <translation type="vanished">收集所有座位</translation>
     </message>
     <message>
         <source>Gathers all seats</source>
-        <translation>收集所有座位</translation>
+        <translation type="vanished">收集所有座位</translation>
     </message>
     <message>
         <source>In lights turn on</source>
-        <translation>打开室内灯</translation>
+        <translation type="vanished">打开室内灯</translation>
     </message>
     <message>
         <source>Turns on in lights</source>
-        <translation>打开室内灯</translation>
+        <translation type="vanished">打开室内灯</translation>
     </message>
     <message>
         <source>In lights turn off</source>
-        <translation>在灯光下关闭</translation>
+        <translation type="vanished">在灯光下关闭</translation>
     </message>
     <message>
         <source>Turns off in lights</source>
-        <translation>在灯光下关闭</translation>
+        <translation type="vanished">在灯光下关闭</translation>
     </message>
     <message>
         <source>Side lights turn on</source>
-        <translation>打开侧灯</translation>
+        <translation type="vanished">打开侧灯</translation>
     </message>
     <message>
         <source>Turns on Side lights</source>
-        <translation>打开侧灯</translation>
+        <translation type="vanished">打开侧灯</translation>
     </message>
     <message>
         <source>Turns off Side lights</source>
-        <translation>关掉侧灯</translation>
+        <translation type="vanished">关掉侧灯</translation>
     </message>
     <message>
         <source>Ceiling lights turn on</source>
-        <translation>打开天花板灯</translation>
+        <translation type="vanished">打开天花板灯</translation>
     </message>
     <message>
         <source>Turns on Ceiling lights</source>
-        <translation>打开天花板灯</translation>
+        <translation type="vanished">打开天花板灯</translation>
     </message>
     <message>
         <source>Turns off Ceiling lights</source>
-        <translation>关掉天花板灯</translation>
+        <translation type="vanished">关掉天花板灯</translation>
     </message>
     <message>
         <source>System off</source>
-        <translation>系统开关</translation>
+        <translation type="vanished">系统开关</translation>
     </message>
     <message>
         <source>Turns the System off</source>
-        <translation>系统开关</translation>
+        <translation type="vanished">系统开关</translation>
     </message>
     <message>
         <source>Return to The Homepage</source>
-        <translation>返回主页</translation>
+        <translation type="vanished">返回主页</translation>
     </message>
     <message>
         <source>Returns to The Homepage</source>
-        <translation>返回主页</translation>
+        <translation type="vanished">返回主页</translation>
     </message>
     <message>
         <location filename="../main.qml" line="205"/>

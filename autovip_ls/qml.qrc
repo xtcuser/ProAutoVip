@@ -376,8 +376,6 @@
         <file>Pages/Settings/SecondSeatHead.qml</file>
         <file>design/radio/dvlogo1.png</file>
         <file>design/general/background.png</file>
-        <file>design/general/background.webp</file>
-        <file>design/general/background.gif</file>
         <file>design/general/backgroundoverlay.png</file>
         <file>jcon/jcon.h</file>
         <file>jcon/jcon_assert.h</file>

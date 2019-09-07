@@ -2424,13 +2424,14 @@ ListModel {
     }
     Timer {
         id:syscheck
-        interval: 400;
+        interval: 500;
         running: true;
-        repeat: false
+        repeat: true;
         onTriggered: function(){
             if(serial_mng.systemstate !== 1)
             {
                 serial_mng.sendKey("main/system_request");
+                console.log("feedback request sent")
             }
 
         }

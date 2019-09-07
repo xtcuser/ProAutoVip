@@ -361,10 +361,12 @@ Window {
                case 0:
                         start.visible=true;
                         startBtn.visible=true;
+                        GSystem.syscheck.repeat=true;
                    break;
                case 1:
                         start.visible=false;
                         startBtn.visible=false;
+                        GSystem.syscheck.repeat=true;
                    break;
                }
            }
@@ -373,7 +375,7 @@ Window {
                source:"qrc:/design/general/on-button.svg"
                sourceSize.width: 200
                sourceSize.height: 200
-              z:334
+               z:334
                MouseArea{
                    anchors.fill: parent
                    onClicked: {
@@ -386,11 +388,10 @@ Window {
            }
 
        }
-   MouseArea {
-    anchors.fill: parent
-    enabled: false
-    //cursorShape: Qt.BlankCursor
-  }
+       MouseArea {
+           anchors.fill: parent
+           enabled: false
+       }
 
 
     Component.onCompleted: {
