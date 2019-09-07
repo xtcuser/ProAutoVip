@@ -2425,7 +2425,7 @@ ListModel {
     Timer {
         id:syscheck
         interval: 400;
-        running: true;,0
+        running: true;
         repeat: false
         onTriggered: function(){
             if(serial_mng.systemstate !== 1)
