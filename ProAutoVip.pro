@@ -1,6 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
+    AutoUpdater2 \
     autovip_ls \
     VirtualResponder \
     AutoUpdater \  
