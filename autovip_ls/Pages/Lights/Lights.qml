@@ -220,6 +220,17 @@ BasePage {
             b: parseInt(result[3], 16)
             } : null;
     }
+    function changeAllColor(r,g,b)
+    {
+        sideColor=Qt.rgba(r/255, g/255, b/255,1);
+        ceilColor=Qt.rgba(r/255, g/255, b/255,1);
+        inSideColor=Qt.rgba(r/255, g/255, b/255,1);
+        sendSideColor(sideColor);
+        sendCeilColor(ceilColor);
+        sendInsideColor(inSideColor);
+        console.log("r: " + r + " g: "+ g + " b: " + b);
+    }
+
     function sendCeilColor(p_color)
     {
         console.log("ceiling color changed : "+p_color);
@@ -654,13 +665,17 @@ BasePage {
                        {
                            c4.color = "#000000";
                            serial_mng.sendKey("lights/leftreading_onoff",true,delay);
+
                        }else
                        {
                            c4.color = "#fff6a6";
                            serial_mng.sendKey("lights/leftreading_onoff",true,delay);
-                       }
+//                           changeAllColor(100,150,30);
+                        }
+                    }
                }
-           }
+
+
 
         }
 

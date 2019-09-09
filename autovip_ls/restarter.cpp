@@ -2,7 +2,6 @@
 //#include <QApplication>
 #include <QProcess>
 #include <QtDebug>
-#include <QMovie>
 
 
 Restarter::Restarter(QObject *parent) :
