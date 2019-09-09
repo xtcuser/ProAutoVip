@@ -46,59 +46,65 @@ BasePage {
         width:305
         fillMode: Image.PreserveAspectFit
         source:"qrc:/design/seats/one_seat.png"
-        Rectangle{
+        Image {
+            source: "qrc:/design/seats/overlays/head.svg"
             id: head
-            x:210
-            y:0
-            width:82
-            height:82
-            radius: width / 2
-            color:"transparent"
+            x:195
+            y:20
+            width:73
+            height:67
+            opacity: 0
             MouseArea{
                 anchors.fill: parent
                 onClicked: selectPart("SeatHead")
+                onPressed: head.opacity = 1
+                onReleased: head.opacity = 0
             }
         }
-        Rectangle{
+        Image {
+            source: "qrc:/design/seats/overlays/back.svg"
             id: back
-            x:132
-            y:92
-            width:190
-            height:180
-            rotation: 24
-            color:"transparent"
+            x:117
+            y:87
+            opacity: 0
+            width:160
+            height:185
             MouseArea{
                 anchors.fill: parent
                 onClicked: selectPart("SeatBack")
+                onPressed: back.opacity = 1
+                onReleased: back.opacity = 0
             }
         }
 
 
-        Rectangle{
+        Image {
+            source: "qrc:/design/seats/overlays/seat.svg"
             id: seat
-            x:0
+            x:28
             y:232
-            width:180
-            height:100
-            rotation: 30
-            color:"transparent"
+            width:230
+            height:85
+            opacity: 0
             MouseArea {
                 anchors.fill: parent
                 onClicked:  selectPart("SeatPart")
+                onPressed: seat.opacity = 1
+                onReleased: seat.opacity = 0
             }
             }
-        Rectangle{
+            Image {
+                source: "qrc:/design/seats/overlays/feat.svg"
                 id: feat
-                x:-50
-                y:345
-                width:180
-                height:100
-                rotation: 30
-                color:"transparent"
+                x:25
+                y:279
+                width:96
+                height:120
+                opacity: 0
                 MouseArea
                 {
                     anchors.fill: parent
-                    onClicked: selectPart("SeatFeat")
+                    onClicked: selectPart("SeatDrawer")
                 }
                 }
         }
@@ -189,10 +195,12 @@ BasePage {
                         onPressed: function(){
                             GSystem.sendSeatCommand("head_up");
                             headup.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                            head.opacity = 1;
                         }
                         onReleased: function(){
                             GSystem.sendSeatCommand("head_stop");
                             headup.color = "transparent";
+                            head.opacity = 0;
                         }
                     }
                 }
@@ -220,10 +228,12 @@ BasePage {
                         onPressed: function(){
                             GSystem.sendSeatCommand("head_down");
                             headdown.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                            head.opacity = 1;
                         }
                         onReleased: function(){
                             GSystem.sendSeatCommand("head_stop");
                             headdown.color = "transparent";
+                            head.opacity = 0;
                         }
                     }
                 }
@@ -268,10 +278,12 @@ BasePage {
                         onPressed: function(){
                             GSystem.sendSeatCommand("back_forward");
                             seatbackleft.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                            back.opacity = 1;
                         }
                         onReleased: function(){
                             GSystem.sendSeatCommand("back_stop");
                             seatbackleft.color = "transparent";
+                            back.opacity = 0;
                         }
                     }
                 }
@@ -299,10 +311,12 @@ BasePage {
                         onPressed: function(){
                             GSystem.sendSeatCommand("back_backward");
                             seatbackright.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                            back.opacity = 1;
                         }
                         onReleased: function(){
                             GSystem.sendSeatCommand("back_stop");
                             seatbackright.color = "transparent";
+                            back.opacity = 0;
                         }
                     }
                 }
@@ -347,10 +361,12 @@ BasePage {
                         onPressed: function(){
                             GSystem.sendSeatCommand("seat_forward");
                             seatleft.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                            seat.opacity = 1;
                         }
                         onReleased: function(){
                             GSystem.sendSeatCommand("seat_stop");
                             seatleft.color = "transparent";
+                            seat.opacity = 0;
                         }
                     }
                 }
@@ -377,10 +393,12 @@ BasePage {
                         onPressed: function(){
                             GSystem.sendSeatCommand("seat_backward");
                             seatright.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                            seat.opacity = 1;
                         }
                         onReleased: function(){
                             GSystem.sendSeatCommand("seat_stop");
                             seatright.color = "transparent";
+                            seat.opacity = 0;
                         }
                     }
                 }
@@ -392,7 +410,6 @@ BasePage {
                     id:drawerbt
                     width:275
                     height:75
-                    visible: SM.seatDrawer(GSystem.selectedSeat) === true
                     anchors.horizontalCenter: parent.horizontalCenter
                     color:Qt.rgba(0, 0, 0,0.4)
                     border.width: 1
@@ -401,7 +418,7 @@ BasePage {
                         font.family: GSystem.myriadproita.name
                         font.italic: true
                         font.pixelSize: 24
-                        text: qsTr("Drawer") + mytrans.emptyString
+                        text: SM.seatDrawer(GSystem.selectedSeat)?qsTr("Drawer") + mytrans.emptyString:qsTr("Footrest") + mytrans.emptyString
                         color: "white"
                         anchors.centerIn: parent
                     }
@@ -425,12 +442,14 @@ BasePage {
                             anchors.fill: parent
                             cursorShape: Qt.PointingHandCursor
                             onPressed: function(){
-                                GSystem.sendSeatCommand("drawer_open");
+                                SM.seatDrawer(GSystem.selectedSeat)?GSystem.sendSeatCommand("drawer_open"):GSystem.sendSeatCommand("footrest_open");
                                 drawerleft.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                feat.opacity = 1;
                             }
                             onReleased: function(){
-                                GSystem.sendSeatCommand("drawer_stop");
+                                SM.seatDrawer(GSystem.selectedSeat)?GSystem.sendSeatCommand("drawer_stop"):GSystem.sendSeatCommand("footrest_stop");
                                 drawerleft.color = "transparent";
+                                feat.opacity = 0;
                             }
                         }
                     }
@@ -456,12 +475,14 @@ BasePage {
                             anchors.fill: parent
                             cursorShape: Qt.PointingHandCursor
                             onPressed: function(){
-                                GSystem.sendSeatCommand("drawer_open");
+                                SM.seatDrawer(GSystem.selectedSeat)?GSystem.sendSeatCommand("drawer_close"):GSystem.sendSeatCommand("footrest_close");
                                 drawerright.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                feat.opacity = 1;
                             }
                             onReleased: function(){
-                                GSystem.sendSeatCommand("drawer_stop");
+                                SM.seatDrawer(GSystem.selectedSeat)?GSystem.sendSeatCommand("drawer_stop"):GSystem.sendSeatCommand("footrest_stop");
                                 drawerright.color = "transparent";
+                                feat.opacity = 0;
                             }
                         }
                     }
@@ -575,10 +596,12 @@ BasePage {
                             onPressed: function(){
                                 GSystem.sendSeatCommand("thigh_up");
                                 thighup.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                seat.opacity=1;
                             }
                             onReleased: function(){
                                 GSystem.sendSeatCommand("thigh_stop");
                                 thighup.color = "transparent";
+                                seat.opacity=0;
                             }
                         }
                     }
@@ -606,10 +629,12 @@ BasePage {
                             onPressed: function(){
                                 GSystem.sendSeatCommand("thigh_down");
                                 thighdown.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                seat.opacity=1;
                             }
                             onReleased: function(){
                                 GSystem.sendSeatCommand("thigh_stop");
                                 thighdown.color = "transparent";
+                                seat.opacity=0;
                             }
                         }
                     }
@@ -647,6 +672,7 @@ BasePage {
                                 anchors.fill: parent
                                 onPressed: function(){
                                     coolintext.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                                    GSystem.sendSeatCommand("cooling");
                                 }
                                 onReleased: function(){
                                     coolintext.color = "transparent";
@@ -699,18 +725,6 @@ BasePage {
                                             }
                                         }
                             }
-                            MouseArea{
-                                        anchors.fill: parent
-                                        onPressed: {
-                                            GSystem.sendSeatCommand("cooling");
-    //                                        var plus =  GSystem.sendSeatCommand("cooling");
-    //                                        if(plus)
-    //                                        {
-    //                                            //feedback'den geleceği için yorum satırı yapıldı
-    //                                            //serial_mng.cool = (serial_mng.cool +1) % 4;
-    //                                        }
-                                        }
-                                    }
                         }
                     }
                 }
@@ -745,6 +759,7 @@ BasePage {
                             MouseArea{
                                 anchors.fill: parent
                                 onPressed: function(){
+                                    GSystem.sendSeatCommand("heating");
                                     heatintext.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
                                 }
                                 onReleased: function(){
@@ -769,7 +784,7 @@ BasePage {
                                         radius: 5
                                         width:30
                                         height:5
-                                        color:serial_mng.cool>2?"#f92814":"white"
+                                        color:serial_mng.heat>2?"#f92814":"white"
                                             MouseArea{
                                                anchors.fill: parent
                                                cursorShape: Qt.IBeamCursor;
@@ -780,7 +795,7 @@ BasePage {
                                         radius: 5
                                         width:30
                                         height:5
-                                        color:serial_mng.cool>1?"#f92814":"white"
+                                        color:serial_mng.heat>1?"#f92814":"white"
                                             MouseArea{
                                                anchors.fill: parent
                                                cursorShape: Qt.IBeamCursor;
@@ -791,25 +806,13 @@ BasePage {
                                         radius: 5
                                         width:30
                                         height:5
-                                        color:serial_mng.cool>0?"#f92814":"white"
+                                        color:serial_mng.heat>0?"#f92814":"white"
                                             MouseArea{
                                                anchors.fill: parent
                                                cursorShape: Qt.IBeamCursor;
                                             }
                                         }
-                            }
-                            MouseArea{
-                                        anchors.fill: parent
-                                        onPressed: {
-                                            GSystem.sendSeatCommand("heating");
-    //                                        var plus =  GSystem.sendSeatCommand("heating");
-    //                                        if(plus)
-    //                                        {
-    //                                            //feedback'den geleceği için yorum satırı yapıldı
-    //                                            //serial_mng.cool = (serial_mng.cool +1) % 4;
-    //                                        }
-                                        }
-                                    }
+                                }
                             }
                         }
                     }

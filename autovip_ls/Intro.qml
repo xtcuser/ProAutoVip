@@ -12,7 +12,7 @@ Rectangle {
             root.visible = false;
             if(serial_mng.isConnected())
             {
-                    //serial_mng.sendKey("main/system_request");
+                    serial_mng.sendKey("main/system_request");
             }
         }
     }

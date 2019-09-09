@@ -54,7 +54,6 @@
         <file>design/general/System.svg</file>
         <file>design/general/System_ps.svg</file>
         <file>SGlobal.qml</file>
-        <file>design/general/logo.png</file>
         <file>Pages/Home.qml</file>
         <file>Components/BasePage.qml</file>
         <file>Components/BottomMenu.qml</file>
@@ -377,8 +376,6 @@
         <file>Pages/Settings/SecondSeatHead.qml</file>
         <file>design/radio/dvlogo1.png</file>
         <file>design/general/background.png</file>
-        <file>design/general/background.webp</file>
-        <file>design/general/background.gif</file>
         <file>design/general/backgroundoverlay.png</file>
         <file>jcon/jcon.h</file>
         <file>jcon/jcon_assert.h</file>
@@ -479,5 +476,10 @@
         <file>design/controls/ani/kucuk.svg</file>
         <file>design/controls/ani/buyuk.svg</file>
         <file>design/media/ani/cark.svg</file>
+        <file>design/seats/overlays/back.svg</file>
+        <file>design/seats/overlays/feat.svg</file>
+        <file>design/seats/overlays/head.svg</file>
+        <file>design/seats/overlays/seat.svg</file>
+        <file>design/general/logo.png</file>
     </qresource>
 </RCC>

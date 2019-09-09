@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="zh" sourcelanguage="en">
+<TS version="2.1" language="zh" sourcelanguage="en">
 <context>
     <name>AirConditioner</name>
     <message>
@@ -117,11 +117,11 @@
     </message>
     <message>
         <source>ON</source>
-        <translation>開</translation>
+        <translation type="vanished">開</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
@@ -857,33 +857,38 @@
         <translation>常規設置</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="102"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="106"/>
+        <source>Restart the system!</source>
+        <translation>重启系统</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="121"/>
         <source>System should be restarted to
  apply all language changes.</source>
         <translation>應重新啟動系統以應用所有語言更改。</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="130"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="153"/>
         <source>Restart</source>
         <translation>重新開始</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="164"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="190"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="224"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="250"/>
         <source>Language:</source>
         <translation>語言：</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="368"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="377"/>
         <source>Auto Time:</source>
         <translation>自動設置時間：</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="376"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="386"/>
         <source>Auto</source>
         <translation>自動</translation>
     </message>
@@ -944,30 +949,30 @@
     <name>LeftTable</name>
     <message>
         <source>LEFT TABLE</source>
-        <translation>左表</translation>
+        <translation type="vanished">左表</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>LeftWindow</name>
     <message>
         <source>LEFT WINDOW</source>
-        <translation>左窗口</translation>
+        <translation type="vanished">左窗口</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
@@ -987,43 +992,43 @@
     </message>
     <message>
         <source>Ceiling Light</source>
-        <translation>天花燈</translation>
+        <translation type="vanished">天花燈</translation>
     </message>
     <message>
         <source>Side Light</source>
-        <translation>側燈</translation>
+        <translation type="vanished">側燈</translation>
     </message>
     <message>
         <source>Inside Light</source>
-        <translation>內光</translation>
+        <translation type="vanished">內光</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="533"/>
+        <location filename="../Pages/Lights/Lights.qml" line="540"/>
         <source>Close All</source>
         <translation>關閉所有</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="546"/>
+        <location filename="../Pages/Lights/Lights.qml" line="553"/>
         <source>Memory 1</source>
         <translation>記憶1</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="567"/>
+        <location filename="../Pages/Lights/Lights.qml" line="574"/>
         <source>Memory 2</source>
         <translation>記憶2</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="588"/>
+        <location filename="../Pages/Lights/Lights.qml" line="595"/>
         <source>Memory 3</source>
         <translation>記憶3</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="621"/>
+        <location filename="../Pages/Lights/Lights.qml" line="628"/>
         <source>Left Reading Light</source>
         <translation>左侧的阅读灯</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="642"/>
+        <location filename="../Pages/Lights/Lights.qml" line="649"/>
         <source>Right Reading Light</source>
         <translation>右边的阅读灯</translation>
     </message>
@@ -1032,78 +1037,78 @@
     <name>Lights_CH</name>
     <message>
         <source>燈火</source>
-        <translation>燈火</translation>
+        <translation type="vanished">燈火</translation>
     </message>
     <message>
         <source>天花燈</source>
-        <translation>天花燈</translation>
+        <translation type="vanished">天花燈</translation>
     </message>
     <message>
         <source>內光</source>
-        <translation>內光</translation>
+        <translation type="vanished">內光</translation>
     </message>
     <message>
         <source>關閉所有</source>
-        <translation>關閉所有</translation>
+        <translation type="vanished">關閉所有</translation>
     </message>
     <message>
         <source>記憶1</source>
-        <translation>記憶1</translation>
+        <translation type="vanished">記憶1</translation>
     </message>
     <message>
         <source>記憶2</source>
-        <translation>記憶2</translation>
+        <translation type="vanished">記憶2</translation>
     </message>
     <message>
         <source>記憶3</source>
-        <translation>記憶3</translation>
+        <translation type="vanished">記憶3</translation>
     </message>
     <message>
         <source>左侧的阅读灯</source>
-        <translation>左侧的阅读灯</translation>
+        <translation type="vanished">左侧的阅读灯</translation>
     </message>
     <message>
         <source>右边的阅读灯</source>
-        <translation>右边的阅读灯</translation>
+        <translation type="vanished">右边的阅读灯</translation>
     </message>
 </context>
 <context>
     <name>Lights_TR</name>
     <message>
         <source>Işıklar</source>
-        <translation>Işıklar</translation>
+        <translation type="vanished">Işıklar</translation>
     </message>
     <message>
         <source>Tavan Aydınlatması</source>
-        <translation>Tavan Aydınlatması</translation>
+        <translation type="vanished">Tavan Aydınlatması</translation>
     </message>
     <message>
         <source>İç Aydınlatma</source>
-        <translation>İç Aydınlatma</translation>
+        <translation type="vanished">İç Aydınlatma</translation>
     </message>
     <message>
         <source>Hepsini Kapat</source>
-        <translation>Hepsini Kapat</translation>
+        <translation type="vanished">Hepsini Kapat</translation>
     </message>
     <message>
         <source>Hafıza 1</source>
-        <translation>Hafıza 1</translation>
+        <translation type="vanished">Hafıza 1</translation>
     </message>
     <message>
         <source>Hafıza 2</source>
-        <translation>Hafıza 2</translation>
+        <translation type="vanished">Hafıza 2</translation>
     </message>
     <message>
         <source>Hafıza 3</source>
-        <translation>Hafıza 3</translation>
+        <translation type="vanished">Hafıza 3</translation>
     </message>
     <message>
         <source>Sol Okuma Aydınlatması</source>
-        <translation>Sol Okuma Aydınlatması</translation>
+        <translation type="vanished">Sol Okuma Aydınlatması</translation>
     </message>
     <message>
         <source>Sağ Okuma Aydınlatması</source>
-        <translation>Sağ Okuma Aydınlatması</translation>
+        <translation type="vanished">Sağ Okuma Aydınlatması</translation>
     </message>
 </context>
 <context>
@@ -1153,83 +1158,88 @@
 <context>
     <name>OneSeat</name>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="166"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="172"/>
         <source>Head</source>
         <translation>頭</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="182"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="566"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="188"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="589"/>
         <source>↑</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="213"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="597"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="221"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="622"/>
         <source>↓</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="245"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="255"/>
         <source>Seat Back</source>
         <translation>椅背</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="261"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="340"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="419"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="271"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="354"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="437"/>
         <source>←</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="292"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="370"/>
-        <location filename="../Pages/Seat/OneSeat.qml" line="450"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="304"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="386"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="470"/>
         <source>→</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="324"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="338"/>
         <source>Seat</source>
         <translation>座位</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="403"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="421"/>
         <source>Drawer</source>
         <translation>抽屜</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="550"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="421"/>
+        <source>Footrest</source>
+        <translation>踏板</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Seat/OneSeat.qml" line="573"/>
         <source>Thigh</source>
         <translation>大腿</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="639"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="667"/>
         <source>Seat Cooling</source>
         <translation>座椅冷卻</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="737"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="755"/>
         <source>Seat Heating</source>
         <translation>座椅加熱</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="833"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="841"/>
         <source>Seat Massage</source>
         <translation>座椅按摩</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="833"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="841"/>
         <source>Done</source>
         <translation>好的</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="854"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="862"/>
         <source>ON</source>
         <translation>開</translation>
     </message>
     <message>
-        <location filename="../Pages/Seat/OneSeat.qml" line="854"/>
+        <location filename="../Pages/Seat/OneSeat.qml" line="862"/>
         <source>OFF</source>
         <translation>关闭</translation>
     </message>
@@ -1373,30 +1383,30 @@
     <name>RightTable</name>
     <message>
         <source>RIGHT TABLE</source>
-        <translation>右表</translation>
+        <translation type="vanished">右表</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
     <name>RightWindow</name>
     <message>
         <source>RIGHT WINDOW</source>
-        <translation>右窗口</translation>
+        <translation type="vanished">右窗口</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation type="vanished">打开</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation type="vanished">关闭</translation>
     </message>
 </context>
 <context>
@@ -1420,218 +1430,3028 @@
 <context>
     <name>SGlobal</name>
     <message>
-        <location filename="../SGlobal.qml" line="114"/>
+        <location filename="../SGlobal.qml" line="115"/>
         <source>FIRST</source>
         <translation>第一</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="116"/>
+        <location filename="../SGlobal.qml" line="117"/>
         <source>SECOND</source>
         <translation>第二</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="118"/>
+        <location filename="../SGlobal.qml" line="119"/>
         <source>THIRD</source>
         <translation>第三</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="120"/>
+        <location filename="../SGlobal.qml" line="121"/>
         <source>FOURTH</source>
         <translation>第四</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="122"/>
+        <location filename="../SGlobal.qml" line="123"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="198"/>
-        <location filename="../SGlobal.qml" line="675"/>
+        <location filename="../SGlobal.qml" line="199"/>
+        <location filename="../SGlobal.qml" line="677"/>
         <source>Head</source>
         <translation>頭</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="199"/>
+        <location filename="../SGlobal.qml" line="200"/>
         <source>SeatBack</source>
         <translation>椅背</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="200"/>
-        <location filename="../SGlobal.qml" line="685"/>
+        <location filename="../SGlobal.qml" line="201"/>
+        <location filename="../SGlobal.qml" line="687"/>
         <source>Seat</source>
         <translation>座位</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="203"/>
-        <location filename="../SGlobal.qml" line="695"/>
+        <location filename="../SGlobal.qml" line="204"/>
+        <location filename="../SGlobal.qml" line="697"/>
         <source>Drawer</source>
         <translation>抽屜</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="207"/>
-        <location filename="../SGlobal.qml" line="690"/>
+        <location filename="../SGlobal.qml" line="208"/>
+        <location filename="../SGlobal.qml" line="692"/>
         <source>Foot Rest</source>
         <translation>踏板</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="211"/>
+        <location filename="../SGlobal.qml" line="212"/>
         <source>Thigh</source>
         <translation>大腿</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="215"/>
+        <location filename="../SGlobal.qml" line="216"/>
         <source>Seat Heating</source>
         <translation>座椅加熱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="219"/>
+        <location filename="../SGlobal.qml" line="220"/>
         <source>Seat Cooling</source>
         <translation>座椅冷卻</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="223"/>
+        <location filename="../SGlobal.qml" line="224"/>
         <source>Seat Massage</source>
         <translation>座椅按摩</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="229"/>
-        <location filename="../SGlobal.qml" line="767"/>
+        <location filename="../SGlobal.qml" line="230"/>
+        <location filename="../SGlobal.qml" line="769"/>
         <source>Ceiling Light</source>
         <translation>天花燈</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="230"/>
-        <location filename="../SGlobal.qml" line="772"/>
+        <location filename="../SGlobal.qml" line="231"/>
+        <location filename="../SGlobal.qml" line="774"/>
         <source>Inside Light</source>
         <translation>內光</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="232"/>
-        <location filename="../SGlobal.qml" line="777"/>
+        <location filename="../SGlobal.qml" line="233"/>
+        <location filename="../SGlobal.qml" line="779"/>
         <source>Side Light</source>
         <translation>側燈</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="243"/>
-        <location filename="../SGlobal.qml" line="786"/>
+        <location filename="../SGlobal.qml" line="244"/>
+        <location filename="../SGlobal.qml" line="788"/>
         <source>Kodi Player</source>
         <translation>Kodi媒體播放器</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="253"/>
+        <location filename="../SGlobal.qml" line="254"/>
         <source>Apple Tv</source>
         <translation>Apple Tv</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="264"/>
-        <location filename="../SGlobal.qml" line="791"/>
+        <location filename="../SGlobal.qml" line="265"/>
+        <location filename="../SGlobal.qml" line="793"/>
         <source>Playstation</source>
         <translation>遊戲機</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="276"/>
-        <location filename="../SGlobal.qml" line="796"/>
+        <location filename="../SGlobal.qml" line="277"/>
+        <location filename="../SGlobal.qml" line="798"/>
         <source>Docking Stations</source>
         <translation>擴展塢</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="284"/>
-        <location filename="../SGlobal.qml" line="801"/>
+        <location filename="../SGlobal.qml" line="285"/>
+        <location filename="../SGlobal.qml" line="803"/>
         <source>Screen Divider</source>
         <translation>屏幕分隔線</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="291"/>
-        <location filename="../SGlobal.qml" line="806"/>
+        <location filename="../SGlobal.qml" line="292"/>
+        <location filename="../SGlobal.qml" line="808"/>
         <source>Television</source>
         <translation>電視</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="300"/>
-        <location filename="../SGlobal.qml" line="811"/>
+        <location filename="../SGlobal.qml" line="301"/>
+        <location filename="../SGlobal.qml" line="813"/>
         <source>Radio</source>
         <translation>無線電</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="308"/>
-        <location filename="../SGlobal.qml" line="816"/>
+        <location filename="../SGlobal.qml" line="309"/>
+        <location filename="../SGlobal.qml" line="818"/>
         <source>Pc Hdmi</source>
         <translation>HDMI輸入</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="317"/>
+        <location filename="../SGlobal.qml" line="318"/>
         <source>Ceiling Screen</source>
         <translation>天花板屏幕</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="328"/>
+        <location filename="../SGlobal.qml" line="329"/>
         <source>DVD Player</source>
         <translation>DVD播放機</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="341"/>
-        <location filename="../SGlobal.qml" line="707"/>
+        <location filename="../SGlobal.qml" line="342"/>
+        <location filename="../SGlobal.qml" line="709"/>
         <source>Tables</source>
         <translation>表</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="350"/>
-        <location filename="../SGlobal.qml" line="712"/>
+        <location filename="../SGlobal.qml" line="351"/>
+        <location filename="../SGlobal.qml" line="714"/>
         <source>Curtains</source>
         <translation>窗簾</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="360"/>
-        <location filename="../SGlobal.qml" line="717"/>
+        <location filename="../SGlobal.qml" line="361"/>
+        <location filename="../SGlobal.qml" line="719"/>
         <source>Refrigerator</source>
         <translation>冰箱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="370"/>
-        <location filename="../SGlobal.qml" line="722"/>
+        <location filename="../SGlobal.qml" line="371"/>
+        <location filename="../SGlobal.qml" line="724"/>
         <source>Safe Box</source>
         <translation>保險箱</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="380"/>
-        <location filename="../SGlobal.qml" line="727"/>
+        <location filename="../SGlobal.qml" line="381"/>
+        <location filename="../SGlobal.qml" line="729"/>
         <source>Air Condition</source>
         <translation>冷气机</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="387"/>
-        <location filename="../SGlobal.qml" line="732"/>
+        <location filename="../SGlobal.qml" line="388"/>
+        <location filename="../SGlobal.qml" line="734"/>
         <source>Smoke Fan</source>
         <translation>煙風扇</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="395"/>
-        <location filename="../SGlobal.qml" line="737"/>
+        <location filename="../SGlobal.qml" line="396"/>
+        <location filename="../SGlobal.qml" line="739"/>
         <source>Windows</source>
         <translation>視窗</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="404"/>
-        <location filename="../SGlobal.qml" line="742"/>
+        <location filename="../SGlobal.qml" line="405"/>
+        <location filename="../SGlobal.qml" line="744"/>
         <source>Bar</source>
         <translation>酒吧</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="414"/>
-        <location filename="../SGlobal.qml" line="747"/>
+        <location filename="../SGlobal.qml" line="415"/>
+        <location filename="../SGlobal.qml" line="749"/>
         <source>Espresso</source>
         <translation>濃咖啡</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="423"/>
-        <location filename="../SGlobal.qml" line="752"/>
+        <location filename="../SGlobal.qml" line="424"/>
+        <location filename="../SGlobal.qml" line="754"/>
         <source>Roof</source>
         <translation>屋頂</translation>
     </message>
     <message>
-        <location filename="../SGlobal.qml" line="680"/>
+        <location filename="../SGlobal.qml" line="682"/>
         <source>Back</source>
         <translation>背部</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="830"/>
+        <source>First table open</source>
+        <translation>弹出第一桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="831"/>
+        <source>Opens the First Table</source>
+        <translation>弹出第一桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="834"/>
+        <source>First table close</source>
+        <translation>收回第一桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="835"/>
+        <source>Closes the First Table</source>
+        <translation>收回第一桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="838"/>
+        <source>Second table open</source>
+        <translation>弹出第二桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="839"/>
+        <source>Opens the Second Table</source>
+        <translation>弹出第二桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="842"/>
+        <source>Second table close</source>
+        <translation>收回第二桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="843"/>
+        <source>Closes the Second Table</source>
+        <translation>收回第二桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="846"/>
+        <source>Third table open</source>
+        <translation>弹出第三桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="847"/>
+        <source>Opens the Third Table</source>
+        <translation>弹出第三桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="850"/>
+        <source>Third table close</source>
+        <translation>收回第三桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="851"/>
+        <source>Closes the Third Table</source>
+        <translation>收回第三桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="854"/>
+        <source>Fourth table open</source>
+        <translation>弹出第四桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="855"/>
+        <source>Opens the Fourth Table</source>
+        <translation>弹出第四桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="858"/>
+        <source>Fourth table close</source>
+        <translation>收回第四桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="859"/>
+        <source>Closes the Fourth Table</source>
+        <translation>收回第四桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="862"/>
+        <source>Fifth table open</source>
+        <translation>弹出第五桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="863"/>
+        <source>Opens the Fifth Table</source>
+        <translation>弹出第五桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="866"/>
+        <source>Fifth table close</source>
+        <translation>收回第五桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="867"/>
+        <source>Closes the Fifth Table</source>
+        <translation>收回第五桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="870"/>
+        <source>Sixth table open</source>
+        <translation>弹出第六桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="871"/>
+        <source>Opens the Sixth Table</source>
+        <translation>弹出第六桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="874"/>
+        <source>Sixth table close</source>
+        <translation>收回第六桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="875"/>
+        <source>Closes the Sixth Table</source>
+        <translation>收回第六桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="878"/>
+        <source>Left table open</source>
+        <translation>弹出左侧桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="879"/>
+        <source>Opens the Left Table</source>
+        <translation>弹出左侧桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="882"/>
+        <source>Left table close</source>
+        <translation>收回左侧桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="883"/>
+        <source>Closes the Left Table</source>
+        <translation>收回左侧桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="886"/>
+        <source>Right table open</source>
+        <translation>弹出右侧桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="887"/>
+        <source>Opens the Right Table</source>
+        <translation>弹出右侧桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="890"/>
+        <source>Right table close</source>
+        <translation>收回右侧桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="891"/>
+        <source>Closes the Right Table</source>
+        <translation>收回右侧桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="898"/>
+        <source>First seat footrest open</source>
+        <translation>伸出第一座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="899"/>
+        <source>Opens the First seat footrest</source>
+        <translation>伸出第一座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="902"/>
+        <source>First seat footrest close</source>
+        <translation>收回第一座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="903"/>
+        <source>Closes the First seat footrest</source>
+        <translation>收回第一座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="906"/>
+        <source>Second seat footrest open</source>
+        <translation>伸出第二座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="907"/>
+        <source>Opens the Second seat footrest</source>
+        <translation>伸出第二座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="910"/>
+        <source>Second seat footrest close</source>
+        <translation>收回第二座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="911"/>
+        <source>Closes the Second seat footrest</source>
+        <translation>收回第二座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="914"/>
+        <source>Third seat footrest open</source>
+        <translation>伸出第三座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="915"/>
+        <source>Opens the Third seat footrest</source>
+        <translation>伸出第三座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="918"/>
+        <source>Third seat footrest close</source>
+        <translation>收回第三座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="919"/>
+        <source>Closes the Third seat footrest</source>
+        <translation>收回第三座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="922"/>
+        <source>Fourth seat footrest open</source>
+        <translation>伸出第四座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="923"/>
+        <source>Opens the Fourth seat footrest</source>
+        <translation>伸出第四座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="926"/>
+        <source>Fourth seat footrest close</source>
+        <translation>收回第四座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="927"/>
+        <source>Closes the Fourth seat footrest</source>
+        <translation>收回第四座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="930"/>
+        <source>Fifth seat footrest open</source>
+        <translation>伸出第五座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="931"/>
+        <source>Opens the Fifth seat footrest</source>
+        <translation>伸出第五座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="934"/>
+        <source>Fifth seat footrest close</source>
+        <translation>收回第五座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="935"/>
+        <source>Closes the Fifth seat footrest</source>
+        <translation>收回第五座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="938"/>
+        <source>Sixth seat footrest open</source>
+        <translation>伸出第六座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="939"/>
+        <source>Opens the Sixth seat footrest</source>
+        <translation>伸出第六座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="942"/>
+        <source>Sixth seat footrest close</source>
+        <translation>收回第六座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="943"/>
+        <source>Closes the Sixth seat footrest</source>
+        <translation>收回第六座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="946"/>
+        <source>Right seat footrest open</source>
+        <translation>伸出右侧座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="947"/>
+        <source>Opens the Right seat footrest</source>
+        <translation>伸出右侧座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="950"/>
+        <source>Right seat footrest close</source>
+        <translation>收回右侧座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="951"/>
+        <source>Closes the Right seat footrest</source>
+        <translation>收回右侧座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="954"/>
+        <source>Left seat footrest open</source>
+        <translation>收回第六座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="955"/>
+        <source>Opens the Left seat footrest</source>
+        <translation>收回第六座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="958"/>
+        <source>Left seat footrest close</source>
+        <translation>收回左侧座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="959"/>
+        <source>Closes the Left seat footrest</source>
+        <translation>收回左侧座椅腿托</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="966"/>
+        <source>First Curtain open</source>
+        <translation>打开第一窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="967"/>
+        <source>Opens the First Curtain</source>
+        <translation>打开第一窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="970"/>
+        <source>First Curtain close</source>
+        <translation>关闭第一窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="971"/>
+        <source>Closes the First Curtain</source>
+        <translation>关闭第一窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="974"/>
+        <source>Second Curtain open</source>
+        <translation>打开第二窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="975"/>
+        <source>Opens the Second Curtain</source>
+        <translation>打开第二窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="978"/>
+        <source>Second Curtain close</source>
+        <translation>关闭第二窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="979"/>
+        <source>Closes the Second Curtain</source>
+        <translation>关闭第二窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="982"/>
+        <source>Third Curtain open</source>
+        <translation>打开第三窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="983"/>
+        <source>Opens the Third Curtain</source>
+        <translation>打开第三窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="986"/>
+        <source>Third Curtain close</source>
+        <translation>关闭第三窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="987"/>
+        <source>Closes the Third Curtain</source>
+        <translation>关闭第三窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="990"/>
+        <source>Fourth Curtain open</source>
+        <translation>打开第四窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="991"/>
+        <source>Opens the Fourth Curtain</source>
+        <translation>打开第四窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="994"/>
+        <source>Fourth Curtain close</source>
+        <translation>关闭第四窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="995"/>
+        <source>Closes the Fourth Curtain</source>
+        <translation>关闭第四窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="998"/>
+        <source>Fifth Curtain open</source>
+        <translation>打开第五窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="999"/>
+        <source>Opens the Fifth Curtain</source>
+        <translation>打开第五窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1002"/>
+        <source>Fifth Curtain close</source>
+        <translation>关闭第五窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1003"/>
+        <source>Closes the Fifth Curtain</source>
+        <translation>关闭第五窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1006"/>
+        <source>Sixth Curtain open</source>
+        <translation>打开第六窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1007"/>
+        <source>Opens the Sixth Curtain</source>
+        <translation>打开第六窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1010"/>
+        <source>Sixth Curtain close</source>
+        <translation>关闭第六窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1011"/>
+        <source>Closes the Sixth Curtain</source>
+        <translation>关闭第六窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1014"/>
+        <source>Right Curtain open</source>
+        <translation>打开右侧窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1015"/>
+        <source>Opens the Right Curtain</source>
+        <translation>打开右侧窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1018"/>
+        <source>Right Curtain close</source>
+        <translation>关闭右侧窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1019"/>
+        <source>Closes the Right Curtain</source>
+        <translation>关闭右侧窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1022"/>
+        <source>Left Curtain open</source>
+        <translation>打开左侧窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1023"/>
+        <source>Opens the Left Curtain</source>
+        <translation>打开左侧窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1026"/>
+        <source>Left Curtain close</source>
+        <translation>关闭左侧窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1027"/>
+        <source>Closes the Left Curtain</source>
+        <translation>关闭左侧窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1035"/>
+        <source>First Seat Massage open</source>
+        <translation>打开第一座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1036"/>
+        <source>Opens the First Seat Massage</source>
+        <translation>打开第一座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1039"/>
+        <source>First Seat Massage close</source>
+        <translation>关闭第一座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1040"/>
+        <source>Closes the First Seat Massage</source>
+        <translation>关闭第一座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1043"/>
+        <source>Second Seat Massage open</source>
+        <translation>打开第二座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1044"/>
+        <source>Opens the Second Seat Massage</source>
+        <translation>打开第二座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1047"/>
+        <source>Second Seat Massage close</source>
+        <translation>关闭第二座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1048"/>
+        <source>Closes the Second Seat Massage</source>
+        <translation>关闭第二座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1051"/>
+        <source>Third Seat Massage open</source>
+        <translation>打开第三座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1052"/>
+        <source>Opens the Third Seat Massage</source>
+        <translation>打开第三座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1055"/>
+        <source>Third Seat Massage close</source>
+        <translation>关闭第三座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1056"/>
+        <source>Closes the Third Seat Massage</source>
+        <translation>关闭第三座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1059"/>
+        <source>Fourth Seat Massage open</source>
+        <translation>打开第四座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1060"/>
+        <source>Opens the Fourth Seat Massage</source>
+        <translation>打开第四座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1063"/>
+        <source>Fourth Seat Massage close</source>
+        <translation>关闭第四座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1064"/>
+        <source>Closes the Fourth Seat Massage</source>
+        <translation>关闭第四座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1067"/>
+        <source>Fifth Seat Massage open</source>
+        <translation>打开第五座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1068"/>
+        <source>Opens the Fifth Seat Massage</source>
+        <translation>打开第五座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1071"/>
+        <source>Fifth Seat Massage close</source>
+        <translation>关闭第五座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1072"/>
+        <source>Closes the Fifth Seat Massage</source>
+        <translation>关闭第五座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1075"/>
+        <source>Sixth Seat Massage open</source>
+        <translation>打开第六座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1076"/>
+        <source>Opens the Sixth Seat Massage</source>
+        <translation>打开第六座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1079"/>
+        <source>Sixth Seat Massage close</source>
+        <translation>关闭第六座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1080"/>
+        <source>Closes the Sixth Seat Massage</source>
+        <translation>关闭第六座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1083"/>
+        <source>Right Seat Massage open</source>
+        <translation>打开右侧座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1084"/>
+        <source>Opens the Right Seat Massage</source>
+        <translation>打开右侧座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1087"/>
+        <source>Right Seat Massage close</source>
+        <translation>关闭右侧座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1088"/>
+        <source>Closes the Right Seat Massage</source>
+        <translation>关闭右侧座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1091"/>
+        <source>Left Seat Massage open</source>
+        <translation>打开左侧座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1092"/>
+        <source>Opens the Left Seat Massage</source>
+        <translation>打开左侧座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1095"/>
+        <source>Left Seat Massage close</source>
+        <translation>关闭左侧座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1096"/>
+        <source>Closes the Left Seat Massage</source>
+        <translation>关闭左侧座椅按摩</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1104"/>
+        <source>Nespresso open</source>
+        <translation>伸出咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1105"/>
+        <source>Opens the Nespresso</source>
+        <translation>伸出咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1108"/>
+        <source>Nespresso close</source>
+        <translation>收回咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1109"/>
+        <source>Closes the Nespresso</source>
+        <translation>收回咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1112"/>
+        <source>Front Nespresso open</source>
+        <translation>伸出前咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1113"/>
+        <source>Opens the Front Nespresso</source>
+        <translation>伸出前咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1116"/>
+        <source>Front Nespresso close</source>
+        <translation>收回前咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1117"/>
+        <source>Closes the Front Nespresso</source>
+        <translation>收回前咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1120"/>
+        <source>Rear Nespresso open</source>
+        <translation>伸出后咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1121"/>
+        <source>Opens the Rear Nespresso</source>
+        <translation>伸出后咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1124"/>
+        <source>Rear Nespresso close</source>
+        <translation>收回后咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1125"/>
+        <source>Closes the Rear Nespresso</source>
+        <translation>收回后咖啡机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1131"/>
+        <source>Door open</source>
+        <translation>打开车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1132"/>
+        <source>Opens the Door</source>
+        <translation>打开车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1135"/>
+        <source>Door close</source>
+        <translation>关闭车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1136"/>
+        <source>Closes the Door</source>
+        <translation>关闭车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1139"/>
+        <source>Right Door open</source>
+        <translation>打开右车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1140"/>
+        <source>Opens the Right Door</source>
+        <translation>打开右车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1143"/>
+        <source>Right Door close</source>
+        <translation>关闭右车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1144"/>
+        <source>Closes the Right Door</source>
+        <translation>关闭右车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1147"/>
+        <source>Left Door open</source>
+        <translation>打开左车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1148"/>
+        <source>Opens the Left Door</source>
+        <translation>打开左车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1151"/>
+        <source>Left Door close</source>
+        <translation>关闭左车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1152"/>
+        <source>Closes the Left Door</source>
+        <translation>关闭左车门</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1159"/>
+        <source>TV up</source>
+        <translation>升起电视机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1160"/>
+        <source>Puts the TV up</source>
+        <translation>升起电视机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1163"/>
+        <source>Tv down</source>
+        <translation>降下电视机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1164"/>
+        <source>Puts the TV down</source>
+        <translation>降下电视机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1167"/>
+        <location filename="../SGlobal.qml" line="1171"/>
+        <source>Turn on TV</source>
+        <translation>打开电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1168"/>
+        <source>Turns the TV on</source>
+        <translation>打开电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1172"/>
+        <source>Turns the TV off</source>
+        <translation>关闭电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1175"/>
+        <source>TV Volume up</source>
+        <translation>调大音量</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1176"/>
+        <source>Increases the TV volume</source>
+        <translation>调大音量</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1179"/>
+        <source>TV Volume down</source>
+        <translation>调小音量</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1180"/>
+        <source>Decreases the TV volume</source>
+        <translation>调小音量</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1187"/>
+        <source>Open Apple TV</source>
+        <translation>接通苹果电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1188"/>
+        <source>Opens the Apple TV</source>
+        <translation>接通苹果电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1196"/>
+        <source>Front camera open</source>
+        <translation>接通前摄像头</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1197"/>
+        <source>Opens the Front Camera</source>
+        <translation>接通前摄像头</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1200"/>
+        <source>Rear camera open</source>
+        <translation>接通后摄像头</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1201"/>
+        <source>Opens the Rear Camera</source>
+        <translation>接通后摄像头</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1204"/>
+        <source>Screen divider open</source>
+        <translation>分屏显示</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1205"/>
+        <source>Opens the the Screen Divider</source>
+        <translation>分屏显示</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1208"/>
+        <source>DVD open</source>
+        <translation>接通DVD</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1209"/>
+        <source>Opens the DVD</source>
+        <translation>接通DVD</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1212"/>
+        <source>Computer projection</source>
+        <translation>接通投影机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1213"/>
+        <source>Enables Computer Projection</source>
+        <translation>接通投影机</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1216"/>
+        <source>Samsung dock projection</source>
+        <translation>接通三星投影</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1217"/>
+        <source>Enables Samsung Dock Projection</source>
+        <translation>接通三星投影</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1224"/>
+        <source>Turn on lights white</source>
+        <translation>打开白灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1225"/>
+        <source>Turns white lights on</source>
+        <translation>打开白灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1228"/>
+        <source>Turn on lights red</source>
+        <translation>打开红灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1229"/>
+        <source>Turns red lights on</source>
+        <translation>打开红灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1232"/>
+        <source>Turn on lights green</source>
+        <translation>打开绿灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1233"/>
+        <source>Turns green lights on</source>
+        <translation>打开绿灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1236"/>
+        <source>Turn on lights blue</source>
+        <translation>打开蓝灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1237"/>
+        <source>Turns blue lights on</source>
+        <translation>打开蓝灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1240"/>
+        <source>Turn off lights</source>
+        <translation>关闭灯光</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1241"/>
+        <source>Turns the lights off</source>
+        <translation>关闭灯光</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1248"/>
+        <source>Ceiling lights white turn on</source>
+        <translation>打开白色天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1249"/>
+        <source>Turns white ceiling lights on</source>
+        <translation>打开白色天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1252"/>
+        <source>Ceiling lights red turn on</source>
+        <translation>打开红色天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1253"/>
+        <source>Turns red ceiling lights on</source>
+        <translation>打开红色天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1256"/>
+        <source>Ceiling lights green turn on</source>
+        <translation>打开绿色天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1257"/>
+        <source>Turns green ceiling lights on</source>
+        <translation>打开绿色天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1260"/>
+        <source>Ceiling lights blue turn on</source>
+        <translation>打开蓝色天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1261"/>
+        <source>Turns blue ceiling lights on</source>
+        <translation>打开蓝色天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1264"/>
+        <location filename="../SGlobal.qml" line="2236"/>
+        <source>Ceiling lights turn off</source>
+        <translation>关闭天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1265"/>
+        <source>Turns ceiling lights off</source>
+        <translation>关闭天花灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1272"/>
+        <source>Interior lights white turn on</source>
+        <translation>打开白色内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1273"/>
+        <source>Turns white Interior lights on</source>
+        <translation>打开白色内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1276"/>
+        <source>Interior lights red turn on</source>
+        <translation>打开白色内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1277"/>
+        <source>Turns red Interior lights on</source>
+        <translation>打开白色内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1280"/>
+        <source>Interior lights green turn on</source>
+        <translation>打开白色内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1281"/>
+        <source>Turns green Interior lights on</source>
+        <translation>打开白色内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1284"/>
+        <source>Interior lights blue turn on</source>
+        <translation>打开白色内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1285"/>
+        <source>Turns blue Interior lights on</source>
+        <translation>打开白色内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1288"/>
+        <source>Interior lights turn off</source>
+        <translation>关闭内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1289"/>
+        <source>Turns Interior lights off</source>
+        <translation>关闭内部灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1296"/>
+        <source>Side lights white turn on</source>
+        <translation>打开白色侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1297"/>
+        <source>Turns white Side lights on</source>
+        <translation>打开白色侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1300"/>
+        <source>Side lights red turn on</source>
+        <translation>打开白色侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1301"/>
+        <source>Turns red Side lights on</source>
+        <translation>打开白色侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1304"/>
+        <source>Side lights green turn on</source>
+        <translation>打开白色侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1305"/>
+        <source>Turns green Side lights on</source>
+        <translation>打开白色侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1308"/>
+        <source>Side lights blue turn on</source>
+        <translation>打开白色侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1309"/>
+        <source>Turns blue Side lights on</source>
+        <translation>打开白色侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1312"/>
+        <location filename="../SGlobal.qml" line="2228"/>
+        <source>Side lights turn off</source>
+        <translation>关闭侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1313"/>
+        <source>Turns Side lights off</source>
+        <translation>关闭侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1319"/>
+        <source>Left Make Up Lights turn on</source>
+        <translation>接通左侧化妆灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1320"/>
+        <source>Turns Left Make Up Light on</source>
+        <translation>接通左侧化妆灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1323"/>
+        <source>Left Make Up Light turn off</source>
+        <translation>关闭左侧化妆灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1324"/>
+        <source>Turns Left Make Up Light off</source>
+        <translation>关闭左侧化妆灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1327"/>
+        <source>Right Make Up Light turn on</source>
+        <translation>接通右侧化妆灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1328"/>
+        <source>Turns Right Make Up Light on</source>
+        <translation>接通右侧化妆灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1331"/>
+        <source>Right Make Up Light turn off</source>
+        <translation>关闭右侧化妆灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1332"/>
+        <source>Turns Right Make Up Light off</source>
+        <translation>关闭右侧化妆灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1338"/>
+        <source>Left Reading Lights turn on</source>
+        <translation>接通左侧阅读灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1339"/>
+        <source>Turns Left Reading Light on</source>
+        <translation>接通左侧阅读灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1342"/>
+        <source>Left Reading Light turn off</source>
+        <translation>关闭左侧阅读灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1343"/>
+        <source>Turns Left Reading Light off</source>
+        <translation>关闭左侧阅读灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1346"/>
+        <source>Right Reading Light turn on</source>
+        <translation>接通右侧阅读灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1347"/>
+        <source>Turns Right Reading Light on</source>
+        <translation>接通右侧阅读灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1350"/>
+        <source>Right Reading Light turn off</source>
+        <translation>关闭右侧阅读灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1351"/>
+        <source>Turns Right Reading Light off</source>
+        <translation>关闭右侧阅读灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1356"/>
+        <source>Right Drawer Open</source>
+        <translation>伸出右侧抽屉</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1357"/>
+        <source>Opens the Right Drawer</source>
+        <translation>伸出右侧抽屉</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1360"/>
+        <source>Right Drawer Close</source>
+        <translation>收回右侧抽屉</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1361"/>
+        <source>Closes the Right Drawer</source>
+        <translation>收回右侧抽屉</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1364"/>
+        <source>Left Drawer Open</source>
+        <translation>伸出左侧抽屉</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1365"/>
+        <source>Opens the Left Drawer</source>
+        <translation>伸出左侧抽屉</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1368"/>
+        <source>Left Drawer Close</source>
+        <translation>收回左侧抽屉</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1369"/>
+        <source>Closes the Left Drawer</source>
+        <translation>收回左侧抽屉</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1376"/>
+        <source>Air conditioner turn on</source>
+        <translation>打开空调</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1377"/>
+        <source>Turns on the Air Conditioner</source>
+        <translation>打开空调</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1380"/>
+        <source>Air conditioner turn off</source>
+        <translation>关闭空调</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1381"/>
+        <source>Turns off the Air Conditioner</source>
+        <translation>关闭空调</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1384"/>
+        <source>Air conditioner Degree Increase</source>
+        <translation>提高温度                          </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1385"/>
+        <source>Increases the heat degree of AC</source>
+        <translation>提高温度                          </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1388"/>
+        <source>Air conditioner Degree Decrease</source>
+        <translation>降低温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1389"/>
+        <source>Decreases the heat degree of AC</source>
+        <translation>降低温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1392"/>
+        <source>Air conditioner Fan Increase</source>
+        <translation>加大风量</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1393"/>
+        <source>Increases the Fan Speed of AC</source>
+        <translation>加大风量</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1396"/>
+        <source>Air conditioner Fan Decrease</source>
+        <translation>减小风量</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1397"/>
+        <source>Decreases the Fan Speed of AC</source>
+        <translation>减小风量</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1404"/>
+        <source>Fridge degree increase</source>
+        <translation>升高冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1405"/>
+        <source>Increases heat of Fridge</source>
+        <translation>升高冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1408"/>
+        <source>Fridge degree decrease</source>
+        <translation>降低冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1409"/>
+        <source>Decreases heat of Fridge</source>
+        <translation>降低冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1412"/>
+        <source>Front Fridge degree increase</source>
+        <translation>升高前置冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1413"/>
+        <source>Increases heat of Front Fridge</source>
+        <translation>升高前置冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1416"/>
+        <source>Front Fridge degree decrease</source>
+        <translation>降低前置冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1417"/>
+        <source>Decreases heat of Front Fridge</source>
+        <translation>降低前置冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1420"/>
+        <source>Rear Fridge degree increase</source>
+        <translation>升高后置冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1421"/>
+        <source>Increases heat of Rear Fridge</source>
+        <translation>升高后置冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1424"/>
+        <source>Rear Fridge degree decrease</source>
+        <translation>降低后置冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1425"/>
+        <source>Decreases heat of Rear Fridge</source>
+        <translation>降低后置冰箱温度</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1432"/>
+        <source>Bottles Open</source>
+        <translation>打开酒柜</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1433"/>
+        <source>Opens the Bottles</source>
+        <translation>打开酒柜</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1436"/>
+        <source>Bottles Close</source>
+        <translation>关闭酒柜</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1437"/>
+        <source>Closes the Bottles</source>
+        <translation>关闭酒柜</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1440"/>
+        <source>Glasses Open</source>
+        <translation>打开眼镜盒</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1441"/>
+        <source>Opens the Glasses</source>
+        <translation>打开眼镜盒</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1444"/>
+        <source>Glasses Close</source>
+        <translation>关闭眼镜盒</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1445"/>
+        <source>Closes the Glasses</source>
+        <translation>关闭眼镜盒</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1451"/>
+        <source>Radio Channel Change</source>
+        <translation>搜索电台</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1452"/>
+        <source>Changes the Radio Channel</source>
+        <translation>搜索电台</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1455"/>
+        <source>Radio Channel Forward</source>
+        <translation>向上搜索</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1456"/>
+        <source>Forwards the Radio Channel</source>
+        <translation>向上搜索</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1459"/>
+        <source>Radio Channel Backward</source>
+        <translation>向下搜索</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1460"/>
+        <source>Backwards the Radio Channel</source>
+        <translation>向下搜索</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1466"/>
+        <source>Roof Monitor Open</source>
+        <translation>打开头上显示器</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1467"/>
+        <source>Opens the Roof Monitor</source>
+        <translation>打开头上显示器</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1470"/>
+        <source>Roof Monitor Close</source>
+        <translation>关闭头上显示器</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1471"/>
+        <source>Closes the Roof Monitor</source>
+        <translation>关闭头上显示器</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1474"/>
+        <source>Rear TV Open</source>
+        <translation>打开后部电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1475"/>
+        <source>Opens the Rear TV</source>
+        <translation>打开后部电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1478"/>
+        <source>Rear TV Close</source>
+        <translation>关闭后部电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1479"/>
+        <source>Closes the Rear TV</source>
+        <translation>关闭后部电视</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1485"/>
+        <source>Bar Open</source>
+        <translation>打开酒吧</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1486"/>
+        <source>Opens the Bar</source>
+        <translation>打开酒吧</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1489"/>
+        <source>Bar Close</source>
+        <translation>关闭酒吧</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1490"/>
+        <source>Closes the Bar</source>
+        <translation>关闭酒吧</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1497"/>
+        <source>First seat back take one step forward</source>
+        <translation>第一座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1498"/>
+        <source>Takes First Seat back one step forward</source>
+        <translation>第一座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1501"/>
+        <source>First seat back take two step forward</source>
+        <translation>第一座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1502"/>
+        <source>Takes First Seat back two step forward</source>
+        <translation>第一座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1505"/>
+        <source>First seat back take last point forward</source>
+        <translation>第一座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1506"/>
+        <source>Takes First Seat back last point forward</source>
+        <translation>第一座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1509"/>
+        <source>First seat back take one step backward</source>
+        <translation>第一座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1510"/>
+        <source>Takes First Seat back one step backward</source>
+        <translation>第一座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1513"/>
+        <source>First seat back take two step backward</source>
+        <translation>第一座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1514"/>
+        <source>Takes First Seat back two step backward</source>
+        <translation>第一座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1517"/>
+        <source>First seat back take last point backward</source>
+        <translation>第一座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1518"/>
+        <source>Takes First Seat back last point backward</source>
+        <translation>第一座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1524"/>
+        <location filename="../SGlobal.qml" line="1551"/>
+        <source>First Seat take one step forward</source>
+        <translation>第一座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1525"/>
+        <location filename="../SGlobal.qml" line="1552"/>
+        <source>Takes First Seat one step forward</source>
+        <translation>第一座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1528"/>
+        <location filename="../SGlobal.qml" line="1555"/>
+        <source>First Seat take two step forward</source>
+        <translation>第一座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1529"/>
+        <location filename="../SGlobal.qml" line="1556"/>
+        <source>Takes First Seat two step forward</source>
+        <translation>第一座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1532"/>
+        <location filename="../SGlobal.qml" line="1559"/>
+        <source>First Seat take last point forward</source>
+        <translation>第一座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1533"/>
+        <location filename="../SGlobal.qml" line="1560"/>
+        <source>Takes First Seat last point forward</source>
+        <translation>第一座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1536"/>
+        <location filename="../SGlobal.qml" line="1563"/>
+        <source>First Seat take one step backward</source>
+        <translation>第一座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1537"/>
+        <location filename="../SGlobal.qml" line="1564"/>
+        <source>Takes First Seat one step backward</source>
+        <translation>第一座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1540"/>
+        <location filename="../SGlobal.qml" line="1567"/>
+        <source>First Seat take two step backward</source>
+        <translation>第一座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1541"/>
+        <location filename="../SGlobal.qml" line="1568"/>
+        <source>Takes First Seat two step backward</source>
+        <translation>第一座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1544"/>
+        <location filename="../SGlobal.qml" line="1571"/>
+        <source>First Seat take last point backward</source>
+        <translation>第一座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1545"/>
+        <location filename="../SGlobal.qml" line="1572"/>
+        <source>Takes First Seat last point backward</source>
+        <translation>第一座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1579"/>
+        <source>First Seat Head take one step forward</source>
+        <translation>第一座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1580"/>
+        <source>Takes First Seat Head one step forward</source>
+        <translation>第一座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1583"/>
+        <source>First Seat Head take two step forward</source>
+        <translation>第一座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1584"/>
+        <source>Takes First Seat Head two step forward</source>
+        <translation>第一座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1587"/>
+        <source>First Seat Head take last point forward</source>
+        <translation>第一座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1588"/>
+        <source>Takes First Seat Head last point forward</source>
+        <translation>第一座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1591"/>
+        <source>First Seat Head take one step backward</source>
+        <translation>第一座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1592"/>
+        <source>Takes First Seat Head one step backward</source>
+        <translation>第一座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1595"/>
+        <source>First Seat Head take two step backward</source>
+        <translation>第一座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1596"/>
+        <source>Takes First Seat Head two step backward</source>
+        <translation>第一座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1599"/>
+        <source>First Seat Head take last point backward</source>
+        <translation>第一座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1600"/>
+        <source>Takes First Seat Head last point backward</source>
+        <translation>第一座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1607"/>
+        <source>Second seat back take one step forward</source>
+        <translation>第二座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1608"/>
+        <source>Takes Second Seat back one step forward</source>
+        <translation>第二座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1611"/>
+        <source>Second seat back take two step forward</source>
+        <translation>第二座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1612"/>
+        <source>Takes Second Seat back two step forward</source>
+        <translation>第二座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1615"/>
+        <source>Second seat back take last point forward</source>
+        <translation>第二座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1616"/>
+        <source>Takes Second Seat back last point forward</source>
+        <translation>第二座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1619"/>
+        <source>Second seat back take one step backward</source>
+        <translation>第二座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1620"/>
+        <source>Takes Second Seat back one step backward</source>
+        <translation>第二座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1623"/>
+        <source>Second seat back take two step backward</source>
+        <translation>第二座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1624"/>
+        <source>Takes Second Seat back two step backward</source>
+        <translation>第二座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1627"/>
+        <source>Second seat back take last point backward</source>
+        <translation>第二座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1628"/>
+        <source>Takes Second Seat back last point backward</source>
+        <translation>第二座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1634"/>
+        <location filename="../SGlobal.qml" line="1661"/>
+        <source>Second Seat take one step forward</source>
+        <translation>第二座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1635"/>
+        <location filename="../SGlobal.qml" line="1662"/>
+        <source>Takes Second Seat one step forward</source>
+        <translation>第二座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1638"/>
+        <location filename="../SGlobal.qml" line="1665"/>
+        <source>Second Seat take two step forward</source>
+        <translation>第二座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1639"/>
+        <location filename="../SGlobal.qml" line="1666"/>
+        <source>Takes Second Seat two step forward</source>
+        <translation>第二座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1642"/>
+        <location filename="../SGlobal.qml" line="1669"/>
+        <source>Second Seat take last point forward</source>
+        <translation>第二座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1643"/>
+        <location filename="../SGlobal.qml" line="1670"/>
+        <source>Takes Second Seat last point forward</source>
+        <translation>第二座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1646"/>
+        <location filename="../SGlobal.qml" line="1673"/>
+        <source>Second Seat take one step backward</source>
+        <translation>第二座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1647"/>
+        <location filename="../SGlobal.qml" line="1674"/>
+        <source>Takes Second Seat one step backward</source>
+        <translation>第二座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1650"/>
+        <location filename="../SGlobal.qml" line="1677"/>
+        <source>Second Seat take two step backward</source>
+        <translation>第二座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1651"/>
+        <location filename="../SGlobal.qml" line="1678"/>
+        <source>Takes Second Seat two step backward</source>
+        <translation>第二座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1654"/>
+        <location filename="../SGlobal.qml" line="1681"/>
+        <source>Second Seat take last point backward</source>
+        <translation>第二座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1655"/>
+        <location filename="../SGlobal.qml" line="1682"/>
+        <source>Takes Second Seat last point backward</source>
+        <translation>第二座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1689"/>
+        <source>Second Seat Head take one step forward</source>
+        <translation>第二座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1690"/>
+        <source>Takes Second Seat Head one step forward</source>
+        <translation>第二座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1693"/>
+        <source>Second Seat Head take two step forward</source>
+        <translation>第二座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1694"/>
+        <source>Takes Second Seat Head two step forward</source>
+        <translation>第二座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1697"/>
+        <source>Second Seat Head take last point forward</source>
+        <translation>第二座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1698"/>
+        <source>Takes Second Seat Head last point forward</source>
+        <translation>第二座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1701"/>
+        <source>Second Seat Head take one step backward</source>
+        <translation>第二座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1702"/>
+        <source>Takes Second Seat Head one step backward</source>
+        <translation>第二座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1705"/>
+        <source>Second Seat Head take two step backward</source>
+        <translation>第二座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1706"/>
+        <source>Takes Second Seat Head two step backward</source>
+        <translation>第二座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1709"/>
+        <source>Second Seat Head take last point backward</source>
+        <translation>第二座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1710"/>
+        <source>Takes Second Seat Head last point backward</source>
+        <translation>第二座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1717"/>
+        <source>Third seat back take one step forward</source>
+        <translation>第三座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1718"/>
+        <source>Takes Third Seat back one step forward</source>
+        <translation>第三座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1721"/>
+        <source>Third seat back take two step forward</source>
+        <translation>第三座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1722"/>
+        <source>Takes Third Seat back two step forward</source>
+        <translation>第三座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1725"/>
+        <source>Third seat back take last point forward</source>
+        <translation>第三座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1726"/>
+        <source>Takes Third Seat back last point forward</source>
+        <translation>第三座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1729"/>
+        <source>Third seat back take one step backward</source>
+        <translation>第三座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1730"/>
+        <source>Takes Third Seat back one step backward</source>
+        <translation>第三座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1733"/>
+        <source>Third seat back take two step backward</source>
+        <translation>第三座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1734"/>
+        <source>Takes Third Seat back two step backward</source>
+        <translation>第三座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1737"/>
+        <source>Third seat back take last point backward</source>
+        <translation>第三座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1738"/>
+        <source>Takes Third Seat back last point backward</source>
+        <translation>第三座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1744"/>
+        <location filename="../SGlobal.qml" line="1771"/>
+        <source>Third Seat take one step forward</source>
+        <translation>第三座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1745"/>
+        <location filename="../SGlobal.qml" line="1772"/>
+        <source>Takes Third Seat one step forward</source>
+        <translation>第三座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1748"/>
+        <location filename="../SGlobal.qml" line="1775"/>
+        <source>Third Seat take two step forward</source>
+        <translation>第三座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1749"/>
+        <location filename="../SGlobal.qml" line="1776"/>
+        <source>Takes Third Seat two step forward</source>
+        <translation>第三座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1752"/>
+        <location filename="../SGlobal.qml" line="1779"/>
+        <source>Third Seat take last point forward</source>
+        <translation>第三座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1753"/>
+        <location filename="../SGlobal.qml" line="1780"/>
+        <source>Takes Third Seat last point forward</source>
+        <translation>第三座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1756"/>
+        <location filename="../SGlobal.qml" line="1783"/>
+        <source>Third Seat take one step backward</source>
+        <translation>第三座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1757"/>
+        <location filename="../SGlobal.qml" line="1784"/>
+        <source>Takes Third Seat one step backward</source>
+        <translation>第三座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1760"/>
+        <location filename="../SGlobal.qml" line="1787"/>
+        <source>Third Seat take two step backward</source>
+        <translation>第三座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1761"/>
+        <location filename="../SGlobal.qml" line="1788"/>
+        <source>Takes Third Seat two step backward</source>
+        <translation>第三座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1764"/>
+        <location filename="../SGlobal.qml" line="1791"/>
+        <source>Third Seat take last point backward</source>
+        <translation>第三座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1765"/>
+        <location filename="../SGlobal.qml" line="1792"/>
+        <source>Takes Third Seat last point backward</source>
+        <translation>第三座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1799"/>
+        <source>Third Seat Head take one step forward</source>
+        <translation>第三座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1800"/>
+        <source>Takes Third Seat Head one step forward</source>
+        <translation>第三座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1803"/>
+        <source>Third Seat Head take two step forward</source>
+        <translation>第三座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1804"/>
+        <source>Takes Third Seat Head two step forward</source>
+        <translation>第三座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1807"/>
+        <source>Third Seat Head take last point forward</source>
+        <translation>第三座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1808"/>
+        <source>Takes Third Seat Head last point forward</source>
+        <translation>第三座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1811"/>
+        <source>Third Seat Head take one step backward</source>
+        <translation>第三座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1812"/>
+        <source>Takes Third Seat Head one step backward</source>
+        <translation>第三座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1815"/>
+        <source>Third Seat Head take two step backward</source>
+        <translation>第三座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1816"/>
+        <source>Takes Third Seat Head two step backward</source>
+        <translation>第三座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1819"/>
+        <source>Third Seat Head take last point backward</source>
+        <translation>第三座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1820"/>
+        <source>Takes Third Seat Head last point backward</source>
+        <translation>第三座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1827"/>
+        <source>Fourth seat back take one step forward</source>
+        <translation>第四座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1828"/>
+        <source>Takes Fourth Seat back one step forward</source>
+        <translation>第四座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1831"/>
+        <source>Fourth seat back take two step forward</source>
+        <translation>第四座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1832"/>
+        <source>Takes Fourth Seat back two step forward</source>
+        <translation>第四座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1835"/>
+        <source>Fourth seat back take last point forward</source>
+        <translation>第四座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1836"/>
+        <source>Takes Fourth Seat back last point forward</source>
+        <translation>第四座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1839"/>
+        <source>Fourth seat back take one step backward</source>
+        <translation>第四座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1840"/>
+        <source>Takes Fourth Seat back one step backward</source>
+        <translation>第四座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1843"/>
+        <source>Fourth seat back take two step backward</source>
+        <translation>第四座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1844"/>
+        <source>Takes Fourth Seat back two step backward</source>
+        <translation>第四座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1847"/>
+        <source>Fourth seat back take last point backward</source>
+        <translation>第四座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1848"/>
+        <source>Takes Fourth Seat back last point backward</source>
+        <translation>第四座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1854"/>
+        <location filename="../SGlobal.qml" line="1881"/>
+        <source>Fourth Seat take one step forward</source>
+        <translation>第四座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1855"/>
+        <location filename="../SGlobal.qml" line="1882"/>
+        <source>Takes Fourth Seat one step forward</source>
+        <translation>第四座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1858"/>
+        <location filename="../SGlobal.qml" line="1885"/>
+        <source>Fourth Seat take two step forward</source>
+        <translation>第四座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1859"/>
+        <location filename="../SGlobal.qml" line="1886"/>
+        <source>Takes Fourth Seat two step forward</source>
+        <translation>第四座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1862"/>
+        <location filename="../SGlobal.qml" line="1889"/>
+        <source>Fourth Seat take last point forward</source>
+        <translation>第四座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1863"/>
+        <location filename="../SGlobal.qml" line="1890"/>
+        <source>Takes Fourth Seat last point forward</source>
+        <translation>第四座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1866"/>
+        <location filename="../SGlobal.qml" line="1893"/>
+        <source>Fourth Seat take one step backward</source>
+        <translation>第四座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1867"/>
+        <location filename="../SGlobal.qml" line="1894"/>
+        <source>Takes Fourth Seat one step backward</source>
+        <translation>第四座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1870"/>
+        <location filename="../SGlobal.qml" line="1897"/>
+        <source>Fourth Seat take two step backward</source>
+        <translation>第四座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1871"/>
+        <location filename="../SGlobal.qml" line="1898"/>
+        <source>Takes Fourth Seat two step backward</source>
+        <translation>第四座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1874"/>
+        <location filename="../SGlobal.qml" line="1901"/>
+        <source>Fourth Seat take last point backward</source>
+        <translation>第四座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1875"/>
+        <location filename="../SGlobal.qml" line="1902"/>
+        <source>Takes Fourth Seat last point backward</source>
+        <translation>第四座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1909"/>
+        <source>Fourth Seat Head take one step forward</source>
+        <translation>第四座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1910"/>
+        <source>Takes Fourth Seat Head one step forward</source>
+        <translation>第四座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1913"/>
+        <source>Fourth Seat Head take two step forward</source>
+        <translation>第四座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1914"/>
+        <source>Takes Fourth Seat Head two step forward</source>
+        <translation>第四座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1917"/>
+        <source>Fourth Seat Head take last point forward</source>
+        <translation>第四座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1918"/>
+        <source>Takes Fourth Seat Head last point forward</source>
+        <translation>第四座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1921"/>
+        <source>Fourth Seat Head take one step backward</source>
+        <translation>第四座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1922"/>
+        <source>Takes Fourth Seat Head one step backward</source>
+        <translation>第四座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1925"/>
+        <source>Fourth Seat Head take two step backward</source>
+        <translation>第四座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1926"/>
+        <source>Takes Fourth Seat Head two step backward</source>
+        <translation>第四座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1929"/>
+        <source>Fourth Seat Head take last point backward</source>
+        <translation>第四座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1930"/>
+        <source>Takes Fourth Seat Head last point backward</source>
+        <translation>第四座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1937"/>
+        <source>Fifth seat back take one step forward</source>
+        <translation>第五座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1938"/>
+        <source>Takes Fifth Seat back one step forward</source>
+        <translation>第五座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1941"/>
+        <source>Fifth seat back take two step forward</source>
+        <translation>第五座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1942"/>
+        <source>Takes Fifth Seat back two step forward</source>
+        <translation>第五座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1945"/>
+        <source>Fifth seat back take last point forward</source>
+        <translation>第五座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1946"/>
+        <source>Takes Fifth Seat back last point forward</source>
+        <translation>第五座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1949"/>
+        <source>Fifth seat back take one step backward</source>
+        <translation>第五座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1950"/>
+        <source>Takes Fifth Seat back one step backward</source>
+        <translation>第五座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1953"/>
+        <source>Fifth seat back take two step backward</source>
+        <translation>第五座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1954"/>
+        <source>Takes Fifth Seat back two step backward</source>
+        <translation>第五座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1957"/>
+        <source>Fifth seat back take last point backward</source>
+        <translation>第五座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1958"/>
+        <source>Takes Fifth Seat back last point backward</source>
+        <translation>第五座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1964"/>
+        <location filename="../SGlobal.qml" line="1991"/>
+        <source>Fifth Seat take one step forward</source>
+        <translation>第五座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1965"/>
+        <location filename="../SGlobal.qml" line="1992"/>
+        <source>Takes Fifth Seat one step forward</source>
+        <translation>第五座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1968"/>
+        <location filename="../SGlobal.qml" line="1995"/>
+        <source>Fifth Seat take two step forward</source>
+        <translation>第五座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1969"/>
+        <location filename="../SGlobal.qml" line="1996"/>
+        <source>Takes Fifth Seat two step forward</source>
+        <translation>第五座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1972"/>
+        <location filename="../SGlobal.qml" line="1999"/>
+        <source>Fifth Seat take last point forward</source>
+        <translation>第五座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1973"/>
+        <location filename="../SGlobal.qml" line="2000"/>
+        <source>Takes Fifth Seat last point forward</source>
+        <translation>第五座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1976"/>
+        <location filename="../SGlobal.qml" line="2003"/>
+        <source>Fifth Seat take one step backward</source>
+        <translation>第五座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1977"/>
+        <location filename="../SGlobal.qml" line="2004"/>
+        <source>Takes Fifth Seat one step backward</source>
+        <translation>第五座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1980"/>
+        <location filename="../SGlobal.qml" line="2007"/>
+        <source>Fifth Seat take two step backward</source>
+        <translation>第五座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1981"/>
+        <location filename="../SGlobal.qml" line="2008"/>
+        <source>Takes Fifth Seat two step backward</source>
+        <translation>第五座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1984"/>
+        <location filename="../SGlobal.qml" line="2011"/>
+        <source>Fifth Seat take last point backward</source>
+        <translation>第五座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="1985"/>
+        <location filename="../SGlobal.qml" line="2012"/>
+        <source>Takes Fifth Seat last point backward</source>
+        <translation>第五座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2019"/>
+        <source>Fifth Seat Head take one step forward</source>
+        <translation>第五座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2020"/>
+        <source>Takes Fifth Seat Head one step forward</source>
+        <translation>第五座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2023"/>
+        <source>Fifth Seat Head take two step forward</source>
+        <translation>第五座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2024"/>
+        <source>Takes Fifth Seat Head two step forward</source>
+        <translation>第五座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2027"/>
+        <source>Fifth Seat Head take last point forward</source>
+        <translation>第五座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2028"/>
+        <source>Takes Fifth Seat Head last point forward</source>
+        <translation>第五座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2031"/>
+        <source>Fifth Seat Head take one step backward</source>
+        <translation>第五座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2032"/>
+        <source>Takes Fifth Seat Head one step backward</source>
+        <translation>第五座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2035"/>
+        <source>Fifth Seat Head take two step backward</source>
+        <translation>第五座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2036"/>
+        <source>Takes Fifth Seat Head two step backward</source>
+        <translation>第五座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2039"/>
+        <source>Fifth Seat Head take last point backward</source>
+        <translation>第五座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2040"/>
+        <source>Takes Fifth Seat Head last point backward</source>
+        <translation>第五座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2047"/>
+        <source>Sixth seat back take one step forward</source>
+        <translation>第六座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2048"/>
+        <source>Takes Sixth Seat back one step forward</source>
+        <translation>第六座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2051"/>
+        <source>Sixth seat back take two step forward</source>
+        <translation>第六座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2052"/>
+        <source>Takes Sixth Seat back two step forward</source>
+        <translation>第六座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2055"/>
+        <source>Sixth seat back take last point forward</source>
+        <translation>第六座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2056"/>
+        <source>Takes Sixth Seat back last point forward</source>
+        <translation>第六座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2059"/>
+        <source>Sixth seat back take one step backward</source>
+        <translation>第六座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2060"/>
+        <source>Takes Sixth Seat back one step backward</source>
+        <translation>第六座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2063"/>
+        <source>Sixth seat back take two step backward</source>
+        <translation>第六座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2064"/>
+        <source>Takes Sixth Seat back two step backward</source>
+        <translation>第六座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2067"/>
+        <source>Sixth seat back take last point backward</source>
+        <translation>第六座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2068"/>
+        <source>Takes Sixth Seat back last point backward</source>
+        <translation>第六座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2074"/>
+        <location filename="../SGlobal.qml" line="2101"/>
+        <source>Sixth Seat take one step forward</source>
+        <translation>第六座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2075"/>
+        <location filename="../SGlobal.qml" line="2102"/>
+        <source>Takes Sixth Seat one step forward</source>
+        <translation>第六座椅向前一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2078"/>
+        <location filename="../SGlobal.qml" line="2105"/>
+        <source>Sixth Seat take two step forward</source>
+        <translation>第六座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2079"/>
+        <location filename="../SGlobal.qml" line="2106"/>
+        <source>Takes Sixth Seat two step forward</source>
+        <translation>第六座椅向前两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2082"/>
+        <location filename="../SGlobal.qml" line="2109"/>
+        <source>Sixth Seat take last point forward</source>
+        <translation>第六座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2083"/>
+        <location filename="../SGlobal.qml" line="2110"/>
+        <source>Takes Sixth Seat last point forward</source>
+        <translation>第六座椅向前到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2086"/>
+        <location filename="../SGlobal.qml" line="2113"/>
+        <source>Sixth Seat take one step backward</source>
+        <translation>第六座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2087"/>
+        <location filename="../SGlobal.qml" line="2114"/>
+        <source>Takes Sixth Seat one step backward</source>
+        <translation>第六座椅向后一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2090"/>
+        <location filename="../SGlobal.qml" line="2117"/>
+        <source>Sixth Seat take two step backward</source>
+        <translation>第六座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2091"/>
+        <location filename="../SGlobal.qml" line="2118"/>
+        <source>Takes Sixth Seat two step backward</source>
+        <translation>第六座椅向后两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2094"/>
+        <location filename="../SGlobal.qml" line="2121"/>
+        <source>Sixth Seat take last point backward</source>
+        <translation>第六座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2095"/>
+        <location filename="../SGlobal.qml" line="2122"/>
+        <source>Takes Sixth Seat last point backward</source>
+        <translation>第六座椅向后到位 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2129"/>
+        <source>Sixth Seat Head take one step forward</source>
+        <translation>第六座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2130"/>
+        <source>Takes Sixth Seat Head one step forward</source>
+        <translation>第六座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2133"/>
+        <source>Sixth Seat Head take two step forward</source>
+        <translation>第六座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2134"/>
+        <source>Takes Sixth Seat Head two step forward</source>
+        <translation>第六座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2137"/>
+        <source>Sixth Seat Head take last point forward</source>
+        <translation>第六座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2138"/>
+        <source>Takes Sixth Seat Head last point forward</source>
+        <translation>第六座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2141"/>
+        <source>Sixth Seat Head take one step backward</source>
+        <translation>第六座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2142"/>
+        <source>Takes Sixth Seat Head one step backward</source>
+        <translation>第六座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2145"/>
+        <source>Sixth Seat Head take two step backward</source>
+        <translation>第六座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2146"/>
+        <source>Takes Sixth Seat Head two step backward</source>
+        <translation>第六座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2149"/>
+        <source>Sixth Seat Head take last point backward</source>
+        <translation>第六座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2150"/>
+        <source>Takes Sixth Seat Head last point backward</source>
+        <translation>第六座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2157"/>
+        <source>Luggage Curtain Open</source>
+        <translation>打开行李箱窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2158"/>
+        <source>Opens the Luggage Curtain</source>
+        <translation>打开行李箱窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2161"/>
+        <source>Luggage Curtain Close</source>
+        <translation>关闭行李箱窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2162"/>
+        <source>Closes the Luggage Curtain</source>
+        <translation>关闭行李箱窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2165"/>
+        <source>All Curtain Open</source>
+        <translation>打开全部窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2166"/>
+        <source>Opens all the Curtain</source>
+        <translation>打开全部窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2169"/>
+        <source>All Curtain Close</source>
+        <translation>关闭全部窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2170"/>
+        <source>Closes all the Curtain</source>
+        <translation>关闭全部窗帘</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2177"/>
+        <source>Take the first seat in sleep mode</source>
+        <translation>第一座椅睡眠模式 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2178"/>
+        <source>Takes the first seat in sleep mode</source>
+        <translation>第一座椅睡眠模式 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2181"/>
+        <source>Take the second seat in sleep mode</source>
+        <translation>第二座椅睡眠模式 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2182"/>
+        <source>Takes the second seat in sleep mode</source>
+        <translation>第二座椅睡眠模式 </translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2185"/>
+        <source>Gather first seat</source>
+        <translation>第一座椅回位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2186"/>
+        <source>Gathers first seat</source>
+        <translation>第一座椅回位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2189"/>
+        <source>Gather second seat</source>
+        <translation>第二座椅回位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2190"/>
+        <source>Gathers second seat</source>
+        <translation>第二座椅回位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2193"/>
+        <source>Take cinema mode</source>
+        <translation>进入电影院模式</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2194"/>
+        <source>Takes cinema mode</source>
+        <translation>进入电影院模式</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2197"/>
+        <source>Take conference mode</source>
+        <translation>进入会议模式</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2198"/>
+        <source>Takes conference mode</source>
+        <translation>进入会议模式</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2201"/>
+        <source>All tables open</source>
+        <translation>打开所有的桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2202"/>
+        <source>Opens all tables</source>
+        <translation>打开所有的桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2205"/>
+        <source>All tables close</source>
+        <translation>关闭所有的桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2206"/>
+        <source>Closes all tables</source>
+        <translation>关闭所有的桌板</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2209"/>
+        <source>Gather all seats</source>
+        <translation>收集所有座位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2210"/>
+        <source>Gathers all seats</source>
+        <translation>收集所有座位</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2216"/>
+        <source>In lights turn on</source>
+        <translation>打开室内灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2217"/>
+        <source>Turns on in lights</source>
+        <translation>打开室内灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2220"/>
+        <source>In lights turn off</source>
+        <translation>在灯光下关闭</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2221"/>
+        <source>Turns off in lights</source>
+        <translation>在灯光下关闭</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2224"/>
+        <source>Side lights turn on</source>
+        <translation>打开侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2225"/>
+        <source>Turns on Side lights</source>
+        <translation>打开侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2229"/>
+        <source>Turns off Side lights</source>
+        <translation>关掉侧灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2232"/>
+        <source>Ceiling lights turn on</source>
+        <translation>打开天花板灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2233"/>
+        <source>Turns on Ceiling lights</source>
+        <translation>打开天花板灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2237"/>
+        <source>Turns off Ceiling lights</source>
+        <translation>关掉天花板灯</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2240"/>
+        <source>System off</source>
+        <translation>系统开关</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2241"/>
+        <source>Turns the System off</source>
+        <translation>系统开关</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2246"/>
+        <source>Return to The Homepage</source>
+        <translation>返回主页</translation>
+    </message>
+    <message>
+        <location filename="../SGlobal.qml" line="2247"/>
+        <source>Returns to The Homepage</source>
+        <translation>返回主页</translation>
     </message>
 </context>
 <context>
@@ -1881,12 +4701,12 @@
     <name>Tables</name>
     <message>
         <source>TABLES</source>
-        <translation>表</translation>
+        <translation type="vanished">表</translation>
     </message>
     <message>
         <location filename="../Pages/Controls/Tables.qml" line="9"/>
         <source>Tables</source>
-        <translation type="unfinished">表</translation>
+        <translation>表</translation>
     </message>
     <message>
         <location filename="../Pages/Controls/Tables.qml" line="49"/>
@@ -1897,13 +4717,13 @@
         <location filename="../Pages/Controls/Tables.qml" line="86"/>
         <location filename="../Pages/Controls/Tables.qml" line="193"/>
         <source>Open</source>
-        <translation type="unfinished">打开</translation>
+        <translation>打开</translation>
     </message>
     <message>
         <location filename="../Pages/Controls/Tables.qml" line="116"/>
         <location filename="../Pages/Controls/Tables.qml" line="223"/>
         <source>Close</source>
-        <translation type="unfinished">关闭</translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <location filename="../Pages/Controls/Tables.qml" line="156"/>
@@ -2131,2832 +4951,2210 @@
         <translation>autovip</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="189"/>
         <source>First table open</source>
-        <translation>弹出第一桌板</translation>
+        <translation type="vanished">弹出第一桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="190"/>
         <source>Opens the First Table</source>
-        <translation>弹出第一桌板</translation>
+        <translation type="vanished">弹出第一桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="193"/>
         <source>First table close</source>
-        <translation>收回第一桌板</translation>
+        <translation type="vanished">收回第一桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="194"/>
         <source>Closes the First Table</source>
-        <translation>收回第一桌板</translation>
+        <translation type="vanished">收回第一桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="197"/>
         <source>Second table open</source>
-        <translation>弹出第二桌板</translation>
+        <translation type="vanished">弹出第二桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="198"/>
         <source>Opens the Second Table</source>
-        <translation>弹出第二桌板</translation>
+        <translation type="vanished">弹出第二桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="201"/>
         <source>Second table close</source>
-        <translation>收回第二桌板</translation>
+        <translation type="vanished">收回第二桌板</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="202"/>
         <source>Closes the Second Table</source>
-        <translation>收回第二桌板</translation>
+        <translation type="vanished">收回第二桌板</translation>
+    </message>
+    <message>
+        <source>Third table open</source>
+        <translation type="vanished">弹出第三桌板</translation>
+    </message>
+    <message>
+        <source>Opens the Third Table</source>
+        <translation type="vanished">弹出第三桌板</translation>
+    </message>
+    <message>
+        <source>Third table close</source>
+        <translation type="vanished">收回第三桌板</translation>
+    </message>
+    <message>
+        <source>Closes the Third Table</source>
+        <translation type="vanished">收回第三桌板</translation>
+    </message>
+    <message>
+        <source>Fourth table open</source>
+        <translation type="vanished">弹出第四桌板</translation>
+    </message>
+    <message>
+        <source>Opens the Fourth Table</source>
+        <translation type="vanished">弹出第四桌板</translation>
+    </message>
+    <message>
+        <source>Fourth table close</source>
+        <translation type="vanished">收回第四桌板</translation>
+    </message>
+    <message>
+        <source>Closes the Fourth Table</source>
+        <translation type="vanished">收回第四桌板</translation>
+    </message>
+    <message>
+        <source>Fifth table open</source>
+        <translation type="vanished">弹出第五桌板</translation>
+    </message>
+    <message>
+        <source>Opens the Fifth Table</source>
+        <translation type="vanished">弹出第五桌板</translation>
+    </message>
+    <message>
+        <source>Fifth table close</source>
+        <translation type="vanished">收回第五桌板</translation>
+    </message>
+    <message>
+        <source>Closes the Fifth Table</source>
+        <translation type="vanished">收回第五桌板</translation>
+    </message>
+    <message>
+        <source>Sixth table open</source>
+        <translation type="vanished">弹出第六桌板</translation>
+    </message>
+    <message>
+        <source>Opens the Sixth Table</source>
+        <translation type="vanished">弹出第六桌板</translation>
+    </message>
+    <message>
+        <source>Sixth table close</source>
+        <translation type="vanished">收回第六桌板</translation>
+    </message>
+    <message>
+        <source>Closes the Sixth Table</source>
+        <translation type="vanished">收回第六桌板</translation>
+    </message>
+    <message>
+        <source>Left table open</source>
+        <translation type="vanished">弹出左侧桌板</translation>
+    </message>
+    <message>
+        <source>Opens the Left Table</source>
+        <translation type="vanished">弹出左侧桌板</translation>
+    </message>
+    <message>
+        <source>Left table close</source>
+        <translation type="vanished">收回左侧桌板</translation>
+    </message>
+    <message>
+        <source>Closes the Left Table</source>
+        <translation type="vanished">收回左侧桌板</translation>
+    </message>
+    <message>
+        <source>Right table open</source>
+        <translation type="vanished">弹出右侧桌板</translation>
+    </message>
+    <message>
+        <source>Opens the Right Table</source>
+        <translation type="vanished">弹出右侧桌板</translation>
+    </message>
+    <message>
+        <source>Right table close</source>
+        <translation type="vanished">收回右侧桌板</translation>
+    </message>
+    <message>
+        <source>Closes the Right Table</source>
+        <translation type="vanished">收回右侧桌板</translation>
+    </message>
+    <message>
+        <source>First seat footrest open</source>
+        <translation type="vanished">伸出第一座椅腿托</translation>
+    </message>
+    <message>
+        <source>Opens the First seat footrest</source>
+        <translation type="vanished">伸出第一座椅腿托</translation>
+    </message>
+    <message>
+        <source>First seat footrest close</source>
+        <translation type="vanished">收回第一座椅腿托</translation>
+    </message>
+    <message>
+        <source>Closes the First seat footrest</source>
+        <translation type="vanished">收回第一座椅腿托</translation>
+    </message>
+    <message>
+        <source>Second seat footrest open</source>
+        <translation type="vanished">伸出第二座椅腿托</translation>
+    </message>
+    <message>
+        <source>Opens the Second seat footrest</source>
+        <translation type="vanished">伸出第二座椅腿托</translation>
+    </message>
+    <message>
+        <source>Second seat footrest close</source>
+        <translation type="vanished">收回第二座椅腿托</translation>
+    </message>
+    <message>
+        <source>Closes the Second seat footrest</source>
+        <translation type="vanished">收回第二座椅腿托</translation>
+    </message>
+    <message>
+        <source>Third seat footrest open</source>
+        <translation type="vanished">伸出第三座椅腿托</translation>
+    </message>
+    <message>
+        <source>Opens the Third seat footrest</source>
+        <translation type="vanished">伸出第三座椅腿托</translation>
+    </message>
+    <message>
+        <source>Third seat footrest close</source>
+        <translation type="vanished">收回第三座椅腿托</translation>
+    </message>
+    <message>
+        <source>Closes the Third seat footrest</source>
+        <translation type="vanished">收回第三座椅腿托</translation>
+    </message>
+    <message>
+        <source>Fourth seat footrest open</source>
+        <translation type="vanished">伸出第四座椅腿托</translation>
+    </message>
+    <message>
+        <source>Opens the Fourth seat footrest</source>
+        <translation type="vanished">伸出第四座椅腿托</translation>
+    </message>
+    <message>
+        <source>Fourth seat footrest close</source>
+        <translation type="vanished">收回第四座椅腿托</translation>
+    </message>
+    <message>
+        <source>Closes the Fourth seat footrest</source>
+        <translation type="vanished">收回第四座椅腿托</translation>
+    </message>
+    <message>
+        <source>Fifth seat footrest open</source>
+        <translation type="vanished">伸出第五座椅腿托</translation>
+    </message>
+    <message>
+        <source>Opens the Fifth seat footrest</source>
+        <translation type="vanished">伸出第五座椅腿托</translation>
+    </message>
+    <message>
+        <source>Fifth seat footrest close</source>
+        <translation type="vanished">收回第五座椅腿托</translation>
+    </message>
+    <message>
+        <source>Closes the Fifth seat footrest</source>
+        <translation type="vanished">收回第五座椅腿托</translation>
+    </message>
+    <message>
+        <source>Sixth seat footrest open</source>
+        <translation type="vanished">伸出第六座椅腿托</translation>
+    </message>
+    <message>
+        <source>Opens the Sixth seat footrest</source>
+        <translation type="vanished">伸出第六座椅腿托</translation>
+    </message>
+    <message>
+        <source>Sixth seat footrest close</source>
+        <translation type="vanished">收回第六座椅腿托</translation>
+    </message>
+    <message>
+        <source>Closes the Sixth seat footrest</source>
+        <translation type="vanished">收回第六座椅腿托</translation>
+    </message>
+    <message>
+        <source>Right seat footrest open</source>
+        <translation type="vanished">伸出右侧座椅腿托</translation>
+    </message>
+    <message>
+        <source>Opens the Right seat footrest</source>
+        <translation type="vanished">伸出右侧座椅腿托</translation>
+    </message>
+    <message>
+        <source>Right seat footrest close</source>
+        <translation type="vanished">收回右侧座椅腿托</translation>
+    </message>
+    <message>
+        <source>Closes the Right seat footrest</source>
+        <translation type="vanished">收回右侧座椅腿托</translation>
+    </message>
+    <message>
+        <source>Left seat footrest open</source>
+        <translation type="vanished">收回第六座椅腿托</translation>
+    </message>
+    <message>
+        <source>Opens the Left seat footrest</source>
+        <translation type="vanished">收回第六座椅腿托</translation>
+    </message>
+    <message>
+        <source>Left seat footrest close</source>
+        <translation type="vanished">收回左侧座椅腿托</translation>
+    </message>
+    <message>
+        <source>Closes the Left seat footrest</source>
+        <translation type="vanished">收回左侧座椅腿托</translation>
+    </message>
+    <message>
+        <source>First Curtain open</source>
+        <translation type="vanished">打开第一窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the First Curtain</source>
+        <translation type="vanished">打开第一窗帘</translation>
+    </message>
+    <message>
+        <source>First Curtain close</source>
+        <translation type="vanished">关闭第一窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the First Curtain</source>
+        <translation type="vanished">关闭第一窗帘</translation>
+    </message>
+    <message>
+        <source>Second Curtain open</source>
+        <translation type="vanished">打开第二窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the Second Curtain</source>
+        <translation type="vanished">打开第二窗帘</translation>
+    </message>
+    <message>
+        <source>Second Curtain close</source>
+        <translation type="vanished">关闭第二窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the Second Curtain</source>
+        <translation type="vanished">关闭第二窗帘</translation>
+    </message>
+    <message>
+        <source>Third Curtain open</source>
+        <translation type="vanished">打开第三窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the Third Curtain</source>
+        <translation type="vanished">打开第三窗帘</translation>
+    </message>
+    <message>
+        <source>Third Curtain close</source>
+        <translation type="vanished">关闭第三窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the Third Curtain</source>
+        <translation type="vanished">关闭第三窗帘</translation>
+    </message>
+    <message>
+        <source>Fourth Curtain open</source>
+        <translation type="vanished">打开第四窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the Fourth Curtain</source>
+        <translation type="vanished">打开第四窗帘</translation>
+    </message>
+    <message>
+        <source>Fourth Curtain close</source>
+        <translation type="vanished">关闭第四窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the Fourth Curtain</source>
+        <translation type="vanished">关闭第四窗帘</translation>
+    </message>
+    <message>
+        <source>Fifth Curtain open</source>
+        <translation type="vanished">打开第五窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the Fifth Curtain</source>
+        <translation type="vanished">打开第五窗帘</translation>
+    </message>
+    <message>
+        <source>Fifth Curtain close</source>
+        <translation type="vanished">关闭第五窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the Fifth Curtain</source>
+        <translation type="vanished">关闭第五窗帘</translation>
+    </message>
+    <message>
+        <source>Sixth Curtain open</source>
+        <translation type="vanished">打开第六窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the Sixth Curtain</source>
+        <translation type="vanished">打开第六窗帘</translation>
+    </message>
+    <message>
+        <source>Sixth Curtain close</source>
+        <translation type="vanished">关闭第六窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the Sixth Curtain</source>
+        <translation type="vanished">关闭第六窗帘</translation>
+    </message>
+    <message>
+        <source>Right Curtain open</source>
+        <translation type="vanished">打开右侧窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the Right Curtain</source>
+        <translation type="vanished">打开右侧窗帘</translation>
+    </message>
+    <message>
+        <source>Right Curtain close</source>
+        <translation type="vanished">关闭右侧窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the Right Curtain</source>
+        <translation type="vanished">关闭右侧窗帘</translation>
+    </message>
+    <message>
+        <source>Left Curtain open</source>
+        <translation type="vanished">打开左侧窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the Left Curtain</source>
+        <translation type="vanished">打开左侧窗帘</translation>
+    </message>
+    <message>
+        <source>Left Curtain close</source>
+        <translation type="vanished">关闭左侧窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the Left Curtain</source>
+        <translation type="vanished">关闭左侧窗帘</translation>
+    </message>
+    <message>
+        <source>First Seat Massage open</source>
+        <translation type="vanished">打开第一座椅按摩</translation>
+    </message>
+    <message>
+        <source>Opens the First Seat Massage</source>
+        <translation type="vanished">打开第一座椅按摩</translation>
+    </message>
+    <message>
+        <source>First Seat Massage close</source>
+        <translation type="vanished">关闭第一座椅按摩</translation>
+    </message>
+    <message>
+        <source>Closes the First Seat Massage</source>
+        <translation type="vanished">关闭第一座椅按摩</translation>
+    </message>
+    <message>
+        <source>Second Seat Massage open</source>
+        <translation type="vanished">打开第二座椅按摩</translation>
+    </message>
+    <message>
+        <source>Opens the Second Seat Massage</source>
+        <translation type="vanished">打开第二座椅按摩</translation>
+    </message>
+    <message>
+        <source>Second Seat Massage close</source>
+        <translation type="vanished">关闭第二座椅按摩</translation>
+    </message>
+    <message>
+        <source>Closes the Second Seat Massage</source>
+        <translation type="vanished">关闭第二座椅按摩</translation>
+    </message>
+    <message>
+        <source>Third Seat Massage open</source>
+        <translation type="vanished">打开第三座椅按摩</translation>
+    </message>
+    <message>
+        <source>Opens the Third Seat Massage</source>
+        <translation type="vanished">打开第三座椅按摩</translation>
+    </message>
+    <message>
+        <source>Third Seat Massage close</source>
+        <translation type="vanished">关闭第三座椅按摩</translation>
+    </message>
+    <message>
+        <source>Closes the Third Seat Massage</source>
+        <translation type="vanished">关闭第三座椅按摩</translation>
+    </message>
+    <message>
+        <source>Fourth Seat Massage open</source>
+        <translation type="vanished">打开第四座椅按摩</translation>
+    </message>
+    <message>
+        <source>Opens the Fourth Seat Massage</source>
+        <translation type="vanished">打开第四座椅按摩</translation>
+    </message>
+    <message>
+        <source>Fourth Seat Massage close</source>
+        <translation type="vanished">关闭第四座椅按摩</translation>
+    </message>
+    <message>
+        <source>Closes the Fourth Seat Massage</source>
+        <translation type="vanished">关闭第四座椅按摩</translation>
+    </message>
+    <message>
+        <source>Fifth Seat Massage open</source>
+        <translation type="vanished">打开第五座椅按摩</translation>
+    </message>
+    <message>
+        <source>Opens the Fifth Seat Massage</source>
+        <translation type="vanished">打开第五座椅按摩</translation>
+    </message>
+    <message>
+        <source>Fifth Seat Massage close</source>
+        <translation type="vanished">关闭第五座椅按摩</translation>
+    </message>
+    <message>
+        <source>Closes the Fifth Seat Massage</source>
+        <translation type="vanished">关闭第五座椅按摩</translation>
+    </message>
+    <message>
+        <source>Sixth Seat Massage open</source>
+        <translation type="vanished">打开第六座椅按摩</translation>
+    </message>
+    <message>
+        <source>Opens the Sixth Seat Massage</source>
+        <translation type="vanished">打开第六座椅按摩</translation>
+    </message>
+    <message>
+        <source>Sixth Seat Massage close</source>
+        <translation type="vanished">关闭第六座椅按摩</translation>
+    </message>
+    <message>
+        <source>Closes the Sixth Seat Massage</source>
+        <translation type="vanished">关闭第六座椅按摩</translation>
+    </message>
+    <message>
+        <source>Right Seat Massage open</source>
+        <translation type="vanished">打开右侧座椅按摩</translation>
+    </message>
+    <message>
+        <source>Opens the Right Seat Massage</source>
+        <translation type="vanished">打开右侧座椅按摩</translation>
+    </message>
+    <message>
+        <source>Right Seat Massage close</source>
+        <translation type="vanished">关闭右侧座椅按摩</translation>
+    </message>
+    <message>
+        <source>Closes the Right Seat Massage</source>
+        <translation type="vanished">关闭右侧座椅按摩</translation>
+    </message>
+    <message>
+        <source>Left Seat Massage open</source>
+        <translation type="vanished">打开左侧座椅按摩</translation>
+    </message>
+    <message>
+        <source>Opens the Left Seat Massage</source>
+        <translation type="vanished">打开左侧座椅按摩</translation>
+    </message>
+    <message>
+        <source>Left Seat Massage close</source>
+        <translation type="vanished">关闭左侧座椅按摩</translation>
+    </message>
+    <message>
+        <source>Closes the Left Seat Massage</source>
+        <translation type="vanished">关闭左侧座椅按摩</translation>
+    </message>
+    <message>
+        <source>Nespresso open</source>
+        <translation type="vanished">伸出咖啡机</translation>
+    </message>
+    <message>
+        <source>Opens the Nespresso</source>
+        <translation type="vanished">伸出咖啡机</translation>
+    </message>
+    <message>
+        <source>Nespresso close</source>
+        <translation type="vanished">收回咖啡机</translation>
+    </message>
+    <message>
+        <source>Closes the Nespresso</source>
+        <translation type="vanished">收回咖啡机</translation>
+    </message>
+    <message>
+        <source>Front Nespresso open</source>
+        <translation type="vanished">伸出前咖啡机</translation>
+    </message>
+    <message>
+        <source>Opens the Front Nespresso</source>
+        <translation type="vanished">伸出前咖啡机</translation>
+    </message>
+    <message>
+        <source>Front Nespresso close</source>
+        <translation type="vanished">收回前咖啡机</translation>
+    </message>
+    <message>
+        <source>Closes the Front Nespresso</source>
+        <translation type="vanished">收回前咖啡机</translation>
+    </message>
+    <message>
+        <source>Rear Nespresso open</source>
+        <translation type="vanished">伸出后咖啡机</translation>
+    </message>
+    <message>
+        <source>Opens the Rear Nespresso</source>
+        <translation type="vanished">伸出后咖啡机</translation>
+    </message>
+    <message>
+        <source>Rear Nespresso close</source>
+        <translation type="vanished">收回后咖啡机</translation>
+    </message>
+    <message>
+        <source>Closes the Rear Nespresso</source>
+        <translation type="vanished">收回后咖啡机</translation>
+    </message>
+    <message>
+        <source>Door open</source>
+        <translation type="vanished">打开车门</translation>
+    </message>
+    <message>
+        <source>Opens the Door</source>
+        <translation type="vanished">打开车门</translation>
+    </message>
+    <message>
+        <source>Door close</source>
+        <translation type="vanished">关闭车门</translation>
+    </message>
+    <message>
+        <source>Closes the Door</source>
+        <translation type="vanished">关闭车门</translation>
+    </message>
+    <message>
+        <source>Right Door open</source>
+        <translation type="vanished">打开右车门</translation>
+    </message>
+    <message>
+        <source>Opens the Right Door</source>
+        <translation type="vanished">打开右车门</translation>
+    </message>
+    <message>
+        <source>Right Door close</source>
+        <translation type="vanished">关闭右车门</translation>
+    </message>
+    <message>
+        <source>Closes the Right Door</source>
+        <translation type="vanished">关闭右车门</translation>
+    </message>
+    <message>
+        <source>Left Door open</source>
+        <translation type="vanished">打开左车门</translation>
+    </message>
+    <message>
+        <source>Opens the Left Door</source>
+        <translation type="vanished">打开左车门</translation>
+    </message>
+    <message>
+        <source>Left Door close</source>
+        <translation type="vanished">关闭左车门</translation>
+    </message>
+    <message>
+        <source>Closes the Left Door</source>
+        <translation type="vanished">关闭左车门</translation>
+    </message>
+    <message>
+        <source>TV up</source>
+        <translation type="vanished">升起电视机</translation>
+    </message>
+    <message>
+        <source>Puts the TV up</source>
+        <translation type="vanished">升起电视机</translation>
+    </message>
+    <message>
+        <source>Tv down</source>
+        <translation type="vanished">降下电视机</translation>
+    </message>
+    <message>
+        <source>Puts the TV down</source>
+        <translation type="vanished">降下电视机</translation>
+    </message>
+    <message>
+        <source>Turn on TV</source>
+        <translation type="vanished">打开电视</translation>
+    </message>
+    <message>
+        <source>Turns the TV on</source>
+        <translation type="vanished">打开电视</translation>
+    </message>
+    <message>
+        <source>Turns the TV off</source>
+        <translation type="vanished">关闭电视</translation>
+    </message>
+    <message>
+        <source>TV Volume up</source>
+        <translation type="vanished">调大音量</translation>
+    </message>
+    <message>
+        <source>Increases the TV volume</source>
+        <translation type="vanished">调大音量</translation>
+    </message>
+    <message>
+        <source>TV Volume down</source>
+        <translation type="vanished">调小音量</translation>
+    </message>
+    <message>
+        <source>Decreases the TV volume</source>
+        <translation type="vanished">调小音量</translation>
+    </message>
+    <message>
+        <source>Open Apple TV</source>
+        <translation type="vanished">接通苹果电视</translation>
+    </message>
+    <message>
+        <source>Opens the Apple TV</source>
+        <translation type="vanished">接通苹果电视</translation>
+    </message>
+    <message>
+        <source>Front camera open</source>
+        <translation type="vanished">接通前摄像头</translation>
+    </message>
+    <message>
+        <source>Opens the Front Camera</source>
+        <translation type="vanished">接通前摄像头</translation>
+    </message>
+    <message>
+        <source>Rear camera open</source>
+        <translation type="vanished">接通后摄像头</translation>
+    </message>
+    <message>
+        <source>Opens the Rear Camera</source>
+        <translation type="vanished">接通后摄像头</translation>
+    </message>
+    <message>
+        <source>Screen divider open</source>
+        <translation type="vanished">分屏显示</translation>
+    </message>
+    <message>
+        <source>Opens the the Screen Divider</source>
+        <translation type="vanished">分屏显示</translation>
+    </message>
+    <message>
+        <source>DVD open</source>
+        <translation type="vanished">接通DVD</translation>
+    </message>
+    <message>
+        <source>Opens the DVD</source>
+        <translation type="vanished">接通DVD</translation>
+    </message>
+    <message>
+        <source>Computer projection</source>
+        <translation type="vanished">接通投影机</translation>
+    </message>
+    <message>
+        <source>Enables Computer Projection</source>
+        <translation type="vanished">接通投影机</translation>
+    </message>
+    <message>
+        <source>Samsung dock projection</source>
+        <translation type="vanished">接通三星投影</translation>
+    </message>
+    <message>
+        <source>Enables Samsung Dock Projection</source>
+        <translation type="vanished">接通三星投影</translation>
+    </message>
+    <message>
+        <source>Turn on lights white</source>
+        <translation type="vanished">打开白灯</translation>
+    </message>
+    <message>
+        <source>Turns white lights on</source>
+        <translation type="vanished">打开白灯</translation>
+    </message>
+    <message>
+        <source>Turn on lights red</source>
+        <translation type="vanished">打开红灯</translation>
+    </message>
+    <message>
+        <source>Turns red lights on</source>
+        <translation type="vanished">打开红灯</translation>
+    </message>
+    <message>
+        <source>Turn on lights green</source>
+        <translation type="vanished">打开绿灯</translation>
+    </message>
+    <message>
+        <source>Turns green lights on</source>
+        <translation type="vanished">打开绿灯</translation>
+    </message>
+    <message>
+        <source>Turn on lights blue</source>
+        <translation type="vanished">打开蓝灯</translation>
+    </message>
+    <message>
+        <source>Turns blue lights on</source>
+        <translation type="vanished">打开蓝灯</translation>
+    </message>
+    <message>
+        <source>Turn off lights</source>
+        <translation type="vanished">关闭灯光</translation>
+    </message>
+    <message>
+        <source>Turns the lights off</source>
+        <translation type="vanished">关闭灯光</translation>
+    </message>
+    <message>
+        <source>Ceiling lights white turn on</source>
+        <translation type="vanished">打开白色天花灯</translation>
+    </message>
+    <message>
+        <source>Turns white ceiling lights on</source>
+        <translation type="vanished">打开白色天花灯</translation>
+    </message>
+    <message>
+        <source>Ceiling lights red turn on</source>
+        <translation type="vanished">打开红色天花灯</translation>
+    </message>
+    <message>
+        <source>Turns red ceiling lights on</source>
+        <translation type="vanished">打开红色天花灯</translation>
+    </message>
+    <message>
+        <source>Ceiling lights green turn on</source>
+        <translation type="vanished">打开绿色天花灯</translation>
+    </message>
+    <message>
+        <source>Turns green ceiling lights on</source>
+        <translation type="vanished">打开绿色天花灯</translation>
+    </message>
+    <message>
+        <source>Ceiling lights blue turn on</source>
+        <translation type="vanished">打开蓝色天花灯</translation>
+    </message>
+    <message>
+        <source>Turns blue ceiling lights on</source>
+        <translation type="vanished">打开蓝色天花灯</translation>
+    </message>
+    <message>
+        <source>Ceiling lights turn off</source>
+        <translation type="vanished">关闭天花灯</translation>
+    </message>
+    <message>
+        <source>Turns ceiling lights off</source>
+        <translation type="vanished">关闭天花灯</translation>
+    </message>
+    <message>
+        <source>Interior lights white turn on</source>
+        <translation type="vanished">打开白色内部灯</translation>
+    </message>
+    <message>
+        <source>Turns white Interior lights on</source>
+        <translation type="vanished">打开白色内部灯</translation>
+    </message>
+    <message>
+        <source>Interior lights red turn on</source>
+        <translation type="vanished">打开白色内部灯</translation>
+    </message>
+    <message>
+        <source>Turns red Interior lights on</source>
+        <translation type="vanished">打开白色内部灯</translation>
+    </message>
+    <message>
+        <source>Interior lights green turn on</source>
+        <translation type="vanished">打开白色内部灯</translation>
+    </message>
+    <message>
+        <source>Turns green Interior lights on</source>
+        <translation type="vanished">打开白色内部灯</translation>
+    </message>
+    <message>
+        <source>Interior lights blue turn on</source>
+        <translation type="vanished">打开白色内部灯</translation>
+    </message>
+    <message>
+        <source>Turns blue Interior lights on</source>
+        <translation type="vanished">打开白色内部灯</translation>
+    </message>
+    <message>
+        <source>Interior lights turn off</source>
+        <translation type="vanished">关闭内部灯</translation>
+    </message>
+    <message>
+        <source>Turns Interior lights off</source>
+        <translation type="vanished">关闭内部灯</translation>
+    </message>
+    <message>
+        <source>Side lights white turn on</source>
+        <translation type="vanished">打开白色侧灯</translation>
+    </message>
+    <message>
+        <source>Turns white Side lights on</source>
+        <translation type="vanished">打开白色侧灯</translation>
+    </message>
+    <message>
+        <source>Side lights red turn on</source>
+        <translation type="vanished">打开白色侧灯</translation>
+    </message>
+    <message>
+        <source>Turns red Side lights on</source>
+        <translation type="vanished">打开白色侧灯</translation>
+    </message>
+    <message>
+        <source>Side lights green turn on</source>
+        <translation type="vanished">打开白色侧灯</translation>
+    </message>
+    <message>
+        <source>Turns green Side lights on</source>
+        <translation type="vanished">打开白色侧灯</translation>
+    </message>
+    <message>
+        <source>Side lights blue turn on</source>
+        <translation type="vanished">打开白色侧灯</translation>
+    </message>
+    <message>
+        <source>Turns blue Side lights on</source>
+        <translation type="vanished">打开白色侧灯</translation>
+    </message>
+    <message>
+        <source>Side lights turn off</source>
+        <translation type="vanished">关闭侧灯</translation>
+    </message>
+    <message>
+        <source>Turns Side lights off</source>
+        <translation type="vanished">关闭侧灯</translation>
+    </message>
+    <message>
+        <source>Left Make Up Lights turn on</source>
+        <translation type="vanished">接通左侧化妆灯</translation>
+    </message>
+    <message>
+        <source>Turns Left Make Up Light on</source>
+        <translation type="vanished">接通左侧化妆灯</translation>
+    </message>
+    <message>
+        <source>Left Make Up Light turn off</source>
+        <translation type="vanished">关闭左侧化妆灯</translation>
+    </message>
+    <message>
+        <source>Turns Left Make Up Light off</source>
+        <translation type="vanished">关闭左侧化妆灯</translation>
+    </message>
+    <message>
+        <source>Right Make Up Light turn on</source>
+        <translation type="vanished">接通右侧化妆灯</translation>
+    </message>
+    <message>
+        <source>Turns Right Make Up Light on</source>
+        <translation type="vanished">接通右侧化妆灯</translation>
+    </message>
+    <message>
+        <source>Right Make Up Light turn off</source>
+        <translation type="vanished">关闭右侧化妆灯</translation>
+    </message>
+    <message>
+        <source>Turns Right Make Up Light off</source>
+        <translation type="vanished">关闭右侧化妆灯</translation>
+    </message>
+    <message>
+        <source>Left Reading Lights turn on</source>
+        <translation type="vanished">接通左侧阅读灯</translation>
+    </message>
+    <message>
+        <source>Turns Left Reading Light on</source>
+        <translation type="vanished">接通左侧阅读灯</translation>
+    </message>
+    <message>
+        <source>Left Reading Light turn off</source>
+        <translation type="vanished">关闭左侧阅读灯</translation>
+    </message>
+    <message>
+        <source>Turns Left Reading Light off</source>
+        <translation type="vanished">关闭左侧阅读灯</translation>
+    </message>
+    <message>
+        <source>Right Reading Light turn on</source>
+        <translation type="vanished">接通右侧阅读灯</translation>
+    </message>
+    <message>
+        <source>Turns Right Reading Light on</source>
+        <translation type="vanished">接通右侧阅读灯</translation>
+    </message>
+    <message>
+        <source>Right Reading Light turn off</source>
+        <translation type="vanished">关闭右侧阅读灯</translation>
+    </message>
+    <message>
+        <source>Turns Right Reading Light off</source>
+        <translation type="vanished">关闭右侧阅读灯</translation>
+    </message>
+    <message>
+        <source>Right Drawer Open</source>
+        <translation type="vanished">伸出右侧抽屉</translation>
+    </message>
+    <message>
+        <source>Opens the Right Drawer</source>
+        <translation type="vanished">伸出右侧抽屉</translation>
+    </message>
+    <message>
+        <source>Right Drawer Close</source>
+        <translation type="vanished">收回右侧抽屉</translation>
+    </message>
+    <message>
+        <source>Closes the Right Drawer</source>
+        <translation type="vanished">收回右侧抽屉</translation>
+    </message>
+    <message>
+        <source>Left Drawer Open</source>
+        <translation type="vanished">伸出左侧抽屉</translation>
+    </message>
+    <message>
+        <source>Opens the Left Drawer</source>
+        <translation type="vanished">伸出左侧抽屉</translation>
+    </message>
+    <message>
+        <source>Left Drawer Close</source>
+        <translation type="vanished">收回左侧抽屉</translation>
+    </message>
+    <message>
+        <source>Closes the Left Drawer</source>
+        <translation type="vanished">收回左侧抽屉</translation>
+    </message>
+    <message>
+        <source>Air conditioner turn on</source>
+        <translation type="vanished">打开空调</translation>
+    </message>
+    <message>
+        <source>Turns on the Air Conditioner</source>
+        <translation type="vanished">打开空调</translation>
+    </message>
+    <message>
+        <source>Air conditioner turn off</source>
+        <translation type="vanished">关闭空调</translation>
+    </message>
+    <message>
+        <source>Turns off the Air Conditioner</source>
+        <translation type="vanished">关闭空调</translation>
+    </message>
+    <message>
+        <source>Air conditioner Degree Increase</source>
+        <translation type="vanished">提高温度                          </translation>
+    </message>
+    <message>
+        <source>Increases the heat degree of AC</source>
+        <translation type="vanished">提高温度                          </translation>
+    </message>
+    <message>
+        <source>Air conditioner Degree Decrease</source>
+        <translation type="vanished">降低温度</translation>
+    </message>
+    <message>
+        <source>Decreases the heat degree of AC</source>
+        <translation type="vanished">降低温度</translation>
+    </message>
+    <message>
+        <source>Air conditioner Fan Increase</source>
+        <translation type="vanished">加大风量</translation>
+    </message>
+    <message>
+        <source>Increases the Fan Speed of AC</source>
+        <translation type="vanished">加大风量</translation>
+    </message>
+    <message>
+        <source>Air conditioner Fan Decrease</source>
+        <translation type="vanished">减小风量</translation>
+    </message>
+    <message>
+        <source>Decreases the Fan Speed of AC</source>
+        <translation type="vanished">减小风量</translation>
+    </message>
+    <message>
+        <source>Fridge degree increase</source>
+        <translation type="vanished">升高冰箱温度</translation>
+    </message>
+    <message>
+        <source>Increases heat of Fridge</source>
+        <translation type="vanished">升高冰箱温度</translation>
+    </message>
+    <message>
+        <source>Fridge degree decrease</source>
+        <translation type="vanished">降低冰箱温度</translation>
+    </message>
+    <message>
+        <source>Decreases heat of Fridge</source>
+        <translation type="vanished">降低冰箱温度</translation>
+    </message>
+    <message>
+        <source>Front Fridge degree increase</source>
+        <translation type="vanished">升高前置冰箱温度</translation>
+    </message>
+    <message>
+        <source>Increases heat of Front Fridge</source>
+        <translation type="vanished">升高前置冰箱温度</translation>
+    </message>
+    <message>
+        <source>Front Fridge degree decrease</source>
+        <translation type="vanished">降低前置冰箱温度</translation>
+    </message>
+    <message>
+        <source>Decreases heat of Front Fridge</source>
+        <translation type="vanished">降低前置冰箱温度</translation>
+    </message>
+    <message>
+        <source>Rear Fridge degree increase</source>
+        <translation type="vanished">升高后置冰箱温度</translation>
+    </message>
+    <message>
+        <source>Increases heat of Rear Fridge</source>
+        <translation type="vanished">升高后置冰箱温度</translation>
+    </message>
+    <message>
+        <source>Rear Fridge degree decrease</source>
+        <translation type="vanished">降低后置冰箱温度</translation>
+    </message>
+    <message>
+        <source>Decreases heat of Rear Fridge</source>
+        <translation type="vanished">降低后置冰箱温度</translation>
+    </message>
+    <message>
+        <source>Bottles Open</source>
+        <translation type="vanished">打开酒柜</translation>
+    </message>
+    <message>
+        <source>Opens the Bottles</source>
+        <translation type="vanished">打开酒柜</translation>
+    </message>
+    <message>
+        <source>Bottles Close</source>
+        <translation type="vanished">关闭酒柜</translation>
+    </message>
+    <message>
+        <source>Closes the Bottles</source>
+        <translation type="vanished">关闭酒柜</translation>
+    </message>
+    <message>
+        <source>Glasses Open</source>
+        <translation type="vanished">打开眼镜盒</translation>
+    </message>
+    <message>
+        <source>Opens the Glasses</source>
+        <translation type="vanished">打开眼镜盒</translation>
+    </message>
+    <message>
+        <source>Glasses Close</source>
+        <translation type="vanished">关闭眼镜盒</translation>
+    </message>
+    <message>
+        <source>Closes the Glasses</source>
+        <translation type="vanished">关闭眼镜盒</translation>
+    </message>
+    <message>
+        <source>Radio Channel Change</source>
+        <translation type="vanished">搜索电台</translation>
+    </message>
+    <message>
+        <source>Changes the Radio Channel</source>
+        <translation type="vanished">搜索电台</translation>
+    </message>
+    <message>
+        <source>Radio Channel Forward</source>
+        <translation type="vanished">向上搜索</translation>
+    </message>
+    <message>
+        <source>Forwards the Radio Channel</source>
+        <translation type="vanished">向上搜索</translation>
+    </message>
+    <message>
+        <source>Radio Channel Backward</source>
+        <translation type="vanished">向下搜索</translation>
+    </message>
+    <message>
+        <source>Backwards the Radio Channel</source>
+        <translation type="vanished">向下搜索</translation>
+    </message>
+    <message>
+        <source>Roof Monitor Open</source>
+        <translation type="vanished">打开头上显示器</translation>
+    </message>
+    <message>
+        <source>Opens the Roof Monitor</source>
+        <translation type="vanished">打开头上显示器</translation>
+    </message>
+    <message>
+        <source>Roof Monitor Close</source>
+        <translation type="vanished">关闭头上显示器</translation>
+    </message>
+    <message>
+        <source>Closes the Roof Monitor</source>
+        <translation type="vanished">关闭头上显示器</translation>
+    </message>
+    <message>
+        <source>Rear TV Open</source>
+        <translation type="vanished">打开后部电视</translation>
+    </message>
+    <message>
+        <source>Opens the Rear TV</source>
+        <translation type="vanished">打开后部电视</translation>
+    </message>
+    <message>
+        <source>Rear TV Close</source>
+        <translation type="vanished">关闭后部电视</translation>
+    </message>
+    <message>
+        <source>Closes the Rear TV</source>
+        <translation type="vanished">关闭后部电视</translation>
+    </message>
+    <message>
+        <source>Bar Open</source>
+        <translation type="vanished">打开酒吧</translation>
+    </message>
+    <message>
+        <source>Opens the Bar</source>
+        <translation type="vanished">打开酒吧</translation>
+    </message>
+    <message>
+        <source>Bar Close</source>
+        <translation type="vanished">关闭酒吧</translation>
+    </message>
+    <message>
+        <source>Closes the Bar</source>
+        <translation type="vanished">关闭酒吧</translation>
+    </message>
+    <message>
+        <source>First seat back take one step forward</source>
+        <translation type="vanished">第一座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat back one step forward</source>
+        <translation type="vanished">第一座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>First seat back take two step forward</source>
+        <translation type="vanished">第一座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat back two step forward</source>
+        <translation type="vanished">第一座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>First seat back take last point forward</source>
+        <translation type="vanished">第一座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes First Seat back last point forward</source>
+        <translation type="vanished">第一座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>First seat back take one step backward</source>
+        <translation type="vanished">第一座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat back one step backward</source>
+        <translation type="vanished">第一座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>First seat back take two step backward</source>
+        <translation type="vanished">第一座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat back two step backward</source>
+        <translation type="vanished">第一座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>First seat back take last point backward</source>
+        <translation type="vanished">第一座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes First Seat back last point backward</source>
+        <translation type="vanished">第一座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>First Seat take one step forward</source>
+        <translation type="vanished">第一座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat one step forward</source>
+        <translation type="vanished">第一座椅向前一步</translation>
+    </message>
+    <message>
+        <source>First Seat take two step forward</source>
+        <translation type="vanished">第一座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat two step forward</source>
+        <translation type="vanished">第一座椅向前两步</translation>
+    </message>
+    <message>
+        <source>First Seat take last point forward</source>
+        <translation type="vanished">第一座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes First Seat last point forward</source>
+        <translation type="vanished">第一座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>First Seat take one step backward</source>
+        <translation type="vanished">第一座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat one step backward</source>
+        <translation type="vanished">第一座椅向后一步</translation>
+    </message>
+    <message>
+        <source>First Seat take two step backward</source>
+        <translation type="vanished">第一座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat two step backward</source>
+        <translation type="vanished">第一座椅向后两步</translation>
+    </message>
+    <message>
+        <source>First Seat take last point backward</source>
+        <translation type="vanished">第一座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes First Seat last point backward</source>
+        <translation type="vanished">第一座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>First Seat Head take one step forward</source>
+        <translation type="vanished">第一座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat Head one step forward</source>
+        <translation type="vanished">第一座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>First Seat Head take two step forward</source>
+        <translation type="vanished">第一座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat Head two step forward</source>
+        <translation type="vanished">第一座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>First Seat Head take last point forward</source>
+        <translation type="vanished">第一座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Takes First Seat Head last point forward</source>
+        <translation type="vanished">第一座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>First Seat Head take one step backward</source>
+        <translation type="vanished">第一座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat Head one step backward</source>
+        <translation type="vanished">第一座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>First Seat Head take two step backward</source>
+        <translation type="vanished">第一座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Takes First Seat Head two step backward</source>
+        <translation type="vanished">第一座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>First Seat Head take last point backward</source>
+        <translation type="vanished">第一座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Takes First Seat Head last point backward</source>
+        <translation type="vanished">第一座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Second seat back take one step forward</source>
+        <translation type="vanished">第二座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat back one step forward</source>
+        <translation type="vanished">第二座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Second seat back take two step forward</source>
+        <translation type="vanished">第二座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat back two step forward</source>
+        <translation type="vanished">第二座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Second seat back take last point forward</source>
+        <translation type="vanished">第二座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Second Seat back last point forward</source>
+        <translation type="vanished">第二座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Second seat back take one step backward</source>
+        <translation type="vanished">第二座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat back one step backward</source>
+        <translation type="vanished">第二座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Second seat back take two step backward</source>
+        <translation type="vanished">第二座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat back two step backward</source>
+        <translation type="vanished">第二座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Second seat back take last point backward</source>
+        <translation type="vanished">第二座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Second Seat back last point backward</source>
+        <translation type="vanished">第二座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Second Seat take one step forward</source>
+        <translation type="vanished">第二座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat one step forward</source>
+        <translation type="vanished">第二座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Second Seat take two step forward</source>
+        <translation type="vanished">第二座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat two step forward</source>
+        <translation type="vanished">第二座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Second Seat take last point forward</source>
+        <translation type="vanished">第二座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Second Seat last point forward</source>
+        <translation type="vanished">第二座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Second Seat take one step backward</source>
+        <translation type="vanished">第二座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat one step backward</source>
+        <translation type="vanished">第二座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Second Seat take two step backward</source>
+        <translation type="vanished">第二座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat two step backward</source>
+        <translation type="vanished">第二座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Second Seat take last point backward</source>
+        <translation type="vanished">第二座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Second Seat last point backward</source>
+        <translation type="vanished">第二座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Second Seat Head take one step forward</source>
+        <translation type="vanished">第二座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat Head one step forward</source>
+        <translation type="vanished">第二座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Second Seat Head take two step forward</source>
+        <translation type="vanished">第二座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat Head two step forward</source>
+        <translation type="vanished">第二座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Second Seat Head take last point forward</source>
+        <translation type="vanished">第二座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat Head last point forward</source>
+        <translation type="vanished">第二座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Second Seat Head take one step backward</source>
+        <translation type="vanished">第二座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat Head one step backward</source>
+        <translation type="vanished">第二座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Second Seat Head take two step backward</source>
+        <translation type="vanished">第二座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat Head two step backward</source>
+        <translation type="vanished">第二座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Second Seat Head take last point backward</source>
+        <translation type="vanished">第二座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Takes Second Seat Head last point backward</source>
+        <translation type="vanished">第二座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Third seat back take one step forward</source>
+        <translation type="vanished">第三座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat back one step forward</source>
+        <translation type="vanished">第三座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Third seat back take two step forward</source>
+        <translation type="vanished">第三座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat back two step forward</source>
+        <translation type="vanished">第三座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Third seat back take last point forward</source>
+        <translation type="vanished">第三座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Third Seat back last point forward</source>
+        <translation type="vanished">第三座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Third seat back take one step backward</source>
+        <translation type="vanished">第三座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat back one step backward</source>
+        <translation type="vanished">第三座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Third seat back take two step backward</source>
+        <translation type="vanished">第三座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat back two step backward</source>
+        <translation type="vanished">第三座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Third seat back take last point backward</source>
+        <translation type="vanished">第三座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Third Seat back last point backward</source>
+        <translation type="vanished">第三座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Third Seat take one step forward</source>
+        <translation type="vanished">第三座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat one step forward</source>
+        <translation type="vanished">第三座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Third Seat take two step forward</source>
+        <translation type="vanished">第三座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat two step forward</source>
+        <translation type="vanished">第三座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Third Seat take last point forward</source>
+        <translation type="vanished">第三座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Third Seat last point forward</source>
+        <translation type="vanished">第三座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Third Seat take one step backward</source>
+        <translation type="vanished">第三座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat one step backward</source>
+        <translation type="vanished">第三座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Third Seat take two step backward</source>
+        <translation type="vanished">第三座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat two step backward</source>
+        <translation type="vanished">第三座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Third Seat take last point backward</source>
+        <translation type="vanished">第三座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Third Seat last point backward</source>
+        <translation type="vanished">第三座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Third Seat Head take one step forward</source>
+        <translation type="vanished">第三座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat Head one step forward</source>
+        <translation type="vanished">第三座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Third Seat Head take two step forward</source>
+        <translation type="vanished">第三座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat Head two step forward</source>
+        <translation type="vanished">第三座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Third Seat Head take last point forward</source>
+        <translation type="vanished">第三座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat Head last point forward</source>
+        <translation type="vanished">第三座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Third Seat Head take one step backward</source>
+        <translation type="vanished">第三座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat Head one step backward</source>
+        <translation type="vanished">第三座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Third Seat Head take two step backward</source>
+        <translation type="vanished">第三座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat Head two step backward</source>
+        <translation type="vanished">第三座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Third Seat Head take last point backward</source>
+        <translation type="vanished">第三座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Takes Third Seat Head last point backward</source>
+        <translation type="vanished">第三座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Fourth seat back take one step forward</source>
+        <translation type="vanished">第四座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat back one step forward</source>
+        <translation type="vanished">第四座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Fourth seat back take two step forward</source>
+        <translation type="vanished">第四座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat back two step forward</source>
+        <translation type="vanished">第四座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Fourth seat back take last point forward</source>
+        <translation type="vanished">第四座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat back last point forward</source>
+        <translation type="vanished">第四座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Fourth seat back take one step backward</source>
+        <translation type="vanished">第四座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat back one step backward</source>
+        <translation type="vanished">第四座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Fourth seat back take two step backward</source>
+        <translation type="vanished">第四座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat back two step backward</source>
+        <translation type="vanished">第四座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Fourth seat back take last point backward</source>
+        <translation type="vanished">第四座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat back last point backward</source>
+        <translation type="vanished">第四座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Fourth Seat take one step forward</source>
+        <translation type="vanished">第四座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat one step forward</source>
+        <translation type="vanished">第四座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Fourth Seat take two step forward</source>
+        <translation type="vanished">第四座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat two step forward</source>
+        <translation type="vanished">第四座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Fourth Seat take last point forward</source>
+        <translation type="vanished">第四座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat last point forward</source>
+        <translation type="vanished">第四座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Fourth Seat take one step backward</source>
+        <translation type="vanished">第四座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat one step backward</source>
+        <translation type="vanished">第四座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Fourth Seat take two step backward</source>
+        <translation type="vanished">第四座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat two step backward</source>
+        <translation type="vanished">第四座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Fourth Seat take last point backward</source>
+        <translation type="vanished">第四座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat last point backward</source>
+        <translation type="vanished">第四座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Fourth Seat Head take one step forward</source>
+        <translation type="vanished">第四座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat Head one step forward</source>
+        <translation type="vanished">第四座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Fourth Seat Head take two step forward</source>
+        <translation type="vanished">第四座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat Head two step forward</source>
+        <translation type="vanished">第四座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Fourth Seat Head take last point forward</source>
+        <translation type="vanished">第四座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat Head last point forward</source>
+        <translation type="vanished">第四座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Fourth Seat Head take one step backward</source>
+        <translation type="vanished">第四座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat Head one step backward</source>
+        <translation type="vanished">第四座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Fourth Seat Head take two step backward</source>
+        <translation type="vanished">第四座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat Head two step backward</source>
+        <translation type="vanished">第四座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Fourth Seat Head take last point backward</source>
+        <translation type="vanished">第四座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Takes Fourth Seat Head last point backward</source>
+        <translation type="vanished">第四座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Fifth seat back take one step forward</source>
+        <translation type="vanished">第五座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat back one step forward</source>
+        <translation type="vanished">第五座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Fifth seat back take two step forward</source>
+        <translation type="vanished">第五座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat back two step forward</source>
+        <translation type="vanished">第五座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Fifth seat back take last point forward</source>
+        <translation type="vanished">第五座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat back last point forward</source>
+        <translation type="vanished">第五座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Fifth seat back take one step backward</source>
+        <translation type="vanished">第五座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat back one step backward</source>
+        <translation type="vanished">第五座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Fifth seat back take two step backward</source>
+        <translation type="vanished">第五座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat back two step backward</source>
+        <translation type="vanished">第五座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Fifth seat back take last point backward</source>
+        <translation type="vanished">第五座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat back last point backward</source>
+        <translation type="vanished">第五座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Fifth Seat take one step forward</source>
+        <translation type="vanished">第五座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat one step forward</source>
+        <translation type="vanished">第五座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Fifth Seat take two step forward</source>
+        <translation type="vanished">第五座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat two step forward</source>
+        <translation type="vanished">第五座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Fifth Seat take last point forward</source>
+        <translation type="vanished">第五座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat last point forward</source>
+        <translation type="vanished">第五座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Fifth Seat take one step backward</source>
+        <translation type="vanished">第五座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat one step backward</source>
+        <translation type="vanished">第五座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Fifth Seat take two step backward</source>
+        <translation type="vanished">第五座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat two step backward</source>
+        <translation type="vanished">第五座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Fifth Seat take last point backward</source>
+        <translation type="vanished">第五座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat last point backward</source>
+        <translation type="vanished">第五座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Fifth Seat Head take one step forward</source>
+        <translation type="vanished">第五座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat Head one step forward</source>
+        <translation type="vanished">第五座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Fifth Seat Head take two step forward</source>
+        <translation type="vanished">第五座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat Head two step forward</source>
+        <translation type="vanished">第五座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Fifth Seat Head take last point forward</source>
+        <translation type="vanished">第五座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat Head last point forward</source>
+        <translation type="vanished">第五座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Fifth Seat Head take one step backward</source>
+        <translation type="vanished">第五座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat Head one step backward</source>
+        <translation type="vanished">第五座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Fifth Seat Head take two step backward</source>
+        <translation type="vanished">第五座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat Head two step backward</source>
+        <translation type="vanished">第五座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Fifth Seat Head take last point backward</source>
+        <translation type="vanished">第五座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Takes Fifth Seat Head last point backward</source>
+        <translation type="vanished">第五座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Sixth seat back take one step forward</source>
+        <translation type="vanished">第六座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat back one step forward</source>
+        <translation type="vanished">第六座椅靠背向前一步</translation>
+    </message>
+    <message>
+        <source>Sixth seat back take two step forward</source>
+        <translation type="vanished">第六座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat back two step forward</source>
+        <translation type="vanished">第六座椅靠背向前两步</translation>
+    </message>
+    <message>
+        <source>Sixth seat back take last point forward</source>
+        <translation type="vanished">第六座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat back last point forward</source>
+        <translation type="vanished">第六座椅靠背向前到位 </translation>
+    </message>
+    <message>
+        <source>Sixth seat back take one step backward</source>
+        <translation type="vanished">第六座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat back one step backward</source>
+        <translation type="vanished">第六座椅靠背向后一步</translation>
+    </message>
+    <message>
+        <source>Sixth seat back take two step backward</source>
+        <translation type="vanished">第六座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat back two step backward</source>
+        <translation type="vanished">第六座椅靠背向后两步</translation>
+    </message>
+    <message>
+        <source>Sixth seat back take last point backward</source>
+        <translation type="vanished">第六座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat back last point backward</source>
+        <translation type="vanished">第六座椅靠背向后到位 </translation>
+    </message>
+    <message>
+        <source>Sixth Seat take one step forward</source>
+        <translation type="vanished">第六座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat one step forward</source>
+        <translation type="vanished">第六座椅向前一步</translation>
+    </message>
+    <message>
+        <source>Sixth Seat take two step forward</source>
+        <translation type="vanished">第六座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat two step forward</source>
+        <translation type="vanished">第六座椅向前两步</translation>
+    </message>
+    <message>
+        <source>Sixth Seat take last point forward</source>
+        <translation type="vanished">第六座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat last point forward</source>
+        <translation type="vanished">第六座椅向前到位 </translation>
+    </message>
+    <message>
+        <source>Sixth Seat take one step backward</source>
+        <translation type="vanished">第六座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat one step backward</source>
+        <translation type="vanished">第六座椅向后一步</translation>
+    </message>
+    <message>
+        <source>Sixth Seat take two step backward</source>
+        <translation type="vanished">第六座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat two step backward</source>
+        <translation type="vanished">第六座椅向后两步</translation>
+    </message>
+    <message>
+        <source>Sixth Seat take last point backward</source>
+        <translation type="vanished">第六座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat last point backward</source>
+        <translation type="vanished">第六座椅向后到位 </translation>
+    </message>
+    <message>
+        <source>Sixth Seat Head take one step forward</source>
+        <translation type="vanished">第六座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat Head one step forward</source>
+        <translation type="vanished">第六座椅头枕向上一步</translation>
+    </message>
+    <message>
+        <source>Sixth Seat Head take two step forward</source>
+        <translation type="vanished">第六座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat Head two step forward</source>
+        <translation type="vanished">第六座椅头枕向上两步</translation>
+    </message>
+    <message>
+        <source>Sixth Seat Head take last point forward</source>
+        <translation type="vanished">第六座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat Head last point forward</source>
+        <translation type="vanished">第六座椅头枕向上到位</translation>
+    </message>
+    <message>
+        <source>Sixth Seat Head take one step backward</source>
+        <translation type="vanished">第六座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat Head one step backward</source>
+        <translation type="vanished">第六座椅头枕向下一步</translation>
+    </message>
+    <message>
+        <source>Sixth Seat Head take two step backward</source>
+        <translation type="vanished">第六座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat Head two step backward</source>
+        <translation type="vanished">第六座椅头枕向下两步</translation>
+    </message>
+    <message>
+        <source>Sixth Seat Head take last point backward</source>
+        <translation type="vanished">第六座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Takes Sixth Seat Head last point backward</source>
+        <translation type="vanished">第六座椅头枕向下到位</translation>
+    </message>
+    <message>
+        <source>Luggage Curtain Open</source>
+        <translation type="vanished">打开行李箱窗帘</translation>
+    </message>
+    <message>
+        <source>Opens the Luggage Curtain</source>
+        <translation type="vanished">打开行李箱窗帘</translation>
+    </message>
+    <message>
+        <source>Luggage Curtain Close</source>
+        <translation type="vanished">关闭行李箱窗帘</translation>
+    </message>
+    <message>
+        <source>Closes the Luggage Curtain</source>
+        <translation type="vanished">关闭行李箱窗帘</translation>
+    </message>
+    <message>
+        <source>All Curtain Open</source>
+        <translation type="vanished">打开全部窗帘</translation>
+    </message>
+    <message>
+        <source>Opens all the Curtain</source>
+        <translation type="vanished">打开全部窗帘</translation>
+    </message>
+    <message>
+        <source>All Curtain Close</source>
+        <translation type="vanished">关闭全部窗帘</translation>
+    </message>
+    <message>
+        <source>Closes all the Curtain</source>
+        <translation type="vanished">关闭全部窗帘</translation>
+    </message>
+    <message>
+        <source>Take the first seat in sleep mode</source>
+        <translation type="vanished">第一座椅睡眠模式 </translation>
+    </message>
+    <message>
+        <source>Takes the first seat in sleep mode</source>
+        <translation type="vanished">第一座椅睡眠模式 </translation>
+    </message>
+    <message>
+        <source>Take the second seat in sleep mode</source>
+        <translation type="vanished">第二座椅睡眠模式 </translation>
+    </message>
+    <message>
+        <source>Takes the second seat in sleep mode</source>
+        <translation type="vanished">第二座椅睡眠模式 </translation>
+    </message>
+    <message>
+        <source>Gather first seat</source>
+        <translation type="vanished">第一座椅回位</translation>
+    </message>
+    <message>
+        <source>Gathers first seat</source>
+        <translation type="vanished">第一座椅回位</translation>
+    </message>
+    <message>
+        <source>Gather second seat</source>
+        <translation type="vanished">第二座椅回位</translation>
+    </message>
+    <message>
+        <source>Gathers second seat</source>
+        <translation type="vanished">第二座椅回位</translation>
+    </message>
+    <message>
+        <source>Take cinema mode</source>
+        <translation type="vanished">进入电影院模式</translation>
+    </message>
+    <message>
+        <source>Takes cinema mode</source>
+        <translation type="vanished">进入电影院模式</translation>
+    </message>
+    <message>
+        <source>Take conference mode</source>
+        <translation type="vanished">进入会议模式</translation>
+    </message>
+    <message>
+        <source>Takes conference mode</source>
+        <translation type="vanished">进入会议模式</translation>
+    </message>
+    <message>
+        <source>All tables open</source>
+        <translation type="vanished">打开所有的桌板</translation>
+    </message>
+    <message>
+        <source>Opens all tables</source>
+        <translation type="vanished">打开所有的桌板</translation>
+    </message>
+    <message>
+        <source>All tables close</source>
+        <translation type="vanished">关闭所有的桌板</translation>
+    </message>
+    <message>
+        <source>Closes all tables</source>
+        <translation type="vanished">关闭所有的桌板</translation>
+    </message>
+    <message>
+        <source>Gather all seats</source>
+        <translation type="vanished">收集所有座位</translation>
+    </message>
+    <message>
+        <source>Gathers all seats</source>
+        <translation type="vanished">收集所有座位</translation>
+    </message>
+    <message>
+        <source>In lights turn on</source>
+        <translation type="vanished">打开室内灯</translation>
+    </message>
+    <message>
+        <source>Turns on in lights</source>
+        <translation type="vanished">打开室内灯</translation>
+    </message>
+    <message>
+        <source>In lights turn off</source>
+        <translation type="vanished">在灯光下关闭</translation>
+    </message>
+    <message>
+        <source>Turns off in lights</source>
+        <translation type="vanished">在灯光下关闭</translation>
+    </message>
+    <message>
+        <source>Side lights turn on</source>
+        <translation type="vanished">打开侧灯</translation>
+    </message>
+    <message>
+        <source>Turns on Side lights</source>
+        <translation type="vanished">打开侧灯</translation>
+    </message>
+    <message>
+        <source>Turns off Side lights</source>
+        <translation type="vanished">关掉侧灯</translation>
+    </message>
+    <message>
+        <source>Ceiling lights turn on</source>
+        <translation type="vanished">打开天花板灯</translation>
+    </message>
+    <message>
+        <source>Turns on Ceiling lights</source>
+        <translation type="vanished">打开天花板灯</translation>
+    </message>
+    <message>
+        <source>Turns off Ceiling lights</source>
+        <translation type="vanished">关掉天花板灯</translation>
+    </message>
+    <message>
+        <source>System off</source>
+        <translation type="vanished">系统开关</translation>
+    </message>
+    <message>
+        <source>Turns the System off</source>
+        <translation type="vanished">系统开关</translation>
+    </message>
+    <message>
+        <source>Return to The Homepage</source>
+        <translation type="vanished">返回主页</translation>
+    </message>
+    <message>
+        <source>Returns to The Homepage</source>
+        <translation type="vanished">返回主页</translation>
     </message>
     <message>
         <location filename="../main.qml" line="205"/>
-        <source>Third table open</source>
-        <translation>弹出第三桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="206"/>
-        <source>Opens the Third Table</source>
-        <translation>弹出第三桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="209"/>
-        <source>Third table close</source>
-        <translation>收回第三桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="210"/>
-        <source>Closes the Third Table</source>
-        <translation>收回第三桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="213"/>
-        <source>Fourth table open</source>
-        <translation>弹出第四桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="214"/>
-        <source>Opens the Fourth Table</source>
-        <translation>弹出第四桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="217"/>
-        <source>Fourth table close</source>
-        <translation>收回第四桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="218"/>
-        <source>Closes the Fourth Table</source>
-        <translation>收回第四桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="221"/>
-        <source>Fifth table open</source>
-        <translation>弹出第五桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="222"/>
-        <source>Opens the Fifth Table</source>
-        <translation>弹出第五桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="225"/>
-        <source>Fifth table close</source>
-        <translation>收回第五桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="226"/>
-        <source>Closes the Fifth Table</source>
-        <translation>收回第五桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="229"/>
-        <source>Sixth table open</source>
-        <translation>弹出第六桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="230"/>
-        <source>Opens the Sixth Table</source>
-        <translation>弹出第六桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="233"/>
-        <source>Sixth table close</source>
-        <translation>收回第六桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="234"/>
-        <source>Closes the Sixth Table</source>
-        <translation>收回第六桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="237"/>
-        <source>Left table open</source>
-        <translation>弹出左侧桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="238"/>
-        <source>Opens the Left Table</source>
-        <translation>弹出左侧桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="241"/>
-        <source>Left table close</source>
-        <translation>收回左侧桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="242"/>
-        <source>Closes the Left Table</source>
-        <translation>收回左侧桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="245"/>
-        <source>Right table open</source>
-        <translation>弹出右侧桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="246"/>
-        <source>Opens the Right Table</source>
-        <translation>弹出右侧桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="249"/>
-        <source>Right table close</source>
-        <translation>收回右侧桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="250"/>
-        <source>Closes the Right Table</source>
-        <translation>收回右侧桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="257"/>
-        <source>First seat footrest open</source>
-        <translation>伸出第一座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="258"/>
-        <source>Opens the First seat footrest</source>
-        <translation>伸出第一座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="261"/>
-        <source>First seat footrest close</source>
-        <translation>收回第一座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="262"/>
-        <source>Closes the First seat footrest</source>
-        <translation>收回第一座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="265"/>
-        <source>Second seat footrest open</source>
-        <translation>伸出第二座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="266"/>
-        <source>Opens the Second seat footrest</source>
-        <translation>伸出第二座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="269"/>
-        <source>Second seat footrest close</source>
-        <translation>收回第二座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="270"/>
-        <source>Closes the Second seat footrest</source>
-        <translation>收回第二座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="273"/>
-        <source>Third seat footrest open</source>
-        <translation>伸出第三座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="274"/>
-        <source>Opens the Third seat footrest</source>
-        <translation>伸出第三座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="277"/>
-        <source>Third seat footrest close</source>
-        <translation>收回第三座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="278"/>
-        <source>Closes the Third seat footrest</source>
-        <translation>收回第三座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="281"/>
-        <source>Fourth seat footrest open</source>
-        <translation>伸出第四座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="282"/>
-        <source>Opens the Fourth seat footrest</source>
-        <translation>伸出第四座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="285"/>
-        <source>Fourth seat footrest close</source>
-        <translation>收回第四座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="286"/>
-        <source>Closes the Fourth seat footrest</source>
-        <translation>收回第四座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="289"/>
-        <source>Fifth seat footrest open</source>
-        <translation>伸出第五座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="290"/>
-        <source>Opens the Fifth seat footrest</source>
-        <translation>伸出第五座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="293"/>
-        <source>Fifth seat footrest close</source>
-        <translation>收回第五座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="294"/>
-        <source>Closes the Fifth seat footrest</source>
-        <translation>收回第五座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="297"/>
-        <source>Sixth seat footrest open</source>
-        <translation>伸出第六座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="298"/>
-        <source>Opens the Sixth seat footrest</source>
-        <translation>伸出第六座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="301"/>
-        <source>Sixth seat footrest close</source>
-        <translation>收回第六座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="302"/>
-        <source>Closes the Sixth seat footrest</source>
-        <translation>收回第六座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="305"/>
-        <source>Right seat footrest open</source>
-        <translation>伸出右侧座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="306"/>
-        <source>Opens the Right seat footrest</source>
-        <translation>伸出右侧座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="309"/>
-        <source>Right seat footrest close</source>
-        <translation>收回右侧座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="310"/>
-        <source>Closes the Right seat footrest</source>
-        <translation>收回右侧座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="313"/>
-        <source>Left seat footrest open</source>
-        <translation>收回第六座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="314"/>
-        <source>Opens the Left seat footrest</source>
-        <translation>收回第六座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="317"/>
-        <source>Left seat footrest close</source>
-        <translation>收回左侧座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="318"/>
-        <source>Closes the Left seat footrest</source>
-        <translation>收回左侧座椅腿托</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="325"/>
-        <source>First Curtain open</source>
-        <translation>打开第一窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="326"/>
-        <source>Opens the First Curtain</source>
-        <translation>打开第一窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="329"/>
-        <source>First Curtain close</source>
-        <translation>关闭第一窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="330"/>
-        <source>Closes the First Curtain</source>
-        <translation>关闭第一窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="333"/>
-        <source>Second Curtain open</source>
-        <translation>打开第二窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="334"/>
-        <source>Opens the Second Curtain</source>
-        <translation>打开第二窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="337"/>
-        <source>Second Curtain close</source>
-        <translation>关闭第二窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="338"/>
-        <source>Closes the Second Curtain</source>
-        <translation>关闭第二窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="341"/>
-        <source>Third Curtain open</source>
-        <translation>打开第三窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="342"/>
-        <source>Opens the Third Curtain</source>
-        <translation>打开第三窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="345"/>
-        <source>Third Curtain close</source>
-        <translation>关闭第三窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="346"/>
-        <source>Closes the Third Curtain</source>
-        <translation>关闭第三窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="349"/>
-        <source>Fourth Curtain open</source>
-        <translation>打开第四窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="350"/>
-        <source>Opens the Fourth Curtain</source>
-        <translation>打开第四窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="353"/>
-        <source>Fourth Curtain close</source>
-        <translation>关闭第四窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="354"/>
-        <source>Closes the Fourth Curtain</source>
-        <translation>关闭第四窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="357"/>
-        <source>Fifth Curtain open</source>
-        <translation>打开第五窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="358"/>
-        <source>Opens the Fifth Curtain</source>
-        <translation>打开第五窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="361"/>
-        <source>Fifth Curtain close</source>
-        <translation>关闭第五窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="362"/>
-        <source>Closes the Fifth Curtain</source>
-        <translation>关闭第五窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="365"/>
-        <source>Sixth Curtain open</source>
-        <translation>打开第六窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="366"/>
-        <source>Opens the Sixth Curtain</source>
-        <translation>打开第六窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="369"/>
-        <source>Sixth Curtain close</source>
-        <translation>关闭第六窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="370"/>
-        <source>Closes the Sixth Curtain</source>
-        <translation>关闭第六窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="373"/>
-        <source>Right Curtain open</source>
-        <translation>打开右侧窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="374"/>
-        <source>Opens the Right Curtain</source>
-        <translation>打开右侧窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="377"/>
-        <source>Right Curtain close</source>
-        <translation>关闭右侧窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="378"/>
-        <source>Closes the Right Curtain</source>
-        <translation>关闭右侧窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="381"/>
-        <source>Left Curtain open</source>
-        <translation>打开左侧窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="382"/>
-        <source>Opens the Left Curtain</source>
-        <translation>打开左侧窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="385"/>
-        <source>Left Curtain close</source>
-        <translation>关闭左侧窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="386"/>
-        <source>Closes the Left Curtain</source>
-        <translation>关闭左侧窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="394"/>
-        <source>First Seat Massage open</source>
-        <translation>打开第一座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="395"/>
-        <source>Opens the First Seat Massage</source>
-        <translation>打开第一座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="398"/>
-        <source>First Seat Massage close</source>
-        <translation>关闭第一座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="399"/>
-        <source>Closes the First Seat Massage</source>
-        <translation>关闭第一座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="402"/>
-        <source>Second Seat Massage open</source>
-        <translation>打开第二座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="403"/>
-        <source>Opens the Second Seat Massage</source>
-        <translation>打开第二座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="406"/>
-        <source>Second Seat Massage close</source>
-        <translation>关闭第二座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="407"/>
-        <source>Closes the Second Seat Massage</source>
-        <translation>关闭第二座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="410"/>
-        <source>Third Seat Massage open</source>
-        <translation>打开第三座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="411"/>
-        <source>Opens the Third Seat Massage</source>
-        <translation>打开第三座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="414"/>
-        <source>Third Seat Massage close</source>
-        <translation>关闭第三座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="415"/>
-        <source>Closes the Third Seat Massage</source>
-        <translation>关闭第三座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="418"/>
-        <source>Fourth Seat Massage open</source>
-        <translation>打开第四座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="419"/>
-        <source>Opens the Fourth Seat Massage</source>
-        <translation>打开第四座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="422"/>
-        <source>Fourth Seat Massage close</source>
-        <translation>关闭第四座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="423"/>
-        <source>Closes the Fourth Seat Massage</source>
-        <translation>关闭第四座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="426"/>
-        <source>Fifth Seat Massage open</source>
-        <translation>打开第五座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="427"/>
-        <source>Opens the Fifth Seat Massage</source>
-        <translation>打开第五座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="430"/>
-        <source>Fifth Seat Massage close</source>
-        <translation>关闭第五座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="431"/>
-        <source>Closes the Fifth Seat Massage</source>
-        <translation>关闭第五座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="434"/>
-        <source>Sixth Seat Massage open</source>
-        <translation>打开第六座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="435"/>
-        <source>Opens the Sixth Seat Massage</source>
-        <translation>打开第六座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="438"/>
-        <source>Sixth Seat Massage close</source>
-        <translation>关闭第六座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="439"/>
-        <source>Closes the Sixth Seat Massage</source>
-        <translation>关闭第六座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="442"/>
-        <source>Right Seat Massage open</source>
-        <translation>打开右侧座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="443"/>
-        <source>Opens the Right Seat Massage</source>
-        <translation>打开右侧座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="446"/>
-        <source>Right Seat Massage close</source>
-        <translation>关闭右侧座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="447"/>
-        <source>Closes the Right Seat Massage</source>
-        <translation>关闭右侧座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="450"/>
-        <source>Left Seat Massage open</source>
-        <translation>打开左侧座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="451"/>
-        <source>Opens the Left Seat Massage</source>
-        <translation>打开左侧座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="454"/>
-        <source>Left Seat Massage close</source>
-        <translation>关闭左侧座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="455"/>
-        <source>Closes the Left Seat Massage</source>
-        <translation>关闭左侧座椅按摩</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="463"/>
-        <source>Nespresso open</source>
-        <translation>伸出咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="464"/>
-        <source>Opens the Nespresso</source>
-        <translation>伸出咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="467"/>
-        <source>Nespresso close</source>
-        <translation>收回咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="468"/>
-        <source>Closes the Nespresso</source>
-        <translation>收回咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="471"/>
-        <source>Front Nespresso open</source>
-        <translation>伸出前咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="472"/>
-        <source>Opens the Front Nespresso</source>
-        <translation>伸出前咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="475"/>
-        <source>Front Nespresso close</source>
-        <translation>收回前咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="476"/>
-        <source>Closes the Front Nespresso</source>
-        <translation>收回前咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="479"/>
-        <source>Rear Nespresso open</source>
-        <translation>伸出后咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="480"/>
-        <source>Opens the Rear Nespresso</source>
-        <translation>伸出后咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="483"/>
-        <source>Rear Nespresso close</source>
-        <translation>收回后咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="484"/>
-        <source>Closes the Rear Nespresso</source>
-        <translation>收回后咖啡机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="490"/>
-        <source>Door open</source>
-        <translation>打开车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="491"/>
-        <source>Opens the Door</source>
-        <translation>打开车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="494"/>
-        <source>Door close</source>
-        <translation>关闭车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="495"/>
-        <source>Closes the Door</source>
-        <translation>关闭车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="498"/>
-        <source>Right Door open</source>
-        <translation>打开右车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="499"/>
-        <source>Opens the Right Door</source>
-        <translation>打开右车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="502"/>
-        <source>Right Door close</source>
-        <translation>关闭右车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="503"/>
-        <source>Closes the Right Door</source>
-        <translation>关闭右车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="506"/>
-        <source>Left Door open</source>
-        <translation>打开左车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="507"/>
-        <source>Opens the Left Door</source>
-        <translation>打开左车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="510"/>
-        <source>Left Door close</source>
-        <translation>关闭左车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="511"/>
-        <source>Closes the Left Door</source>
-        <translation>关闭左车门</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="518"/>
-        <source>TV up</source>
-        <translation>升起电视机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="519"/>
-        <source>Puts the TV up</source>
-        <translation>升起电视机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="522"/>
-        <source>Tv down</source>
-        <translation>降下电视机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="523"/>
-        <source>Puts the TV down</source>
-        <translation>降下电视机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="526"/>
-        <location filename="../main.qml" line="530"/>
-        <source>Turn on TV</source>
-        <translation>打开电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="527"/>
-        <source>Turns the TV on</source>
-        <translation>打开电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="531"/>
-        <source>Turns the TV off</source>
-        <translation>关闭电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="534"/>
-        <source>TV Volume up</source>
-        <translation>调大音量</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="535"/>
-        <source>Increases the TV volume</source>
-        <translation>调大音量</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="538"/>
-        <source>TV Volume down</source>
-        <translation>调小音量</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="539"/>
-        <source>Decreases the TV volume</source>
-        <translation>调小音量</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="546"/>
-        <source>Open Apple TV</source>
-        <translation>接通苹果电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="547"/>
-        <source>Opens the Apple TV</source>
-        <translation>接通苹果电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="555"/>
-        <source>Front camera open</source>
-        <translation>接通前摄像头</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="556"/>
-        <source>Opens the Front Camera</source>
-        <translation>接通前摄像头</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="559"/>
-        <source>Rear camera open</source>
-        <translation>接通后摄像头</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="560"/>
-        <source>Opens the Rear Camera</source>
-        <translation>接通后摄像头</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="563"/>
-        <source>Screen divider open</source>
-        <translation>分屏显示</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="564"/>
-        <source>Opens the the Screen Divider</source>
-        <translation>分屏显示</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="567"/>
-        <source>DVD open</source>
-        <translation>接通DVD</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="568"/>
-        <source>Opens the DVD</source>
-        <translation>接通DVD</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="571"/>
-        <source>Computer projection</source>
-        <translation>接通投影机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="572"/>
-        <source>Enables Computer Projection</source>
-        <translation>接通投影机</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="575"/>
-        <source>Samsung dock projection</source>
-        <translation>接通三星投影</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="576"/>
-        <source>Enables Samsung Dock Projection</source>
-        <translation>接通三星投影</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="583"/>
-        <source>Turn on lights white</source>
-        <translation>打开白灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="584"/>
-        <source>Turns white lights on</source>
-        <translation>打开白灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="587"/>
-        <source>Turn on lights red</source>
-        <translation>打开红灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="588"/>
-        <source>Turns red lights on</source>
-        <translation>打开红灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="591"/>
-        <source>Turn on lights green</source>
-        <translation>打开绿灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="592"/>
-        <source>Turns green lights on</source>
-        <translation>打开绿灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="595"/>
-        <source>Turn on lights blue</source>
-        <translation>打开蓝灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="596"/>
-        <source>Turns blue lights on</source>
-        <translation>打开蓝灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="599"/>
-        <source>Turn off lights</source>
-        <translation>关闭灯光</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="600"/>
-        <source>Turns the lights off</source>
-        <translation>关闭灯光</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="607"/>
-        <source>Ceiling lights white turn on</source>
-        <translation>打开白色天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="608"/>
-        <source>Turns white ceiling lights on</source>
-        <translation>打开白色天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="611"/>
-        <source>Ceiling lights red turn on</source>
-        <translation>打开红色天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="612"/>
-        <source>Turns red ceiling lights on</source>
-        <translation>打开红色天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="615"/>
-        <source>Ceiling lights green turn on</source>
-        <translation>打开绿色天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="616"/>
-        <source>Turns green ceiling lights on</source>
-        <translation>打开绿色天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="619"/>
-        <source>Ceiling lights blue turn on</source>
-        <translation>打开蓝色天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="620"/>
-        <source>Turns blue ceiling lights on</source>
-        <translation>打开蓝色天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="623"/>
-        <location filename="../main.qml" line="1595"/>
-        <source>Ceiling lights turn off</source>
-        <translation>关闭天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="624"/>
-        <source>Turns ceiling lights off</source>
-        <translation>关闭天花灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="631"/>
-        <source>Interior lights white turn on</source>
-        <translation>打开白色内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="632"/>
-        <source>Turns white Interior lights on</source>
-        <translation>打开白色内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="635"/>
-        <source>Interior lights red turn on</source>
-        <translation>打开白色内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="636"/>
-        <source>Turns red Interior lights on</source>
-        <translation>打开白色内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="639"/>
-        <source>Interior lights green turn on</source>
-        <translation>打开白色内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="640"/>
-        <source>Turns green Interior lights on</source>
-        <translation>打开白色内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="643"/>
-        <source>Interior lights blue turn on</source>
-        <translation>打开白色内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="644"/>
-        <source>Turns blue Interior lights on</source>
-        <translation>打开白色内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="647"/>
-        <source>Interior lights turn off</source>
-        <translation>关闭内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="648"/>
-        <source>Turns Interior lights off</source>
-        <translation>关闭内部灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="655"/>
-        <source>Side lights white turn on</source>
-        <translation>打开白色侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="656"/>
-        <source>Turns white Side lights on</source>
-        <translation>打开白色侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="659"/>
-        <source>Side lights red turn on</source>
-        <translation>打开白色侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="660"/>
-        <source>Turns red Side lights on</source>
-        <translation>打开白色侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="663"/>
-        <source>Side lights green turn on</source>
-        <translation>打开白色侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="664"/>
-        <source>Turns green Side lights on</source>
-        <translation>打开白色侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="667"/>
-        <source>Side lights blue turn on</source>
-        <translation>打开白色侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="668"/>
-        <source>Turns blue Side lights on</source>
-        <translation>打开白色侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="671"/>
-        <location filename="../main.qml" line="1587"/>
-        <source>Side lights turn off</source>
-        <translation>关闭侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="672"/>
-        <source>Turns Side lights off</source>
-        <translation>关闭侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="678"/>
-        <source>Left Make Up Lights turn on</source>
-        <translation>接通左侧化妆灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="679"/>
-        <source>Turns Left Make Up Light on</source>
-        <translation>接通左侧化妆灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="682"/>
-        <source>Left Make Up Light turn off</source>
-        <translation>关闭左侧化妆灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="683"/>
-        <source>Turns Left Make Up Light off</source>
-        <translation>关闭左侧化妆灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="686"/>
-        <source>Right Make Up Light turn on</source>
-        <translation>接通右侧化妆灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="687"/>
-        <source>Turns Right Make Up Light on</source>
-        <translation>接通右侧化妆灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="690"/>
-        <source>Right Make Up Light turn off</source>
-        <translation>关闭右侧化妆灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="691"/>
-        <source>Turns Right Make Up Light off</source>
-        <translation>关闭右侧化妆灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="697"/>
-        <source>Left Reading Lights turn on</source>
-        <translation>接通左侧阅读灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="698"/>
-        <source>Turns Left Reading Light on</source>
-        <translation>接通左侧阅读灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="701"/>
-        <source>Left Reading Light turn off</source>
-        <translation>关闭左侧阅读灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="702"/>
-        <source>Turns Left Reading Light off</source>
-        <translation>关闭左侧阅读灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="705"/>
-        <source>Right Reading Light turn on</source>
-        <translation>接通右侧阅读灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="706"/>
-        <source>Turns Right Reading Light on</source>
-        <translation>接通右侧阅读灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="709"/>
-        <source>Right Reading Light turn off</source>
-        <translation>关闭右侧阅读灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="710"/>
-        <source>Turns Right Reading Light off</source>
-        <translation>关闭右侧阅读灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="715"/>
-        <source>Right Drawer Open</source>
-        <translation>伸出右侧抽屉</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="716"/>
-        <source>Opens the Right Drawer</source>
-        <translation>伸出右侧抽屉</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="719"/>
-        <source>Right Drawer Close</source>
-        <translation>收回右侧抽屉</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="720"/>
-        <source>Closes the Right Drawer</source>
-        <translation>收回右侧抽屉</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="723"/>
-        <source>Left Drawer Open</source>
-        <translation>伸出左侧抽屉</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="724"/>
-        <source>Opens the Left Drawer</source>
-        <translation>伸出左侧抽屉</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="727"/>
-        <source>Left Drawer Close</source>
-        <translation>收回左侧抽屉</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="728"/>
-        <source>Closes the Left Drawer</source>
-        <translation>收回左侧抽屉</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="735"/>
-        <source>Air conditioner turn on</source>
-        <translation>打开空调</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="736"/>
-        <source>Turns on the Air Conditioner</source>
-        <translation>打开空调</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="739"/>
-        <source>Air conditioner turn off</source>
-        <translation>关闭空调</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="740"/>
-        <source>Turns off the Air Conditioner</source>
-        <translation>关闭空调</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="743"/>
-        <source>Air conditioner Degree Increase</source>
-        <translation>提高温度                          </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="744"/>
-        <source>Increases the heat degree of AC</source>
-        <translation>提高温度                          </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="747"/>
-        <source>Air conditioner Degree Decrease</source>
-        <translation>降低温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="748"/>
-        <source>Decreases the heat degree of AC</source>
-        <translation>降低温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="751"/>
-        <source>Air conditioner Fan Increase</source>
-        <translation>加大风量</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="752"/>
-        <source>Increases the Fan Speed of AC</source>
-        <translation>加大风量</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="755"/>
-        <source>Air conditioner Fan Decrease</source>
-        <translation>减小风量</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="756"/>
-        <source>Decreases the Fan Speed of AC</source>
-        <translation>减小风量</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="763"/>
-        <source>Fridge degree increase</source>
-        <translation>升高冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="764"/>
-        <source>Increases heat of Fridge</source>
-        <translation>升高冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="767"/>
-        <source>Fridge degree decrease</source>
-        <translation>降低冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="768"/>
-        <source>Decreases heat of Fridge</source>
-        <translation>降低冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="771"/>
-        <source>Front Fridge degree increase</source>
-        <translation>升高前置冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="772"/>
-        <source>Increases heat of Front Fridge</source>
-        <translation>升高前置冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="775"/>
-        <source>Front Fridge degree decrease</source>
-        <translation>降低前置冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="776"/>
-        <source>Decreases heat of Front Fridge</source>
-        <translation>降低前置冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="779"/>
-        <source>Rear Fridge degree increase</source>
-        <translation>升高后置冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="780"/>
-        <source>Increases heat of Rear Fridge</source>
-        <translation>升高后置冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="783"/>
-        <source>Rear Fridge degree decrease</source>
-        <translation>降低后置冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="784"/>
-        <source>Decreases heat of Rear Fridge</source>
-        <translation>降低后置冰箱温度</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="791"/>
-        <source>Bottles Open</source>
-        <translation>打开酒柜</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="792"/>
-        <source>Opens the Bottles</source>
-        <translation>打开酒柜</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="795"/>
-        <source>Bottles Close</source>
-        <translation>关闭酒柜</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="796"/>
-        <source>Closes the Bottles</source>
-        <translation>关闭酒柜</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="799"/>
-        <source>Glasses Open</source>
-        <translation>打开眼镜盒</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="800"/>
-        <source>Opens the Glasses</source>
-        <translation>打开眼镜盒</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="803"/>
-        <source>Glasses Close</source>
-        <translation>关闭眼镜盒</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="804"/>
-        <source>Closes the Glasses</source>
-        <translation>关闭眼镜盒</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="810"/>
-        <source>Radio Channel Change</source>
-        <translation>搜索电台</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="811"/>
-        <source>Changes the Radio Channel</source>
-        <translation>搜索电台</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="814"/>
-        <source>Radio Channel Forward</source>
-        <translation>向上搜索</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="815"/>
-        <source>Forwards the Radio Channel</source>
-        <translation>向上搜索</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="818"/>
-        <source>Radio Channel Backward</source>
-        <translation>向下搜索</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="819"/>
-        <source>Backwards the Radio Channel</source>
-        <translation>向下搜索</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="825"/>
-        <source>Roof Monitor Open</source>
-        <translation>打开头上显示器</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="826"/>
-        <source>Opens the Roof Monitor</source>
-        <translation>打开头上显示器</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="829"/>
-        <source>Roof Monitor Close</source>
-        <translation>关闭头上显示器</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="830"/>
-        <source>Closes the Roof Monitor</source>
-        <translation>关闭头上显示器</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="833"/>
-        <source>Rear TV Open</source>
-        <translation>打开后部电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="834"/>
-        <source>Opens the Rear TV</source>
-        <translation>打开后部电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="837"/>
-        <source>Rear TV Close</source>
-        <translation>关闭后部电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="838"/>
-        <source>Closes the Rear TV</source>
-        <translation>关闭后部电视</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="844"/>
-        <source>Bar Open</source>
-        <translation>打开酒吧</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="845"/>
-        <source>Opens the Bar</source>
-        <translation>打开酒吧</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="848"/>
-        <source>Bar Close</source>
-        <translation>关闭酒吧</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="849"/>
-        <source>Closes the Bar</source>
-        <translation>关闭酒吧</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="856"/>
-        <source>First seat back take one step forward</source>
-        <translation>第一座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="857"/>
-        <source>Takes First Seat back one step forward</source>
-        <translation>第一座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="860"/>
-        <source>First seat back take two step forward</source>
-        <translation>第一座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="861"/>
-        <source>Takes First Seat back two step forward</source>
-        <translation>第一座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="864"/>
-        <source>First seat back take last point forward</source>
-        <translation>第一座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="865"/>
-        <source>Takes First Seat back last point forward</source>
-        <translation>第一座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="868"/>
-        <source>First seat back take one step backward</source>
-        <translation>第一座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="869"/>
-        <source>Takes First Seat back one step backward</source>
-        <translation>第一座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="872"/>
-        <source>First seat back take two step backward</source>
-        <translation>第一座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="873"/>
-        <source>Takes First Seat back two step backward</source>
-        <translation>第一座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="876"/>
-        <source>First seat back take last point backward</source>
-        <translation>第一座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="877"/>
-        <source>Takes First Seat back last point backward</source>
-        <translation>第一座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="883"/>
-        <location filename="../main.qml" line="910"/>
-        <source>First Seat take one step forward</source>
-        <translation>第一座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="884"/>
-        <location filename="../main.qml" line="911"/>
-        <source>Takes First Seat one step forward</source>
-        <translation>第一座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="887"/>
-        <location filename="../main.qml" line="914"/>
-        <source>First Seat take two step forward</source>
-        <translation>第一座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="888"/>
-        <location filename="../main.qml" line="915"/>
-        <source>Takes First Seat two step forward</source>
-        <translation>第一座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="891"/>
-        <location filename="../main.qml" line="918"/>
-        <source>First Seat take last point forward</source>
-        <translation>第一座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="892"/>
-        <location filename="../main.qml" line="919"/>
-        <source>Takes First Seat last point forward</source>
-        <translation>第一座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="895"/>
-        <location filename="../main.qml" line="922"/>
-        <source>First Seat take one step backward</source>
-        <translation>第一座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="896"/>
-        <location filename="../main.qml" line="923"/>
-        <source>Takes First Seat one step backward</source>
-        <translation>第一座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="899"/>
-        <location filename="../main.qml" line="926"/>
-        <source>First Seat take two step backward</source>
-        <translation>第一座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="900"/>
-        <location filename="../main.qml" line="927"/>
-        <source>Takes First Seat two step backward</source>
-        <translation>第一座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="903"/>
-        <location filename="../main.qml" line="930"/>
-        <source>First Seat take last point backward</source>
-        <translation>第一座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="904"/>
-        <location filename="../main.qml" line="931"/>
-        <source>Takes First Seat last point backward</source>
-        <translation>第一座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="938"/>
-        <source>First Seat Head take one step forward</source>
-        <translation>第一座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="939"/>
-        <source>Takes First Seat Head one step forward</source>
-        <translation>第一座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="942"/>
-        <source>First Seat Head take two step forward</source>
-        <translation>第一座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="943"/>
-        <source>Takes First Seat Head two step forward</source>
-        <translation>第一座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="946"/>
-        <source>First Seat Head take last point forward</source>
-        <translation>第一座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="947"/>
-        <source>Takes First Seat Head last point forward</source>
-        <translation>第一座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="950"/>
-        <source>First Seat Head take one step backward</source>
-        <translation>第一座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="951"/>
-        <source>Takes First Seat Head one step backward</source>
-        <translation>第一座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="954"/>
-        <source>First Seat Head take two step backward</source>
-        <translation>第一座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="955"/>
-        <source>Takes First Seat Head two step backward</source>
-        <translation>第一座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="958"/>
-        <source>First Seat Head take last point backward</source>
-        <translation>第一座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="959"/>
-        <source>Takes First Seat Head last point backward</source>
-        <translation>第一座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="966"/>
-        <source>Second seat back take one step forward</source>
-        <translation>第二座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="967"/>
-        <source>Takes Second Seat back one step forward</source>
-        <translation>第二座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="970"/>
-        <source>Second seat back take two step forward</source>
-        <translation>第二座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="971"/>
-        <source>Takes Second Seat back two step forward</source>
-        <translation>第二座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="974"/>
-        <source>Second seat back take last point forward</source>
-        <translation>第二座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="975"/>
-        <source>Takes Second Seat back last point forward</source>
-        <translation>第二座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="978"/>
-        <source>Second seat back take one step backward</source>
-        <translation>第二座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="979"/>
-        <source>Takes Second Seat back one step backward</source>
-        <translation>第二座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="982"/>
-        <source>Second seat back take two step backward</source>
-        <translation>第二座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="983"/>
-        <source>Takes Second Seat back two step backward</source>
-        <translation>第二座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="986"/>
-        <source>Second seat back take last point backward</source>
-        <translation>第二座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="987"/>
-        <source>Takes Second Seat back last point backward</source>
-        <translation>第二座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="993"/>
-        <location filename="../main.qml" line="1020"/>
-        <source>Second Seat take one step forward</source>
-        <translation>第二座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="994"/>
-        <location filename="../main.qml" line="1021"/>
-        <source>Takes Second Seat one step forward</source>
-        <translation>第二座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="997"/>
-        <location filename="../main.qml" line="1024"/>
-        <source>Second Seat take two step forward</source>
-        <translation>第二座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="998"/>
-        <location filename="../main.qml" line="1025"/>
-        <source>Takes Second Seat two step forward</source>
-        <translation>第二座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1001"/>
-        <location filename="../main.qml" line="1028"/>
-        <source>Second Seat take last point forward</source>
-        <translation>第二座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1002"/>
-        <location filename="../main.qml" line="1029"/>
-        <source>Takes Second Seat last point forward</source>
-        <translation>第二座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1005"/>
-        <location filename="../main.qml" line="1032"/>
-        <source>Second Seat take one step backward</source>
-        <translation>第二座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1006"/>
-        <location filename="../main.qml" line="1033"/>
-        <source>Takes Second Seat one step backward</source>
-        <translation>第二座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1009"/>
-        <location filename="../main.qml" line="1036"/>
-        <source>Second Seat take two step backward</source>
-        <translation>第二座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1010"/>
-        <location filename="../main.qml" line="1037"/>
-        <source>Takes Second Seat two step backward</source>
-        <translation>第二座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1013"/>
-        <location filename="../main.qml" line="1040"/>
-        <source>Second Seat take last point backward</source>
-        <translation>第二座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1014"/>
-        <location filename="../main.qml" line="1041"/>
-        <source>Takes Second Seat last point backward</source>
-        <translation>第二座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1048"/>
-        <source>Second Seat Head take one step forward</source>
-        <translation>第二座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1049"/>
-        <source>Takes Second Seat Head one step forward</source>
-        <translation>第二座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1052"/>
-        <source>Second Seat Head take two step forward</source>
-        <translation>第二座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1053"/>
-        <source>Takes Second Seat Head two step forward</source>
-        <translation>第二座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1056"/>
-        <source>Second Seat Head take last point forward</source>
-        <translation>第二座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1057"/>
-        <source>Takes Second Seat Head last point forward</source>
-        <translation>第二座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1060"/>
-        <source>Second Seat Head take one step backward</source>
-        <translation>第二座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1061"/>
-        <source>Takes Second Seat Head one step backward</source>
-        <translation>第二座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1064"/>
-        <source>Second Seat Head take two step backward</source>
-        <translation>第二座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1065"/>
-        <source>Takes Second Seat Head two step backward</source>
-        <translation>第二座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1068"/>
-        <source>Second Seat Head take last point backward</source>
-        <translation>第二座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1069"/>
-        <source>Takes Second Seat Head last point backward</source>
-        <translation>第二座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1076"/>
-        <source>Third seat back take one step forward</source>
-        <translation>第三座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1077"/>
-        <source>Takes Third Seat back one step forward</source>
-        <translation>第三座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1080"/>
-        <source>Third seat back take two step forward</source>
-        <translation>第三座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1081"/>
-        <source>Takes Third Seat back two step forward</source>
-        <translation>第三座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1084"/>
-        <source>Third seat back take last point forward</source>
-        <translation>第三座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1085"/>
-        <source>Takes Third Seat back last point forward</source>
-        <translation>第三座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1088"/>
-        <source>Third seat back take one step backward</source>
-        <translation>第三座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1089"/>
-        <source>Takes Third Seat back one step backward</source>
-        <translation>第三座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1092"/>
-        <source>Third seat back take two step backward</source>
-        <translation>第三座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1093"/>
-        <source>Takes Third Seat back two step backward</source>
-        <translation>第三座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1096"/>
-        <source>Third seat back take last point backward</source>
-        <translation>第三座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1097"/>
-        <source>Takes Third Seat back last point backward</source>
-        <translation>第三座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1103"/>
-        <location filename="../main.qml" line="1130"/>
-        <source>Third Seat take one step forward</source>
-        <translation>第三座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1104"/>
-        <location filename="../main.qml" line="1131"/>
-        <source>Takes Third Seat one step forward</source>
-        <translation>第三座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1107"/>
-        <location filename="../main.qml" line="1134"/>
-        <source>Third Seat take two step forward</source>
-        <translation>第三座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1108"/>
-        <location filename="../main.qml" line="1135"/>
-        <source>Takes Third Seat two step forward</source>
-        <translation>第三座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1111"/>
-        <location filename="../main.qml" line="1138"/>
-        <source>Third Seat take last point forward</source>
-        <translation>第三座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1112"/>
-        <location filename="../main.qml" line="1139"/>
-        <source>Takes Third Seat last point forward</source>
-        <translation>第三座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1115"/>
-        <location filename="../main.qml" line="1142"/>
-        <source>Third Seat take one step backward</source>
-        <translation>第三座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1116"/>
-        <location filename="../main.qml" line="1143"/>
-        <source>Takes Third Seat one step backward</source>
-        <translation>第三座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1119"/>
-        <location filename="../main.qml" line="1146"/>
-        <source>Third Seat take two step backward</source>
-        <translation>第三座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1120"/>
-        <location filename="../main.qml" line="1147"/>
-        <source>Takes Third Seat two step backward</source>
-        <translation>第三座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1123"/>
-        <location filename="../main.qml" line="1150"/>
-        <source>Third Seat take last point backward</source>
-        <translation>第三座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1124"/>
-        <location filename="../main.qml" line="1151"/>
-        <source>Takes Third Seat last point backward</source>
-        <translation>第三座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1158"/>
-        <source>Third Seat Head take one step forward</source>
-        <translation>第三座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1159"/>
-        <source>Takes Third Seat Head one step forward</source>
-        <translation>第三座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1162"/>
-        <source>Third Seat Head take two step forward</source>
-        <translation>第三座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1163"/>
-        <source>Takes Third Seat Head two step forward</source>
-        <translation>第三座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1166"/>
-        <source>Third Seat Head take last point forward</source>
-        <translation>第三座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1167"/>
-        <source>Takes Third Seat Head last point forward</source>
-        <translation>第三座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1170"/>
-        <source>Third Seat Head take one step backward</source>
-        <translation>第三座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1171"/>
-        <source>Takes Third Seat Head one step backward</source>
-        <translation>第三座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1174"/>
-        <source>Third Seat Head take two step backward</source>
-        <translation>第三座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1175"/>
-        <source>Takes Third Seat Head two step backward</source>
-        <translation>第三座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1178"/>
-        <source>Third Seat Head take last point backward</source>
-        <translation>第三座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1179"/>
-        <source>Takes Third Seat Head last point backward</source>
-        <translation>第三座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1186"/>
-        <source>Fourth seat back take one step forward</source>
-        <translation>第四座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1187"/>
-        <source>Takes Fourth Seat back one step forward</source>
-        <translation>第四座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1190"/>
-        <source>Fourth seat back take two step forward</source>
-        <translation>第四座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1191"/>
-        <source>Takes Fourth Seat back two step forward</source>
-        <translation>第四座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1194"/>
-        <source>Fourth seat back take last point forward</source>
-        <translation>第四座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1195"/>
-        <source>Takes Fourth Seat back last point forward</source>
-        <translation>第四座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1198"/>
-        <source>Fourth seat back take one step backward</source>
-        <translation>第四座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1199"/>
-        <source>Takes Fourth Seat back one step backward</source>
-        <translation>第四座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1202"/>
-        <source>Fourth seat back take two step backward</source>
-        <translation>第四座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1203"/>
-        <source>Takes Fourth Seat back two step backward</source>
-        <translation>第四座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1206"/>
-        <source>Fourth seat back take last point backward</source>
-        <translation>第四座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1207"/>
-        <source>Takes Fourth Seat back last point backward</source>
-        <translation>第四座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1213"/>
-        <location filename="../main.qml" line="1240"/>
-        <source>Fourth Seat take one step forward</source>
-        <translation>第四座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1214"/>
-        <location filename="../main.qml" line="1241"/>
-        <source>Takes Fourth Seat one step forward</source>
-        <translation>第四座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1217"/>
-        <location filename="../main.qml" line="1244"/>
-        <source>Fourth Seat take two step forward</source>
-        <translation>第四座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1218"/>
-        <location filename="../main.qml" line="1245"/>
-        <source>Takes Fourth Seat two step forward</source>
-        <translation>第四座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1221"/>
-        <location filename="../main.qml" line="1248"/>
-        <source>Fourth Seat take last point forward</source>
-        <translation>第四座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1222"/>
-        <location filename="../main.qml" line="1249"/>
-        <source>Takes Fourth Seat last point forward</source>
-        <translation>第四座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1225"/>
-        <location filename="../main.qml" line="1252"/>
-        <source>Fourth Seat take one step backward</source>
-        <translation>第四座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1226"/>
-        <location filename="../main.qml" line="1253"/>
-        <source>Takes Fourth Seat one step backward</source>
-        <translation>第四座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1229"/>
-        <location filename="../main.qml" line="1256"/>
-        <source>Fourth Seat take two step backward</source>
-        <translation>第四座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1230"/>
-        <location filename="../main.qml" line="1257"/>
-        <source>Takes Fourth Seat two step backward</source>
-        <translation>第四座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1233"/>
-        <location filename="../main.qml" line="1260"/>
-        <source>Fourth Seat take last point backward</source>
-        <translation>第四座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1234"/>
-        <location filename="../main.qml" line="1261"/>
-        <source>Takes Fourth Seat last point backward</source>
-        <translation>第四座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1268"/>
-        <source>Fourth Seat Head take one step forward</source>
-        <translation>第四座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1269"/>
-        <source>Takes Fourth Seat Head one step forward</source>
-        <translation>第四座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1272"/>
-        <source>Fourth Seat Head take two step forward</source>
-        <translation>第四座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1273"/>
-        <source>Takes Fourth Seat Head two step forward</source>
-        <translation>第四座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1276"/>
-        <source>Fourth Seat Head take last point forward</source>
-        <translation>第四座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1277"/>
-        <source>Takes Fourth Seat Head last point forward</source>
-        <translation>第四座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1280"/>
-        <source>Fourth Seat Head take one step backward</source>
-        <translation>第四座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1281"/>
-        <source>Takes Fourth Seat Head one step backward</source>
-        <translation>第四座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1284"/>
-        <source>Fourth Seat Head take two step backward</source>
-        <translation>第四座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1285"/>
-        <source>Takes Fourth Seat Head two step backward</source>
-        <translation>第四座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1288"/>
-        <source>Fourth Seat Head take last point backward</source>
-        <translation>第四座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1289"/>
-        <source>Takes Fourth Seat Head last point backward</source>
-        <translation>第四座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1296"/>
-        <source>Fifth seat back take one step forward</source>
-        <translation>第五座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1297"/>
-        <source>Takes Fifth Seat back one step forward</source>
-        <translation>第五座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1300"/>
-        <source>Fifth seat back take two step forward</source>
-        <translation>第五座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1301"/>
-        <source>Takes Fifth Seat back two step forward</source>
-        <translation>第五座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1304"/>
-        <source>Fifth seat back take last point forward</source>
-        <translation>第五座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1305"/>
-        <source>Takes Fifth Seat back last point forward</source>
-        <translation>第五座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1308"/>
-        <source>Fifth seat back take one step backward</source>
-        <translation>第五座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1309"/>
-        <source>Takes Fifth Seat back one step backward</source>
-        <translation>第五座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1312"/>
-        <source>Fifth seat back take two step backward</source>
-        <translation>第五座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1313"/>
-        <source>Takes Fifth Seat back two step backward</source>
-        <translation>第五座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1316"/>
-        <source>Fifth seat back take last point backward</source>
-        <translation>第五座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1317"/>
-        <source>Takes Fifth Seat back last point backward</source>
-        <translation>第五座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1323"/>
-        <location filename="../main.qml" line="1350"/>
-        <source>Fifth Seat take one step forward</source>
-        <translation>第五座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1324"/>
-        <location filename="../main.qml" line="1351"/>
-        <source>Takes Fifth Seat one step forward</source>
-        <translation>第五座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1327"/>
-        <location filename="../main.qml" line="1354"/>
-        <source>Fifth Seat take two step forward</source>
-        <translation>第五座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1328"/>
-        <location filename="../main.qml" line="1355"/>
-        <source>Takes Fifth Seat two step forward</source>
-        <translation>第五座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1331"/>
-        <location filename="../main.qml" line="1358"/>
-        <source>Fifth Seat take last point forward</source>
-        <translation>第五座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1332"/>
-        <location filename="../main.qml" line="1359"/>
-        <source>Takes Fifth Seat last point forward</source>
-        <translation>第五座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1335"/>
-        <location filename="../main.qml" line="1362"/>
-        <source>Fifth Seat take one step backward</source>
-        <translation>第五座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1336"/>
-        <location filename="../main.qml" line="1363"/>
-        <source>Takes Fifth Seat one step backward</source>
-        <translation>第五座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1339"/>
-        <location filename="../main.qml" line="1366"/>
-        <source>Fifth Seat take two step backward</source>
-        <translation>第五座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1340"/>
-        <location filename="../main.qml" line="1367"/>
-        <source>Takes Fifth Seat two step backward</source>
-        <translation>第五座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1343"/>
-        <location filename="../main.qml" line="1370"/>
-        <source>Fifth Seat take last point backward</source>
-        <translation>第五座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1344"/>
-        <location filename="../main.qml" line="1371"/>
-        <source>Takes Fifth Seat last point backward</source>
-        <translation>第五座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1378"/>
-        <source>Fifth Seat Head take one step forward</source>
-        <translation>第五座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1379"/>
-        <source>Takes Fifth Seat Head one step forward</source>
-        <translation>第五座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1382"/>
-        <source>Fifth Seat Head take two step forward</source>
-        <translation>第五座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1383"/>
-        <source>Takes Fifth Seat Head two step forward</source>
-        <translation>第五座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1386"/>
-        <source>Fifth Seat Head take last point forward</source>
-        <translation>第五座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1387"/>
-        <source>Takes Fifth Seat Head last point forward</source>
-        <translation>第五座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1390"/>
-        <source>Fifth Seat Head take one step backward</source>
-        <translation>第五座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1391"/>
-        <source>Takes Fifth Seat Head one step backward</source>
-        <translation>第五座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1394"/>
-        <source>Fifth Seat Head take two step backward</source>
-        <translation>第五座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1395"/>
-        <source>Takes Fifth Seat Head two step backward</source>
-        <translation>第五座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1398"/>
-        <source>Fifth Seat Head take last point backward</source>
-        <translation>第五座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1399"/>
-        <source>Takes Fifth Seat Head last point backward</source>
-        <translation>第五座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1406"/>
-        <source>Sixth seat back take one step forward</source>
-        <translation>第六座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1407"/>
-        <source>Takes Sixth Seat back one step forward</source>
-        <translation>第六座椅靠背向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1410"/>
-        <source>Sixth seat back take two step forward</source>
-        <translation>第六座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1411"/>
-        <source>Takes Sixth Seat back two step forward</source>
-        <translation>第六座椅靠背向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1414"/>
-        <source>Sixth seat back take last point forward</source>
-        <translation>第六座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1415"/>
-        <source>Takes Sixth Seat back last point forward</source>
-        <translation>第六座椅靠背向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1418"/>
-        <source>Sixth seat back take one step backward</source>
-        <translation>第六座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1419"/>
-        <source>Takes Sixth Seat back one step backward</source>
-        <translation>第六座椅靠背向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1422"/>
-        <source>Sixth seat back take two step backward</source>
-        <translation>第六座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1423"/>
-        <source>Takes Sixth Seat back two step backward</source>
-        <translation>第六座椅靠背向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1426"/>
-        <source>Sixth seat back take last point backward</source>
-        <translation>第六座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1427"/>
-        <source>Takes Sixth Seat back last point backward</source>
-        <translation>第六座椅靠背向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1433"/>
-        <location filename="../main.qml" line="1460"/>
-        <source>Sixth Seat take one step forward</source>
-        <translation>第六座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1434"/>
-        <location filename="../main.qml" line="1461"/>
-        <source>Takes Sixth Seat one step forward</source>
-        <translation>第六座椅向前一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1437"/>
-        <location filename="../main.qml" line="1464"/>
-        <source>Sixth Seat take two step forward</source>
-        <translation>第六座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1438"/>
-        <location filename="../main.qml" line="1465"/>
-        <source>Takes Sixth Seat two step forward</source>
-        <translation>第六座椅向前两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1441"/>
-        <location filename="../main.qml" line="1468"/>
-        <source>Sixth Seat take last point forward</source>
-        <translation>第六座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1442"/>
-        <location filename="../main.qml" line="1469"/>
-        <source>Takes Sixth Seat last point forward</source>
-        <translation>第六座椅向前到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1445"/>
-        <location filename="../main.qml" line="1472"/>
-        <source>Sixth Seat take one step backward</source>
-        <translation>第六座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1446"/>
-        <location filename="../main.qml" line="1473"/>
-        <source>Takes Sixth Seat one step backward</source>
-        <translation>第六座椅向后一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1449"/>
-        <location filename="../main.qml" line="1476"/>
-        <source>Sixth Seat take two step backward</source>
-        <translation>第六座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1450"/>
-        <location filename="../main.qml" line="1477"/>
-        <source>Takes Sixth Seat two step backward</source>
-        <translation>第六座椅向后两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1453"/>
-        <location filename="../main.qml" line="1480"/>
-        <source>Sixth Seat take last point backward</source>
-        <translation>第六座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1454"/>
-        <location filename="../main.qml" line="1481"/>
-        <source>Takes Sixth Seat last point backward</source>
-        <translation>第六座椅向后到位 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1488"/>
-        <source>Sixth Seat Head take one step forward</source>
-        <translation>第六座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1489"/>
-        <source>Takes Sixth Seat Head one step forward</source>
-        <translation>第六座椅头枕向上一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1492"/>
-        <source>Sixth Seat Head take two step forward</source>
-        <translation>第六座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1493"/>
-        <source>Takes Sixth Seat Head two step forward</source>
-        <translation>第六座椅头枕向上两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1496"/>
-        <source>Sixth Seat Head take last point forward</source>
-        <translation>第六座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1497"/>
-        <source>Takes Sixth Seat Head last point forward</source>
-        <translation>第六座椅头枕向上到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1500"/>
-        <source>Sixth Seat Head take one step backward</source>
-        <translation>第六座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1501"/>
-        <source>Takes Sixth Seat Head one step backward</source>
-        <translation>第六座椅头枕向下一步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1504"/>
-        <source>Sixth Seat Head take two step backward</source>
-        <translation>第六座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1505"/>
-        <source>Takes Sixth Seat Head two step backward</source>
-        <translation>第六座椅头枕向下两步</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1508"/>
-        <source>Sixth Seat Head take last point backward</source>
-        <translation>第六座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1509"/>
-        <source>Takes Sixth Seat Head last point backward</source>
-        <translation>第六座椅头枕向下到位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1516"/>
-        <source>Luggage Curtain Open</source>
-        <translation>打开行李箱窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1517"/>
-        <source>Opens the Luggage Curtain</source>
-        <translation>打开行李箱窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1520"/>
-        <source>Luggage Curtain Close</source>
-        <translation>关闭行李箱窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1521"/>
-        <source>Closes the Luggage Curtain</source>
-        <translation>关闭行李箱窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1524"/>
-        <source>All Curtain Open</source>
-        <translation>打开全部窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1525"/>
-        <source>Opens all the Curtain</source>
-        <translation>打开全部窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1528"/>
-        <source>All Curtain Close</source>
-        <translation>关闭全部窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1529"/>
-        <source>Closes all the Curtain</source>
-        <translation>关闭全部窗帘</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1536"/>
-        <source>Take the first seat in sleep mode</source>
-        <translation>第一座椅睡眠模式 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1537"/>
-        <source>Takes the first seat in sleep mode</source>
-        <translation>第一座椅睡眠模式 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1540"/>
-        <source>Take the second seat in sleep mode</source>
-        <translation>第二座椅睡眠模式 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1541"/>
-        <source>Takes the second seat in sleep mode</source>
-        <translation>第二座椅睡眠模式 </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1544"/>
-        <source>Gather first seat</source>
-        <translation>第一座椅回位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1545"/>
-        <source>Gathers first seat</source>
-        <translation>第一座椅回位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1548"/>
-        <source>Gather second seat</source>
-        <translation>第二座椅回位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1549"/>
-        <source>Gathers second seat</source>
-        <translation>第二座椅回位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1552"/>
-        <source>Take cinema mode</source>
-        <translation>进入电影院模式</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1553"/>
-        <source>Takes cinema mode</source>
-        <translation>进入电影院模式</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1556"/>
-        <source>Take conference mode</source>
-        <translation>进入会议模式</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1557"/>
-        <source>Takes conference mode</source>
-        <translation>进入会议模式</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1560"/>
-        <source>All tables open</source>
-        <translation>打开所有的桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1561"/>
-        <source>Opens all tables</source>
-        <translation>打开所有的桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1564"/>
-        <source>All tables close</source>
-        <translation>关闭所有的桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1565"/>
-        <source>Closes all tables</source>
-        <translation>关闭所有的桌板</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1568"/>
-        <source>Gather all seats</source>
-        <translation>收集所有座位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1569"/>
-        <source>Gathers all seats</source>
-        <translation>收集所有座位</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1575"/>
-        <source>In lights turn on</source>
-        <translation>打开室内灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1576"/>
-        <source>Turns on in lights</source>
-        <translation>打开室内灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1579"/>
-        <source>In lights turn off</source>
-        <translation>在灯光下关闭</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1580"/>
-        <source>Turns off in lights</source>
-        <translation>在灯光下关闭</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1583"/>
-        <source>Side lights turn on</source>
-        <translation>打开侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1584"/>
-        <source>Turns on Side lights</source>
-        <translation>打开侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1588"/>
-        <source>Turns off Side lights</source>
-        <translation>关掉侧灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1591"/>
-        <source>Ceiling lights turn on</source>
-        <translation>打开天花板灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1592"/>
-        <source>Turns on Ceiling lights</source>
-        <translation>打开天花板灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1596"/>
-        <source>Turns off Ceiling lights</source>
-        <translation>关掉天花板灯</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1599"/>
-        <source>System off</source>
-        <translation>系统开关</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1600"/>
-        <source>Turns the System off</source>
-        <translation>系统开关</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1605"/>
-        <source>Return to The Homepage</source>
-        <translation>返回主页</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1606"/>
-        <source>Returns to The Homepage</source>
-        <translation>返回主页</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1620"/>
         <source>Command</source>
         <translation>命令</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1625"/>
+        <location filename="../main.qml" line="212"/>
         <source>Action</source>
         <translation>行动</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1686"/>
+        <location filename="../main.qml" line="279"/>
         <source>Command list that you can ask from the voice assistant.</source>
         <translation>您可以从语音助手处询问的命令列表</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1705"/>
+        <location filename="../main.qml" line="312"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>

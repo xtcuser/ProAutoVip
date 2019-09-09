@@ -220,6 +220,17 @@ BasePage {
             b: parseInt(result[3], 16)
             } : null;
     }
+    function changeAllColor(r,g,b)
+    {
+        sideColor=Qt.rgba(r/255, g/255, b/255,1);
+        ceilColor=Qt.rgba(r/255, g/255, b/255,1);
+        inSideColor=Qt.rgba(r/255, g/255, b/255,1);
+        sendSideColor(sideColor);
+        sendCeilColor(ceilColor);
+        sendInsideColor(inSideColor);
+        console.log("r: " + r + " g: "+ g + " b: " + b);
+    }
+
     function sendCeilColor(p_color)
     {
         console.log("ceiling color changed : "+p_color);
@@ -346,8 +357,8 @@ BasePage {
     ColorSlider{
         id: hSlider
         x:274
-        y:273
-        height:265
+        y:200
+        height:360
         width:60
         color:"black"
         value: 1.0 - targetColorItem.hue
@@ -363,122 +374,117 @@ BasePage {
 
         onMouseYChanged: { targetColorItem.hue = Math.max(0.0, Math.min(1.0 - mouseY / height, 1.0)); targetColorItem.value = 1; }
     }
+
     Item{
         id:cmodel
         x:366
-        y:263
+        y:200
         width:620
-        height:293
+        height:500
         clip: true
         Rectangle{
             id:ceil
-            x:2.5
+            x:175
             y:30
-            width:parent.width - 5
-            height:parent.height - 60
-            color: ceilColor
+            width: 250
+            height: 250
+            border.width: 0
             antialiasing: true
+            color:ceilColor
 
         }
         Image{
-            anchors.fill: parent
+            id:imagem
+            width: 622
+            height: 362
+            anchors.verticalCenterOffset: -69
+            anchors.topMargin: 0
+            anchors.verticalCenter: parent.verticalCenter
+            anchors.top: parent.top
+            anchors.right: parent.right
+            anchors.left: parent.left
+            smooth: true
+            enabled: true
+            z: 1
+            scale: 1
+            transformOrigin: Item.Center
+            anchors.rightMargin: 0
+            anchors.leftMargin: 0
+            //            anchors.bottomMargin: 4
+            //            anchors.rightMargin: 0
+//            //            anchors.bottomMargin: -64
+//            anchors.leftMargin: 0
+//            anchors.topMargin: 4
             source:"qrc:/design/lights/icon-tavan.png"
-            antialiasing: true
+            antialiasing: false
         }
 
         Rectangle{
-            id:lb
-            x:119
-            y:194
-            width:46
-            height:15
-            rotation: 36
+            id:mb
+            x:132
+            y:271
+            width:350
+            height:91
+            rotation: 0
             color:inSideColor
             antialiasing: true
             }
         Rectangle{
             id:rb
-            x:453
-            y:195
-            width:44
-            height:13
-            rotation: -36
-            color:inSideColor
-            antialiasing: true
-            }
-        Rectangle{
-            id:lf
-            x:-13
-            y:98
+            x:565
+            y:187
             width:55
-            height:17
-            rotation: 36
+            height:175
+            rotation: 0
             color:inSideColor
             antialiasing: true
             }
         Rectangle{
-            id:rf
-            x:579
-            y:95
-            width:56
-            height:18
-            rotation: -36
+            id:lb
+            x:0
+            y:187
+            width:44
+            height:175
+            rotation: 0
             color:inSideColor
             antialiasing: true
             }
          Rectangle{
              id:c1
-             x:161
-             y:271
-             width:10
-             height:10
-             radius: width/2
+             x:50
+             y:259
+             width:45
+             height:82
              color:sideColor
-            antialiasing: true
-            visible: SM.sidelight()
+             rotation: 0
+             antialiasing: true
+             visible: SM.sidelight()
          }
          Rectangle{
              id:c2
-             x:448
-             y:271
-             width:10
-             height:10
-             radius: width/2
+             x:517
+             y:266
+             width:48
+             height:75
              color:sideColor
-            antialiasing: true
-            visible: SM.sidelight()
-         }
-         Glow{
-             color: sideColor
-             source:c1
-             anchors.fill: c1
-             radius: 5
-             visible: SM.sidelight()
-         }
-         Glow{
-             color: sideColor
-             source:c2
-             anchors.fill: c2
-             radius: 5
+             antialiasing: true
              visible: SM.sidelight()
          }
          Rectangle{
              id:c3
-             x:185
-             y:220
-             width:10
-             height:10
-             radius: width/2
+             x:66
+             y:153
+             width:96
+             height:50
              color:"black"
              antialiasing: true
          }
          Rectangle{
              id:c4
-             x:420
-             y:220
-             width:10
-             height:10
-             radius: width/2
+             x:450
+             y:160
+             width:76
+             height:43
              color:"black"
             antialiasing: true
          }
@@ -488,6 +494,11 @@ BasePage {
              anchors.fill: c3
              color:c3.color
              radius: 5
+             anchors.rightMargin: 13
+             anchors.bottomMargin: 27
+             anchors.leftMargin: 17
+             anchors.topMargin: 20
+             z: 5
          }
          Glow{
              source:c4
@@ -495,17 +506,23 @@ BasePage {
              anchors.fill: c4
              color:c4.color
              radius: 5
+             anchors.rightMargin: 0
+             anchors.bottomMargin: 27
+             anchors.leftMargin: 9
+             anchors.topMargin: 13
+             z: 5
          }
         }
     }
 
     ColorSlider{
         id: sSlider
-        x:284
-        y:hSlider.y + hSlider.height + 10
+        x:274
+        width: 712
         height:30
-        width:cmodel.width + hSlider.width + 18
         color:"black"
+        anchors.top: parent.top
+        anchors.topMargin: 570
         orientation: Qt.Horizontal
         value: 1.0 - targetColorItem.saturation
         gradient: Gradient {
@@ -519,7 +536,8 @@ BasePage {
         spacing: 10
         id:cl1
         anchors.top:sSlider.bottom
-        x:284
+        x:274
+        anchors.topMargin: 5
 
 
 
@@ -647,13 +665,17 @@ BasePage {
                        {
                            c4.color = "#000000";
                            serial_mng.sendKey("lights/leftreading_onoff",true,delay);
+
                        }else
                        {
                            c4.color = "#fff6a6";
                            serial_mng.sendKey("lights/leftreading_onoff",true,delay);
-                       }
+//                           changeAllColor(100,150,30);
+                        }
+                    }
                }
-           }
+
+
 
         }
 
