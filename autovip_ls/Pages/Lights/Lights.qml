@@ -84,6 +84,19 @@ BasePage {
             serial_mng.sendKey("lights/leftreading_onoff",true,delay);
         }
 
+        if (transbtn.ison==true)
+        {
+            transitme.running=false;
+            transitme2.running=false;
+            transitme3.running=false;
+            transitme4.running=false;
+            transitme5.running=false;
+            transitme6.running=false;
+            transbtn.ison=false;
+        }
+
+
+
 
 
 
@@ -228,8 +241,9 @@ BasePage {
         sendSideColor(sideColor);
         sendCeilColor(ceilColor);
         sendInsideColor(inSideColor);
-        console.log("r: " + r + " g: "+ g + " b: " + b);
+        console.log("All color changed to r: " + r + " g: "+ g + " b: " + b);
     }
+
 
     function sendCeilColor(p_color)
     {
@@ -635,7 +649,7 @@ BasePage {
            x:284
            LightButton{
                Layout.preferredHeight: 30
-               Layout.preferredWidth: 310
+               Layout.preferredWidth: 203
                text:qsTr("Left Reading Light") + mytrans.emptyString
 //               text:qsTr("右边的阅读灯") + mytrans.emptyString
 //               text:qsTr("Sağ Okuma Aydınlatması") + mytrans.emptyString
@@ -655,8 +669,31 @@ BasePage {
                }
            }
            LightButton{
+               id:transbtn
+               property var ison: false
                Layout.preferredHeight: 30
-               Layout.preferredWidth: 310
+               Layout.preferredWidth: 203
+               text:qsTr("Transition Mode") + mytrans.emptyString
+               onReleased: {
+                       if (ison==true)
+                       {
+                           transitme.running=false;
+                           transitme2.running=false;
+                           transitme3.running=false;
+                           transitme4.running=false;
+                           transitme5.running=false;
+                           transitme6.running=false;
+                           ison=false;
+                       }else
+                       {
+                           transitme.start();
+                           ison=true;
+                       }
+                    }
+               }
+           LightButton{
+               Layout.preferredHeight: 30
+               Layout.preferredWidth: 203
                text:qsTr("Right Reading Light") + mytrans.emptyString
 //               text:qsTr("左侧的阅读灯") + mytrans.emptyString
 //               text:qsTr("Sol Okuma Aydınlatması") + mytrans.emptyString
@@ -670,7 +707,6 @@ BasePage {
                        {
                            c4.color = "#fff6a6";
                            serial_mng.sendKey("lights/leftreading_onoff",true,delay);
-//                           changeAllColor(100,150,30);
                         }
                     }
                }
@@ -678,6 +714,174 @@ BasePage {
 
 
         }
+
+        //    COLOUR TRANSITION CHEAT SHEET
+        //    r     g     b
+        //    255   0     0     d
+        //    255   255   0     d
+        //    0     255   0     d
+        //    0     255   255   d
+        //    0     0     255   d
+        //    255   0     255   d
+        //    255   0     0     d
+
+            Timer{
+                property var g: 0
+                property var fps: 30
+                id:transitme
+                interval: 150;
+                running: false;
+                repeat: true
+                onTriggered: function(){
+                    sideColor=Qt.rgba(255/255, g/255, 0/255,1);
+                    ceilColor=Qt.rgba(255/255, g/255, 0/255,1);
+                    inSideColor=Qt.rgba(255/255, g/255, 0/255,1);
+                    sendSideColor(sideColor);
+                    sendCeilColor(ceilColor);
+                    sendInsideColor(inSideColor);
+                    if(g!=255){
+                        g=g+transitme.fps/10;
+                    }else{
+                        transitme.stop();
+                        transitme2.start();
+                        console.log("loop 2 started");
+                        console.log("loop 2 started");
+                        console.log("loop 2 started");
+                        console.log("loop 2 started");
+                    }
+                }
+            }
+            Timer{
+                property var r: 255
+                id:transitme2
+                interval: transitme.interval;
+                running: false;
+                repeat: true
+                onTriggered: function(){
+                    sideColor=Qt.rgba(r/255, 255/255, 0/255,1);
+                    ceilColor=Qt.rgba(r/255, 255/255, 0/255,1);
+                    inSideColor=Qt.rgba(r/255, 255/255, 0/255,1);
+                    sendSideColor(sideColor);
+                    sendCeilColor(ceilColor);
+                    sendInsideColor(inSideColor);
+                    if(r!=0){
+                        r=r-transitme.fps/10;
+                    }else{
+                        transitme2.stop();
+                        transitme3.start();
+                        console.log("loop 3 started");
+                        console.log("loop 3 started");
+                        console.log("loop 3 started");
+                        console.log("loop 3 started");
+                    }
+                }
+            }
+            Timer{
+                property var b: 0
+                id:transitme3
+                interval: transitme.interval;
+                running: false;
+                repeat: true
+                onTriggered: function(){
+                    sideColor=Qt.rgba(0/255, 255/255, b/255,1);
+                    ceilColor=Qt.rgba(0/255, 255/255, b/255,1);
+                    inSideColor=Qt.rgba(0/255, 255/255, b/255,1);
+                    sendSideColor(sideColor);
+                    sendCeilColor(ceilColor);
+                    sendInsideColor(inSideColor);
+                    if(b!=255){
+                        b=b+transitme.fps/10;
+                    }else{
+                        transitme3.stop();
+                        transitme4.start();
+                        console.log("loop 4 started");
+                        console.log("loop 4 started");
+                        console.log("loop 4 started");
+                        console.log("loop 4 started");
+                    }
+                }
+            }
+            Timer{
+                property var g: 255
+                id:transitme4
+                interval: transitme.interval;
+                running: false;
+                repeat: true
+                onTriggered: function(){
+                    sideColor=Qt.rgba(0/255, g/255, 255/255,1);
+                    ceilColor=Qt.rgba(0/255, g/255, 255/255,1);
+                    inSideColor=Qt.rgba(0/255, g/255, 255/255,1);
+                    sendSideColor(sideColor);
+                    sendCeilColor(ceilColor);
+                    sendInsideColor(inSideColor);
+                    if(g!=0){
+                        g=g-transitme.fps/10;
+                    }else{
+                        transitme4.stop();
+                        transitme5.start();
+                        console.log("loop 5 started");
+                        console.log("loop 5 started");
+                        console.log("loop 5 started");
+                        console.log("loop 5 started");
+                    }
+                }
+            }
+            Timer{
+                property var r: 0
+                id:transitme5
+                interval: transitme.interval;
+                running: false;
+                repeat: true
+                onTriggered: function(){
+                    sideColor=Qt.rgba(r/255, 0/255, 255/255,1);
+                    ceilColor=Qt.rgba(r/255, 0/255, 255/255,1);
+                    inSideColor=Qt.rgba(r/255, 0/255, 255/255,1);
+                    sendSideColor(sideColor);
+                    sendCeilColor(ceilColor);
+                    sendInsideColor(inSideColor);
+                    if(r!=255){
+                        r=r+transitme.fps/10;
+                    }else{
+                        transitme5.stop();
+                        transitme6.start();
+                        console.log("loop 6 started");
+                        console.log("loop 6 started");
+                        console.log("loop 6 started");
+                        console.log("loop 6 started");
+                    }
+                }
+            }
+            Timer{
+                property var b: 255
+                id:transitme6
+                interval: transitme.interval;
+                running: false;
+                repeat: true
+                onTriggered: function(){
+                    sideColor=Qt.rgba(255/255, 0/255, b/255,1);
+                    ceilColor=Qt.rgba(255/255, 0/255, b/255,1);
+                    inSideColor=Qt.rgba(255/255, 0/255, b/255,1);
+                    sendSideColor(sideColor);
+                    sendCeilColor(ceilColor);
+                    sendInsideColor(inSideColor);
+                    if(b!=0){
+                        b=b-transitme.fps/10;
+                    }else{
+                        transitme6.stop();
+                        transitme.start();
+                        transitme.g=0;
+                        transitme2.r=255;
+                        transitme3.b=0;
+                        transitme4.g=255;
+                        transitme5.r=0;
+                        transitme6.b=255;
+                        console.log("loop restart");
+                        console.log("loop restart");
+                        console.log("loop restart");
+                        console.log("loop restart");
+                    }
+                }
+            }
 
 
 
