@@ -8,8 +8,6 @@ import ck.gmachine 1.0
 BasePage {
     id: root
     caption:qsTr("Lights") + mytrans.emptyString
-//    caption:qsTr("燈火") + mytrans.emptyString
-//    caption:qsTr("Işıklar") + mytrans.emptyString
     property color previousColor: "transparent"
     property color ceilColor: serial_mng.ceilingcolor
     property color sideColor: serial_mng.sidecolor
@@ -42,33 +40,13 @@ BasePage {
     }
     function closeAll()
     {
-        /*
-                serial_mng.sendKey("lights/ceiling_red",false,root.delay,"0");
-                serial_mng.sendKey("lights/ceiling_green",false,root.delay,"0");
-                serial_mng.sendKey("lights/ceiling_blue",false,root.delay,"0");
-                */
-
-                //serial_mng.ceilingcolor = "#000000";
-                //ceilColorComponent.color = "#000000";
                 ceilColorComponent.red = 0;
                 ceilColorComponent.green = 0;
                 ceilColorComponent.blue = 0;
-        /*
-                serial_mng.sendKey("lights/side_red",false,root.delay,"0");
-                serial_mng.sendKey("lights/side_green",false,root.delay,"0");
-                serial_mng.sendKey("lights/side_blue",false,root.delay,"0");
-                */
 
-                //serial_mng.sidecolor = "#000000";
                 sideColorComponent.color = "#000000";
 
-        /*
-                serial_mng.sendKey("lights/inside_red",false,root.delay,"0");
-                serial_mng.sendKey("lights/inside_green",false,root.delay,"0");
-                serial_mng.sendKey("lights/inside_blue",false,root.delay,"0");
-                */
                 insideColorComponent.color = "#000000";
-                //serial_mng.insidecolor = "#000000";
 
 
 
@@ -247,7 +225,7 @@ BasePage {
 
     function sendCeilColor(p_color)
     {
-        console.log("ceiling color changed : "+p_color);
+//        console.log("ceiling color changed : "+p_color);
         var parts = root.hexToRgb(p_color);
         serial_mng.sendKey("lights/ceiling_red",false,root.delay,parts.r);
         serial_mng.sendKey("lights/ceiling_green",false,root.delay,parts.g);
@@ -255,7 +233,7 @@ BasePage {
     }
     function sendSideColor(p_color)
     {
-        console.log("side color changed : "+p_color);
+//        console.log("side color changed : "+p_color);
         var parts = root.hexToRgb(p_color);
         serial_mng.sendKey("lights/side_red",false,root.delay,parts.r);
         serial_mng.sendKey("lights/side_green",false,root.delay,parts.g);
@@ -263,7 +241,7 @@ BasePage {
     }
     function sendInsideColor(p_color)
     {
-        console.log("inside color changed : "+p_color);
+//        console.log("inside color changed : "+p_color);
         var parts = root.hexToRgb(p_color);
         serial_mng.sendKey("lights/inside_red",false,root.delay,parts.r);
         serial_mng.sendKey("lights/inside_green",false,root.delay,parts.g);
@@ -295,15 +273,9 @@ BasePage {
 
         LeftTextMenu{
             id:leftMenu
-            //delegate: menuDelegate
             selection: true
             onClicked: function(ind)
             {
-//                if(SM.slboolean ===true){
-//                    changeTarget(ind+1);
-//                }else{
-//                    changeTarget(((ind+1)*ind)+1)
-//                }
                 changeTarget(ind+1)
             }
             WorkerScript {
@@ -424,11 +396,6 @@ BasePage {
             transformOrigin: Item.Center
             anchors.rightMargin: 0
             anchors.leftMargin: 0
-            //            anchors.bottomMargin: 4
-            //            anchors.rightMargin: 0
-//            //            anchors.bottomMargin: -64
-//            anchors.leftMargin: 0
-//            anchors.topMargin: 4
             source:"qrc:/design/lights/icon-tavan.png"
             antialiasing: false
         }
@@ -563,21 +530,16 @@ BasePage {
                Layout.preferredHeight: 30
                Layout.preferredWidth: 150
                text:qsTr("Close All") + mytrans.emptyString
-//               text:qsTr("關閉所有") + mytrans.emptyString
-//               text:qsTr("Hepsini Kapat") + mytrans.emptyString
                onClicked: {
                    root.closeAll();
                    GSystem.createLightsModel();
                    leftMenu.model=GSystem.lightsModel;
-                   console.log("SideLights: " + SM.slboolean)
                }
            }
            LightButton{
                Layout.preferredHeight: 30
                Layout.preferredWidth: 150
                text:qsTr("Memory 1") + mytrans.emptyString
-//               text:qsTr("記憶1") + mytrans.emptyString
-//               text:qsTr("Hafıza 1") + mytrans.emptyString
                onClicked: {
                    var ceilColor = SM.getLightMemory(1,1);
                    var sideColor = SM.getLightMemory(1,2);
@@ -597,8 +559,6 @@ BasePage {
                Layout.preferredHeight: 30
                Layout.preferredWidth: 150
                text:qsTr("Memory 2") + mytrans.emptyString
-//               text:qsTr("記憶2") + mytrans.emptyString
-//               text:qsTr("Hafıza 2") + mytrans.emptyString
                onClicked: {
                    var ceilColor = SM.getLightMemory(2,1);
                    var sideColor = SM.getLightMemory(2,2);
@@ -618,8 +578,6 @@ BasePage {
                Layout.preferredHeight: 30
                Layout.preferredWidth: 150
                text:qsTr("Memory 3") + mytrans.emptyString
-//               text:qsTr("記憶3") + mytrans.emptyString
-//               text:qsTr("Hafıza 3") + mytrans.emptyString
                onClicked: {
                     var ceilColor = SM.getLightMemory(3,1);
                     var sideColor = SM.getLightMemory(3,2);
@@ -651,10 +609,7 @@ BasePage {
                Layout.preferredHeight: 30
                Layout.preferredWidth: 203
                text:qsTr("Left Reading Light") + mytrans.emptyString
-//               text:qsTr("右边的阅读灯") + mytrans.emptyString
-//               text:qsTr("Sağ Okuma Aydınlatması") + mytrans.emptyString
                onReleased: {
-//                   console.log("before if " + c3.color + " glow "  + gl1.color + "if result " + (c3.color == "#ffffff"))
                    if (c3.color == "#fff6a6")
                    {
                        c3.color = "#000000";
@@ -665,7 +620,6 @@ BasePage {
                        c3.color = "#fff6a6";
                        serial_mng.sendKey("lights/rightreading_onoff",true,delay);
                    }
-//                   console.log("after if" + c3.color + "glow"  + gl1.color)
                }
            }
            LightButton{
@@ -687,6 +641,7 @@ BasePage {
                        }else
                        {
                            transitme.start();
+                           console.log("Transition mode started.")
                            ison=true;
                        }
                     }
@@ -695,8 +650,6 @@ BasePage {
                Layout.preferredHeight: 30
                Layout.preferredWidth: 203
                text:qsTr("Right Reading Light") + mytrans.emptyString
-//               text:qsTr("左侧的阅读灯") + mytrans.emptyString
-//               text:qsTr("Sol Okuma Aydınlatması") + mytrans.emptyString
                onReleased: {
                        if (c4.color == "#fff6a6")
                        {
@@ -729,7 +682,7 @@ BasePage {
                 property var g: 0
                 property var fps: 30
                 id:transitme
-                interval: 150;
+                interval: 200;
                 running: false;
                 repeat: true
                 onTriggered: function(){
@@ -744,10 +697,6 @@ BasePage {
                     }else{
                         transitme.stop();
                         transitme2.start();
-                        console.log("loop 2 started");
-                        console.log("loop 2 started");
-                        console.log("loop 2 started");
-                        console.log("loop 2 started");
                     }
                 }
             }
@@ -769,10 +718,6 @@ BasePage {
                     }else{
                         transitme2.stop();
                         transitme3.start();
-                        console.log("loop 3 started");
-                        console.log("loop 3 started");
-                        console.log("loop 3 started");
-                        console.log("loop 3 started");
                     }
                 }
             }
@@ -794,10 +739,6 @@ BasePage {
                     }else{
                         transitme3.stop();
                         transitme4.start();
-                        console.log("loop 4 started");
-                        console.log("loop 4 started");
-                        console.log("loop 4 started");
-                        console.log("loop 4 started");
                     }
                 }
             }
@@ -819,10 +760,6 @@ BasePage {
                     }else{
                         transitme4.stop();
                         transitme5.start();
-                        console.log("loop 5 started");
-                        console.log("loop 5 started");
-                        console.log("loop 5 started");
-                        console.log("loop 5 started");
                     }
                 }
             }
@@ -844,10 +781,6 @@ BasePage {
                     }else{
                         transitme5.stop();
                         transitme6.start();
-                        console.log("loop 6 started");
-                        console.log("loop 6 started");
-                        console.log("loop 6 started");
-                        console.log("loop 6 started");
                     }
                 }
             }
@@ -875,10 +808,6 @@ BasePage {
                         transitme4.g=255;
                         transitme5.r=0;
                         transitme6.b=255;
-                        console.log("loop restart");
-                        console.log("loop restart");
-                        console.log("loop restart");
-                        console.log("loop restart");
                     }
                 }
             }

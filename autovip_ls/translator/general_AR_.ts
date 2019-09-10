@@ -802,6 +802,10 @@
         <source>Right Reading Light</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Transition Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LuggageCurtain</name>
