@@ -3,7 +3,10 @@
 
 #include "qftpcontroller.h"
 
+#include <QFile>
 #include <QObject>
+#include <QProcess>
+#include <QTimer>
 
 class Updater : public QObject
 {
@@ -12,16 +15,31 @@ class Updater : public QObject
     QString update_server;
     QString password;
     QString username;
-    QString version;
+    int minor_version;
+    int major_version;
+    QFile *downloadFile;
+    QString downloadFileName= "";
+    QString current_action_name = "";
+    bool TEST_MODE = false;                  // is intended to be used during debugging only
+    QProcess *unzipProcess;
+    QTimer *listingDoneTimer;
+
 public:
+    QCoreApplication* app;
     explicit Updater(QObject *parent = nullptr);
 
 signals:
+//    void signalCheckForUpdate();
+//    void signalDownload();
+//    void signalApplyUpdate();
+//    void quitSignal();
 
 public slots:
-    void foo(){
-        qDebug()<<"i think it worked";
-    }
+    void loginDone();
+    void doListing(const QUrlInfo& inf);
+    void download();
+    void downloadDone();
+    void unzipFinished(int state,QProcess::ExitStatus e_state);
 };
 
 #endif // UPDATER_H
