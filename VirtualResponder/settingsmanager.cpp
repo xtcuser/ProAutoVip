@@ -90,6 +90,14 @@ bool SettingsManager::init()
     this->general->setValue("massage", 0);
     this->general->endGroup();
 
+    this->general->beginGroup("update");
+    this->general->setValue("update_server", "31.210.65.230");
+    this->general->setValue("username", "gokhan");
+    this->general->setValue("password", "g0khan111");
+    this->general->setValue("version", "1.0");
+    this->general->setValue("lastversion", "1.0");
+    this->general->endGroup();
+
 
     this->general->sync();
 

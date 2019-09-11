@@ -2431,7 +2431,7 @@ ListModel {
             if(serial_mng.systemstate !== 1)
             {
                 serial_mng.sendKey("main/system_request");
-                console.log("feedback request sent")
+//                console.log("feedback request sent")
             }
 
         }

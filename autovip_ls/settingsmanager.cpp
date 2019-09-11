@@ -172,6 +172,16 @@ void SettingsManager::setTimeDiff(int mndf, int hrdf)
     }
 }
 
+QString SettingsManager::version()
+{
+    return this->general->value("update/version").toString();
+}
+
+QString SettingsManager::lastversion()
+{
+    return this->general->value("update/lastversion").toString();
+}
+
 
 void SettingsManager::setLang(int nlang)
 {
@@ -300,6 +310,15 @@ bool SettingsManager::init()
     this->general->setValue("timestampFormat", "yyyy-MM-dd hh:mm:ss.zzz");
     this->general->setValue("minLevel", 0);
     this->general->endGroup();
+
+    this->general->beginGroup("update");
+    this->general->setValue("update_server", "31.210.65.230");
+    this->general->setValue("username", "gokhan");
+    this->general->setValue("password", "g0khan111");
+    this->general->setValue("version", "1.0");
+    this->general->setValue("lastversion", "1.0");
+    this->general->endGroup();
+
     }
 
     if(!proto_exist)

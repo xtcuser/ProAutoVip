@@ -13,19 +13,22 @@ class UpdateCheck : public QObject
     int m_timeout = 5000;
     QProcess *m_rpro = nullptr;
     QTimer m_timer;
-    QString m_programPath = QString("%1/AutoUpdater").arg(QDir::currentPath());
+    QString m_programPath = QString("%1/AutoUpdater2").arg(QDir::currentPath());
+    QTimer test_timer;
 private:
     bool checkExecutable();
     bool createProcess();
 public:
     explicit UpdateCheck(QObject *parent = nullptr);
-    int getTimeout();
+    Q_INVOKABLE void makeUpdate();
     void run();
 
 signals:
+    void doUpdateOverlay();
 
 public slots:
-    void updateFinished(int state, QProcess::ExitStatus e_state);
+    void updateFinished();
+    void testFunction();
 };
 
 #endif // UPDATECHECK_H

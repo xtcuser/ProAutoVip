@@ -55,6 +55,9 @@ void Updater::loginDone(){
 }
 
 void Updater::doListing(const QUrlInfo& inf){
+    QString setfileLocation = QString("%1/%2").arg(QDir::currentPath()).arg("settings.ini");
+    assert(QFileInfo::exists(setfileLocation));
+    QSettings *setting_ini = new QSettings(setfileLocation,QSettings::IniFormat);
     QString filename = inf.name();
     qDebug()<<"listing"<<filename;
     QStringList parts = filename.split("_");
@@ -72,6 +75,7 @@ void Updater::doListing(const QUrlInfo& inf){
                     minor_version = temp_minor;
 //                    if (temp_minor == 2)
                     downloadFileName = parts[0] + "_" + parts[1] + "_" + parts[2] + ".zip";
+                    setting_ini->setValue("update/lastversion",parts[1]+"."+parts[2]);
                 }
         }
     }

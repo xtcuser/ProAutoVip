@@ -84,6 +84,8 @@ Q_INVOKABLE uint mediaplayertype();
     QString portname();
     void setPortname(QString p_pn);
     QSettings* getSettings();
+    QString version();
+    QString lastversion();
 
 
 Q_INVOKABLE  QVariant value(QString key);
