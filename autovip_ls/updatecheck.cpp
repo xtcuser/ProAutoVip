@@ -63,7 +63,8 @@ void UpdateCheck::makeUpdate()
     int major = templast[0].toInt();
     int minor = templast[1].toInt();
     QString foldername = QString("update_%1_%2").arg(major).arg(minor);
-    m_rpro->execute("sudo ./"+foldername+"/update.sh");
+    QString filepath = ("sudo ./"+foldername+"/update.sh");
+    m_rpro->startDetached(filepath);
     m_rpro->waitForFinished(1000);
     qDebug()<<("makeUpdate() runned");
 }

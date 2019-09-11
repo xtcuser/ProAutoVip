@@ -68,17 +68,18 @@ void Updater::doListing(const QUrlInfo& inf){
             parts[2] = temp[0];
             int temp_major = parts[1].toInt(&ok);
             int temp_minor = parts[2].toInt(&ok);
-            if (ok && temp_major >= major_version)
+            if (ok && temp_major >= major_version){
                 if (temp_major > major_version || temp_minor > minor_version){
-                    qDebug()<<"potential update: v" + parts[1] + "." + parts[2];
+                    qDebug()<<"potential update: " + parts[1] + "." + parts[2];
                     major_version = temp_major;
                     minor_version = temp_minor;
-//                    if (temp_minor == 2)
                     downloadFileName = parts[0] + "_" + parts[1] + "_" + parts[2] + ".zip";
                     setting_ini->setValue("update/lastversion",parts[1]+"."+parts[2]);
                 }
+            }
         }
     }
+
     if ((not qftpController.hasPendingCommands()) && downloadFileName != ""){
         listingDoneTimer->stop();
         listingDoneTimer->start();
