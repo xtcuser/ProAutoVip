@@ -61,16 +61,21 @@ Item {
 
     Image{
             id: btnImage
+            x: 0
+            y: 0
+            width: 135
             fillMode: Image.PreserveAspectFit
             antialiasing: true
             smooth: true
-            height:100
+            height:135
             source:"qrc:/design/general/Microphone.svg"
             Image{
                 id:cross
+                x: 44
+                width: 55
                 anchors.verticalCenter: parent.verticalCenter
                 source:"qrc:/design/general/close.svg"
-                width:parent.width
+                anchors.verticalCenterOffset: 0
                 visible: true
                 fillMode: Image.PreserveAspectFit
                 antialiasing: true

@@ -53,7 +53,7 @@ void Updater::loginDone(){
     qftpController.list();
 
 }
-
+//TODO: server'da hiç update yoksa freeze
 void Updater::doListing(const QUrlInfo& inf){
     QString setfileLocation = QString("%1/%2").arg(QDir::currentPath()).arg("settings.ini");
     assert(QFileInfo::exists(setfileLocation));
@@ -70,14 +70,26 @@ void Updater::doListing(const QUrlInfo& inf){
             int temp_minor = parts[2].toInt(&ok);
             if (ok && temp_major >= major_version){
                 if (temp_major > major_version || temp_minor > minor_version){
-                    qDebug()<<"potential update: " + parts[1] + "." + parts[2];
+                    qDebug()<<"Potential Update: " + parts[1] + "." + parts[2];
                     major_version = temp_major;
                     minor_version = temp_minor;
                     downloadFileName = parts[0] + "_" + parts[1] + "_" + parts[2] + ".zip";
                     setting_ini->setValue("update/lastversion",parts[1]+"."+parts[2]);
+                }else {
+                    qDebug()<<"You have the latest version.";
+                    qApp->exit();
                 }
+            }else {
+                qDebug()<<"You have a future version.";
+                qApp->exit();
             }
+        }else{
+            qDebug()<<"Update files may be non-compressed in server.";
+            qApp->exit();
         }
+    }else {
+        qDebug()<<"There are no file contains \"update\".";
+        qApp->exit();
     }
 
     if ((not qftpController.hasPendingCommands()) && downloadFileName != ""){

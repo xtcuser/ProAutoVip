@@ -29,8 +29,8 @@ Item {
             Item{
                     id:rowRectangle
                     z:1
-                    x:10
-                    y:20
+                    x:5
+                    y:10
                     width:950
                     height:105
 
@@ -39,7 +39,7 @@ Item {
                         anchors.fill: parent
 
             RowLayout {
-                    spacing: 25
+                    spacing: 10
                     anchors.fill: parent
                     FooterButton {
                         id:btnQuit
@@ -82,21 +82,21 @@ Item {
                     }
 
                     FooterButton {
-                        id:btnVolumeUp
-                        visible: SM.amp
-                        bgSource : "qrc:/design/general/volumeup.svg"
-                        height: GSystem.bottomIconHeight
-                        pressKey: "controls/volume_up"
-                        releaseKey: "controls/volume_up_stop"
-                    }
-
-                    FooterButton {
                         id:btnVolumeDown
                         visible: SM.amp
                         bgSource : "qrc:/design/general/volumedown.svg"
                         height: GSystem.bottomIconHeight
                         pressKey: "controls/volume_down"
                         releaseKey: "controls/volume_down_stop"
+                    }
+
+                    FooterButton {
+                        id:btnVolumeUp
+                        visible: SM.amp
+                        bgSource : "qrc:/design/general/volumeup.svg"
+                        height: GSystem.bottomIconHeight
+                        pressKey: "controls/volume_up"
+                        releaseKey: "controls/volume_up_stop"
                     }
 
                     FooterButton {
@@ -147,8 +147,9 @@ Item {
                     Image{
                         id:btnInfo
                         z:2
+                        y:-8
                         anchors.right: rowRectangle.right
-                        anchors.rightMargin: 20
+                        anchors.rightMargin: 1
                         source : "qrc:/design/general/info.svg"
                         MouseArea{
                             anchors.fill: parent
@@ -178,9 +179,11 @@ Item {
 
             MicrophoneBtn{
                 anchors.left: rowRectangle.right
-                y:-25
+                anchors.leftMargin: -50
+                y:-38
                 z:2
-//                anchors.leftMargin: 230
+                width: 120
+                height: 120
                 service:GSystem.voice_recognition.state
             }
             /*

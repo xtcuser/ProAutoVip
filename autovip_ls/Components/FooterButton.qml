@@ -27,6 +27,8 @@ Item{
             fillMode: Image.PreserveAspectFit
             antialiasing: true
             smooth: true
+            width: 70
+            height: 70
         }
          ColorOverlay {
                         id:co
