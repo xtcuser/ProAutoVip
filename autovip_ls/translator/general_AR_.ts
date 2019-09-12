@@ -692,19 +692,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>System should be restarted to
- apply all language changes.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Restart</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Language:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -716,15 +703,30 @@
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Restart the system!</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>HdmiInput</name>
     <message>
         <source>HDMI INPUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>InfoOverlay</name>
+    <message>
+        <source>Command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Command list that you can ask from the voice assistant.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -992,6 +994,26 @@
     </message>
     <message>
         <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RestartOverlay</name>
+    <message>
+        <source>Restart the system!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>System should be restarted to
+ apply all language changes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3788,19 +3810,21 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Command</source>
+        <source>New Update Found!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Action</source>
+        <source>There is a new update of the system software.
+Do you want to install it?
+(System will be restarted.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Command list that you can ask from the voice assistant.</source>
+        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Close</source>
+        <source>Update</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

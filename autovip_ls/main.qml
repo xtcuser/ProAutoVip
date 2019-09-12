@@ -350,7 +350,7 @@ Window {
                                   z:344
                                   Text{
                                       anchors.centerIn: parent
-                                      text:qsTr("Restart") + mytrans.emptyString
+                                      text:qsTr("Update") + mytrans.emptyString
                                       font.family:GSystem.myriadproita.name
                                       font.pixelSize: 18
                                       color: "white"

@@ -738,6 +738,25 @@ için sistemin yeniden başlatılması gerekir.</translation>
     </message>
 </context>
 <context>
+    <name>InfoOverlay</name>
+    <message>
+        <source>Command</source>
+        <translation>Komut</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Eylem</translation>
+    </message>
+    <message>
+        <source>Command list that you can ask from the voice assistant.</source>
+        <translation>Sesli asistandan isteyebileceğiniz komut listesi.</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kapat</translation>
+    </message>
+</context>
+<context>
     <name>KodiMediaPlayer</name>
     <message>
         <source>MEDIA</source>
@@ -1122,6 +1141,27 @@ için sistemin yeniden başlatılması gerekir.</translation>
     <message>
         <source>Close</source>
         <translation>Kapat</translation>
+    </message>
+</context>
+<context>
+    <name>RestartOverlay</name>
+    <message>
+        <source>Restart the system!</source>
+        <translation>Sistemi yeniden başlat!</translation>
+    </message>
+    <message>
+        <source>System should be restarted to
+ apply all language changes.</source>
+        <translation>Tüm dil değişiklerinin uygulanması
+için sistemin yeniden başlatılması gerekir.</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation>Y. Başlat</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>İptal</translation>
     </message>
 </context>
 <context>
@@ -6153,6 +6193,30 @@ için sistemin yeniden başlatılması gerekir.</translation>
     <message>
         <source>Turns the System off</source>
         <translation>Sistemi Kapatır</translation>
+    </message>
+    <message>
+        <source>New Update Found!</source>
+        <translation>Yeni Güncelleme Bulundu!</translation>
+    </message>
+    <message>
+        <source>There is a new update of the system software.
+Do you want to install it?
+(System will be restarted.)</source>
+        <translation>Yeni bir sistem yazılımı güncellemesi var.
+Yüklemek ister misiniz?
+(Sistem yeniden başlatılacak.)</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation>Y. Başlat</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>İptal</translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation>Güncelle</translation>
     </message>
 </context>
 <context>
