@@ -13,16 +13,11 @@ bool UpdateCheck::checkExecutable()
 bool UpdateCheck::createProcess()
 {
     m_rpro = new QProcess(this);
-    connect(m_rpro, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished),this,&UpdateCheck::updateFinished);
     return true;
 }
 
 UpdateCheck::UpdateCheck(QObject *parent) : QObject(parent)
 {
-    m_timer.setInterval(m_timeout);
-    QObject::connect(&m_timer,&QTimer::timeout,this,&UpdateCheck::run);
-    m_timer.start();
-
     run();
 }
 
@@ -37,14 +32,13 @@ void UpdateCheck::run()
         QString lastversion = smng->lastversion();
         if(version==lastversion)
         {
-            m_rpro->execute("sudo ./AutoUpdater2");
-            m_rpro->waitForFinished(10000);
+            m_rpro->startDetached(m_programPath);
         }else
         {
-            test_timer.setInterval(7000);
-            test_timer.setSingleShot(true);
-            QObject::connect(&test_timer,&QTimer::timeout,this,&UpdateCheck::testFunction);
-            test_timer.start();
+            overlaytimer.setInterval(7000);
+            overlaytimer.setSingleShot(true);
+            QObject::connect(&overlaytimer,&QTimer::timeout,this,&UpdateCheck::overlayFunction);
+            overlaytimer.start();
         }
     }
 }
@@ -65,11 +59,9 @@ void UpdateCheck::makeUpdate()
     QString foldername = QString("update_%1_%2").arg(major).arg(minor);
     QString filepath = ("sudo ./"+foldername+"/update.sh");
     m_rpro->startDetached(filepath);
-    m_rpro->waitForFinished(1000);
-    qDebug()<<("makeUpdate() runned");
 }
 
-void UpdateCheck::testFunction()
+void UpdateCheck::overlayFunction()
 {
     emit doUpdateOverlay();
 }

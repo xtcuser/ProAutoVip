@@ -165,23 +165,33 @@ BasePage {
                 color:Qt.rgba(0, 0, 0,0.4)
                 border.width: 1
                 border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-                Text{
-                    font.family: GSystem.myriadproita.name
-                    font.italic: true
-                    font.pixelSize: 24
-                    text: qsTr("Head") + mytrans.emptyString
-                    color: "white"
+                Rectangle{
                     anchors.centerIn: parent
+                    width: 125
+                    height: 75
+                    color:"transparent"
+                    border.width: 1
+                    border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                    Text{
+                        font.family: GSystem.myriadproita.name
+                        font.italic: true
+                        font.pixelSize: 24
+                        text: qsTr("Head") + mytrans.emptyString
+                        color: "white"
+                        anchors.centerIn: parent
+                    }
                 }
                 Rectangle{
                     id:headup
-                    width: 75
-                    height: 75
+                    property var select: 0
+                    width: 74
+                    height: 73
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.left:parent.left
-                    color: "transparent"
-                    border.width: 1
-                    border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+                    anchors.leftMargin: 1
+                    color: Qt.rgba(0/255, 108/255, 128/255,select);
+//                    border.width: 1
+//                    border.color:Qt.rgba(0/255, g/255, b/255,0.6)
                     Text {
                         font.family: GSystem.myriadproita.name
                         font.pixelSize: 24
@@ -194,15 +204,61 @@ BasePage {
                         cursorShape: Qt.PointingHandCursor
                         onPressed: function(){
                             GSystem.sendSeatCommand("head_up");
-                            headup.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
-                            head.opacity = 1;
+//                            headup.color = Qt.rgba(0/255, 108/255, 128/255,0.6);
+                            pressedit.start();
+//                            head.opacity = 1;
+                            olpressedit.start();
                         }
                         onReleased: function(){
                             GSystem.sendSeatCommand("head_stop");
-                            headup.color = "transparent";
-                            head.opacity = 0;
+//                            headup.color = "transparent";
+                            releasedit.start();
+//                            head.opacity = 0;
+                            olreleasedit.start();
                         }
                     }
+                }
+
+
+                NumberAnimation {
+                    id:pressedit
+                    targets: headup
+                    property: "select"
+                    duration: 150
+                    running: false
+                    loops: 1
+                    from:0
+                    to:0.6
+                }
+                NumberAnimation {
+                    id:releasedit
+                    target: headup
+                    property: "select"
+                    duration: 150
+                    running: false
+                    loops: 1
+                    from:0.6
+                    to:0
+                }
+                NumberAnimation {
+                    id:olpressedit
+                    targets: head
+                    property: "opacity"
+                    duration: 150
+                    running: false
+                    loops: 1
+                    from:0
+                    to:1
+                }
+                NumberAnimation {
+                    id:olreleasedit
+                    target: head
+                    property: "opacity"
+                    duration: 150
+                    running: false
+                    loops: 1
+                    from:1
+                    to:0
                 }
 
 

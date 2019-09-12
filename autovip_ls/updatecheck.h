@@ -14,7 +14,7 @@ class UpdateCheck : public QObject
     QProcess *m_rpro = nullptr;
     QTimer m_timer;
     QString m_programPath = QString("%1/AutoUpdater2").arg(QDir::currentPath());
-    QTimer test_timer;
+    QTimer overlaytimer;
 private:
     bool checkExecutable();
     bool createProcess();
@@ -28,7 +28,7 @@ signals:
 
 public slots:
     void updateFinished();
-    void testFunction();
+    void overlayFunction();
 };
 
 #endif // UPDATECHECK_H
