@@ -55,6 +55,8 @@ Item {
     property alias controlsModel: controlsModel
     property alias lightsModel: lightsModel
     property Item info;
+    property Item rstarter;
+    property Item infoverlay;
 
     onLangChanged: function(){
         voice_service.setLang(root.lang);
@@ -105,6 +107,12 @@ Item {
     function setInfo(p_info)
     {
         info = p_info;
+    }
+    function setRestarter(p_rstarter){
+        rstarter = p_rstarter
+    }
+    function setInfoverlay(p_infoverlay){
+        infoverlay = p_infoverlay
     }
 
     function selectedSeatToText()

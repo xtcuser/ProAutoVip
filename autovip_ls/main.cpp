@@ -27,16 +27,16 @@ bool changeCD()
 
 int main(int argc, char *argv[])
 {
-    qDebug()<<"start"<<endl;
+//    qDebug()<<"start"<<endl;
     //qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
     //QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication app(argc, argv);
     qputenv("QT_QUICK_CONTROLS_STYLE", "material");
-//    qputenv("QSG_RENDER_LOOP", "basic"); // PC ANIMATION
+    qputenv("QSG_RENDER_LOOP", "basic"); // PC ANIMATION
 //    qputenv("QSG_INFO", "1"); // INFO
     changeCD();
     QQmlApplicationEngine engine;
-    qDebug()<<"apps created"<<endl;
+//    qDebug()<<"apps created"<<endl;
     qmlRegisterType<Restarter>("closx.restarter", 1, 0, "Restarter");
     qmlRegisterType<SettingsManager>("closx.smanager", 1, 0, "SettingsManager");
     qmlRegisterType<ClockSetter>("closx.clocksetter", 1, 0, "ClockSetter");
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     InitializeMng imng;
     SerialMng smng;
     ClockSetter mclck;
-    qDebug()<<"objs created"<<endl;
+//    qDebug()<<"objs created"<<endl;
 
     imng.setTranslator(&mTrans);
     imng.setSettingsManager(&sm);
@@ -62,14 +62,14 @@ int main(int argc, char *argv[])
     UpdateCheck updatecheck;
     engine.rootContext()->setContextProperty("update_manager", &updatecheck);
 
-    qDebug()<<"init createcreated"<<endl;
+//    qDebug()<<"init createcreated"<<endl;
     if(imng.init() == false)
     {
-        qDebug()<<"init unsuccessful"<<endl;
+//        qDebug()<<"init unsuccessful"<<endl;
          return -1;
     }
 
-    qDebug()<<"init successful"<<endl;
+//    qDebug()<<"init successful"<<endl;
 //    CronJobs cjobs;
 //    CronJobsMgr cronJobsMgr;
 

@@ -8,7 +8,6 @@ import "../../Components"
 import closx.smanager 1.0
 import QtQuick.Extras 1.4
 import QtGraphicalEffects 1.0
-import closx.restarter 1.0
 
 
 BasePage {
@@ -45,180 +44,6 @@ BasePage {
         }
     }
 
-    Restarter {
-        id:restarter
-    }
-
-
-
-    ////////////////////////////////////////////////
-
-
-    Rectangle{
-        id:restart
-        width: 1024
-        height:768
-        color:"black"
-        z:343
-        opacity: 0.8
-        visible: false
-        MouseArea{
-            anchors.fill: parent
-            onClicked: {
-                restart.visible=false;
-                restartbtn.visible=false;
-            }
-        }
-    }
-       Rectangle{
-           id:restartbtn
-           anchors.centerIn: restart;
-           width: 400
-           height:240
-           color: "#1c1c1c"
-           border.width: 3
-           border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-           z:344
-           opacity: 1
-           visible: false
-           MouseArea{
-               anchors.fill: parent
-               onClicked: {
-                   restart.visible=true;
-                   restartbtn.visible=true;
-               }
-           }
-           ColumnLayout
-           {
-               width: 400
-               height: 200
-               Rectangle{
-                   id: restartheader
-                   width: 394
-                   height: 30
-                   anchors.top: parent.top
-                   anchors.topMargin: 3
-                   anchors.left: parent.left
-                   anchors.leftMargin: 3
-                   color: "#0f0f0f"
-                   Text {
-                       anchors.centerIn: parent
-                       text: qsTr("Restart the system!") + mytrans.emptyString
-                       font.pixelSize: 16
-                       font.italic: true
-                       color: "white"
-                   }
-               }
-
-               Rectangle{
-                   width:400
-                   height: 100
-                   anchors.top: restartheader.bottom
-                   anchors.topMargin: 20
-                   color:"transparent"
-                   Text{
-                       anchors.centerIn: parent
-                       text:qsTr("System should be restarted to\n apply all language changes.") + mytrans.emptyString
-                       font.family:GSystem.myriadproita.name
-                       font.pixelSize: 22
-                       font.italic: true
-                       color: "white"
-                   }
-               }
-
-               Rectangle{
-                   width:400
-                   height: 100
-                   color:"transparent"
-                   RowLayout{
-                       width: 400
-                       height: 100
-                       Rectangle{
-                           width: 200
-                           height: 100
-                           color:"transparent"
-                           Rectangle{
-                               id: restartbg
-                               width: 120
-                               height: 50
-                               color:"#0f0f0f"
-                               border.width: 1
-                               border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-                               anchors.verticalCenter: parent.verticalCenter
-                               anchors.right: parent.right
-                               anchors.rightMargin: 20
-                               z:344
-                               Text{
-                                   anchors.centerIn: parent
-                                   text:qsTr("Restart") + mytrans.emptyString
-                                   font.family:GSystem.myriadproita.name
-                                   font.pixelSize: 18
-                                   color: "white"
-                               }
-                               MouseArea{
-                                   anchors.fill: parent
-                                   onClicked: {
-                                       restarter.makeRestart()
-                                   }
-                                   onPressed: {
-                                       restartbg.color = Qt.rgba(0/255, 108/255, 128/255,0.6)
-                                   }
-                                   onReleased: {
-                                       restartbg.color = "#0f0f0f"
-                                   }
-                               }
-                           }
-
-                       }
-                       Rectangle{
-                           width: 200
-                           height: 100
-                           color: "transparent"
-                           Rectangle{
-                               id: cancelbg
-                               width: 120
-                               height: 50
-                               color:"#0f0f0f"
-                               border.width: 1
-                               border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
-                               anchors.verticalCenter: parent.verticalCenter
-                               anchors.left: parent.left
-                               anchors.leftMargin: 20
-                               z:344
-                               Text{
-                                   anchors.centerIn: parent
-                                   text:qsTr("Cancel") + mytrans.emptyString
-                                   font.family:GSystem.myriadproita.name
-                                   font.pixelSize: 18
-                                   color: "white"
-                               }
-                               MouseArea{
-                                   anchors.fill: parent
-                                   onClicked: {
-                                       restart.visible=false;
-                                       restartbtn.visible=false;
-                                   }
-                                   onPressed: {
-                                       cancelbg.color =  Qt.rgba(0/255, 108/255, 128/255,0.6)
-                                   }
-                                   onReleased: {
-                                       cancelbg.color =  "#0f0f0f"
-                                   }
-                               }
-                           }
-                       }
-
-                   }
-               }
-
-           }
-
-       }
-
-
-
-
-    ////////////////////////////////////////////////
 
 
 
@@ -286,8 +111,7 @@ BasePage {
                                         chinese.opacity = 0.2
                                         english.opacity = 0.2
                                         turkish.opacity = 1
-                                        restart.visible=true;
-                                        restartbtn.visible=true;
+                                        GSystem.rstarter.come();
                                     }
                                 }
                             }
@@ -319,8 +143,7 @@ BasePage {
                                         chinese.opacity = 0.2
                                         turkish.opacity = 0.2
                                         english.opacity = 1
-                                        restart.visible=true;
-                                        restartbtn.visible=true;
+                                        GSystem.rstarter.come();
                                         }
                                     }
                                 }
@@ -352,8 +175,7 @@ BasePage {
                                         chinese.opacity = 1
                                         turkish.opacity = 0.2
                                         english.opacity = 0.2
-                                        restart.visible=true;
-                                        restartbtn.visible=true;
+                                        GSystem.rstarter.come();
                                     }
                                 }
                             }

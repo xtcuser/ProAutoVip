@@ -88,8 +88,7 @@ void Updater::doListing(const QUrlInfo& inf){
             qApp->exit();
         }
     }else {
-        qDebug()<<"There are no file contains \"update\".";
-        qApp->exit();
+        qDebug()<<"This file do not contains \"update\".";
     }
 
     if ((not qftpController.hasPendingCommands()) && downloadFileName != ""){
@@ -148,7 +147,7 @@ void Updater::downloadDone(){
 
 }
 
-void Updater::unzipFinished(int state,QProcess::ExitStatus e_state){
+void Updater::unzipFinished(){
     qDebug()<<"unzipping is done";
     qftpController.close();
     app->quit();

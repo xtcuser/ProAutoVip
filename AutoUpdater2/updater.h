@@ -39,7 +39,7 @@ public slots:
     void doListing(const QUrlInfo& inf);
     void download();
     void downloadDone();
-    void unzipFinished(int state,QProcess::ExitStatus e_state);
+    void unzipFinished();
 };
 
 #endif // UPDATER_H

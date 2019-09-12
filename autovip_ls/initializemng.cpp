@@ -111,7 +111,7 @@ bool InitializeMng::init()
             qDebug()<<"MediaPlayer connection is successful";
             }else{
 
-            qDebug()<<"MediaPlayer connection is unsuccessful";
+//            qDebug()<<"MediaPlayer connection is unsuccessful";
             }
         break;
 
@@ -119,7 +119,7 @@ bool InitializeMng::init()
 
 
     engine->load(QUrl(QStringLiteral("qrc:/main.qml")));
-    qDebug()<<"main.qml is loadded"<<endl;
+//    qDebug()<<"main.qml is loadded"<<endl;
 
     if (engine->rootObjects().isEmpty())
         return false;

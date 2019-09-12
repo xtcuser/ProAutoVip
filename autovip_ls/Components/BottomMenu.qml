@@ -146,7 +146,7 @@ Item {
 
                     Image{
                         id:btnInfo
-                        z:2
+                        z:3
                         y:-8
                         anchors.right: rowRectangle.right
                         anchors.rightMargin: 1
@@ -156,18 +156,14 @@ Item {
                             onPressed: overlay.visible=true
                             onReleased: function(){
                                 overlay.visible=false;
-                                console.log("info clicked");
-                                infoverlay.visible=true;
-                                infomenu.visible=true;
-                                infoheader.visible=true;
-                                infoclose.visible=true;
+                                GSystem.infoverlay.come();
                             }
                         }
 
 
                     }
                     ColorOverlay {
-                        z:3
+                        z:105
                        id:overlay
                        visible: false
                        anchors.fill: btnInfo

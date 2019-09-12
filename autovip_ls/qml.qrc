@@ -481,5 +481,7 @@
         <file>design/seats/overlays/head.svg</file>
         <file>design/seats/overlays/seat.svg</file>
         <file>design/general/logo.png</file>
+        <file>Components/RestartOverlay.qml</file>
+        <file>Components/InfoOverlay.qml</file>
     </qresource>
 </RCC>

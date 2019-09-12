@@ -60,14 +60,14 @@ Item {
                 target: bg;
                 from: 0;
                 to: 0.7;
-                duration: 500
+                duration: 250
             }
             PropertyAnimation {
                 property: "opacity"
                 target: info;
                 from: 0;
                 to: 1;
-                duration: 500
+                duration: 250
             }
         }
         PauseAnimation {
@@ -79,14 +79,14 @@ Item {
                 target: bg;
                 from: 0.7;
                 to: 0;
-                duration: 500
+                duration: 250
             }
             PropertyAnimation {
                 property: "opacity"
                 target: info;
                 from: 1;
                 to: 0;
-                duration: 500
+                duration: 250
 
             }
         }

@@ -82,6 +82,10 @@ Item {
 
             }
             MouseArea{
+                anchors.bottomMargin: 30
+                anchors.rightMargin: 36
+                anchors.topMargin: 15
+                anchors.leftMargin: 44
                 anchors.fill: parent
                 onClicked: function(){
                     GSystem.voice_service.openMic();

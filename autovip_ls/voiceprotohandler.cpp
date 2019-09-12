@@ -30,7 +30,7 @@ bool VoiceProtoHandler::parseProto()
 
             if(enable==0)
             {
-                qDebug()<<"Disabled Macro Name :"<<macroName<<endl;
+//                qDebug()<<"Disabled Macro Name :"<<macroName<<endl;
                 m_commandMap.insert(id,cp);
                 continue;
             }
