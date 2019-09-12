@@ -78,7 +78,7 @@ void NvidiaConnManager::onNewConnection()
 void NvidiaConnManager::processMessage(const QString &message)
 {
     QStringList msg_parts = message.split(" ");
-    if (msg_parts[0] == "ceilingcolor" && msg_parts.length()==2 && QColor::isValidColor(msg_parts[1]))
+    if (msg_parts[0] == "CeilColor" && msg_parts.length()==2 && QColor::isValidColor(msg_parts[1]))
     {
         if (usersLastPage == "Home")
             emit changeQmlPage("Lights");
@@ -116,6 +116,18 @@ void NvidiaConnManager::processMessage(const QString &message)
             this->serial_mng->sendKey("controls/" + bustype["ac"] + "_ai_degree_down");
             if(current_acdeg > -1 )
                 this->serial_mng->setACDeg(current_acdeg - 1);
+        }
+    }
+    else if (msg_parts[0] == "ChangeMenu" && msg_parts.length()==2)
+    {
+        if(msg_parts[1]=="Home"){
+            emit changeQmlPage("Home");
+        }
+        else if (msg_parts[1]=="AirConditioner"){
+            emit changeQmlPage("AirConditioner");
+        }
+        else if (msg_parts[1]=="Lights"){
+            emit changeQmlPage("Lights");
         }
     }
 //    qDebug() << clients.size();
