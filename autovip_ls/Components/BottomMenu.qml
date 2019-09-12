@@ -1,7 +1,6 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import ck.gmachine 1.0
-import QtGraphicalEffects 1.0
 
 Item {
     id:root
@@ -28,18 +27,17 @@ Item {
             }
             Item{
                     id:rowRectangle
-                    z:1
-                    x:5
-                    y:10
-                    width:950
+                    x:10
+                    y:20
+                    width:715
                     height:105
 
                     RowLayout {
-                        spacing: 0
+                        spacing: 120
                         anchors.fill: parent
 
             RowLayout {
-                    spacing: 10
+                    spacing: 25
                     anchors.fill: parent
                     FooterButton {
                         id:btnQuit
@@ -71,10 +69,9 @@ Item {
 
                     FooterButton {
                         id:btnMute
-                        visible: SM.amp
                         bgSource : (toggled==false ?
-                                                    (isUnderClick ?  "qrc:/design/general/Mute_on.svg" : "qrc:/design/general/Mute_off.svg")
-                                                   : (isUnderClick ?  "qrc:/design/general/Mute_off.svg" : "qrc:/design/general/Mute_on.svg"))
+                                                    (isUnderClick ?  "qrc:/design/general/Mute_off.svg" : "qrc:/design/general/Mute_on.svg")
+                                                   : (isUnderClick ?  "qrc:/design/general/Mute_on.svg" : "qrc:/design/general/Mute_off.svg"))
                         height: GSystem.bottomIconHeight
                         //pressKey: ""
                         releaseKey: (toggled==false ?  "controls/mute" : "controls/unmute" )
@@ -82,17 +79,7 @@ Item {
                     }
 
                     FooterButton {
-                        id:btnVolumeDown
-                        visible: SM.amp
-                        bgSource : "qrc:/design/general/volumedown.svg"
-                        height: GSystem.bottomIconHeight
-                        pressKey: "controls/volume_down"
-                        releaseKey: "controls/volume_down_stop"
-                    }
-
-                    FooterButton {
                         id:btnVolumeUp
-                        visible: SM.amp
                         bgSource : "qrc:/design/general/volumeup.svg"
                         height: GSystem.bottomIconHeight
                         pressKey: "controls/volume_up"
@@ -100,8 +87,15 @@ Item {
                     }
 
                     FooterButton {
+                        id:btnVolumeDown
+                        bgSource : "qrc:/design/general/volumedown.svg"
+                        height: GSystem.bottomIconHeight
+                        pressKey: "controls/volume_down"
+                        releaseKey: "controls/volume_down_stop"
+                    }
+
+                    FooterButton {
                         id:output
-                        visible: SM.amp
                         bgSource : "qrc:/design/general/audiosource.svg"
                         height: GSystem.bottomIconHeight
                         pressKey: "controls/audio_source"
@@ -140,46 +134,27 @@ Item {
             }
 
 
+            FooterButton{
+                id:infobtn
+                anchors.right: rowRectangle.right
+                info:false
+                bgSource : "qrc:/design/general/info.svg"
+                onClicked: function(){
+                        console.log("info clicked");
+//                    restart.visible=true;
+//                    restartbtn.visible=true;
+                        GSystem.infoverlay.come();
+                }
+            }
 
-
-                    }
-
-                    Image{
-                        id:btnInfo
-                        z:3
-                        y:-8
-                        anchors.right: rowRectangle.right
-                        anchors.rightMargin: 1
-                        source : "qrc:/design/general/info.svg"
-                        MouseArea{
-                            anchors.fill: parent
-                            onPressed: overlay.visible=true
-                            onReleased: function(){
-                                overlay.visible=false;
-                                GSystem.infoverlay.come();
-                            }
-                        }
-
-
-                    }
-                    ColorOverlay {
-                        z:105
-                       id:overlay
-                       visible: false
-                       anchors.fill: btnInfo
-                       source: btnInfo
-                       color: Qt.rgba(0/255, 108/255, 128/255,0.6)
                     }
             }
 
 
             MicrophoneBtn{
                 anchors.left: rowRectangle.right
-                anchors.leftMargin: -50
-                y:-38
-                z:2
-                width: 120
-                height: 120
+                y:-25
+                anchors.leftMargin: 230
                 service:GSystem.voice_recognition.state
             }
             /*

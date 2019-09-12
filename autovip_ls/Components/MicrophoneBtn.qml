@@ -61,31 +61,22 @@ Item {
 
     Image{
             id: btnImage
-            x: 0
-            y: 0
-            width: 135
             fillMode: Image.PreserveAspectFit
             antialiasing: true
             smooth: true
-            height:135
+            height:100
             source:"qrc:/design/general/Microphone.svg"
             Image{
                 id:cross
-                x: 44
-                width: 55
                 anchors.verticalCenter: parent.verticalCenter
                 source:"qrc:/design/general/close.svg"
-                anchors.verticalCenterOffset: 0
+                width:parent.width
                 visible: true
                 fillMode: Image.PreserveAspectFit
                 antialiasing: true
 
             }
             MouseArea{
-                anchors.bottomMargin: 30
-                anchors.rightMargin: 36
-                anchors.topMargin: 15
-                anchors.leftMargin: 44
                 anchors.fill: parent
                 onClicked: function(){
                     GSystem.voice_service.openMic();

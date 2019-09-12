@@ -62,16 +62,16 @@ BasePage {
             serial_mng.sendKey("lights/leftreading_onoff",true,delay);
         }
 
-        if (transbtn.ison==true)
-        {
-            transitme.running=false;
-            transitme2.running=false;
-            transitme3.running=false;
-            transitme4.running=false;
-            transitme5.running=false;
-            transitme6.running=false;
-            transbtn.ison=false;
-        }
+//        if (transbtn.ison==true)
+//        {
+//            transitme.running=false;
+//            transitme2.running=false;
+//            transitme3.running=false;
+//            transitme4.running=false;
+//            transitme5.running=false;
+//            transitme6.running=false;
+//            transbtn.ison=false;
+//        }
 
 
 
@@ -607,7 +607,7 @@ BasePage {
            x:284
            LightButton{
                Layout.preferredHeight: 30
-               Layout.preferredWidth: 203
+               Layout.preferredWidth: 310
                text:qsTr("Left Reading Light") + mytrans.emptyString
                onReleased: {
                    if (c3.color == "#fff6a6")
@@ -622,33 +622,33 @@ BasePage {
                    }
                }
            }
+//           LightButton{
+//               id:transbtn
+//               property var ison: false
+//               Layout.preferredHeight: 30
+//               Layout.preferredWidth: 203
+//               text:qsTr("Transition Mode") + mytrans.emptyString
+//               onReleased: {
+//                       if (ison==true)
+//                       {
+//                           transitme.running=false;
+//                           transitme2.running=false;
+//                           transitme3.running=false;
+//                           transitme4.running=false;
+//                           transitme5.running=false;
+//                           transitme6.running=false;
+//                           ison=false;
+//                       }else
+//                       {
+//                           transitme.start();
+//                           console.log("Transition mode started.")
+//                           ison=true;
+//                       }
+//                    }
+//               }
            LightButton{
-               id:transbtn
-               property var ison: false
                Layout.preferredHeight: 30
-               Layout.preferredWidth: 203
-               text:qsTr("Transition Mode") + mytrans.emptyString
-               onReleased: {
-                       if (ison==true)
-                       {
-                           transitme.running=false;
-                           transitme2.running=false;
-                           transitme3.running=false;
-                           transitme4.running=false;
-                           transitme5.running=false;
-                           transitme6.running=false;
-                           ison=false;
-                       }else
-                       {
-                           transitme.start();
-                           console.log("Transition mode started.")
-                           ison=true;
-                       }
-                    }
-               }
-           LightButton{
-               Layout.preferredHeight: 30
-               Layout.preferredWidth: 203
+               Layout.preferredWidth: 310
                text:qsTr("Right Reading Light") + mytrans.emptyString
                onReleased: {
                        if (c4.color == "#fff6a6")
@@ -678,139 +678,139 @@ BasePage {
         //    255   0     255   d
         //    255   0     0     d
 
-            Timer{
-                property var g: 0
-                property var fps: 30
-                id:transitme
-                interval: 200;
-                running: false;
-                repeat: true
-                onTriggered: function(){
-                    sideColor=Qt.rgba(255/255, g/255, 0/255,1);
-                    ceilColor=Qt.rgba(255/255, g/255, 0/255,1);
-                    inSideColor=Qt.rgba(255/255, g/255, 0/255,1);
-                    sendSideColor(sideColor);
-                    sendCeilColor(ceilColor);
-                    sendInsideColor(inSideColor);
-                    if(g!=255){
-                        g=g+transitme.fps/10;
-                    }else{
-                        transitme.stop();
-                        transitme2.start();
-                    }
-                }
-            }
-            Timer{
-                property var r: 255
-                id:transitme2
-                interval: transitme.interval;
-                running: false;
-                repeat: true
-                onTriggered: function(){
-                    sideColor=Qt.rgba(r/255, 255/255, 0/255,1);
-                    ceilColor=Qt.rgba(r/255, 255/255, 0/255,1);
-                    inSideColor=Qt.rgba(r/255, 255/255, 0/255,1);
-                    sendSideColor(sideColor);
-                    sendCeilColor(ceilColor);
-                    sendInsideColor(inSideColor);
-                    if(r!=0){
-                        r=r-transitme.fps/10;
-                    }else{
-                        transitme2.stop();
-                        transitme3.start();
-                    }
-                }
-            }
-            Timer{
-                property var b: 0
-                id:transitme3
-                interval: transitme.interval;
-                running: false;
-                repeat: true
-                onTriggered: function(){
-                    sideColor=Qt.rgba(0/255, 255/255, b/255,1);
-                    ceilColor=Qt.rgba(0/255, 255/255, b/255,1);
-                    inSideColor=Qt.rgba(0/255, 255/255, b/255,1);
-                    sendSideColor(sideColor);
-                    sendCeilColor(ceilColor);
-                    sendInsideColor(inSideColor);
-                    if(b!=255){
-                        b=b+transitme.fps/10;
-                    }else{
-                        transitme3.stop();
-                        transitme4.start();
-                    }
-                }
-            }
-            Timer{
-                property var g: 255
-                id:transitme4
-                interval: transitme.interval;
-                running: false;
-                repeat: true
-                onTriggered: function(){
-                    sideColor=Qt.rgba(0/255, g/255, 255/255,1);
-                    ceilColor=Qt.rgba(0/255, g/255, 255/255,1);
-                    inSideColor=Qt.rgba(0/255, g/255, 255/255,1);
-                    sendSideColor(sideColor);
-                    sendCeilColor(ceilColor);
-                    sendInsideColor(inSideColor);
-                    if(g!=0){
-                        g=g-transitme.fps/10;
-                    }else{
-                        transitme4.stop();
-                        transitme5.start();
-                    }
-                }
-            }
-            Timer{
-                property var r: 0
-                id:transitme5
-                interval: transitme.interval;
-                running: false;
-                repeat: true
-                onTriggered: function(){
-                    sideColor=Qt.rgba(r/255, 0/255, 255/255,1);
-                    ceilColor=Qt.rgba(r/255, 0/255, 255/255,1);
-                    inSideColor=Qt.rgba(r/255, 0/255, 255/255,1);
-                    sendSideColor(sideColor);
-                    sendCeilColor(ceilColor);
-                    sendInsideColor(inSideColor);
-                    if(r!=255){
-                        r=r+transitme.fps/10;
-                    }else{
-                        transitme5.stop();
-                        transitme6.start();
-                    }
-                }
-            }
-            Timer{
-                property var b: 255
-                id:transitme6
-                interval: transitme.interval;
-                running: false;
-                repeat: true
-                onTriggered: function(){
-                    sideColor=Qt.rgba(255/255, 0/255, b/255,1);
-                    ceilColor=Qt.rgba(255/255, 0/255, b/255,1);
-                    inSideColor=Qt.rgba(255/255, 0/255, b/255,1);
-                    sendSideColor(sideColor);
-                    sendCeilColor(ceilColor);
-                    sendInsideColor(inSideColor);
-                    if(b!=0){
-                        b=b-transitme.fps/10;
-                    }else{
-                        transitme6.stop();
-                        transitme.start();
-                        transitme.g=0;
-                        transitme2.r=255;
-                        transitme3.b=0;
-                        transitme4.g=255;
-                        transitme5.r=0;
-                        transitme6.b=255;
-                    }
-                }
-            }
+//            Timer{
+//                property var g: 0
+//                property var fps: 30
+//                id:transitme
+//                interval: 200;
+//                running: false;
+//                repeat: true
+//                onTriggered: function(){
+//                    sideColor=Qt.rgba(255/255, g/255, 0/255,1);
+//                    ceilColor=Qt.rgba(255/255, g/255, 0/255,1);
+//                    inSideColor=Qt.rgba(255/255, g/255, 0/255,1);
+//                    sendSideColor(sideColor);
+//                    sendCeilColor(ceilColor);
+//                    sendInsideColor(inSideColor);
+//                    if(g!=255){
+//                        g=g+transitme.fps/10;
+//                    }else{
+//                        transitme.stop();
+//                        transitme2.start();
+//                    }
+//                }
+//            }
+//            Timer{
+//                property var r: 255
+//                id:transitme2
+//                interval: transitme.interval;
+//                running: false;
+//                repeat: true
+//                onTriggered: function(){
+//                    sideColor=Qt.rgba(r/255, 255/255, 0/255,1);
+//                    ceilColor=Qt.rgba(r/255, 255/255, 0/255,1);
+//                    inSideColor=Qt.rgba(r/255, 255/255, 0/255,1);
+//                    sendSideColor(sideColor);
+//                    sendCeilColor(ceilColor);
+//                    sendInsideColor(inSideColor);
+//                    if(r!=0){
+//                        r=r-transitme.fps/10;
+//                    }else{
+//                        transitme2.stop();
+//                        transitme3.start();
+//                    }
+//                }
+//            }
+//            Timer{
+//                property var b: 0
+//                id:transitme3
+//                interval: transitme.interval;
+//                running: false;
+//                repeat: true
+//                onTriggered: function(){
+//                    sideColor=Qt.rgba(0/255, 255/255, b/255,1);
+//                    ceilColor=Qt.rgba(0/255, 255/255, b/255,1);
+//                    inSideColor=Qt.rgba(0/255, 255/255, b/255,1);
+//                    sendSideColor(sideColor);
+//                    sendCeilColor(ceilColor);
+//                    sendInsideColor(inSideColor);
+//                    if(b!=255){
+//                        b=b+transitme.fps/10;
+//                    }else{
+//                        transitme3.stop();
+//                        transitme4.start();
+//                    }
+//                }
+//            }
+//            Timer{
+//                property var g: 255
+//                id:transitme4
+//                interval: transitme.interval;
+//                running: false;
+//                repeat: true
+//                onTriggered: function(){
+//                    sideColor=Qt.rgba(0/255, g/255, 255/255,1);
+//                    ceilColor=Qt.rgba(0/255, g/255, 255/255,1);
+//                    inSideColor=Qt.rgba(0/255, g/255, 255/255,1);
+//                    sendSideColor(sideColor);
+//                    sendCeilColor(ceilColor);
+//                    sendInsideColor(inSideColor);
+//                    if(g!=0){
+//                        g=g-transitme.fps/10;
+//                    }else{
+//                        transitme4.stop();
+//                        transitme5.start();
+//                    }
+//                }
+//            }
+//            Timer{
+//                property var r: 0
+//                id:transitme5
+//                interval: transitme.interval;
+//                running: false;
+//                repeat: true
+//                onTriggered: function(){
+//                    sideColor=Qt.rgba(r/255, 0/255, 255/255,1);
+//                    ceilColor=Qt.rgba(r/255, 0/255, 255/255,1);
+//                    inSideColor=Qt.rgba(r/255, 0/255, 255/255,1);
+//                    sendSideColor(sideColor);
+//                    sendCeilColor(ceilColor);
+//                    sendInsideColor(inSideColor);
+//                    if(r!=255){
+//                        r=r+transitme.fps/10;
+//                    }else{
+//                        transitme5.stop();
+//                        transitme6.start();
+//                    }
+//                }
+//            }
+//            Timer{
+//                property var b: 255
+//                id:transitme6
+//                interval: transitme.interval;
+//                running: false;
+//                repeat: true
+//                onTriggered: function(){
+//                    sideColor=Qt.rgba(255/255, 0/255, b/255,1);
+//                    ceilColor=Qt.rgba(255/255, 0/255, b/255,1);
+//                    inSideColor=Qt.rgba(255/255, 0/255, b/255,1);
+//                    sendSideColor(sideColor);
+//                    sendCeilColor(ceilColor);
+//                    sendInsideColor(inSideColor);
+//                    if(b!=0){
+//                        b=b-transitme.fps/10;
+//                    }else{
+//                        transitme6.stop();
+//                        transitme.start();
+//                        transitme.g=0;
+//                        transitme2.r=255;
+//                        transitme3.b=0;
+//                        transitme4.g=255;
+//                        transitme5.r=0;
+//                        transitme6.b=255;
+//                    }
+//                }
+//            }
 
 
 
