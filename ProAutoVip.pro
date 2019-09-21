@@ -4,7 +4,6 @@ SUBDIRS += \
     AutoUpdater2 \
     autovip_ls \
     VirtualResponder \
-    AutoUpdater \  
     ServiceManager \
     tools/before \
     tools/after

@@ -174,6 +174,10 @@
         <source>SECOND SEAT HEAD </source>
         <translation>İKİNCİ KOLTUK BAŞLIĞI</translation>
     </message>
+    <message>
+        <source>RESTORE OLDER VERSION </source>
+        <translation>ESKİ VERSİYONA DÖN </translation>
+    </message>
 </context>
 <context>
     <name>Cameras</name>
@@ -1174,6 +1178,25 @@ için sistemin yeniden başlatılması gerekir.</translation>
     <message>
         <source>Cancel</source>
         <translation>İptal</translation>
+    </message>
+</context>
+<context>
+    <name>RestoreOlderVersion</name>
+    <message>
+        <source>Restore Older Version</source>
+        <translation>Eski Versiyona Dön</translation>
+    </message>
+    <message>
+        <source>Restore to the Older Version: </source>
+        <translation>Sistemi Eski Versiyona Döndür: </translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Eskiye Dön</translation>
+    </message>
+    <message>
+        <source>You can update the system again after rebooting.</source>
+        <translation>Eski versiyona döndükten sonra sistemi tekrar güncelleştirebilirsiniz.</translation>
     </message>
 </context>
 <context>

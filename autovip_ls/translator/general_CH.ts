@@ -211,6 +211,11 @@
         <source>FOURTH TABLE </source>
         <translation>第四張桌子</translation>
     </message>
+    <message>
+        <location filename="../Pages/Settings/CalibrationSettings.qml" line="45"/>
+        <source>RESTORE OLDER VERSION </source>
+        <translation>恢复旧系统软件</translation>
+    </message>
 </context>
 <context>
     <name>Cameras</name>
@@ -1403,6 +1408,29 @@
         <location filename="../Components/RestartOverlay.qml" line="167"/>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+</context>
+<context>
+    <name>RestoreOlderVersion</name>
+    <message>
+        <location filename="../Pages/Settings/RestoreOlderVersion.qml" line="14"/>
+        <source>Restore Older Version</source>
+        <translation>恢复旧系统软件</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Settings/RestoreOlderVersion.qml" line="35"/>
+        <source>Restore to the Older Version: </source>
+        <translation>立即还原旧系统软件：</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Settings/RestoreOlderVersion.qml" line="46"/>
+        <source>Restore</source>
+        <translation>恢复</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Settings/RestoreOlderVersion.qml" line="72"/>
+        <source>You can update the system again after rebooting.</source>
+        <translation>还原后，可以再次更新系统。</translation>
     </message>
 </context>
 <context>
@@ -5014,28 +5042,28 @@
     </message>
     <message>
         <location filename="../main.qml" line="314"/>
-        <location filename="../main.qml" line="480"/>
+        <location filename="../main.qml" line="479"/>
         <source>New Update Found!</source>
         <translation>找到了新的更新！</translation>
     </message>
     <message>
         <location filename="../main.qml" line="338"/>
-        <location filename="../main.qml" line="481"/>
+        <location filename="../main.qml" line="480"/>
         <source>There is a new update of the system software. Do you want to install it? (System will be restarted.)</source>
         <translation>系统软件有一个新的更新。 你想更新你的系统吗？ （您的系统将重新启动。）</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="414"/>
+        <location filename="../main.qml" line="413"/>
         <source>Change Log</source>
         <translation>更新日志</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="424"/>
+        <location filename="../main.qml" line="423"/>
         <source>Change Log of the New Update</source>
         <translation>新更新的变更日志</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="470"/>
+        <location filename="../main.qml" line="469"/>
         <source>OK</source>
         <translation>好</translation>
     </message>
@@ -5057,7 +5085,7 @@ Do you want to install it?
         <translation type="obsolete">重新開始</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="527"/>
+        <location filename="../main.qml" line="526"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>

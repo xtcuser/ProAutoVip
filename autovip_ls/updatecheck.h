@@ -6,6 +6,8 @@
 #include <QDir>
 #include <QDebug>
 #include <QTimer>
+#include <settingsmanager.h>
+#include <restarter.h>
 
 class UpdateCheck : public QObject
 {
@@ -16,6 +18,8 @@ class UpdateCheck : public QObject
     QString m_programPath = QString("%1/AutoUpdater2").arg(QDir::currentPath());
     QString unzippedPath;
     QTimer overlaytimer;
+    SettingsManager smng;
+    Restarter rstrtr;
 private:
     bool checkExecutable();
     bool createProcess();

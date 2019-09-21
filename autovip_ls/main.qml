@@ -396,7 +396,6 @@ Window {
                           }
                           Rectangle{
                               id:centerbuttonbg
-                              visible: update_manager.changeLog()==="notfound"?false:true
                               width: 150
                               height: 100
                               color: "transparent"

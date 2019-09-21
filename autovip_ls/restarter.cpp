@@ -11,8 +11,10 @@ Restarter::Restarter(QObject *parent) :
 
 void Restarter::makeRestart()
 {
-//    qApp->quit();
-//    QProcess::startDetached(qApp->arguments()[0], qApp->arguments()); //application restart
-
     QProcess::execute("sudo service dizaynvip restart");
+}
+
+void Restarter::restoreOlderVersion()
+{
+    QProcess::startDetached("sudo ./backup/restore.sh");
 }

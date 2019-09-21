@@ -277,6 +277,9 @@ Item {
     SettingsPages.FourthTableCalibration{
         id:fourthtablecalibration
     }
+    SettingsPages.RestoreOlderVersion{
+        id:restoreolderversion
+    }
 
 
 
@@ -343,6 +346,7 @@ Item {
         GSystem.addPageItem("FourthFootrest2",fourthfootrest2);
         GSystem.addPageItem("ThirdTableCalibration",thirdtablecalibration);
         GSystem.addPageItem("FourthTableCalibration",fourthtablecalibration);
+        GSystem.addPageItem("RestoreOlderVersion",restoreolderversion);
         GSystem.addPageItem("MediaSettings",mediasettings);
         GSystem.addPageItem("SerialSettings",serialsettings);
         GSystem.addPageItem("AppleTv",appletv);

@@ -11,6 +11,7 @@ class Restarter : public QObject
 public:
     explicit Restarter(QObject *parent = nullptr);
     Q_INVOKABLE void makeRestart();
+    Q_INVOKABLE void restoreOlderVersion();
 
 signals:
 

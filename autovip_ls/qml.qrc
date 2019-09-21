@@ -484,5 +484,6 @@
         <file>Components/RestartOverlay.qml</file>
         <file>Components/InfoOverlay.qml</file>
         <file>design/general/spinner.png</file>
+        <file>Pages/Settings/RestoreOlderVersion.qml</file>
     </qresource>
 </RCC>

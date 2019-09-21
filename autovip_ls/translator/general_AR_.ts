@@ -166,6 +166,10 @@
         <source>FOURTH TABLE </source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>RESTORE OLDER VERSION </source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Cameras</name>
@@ -1022,6 +1026,25 @@
     </message>
     <message>
         <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RestoreOlderVersion</name>
+    <message>
+        <source>Restore Older Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore to the Older Version: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can update the system again after rebooting.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

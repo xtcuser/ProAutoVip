@@ -144,9 +144,6 @@ Item {
                 info:false
                 bgSource : "qrc:/design/general/info.svg"
                 onClicked: function(){
-                        console.log("info clicked");
-//                    restart.visible=true;
-//                    restartbtn.visible=true;
                         GSystem.infoverlay.come();
                 }
             }

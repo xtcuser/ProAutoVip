@@ -12,9 +12,8 @@ bool UpdateCheck::checkExecutable()
 
 bool UpdateCheck::checkUnzipped()
 {
-    SettingsManager *smng = new SettingsManager;
-    QString version = smng->version();
-    QString lastversion = smng->lastversion();
+    QString version = smng.version();
+    QString lastversion = smng.lastversion();
     QStringList templast = lastversion.split(".");
     int major = templast[0].toInt();
     int minor = templast[1].toInt();
@@ -36,15 +35,14 @@ UpdateCheck::UpdateCheck(QObject *parent) : QObject(parent)
 
 void UpdateCheck::run()
 {
-    SettingsManager *smng = new SettingsManager;
     if(!checkExecutable()){
         return;
     }
     if(m_rpro == nullptr)
     {
         createProcess();
-        QString version = smng->version();
-        QString lastversion = smng->lastversion();
+        QString version = smng.version();
+        QString lastversion = smng.lastversion();
         if(version==lastversion)
         {
             m_rpro->startDetached(m_programPath);
@@ -65,8 +63,7 @@ void UpdateCheck::updateFinished()
 
 QString UpdateCheck::dirPath()
 {
-    SettingsManager *smng = new SettingsManager;
-    QString lastversion = smng->lastversion();
+    QString lastversion = smng.lastversion();
     QStringList templast = lastversion.split(".");
     int major = templast[0].toInt();
     int minor = templast[1].toInt();
@@ -78,7 +75,7 @@ QString UpdateCheck::changeLog()
     QString filename="/changelog";
     QFile file(dirPath()+filename);
     if(!file.exists()){
-        return "notfound";
+        return "Changelog file does not exist.";
     }
     QString whole;
     QString line;
@@ -95,10 +92,8 @@ QString UpdateCheck::changeLog()
 
 void UpdateCheck::makeUpdate()
 {
-    SettingsManager *smng = new SettingsManager;
-    Restarter *rstrtr = new Restarter;
-    QString version = smng->version();
-    QString lastversion = smng->lastversion();
+    QString version = smng.version();
+    QString lastversion = smng.lastversion();
     QStringList templast = lastversion.split(".");
     int major = templast[0].toInt();
     int minor = templast[1].toInt();
@@ -110,11 +105,11 @@ void UpdateCheck::makeUpdate()
     if(checkUnzipped()){
         QDir olddir(QString("%1/update_%1_%2").arg(QDir::currentPath()).arg(majorver).arg(minorver));
         olddir.removeRecursively();
-        smng->setVersion(major,minor);
+        smng.setVersion(major,minor);
         m_rpro->startDetached(filepath);
     }else{
-        smng->setVersion(major,minor);
-        rstrtr->makeRestart();
+        smng.setVersion(major,minor);
+        rstrtr.makeRestart();
     }
 }
 void UpdateCheck::checkUpdate()
