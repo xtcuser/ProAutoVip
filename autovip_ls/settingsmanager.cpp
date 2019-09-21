@@ -172,6 +172,16 @@ void SettingsManager::setTimeDiff(int mndf, int hrdf)
     }
 }
 
+void SettingsManager::setVersion(int major, int minor)
+{
+    this->general->setValue("update/version",QString::number(major) + "." + QString::number(minor));
+}
+
+void SettingsManager::setLastVersion(QString lversion)
+{
+    this->general->setValue("update/lastversion",lversion);
+}
+
 QString SettingsManager::version()
 {
     return this->general->value("update/version").toString();

@@ -703,6 +703,18 @@
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Update:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check for Updates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: No Update Found! Check your internet connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HdmiInput</name>
@@ -802,10 +814,6 @@
     </message>
     <message>
         <source>Right Reading Light</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Transition Mode</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3814,17 +3822,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>There is a new update of the system software.
-Do you want to install it?
-(System will be restarted.)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is a new update of the system software. Do you want to install it? (System will be restarted.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change Log of the New Update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

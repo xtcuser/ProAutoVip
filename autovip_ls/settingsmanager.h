@@ -48,6 +48,10 @@ class SettingsManager : public QObject
     Q_PROPERTY(bool curtains READ curtains)
     Q_PROPERTY(bool demomode READ demomode)
     Q_PROPERTY(bool intro READ intro)
+
+
+    Q_PROPERTY(QString version READ version)
+    Q_PROPERTY(QString lastversion READ lastversion)
 public:
     explicit SettingsManager(QObject *parent = nullptr);
     int lang();
@@ -81,6 +85,7 @@ Q_INVOKABLE uint mediaplayertype();
     bool init();
     int baudrate();
     void setBaudrate(int r);
+    void setVersion(int major, int minor);
     QString portname();
     void setPortname(QString p_pn);
     QSettings* getSettings();
@@ -94,6 +99,7 @@ Q_INVOKABLE  bool seatHeating(int seat_no);
 Q_INVOKABLE  bool seatCooling(int seat_no);
 Q_INVOKABLE  bool seatMassage(int seat_no);
 Q_INVOKABLE  bool seatThigh(int seat_no);
+Q_INVOKABLE  void setLastVersion(QString lversion);
 Q_INVOKABLE  void setTimeDiff(int mndf,int hrdf);
 Q_INVOKABLE  bool seatDrawer(int seat_no);
 Q_INVOKABLE  bool seatFootrest(int seat_no);

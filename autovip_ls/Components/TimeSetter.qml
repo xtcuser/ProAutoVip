@@ -158,10 +158,11 @@ Rectangle{
 //            color: parent.color
 //            border.color: "black"
 //            border.width: 1
-            color: "#1c1c1c"
             height:100
             width:100
-            radius: 4
+            color:"#0f0f0f"
+            border.width: 1
+            border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
             Text{
                     text: qsTr("SET") + mytrans.emptyString
                     color: "white"
@@ -187,8 +188,8 @@ Rectangle{
             console.log( "Date: " + date.day + " "+ date.month + " " + date.year );
             console.log( "Time: " + time.hour + " " + time.minutes );
             }
-            onPressed: timesetrec.color = "#212121"
-            onReleased: timesetrec.color = "#1c1c1c"
+            onPressed: timesetrec.color = Qt.rgba(0/255, 108/255, 128/255,0.6)
+            onReleased: timesetrec.color = "#0f0f0f"
         }
         }
 

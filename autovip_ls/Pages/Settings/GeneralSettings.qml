@@ -8,6 +8,8 @@ import "../../Components"
 import closx.smanager 1.0
 import QtQuick.Extras 1.4
 import QtGraphicalEffects 1.0
+import closx.updater 1.0
+import closx.smanager 1.0
 
 
 BasePage {
@@ -49,7 +51,7 @@ BasePage {
 
     Rectangle{
         width:612
-        height:380
+        height:500
         color:"transparent"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
@@ -64,6 +66,8 @@ BasePage {
                 height:100
 
                 RowLayout{
+                    x: 0
+                    y: 47
                     width: 640
                     height: 100
                     spacing:20
@@ -79,6 +83,7 @@ BasePage {
                         }
                     }
                     RowLayout{
+                        x: 180
                         width: 400
                         height: 80
                         Layout.leftMargin: 60
@@ -188,6 +193,8 @@ BasePage {
                 color:"transparent"
 
                 RowLayout{
+                    x: 0
+                    y: 21
                     width: 400
                     height: 100
                     spacing:20
@@ -210,15 +217,151 @@ BasePage {
                     }
                 }
             }
+
             TimeSetter{
                 id:timesetter
+                y: 310
                 mode:!autotime.checked
+            }
+
+            Updater{
+                id:myUpdater
+            }
+
+            Rectangle{
+                height:100
+                color:"transparent"
+
+                RowLayout{
+                    width: 400
+                    height: 100
+                    spacing:20
+                    Rectangle{
+                        width:100
+                        height: 30
+                        color:"transparent"
+                        Text{
+                            text:qsTr("Update:") + mytrans.emptyString
+                            font.family:GSystem.myriadproita.name
+                            font.pixelSize: 24
+                            color: "white"
+                        }
+                    }
+                    Rectangle{
+                        id: updatebg
+//                        x: 180
+                        anchors.left: parent.left
+                        anchors.leftMargin: 180
+                        width: 164
+                        height: 50
+                        color:"#0f0f0f"
+                        border.width: 1
+                        border.color:Qt.rgba(0/255, 108/255, 128/255,0.6)
+//                                  anchors.verticalCenter: parent.verticalCenter
+//                                  anchors.left: parent.left
+//                                  anchors.leftMargin: 30
+                        Text{
+                            anchors.centerIn: parent
+                            text:qsTr("Check for Updates") + mytrans.emptyString
+                            font.family:GSystem.myriadproita.name
+                            font.pixelSize: 18
+                            color: "white"
+                        }
+                        MouseArea{
+                            x: 0
+                            anchors.rightMargin: 0
+                            anchors.bottomMargin: 0
+                            anchors.leftMargin: 0
+                            anchors.topMargin: 0
+                            anchors.fill: parent
+                            onClicked: {
+                                updatespinner.visible=true;
+                                spinneranimation.running=true;
+                                updatetimer1.running=true;
+                                updatetimer2.running=true;
+                                myUpdater.checkUpdate();
+                                updatewarning.visible=false;
+                            }
+                            onPressed: {
+                                updatebg.color =  Qt.rgba(0/255, 108/255, 128/255,0.6)
+                            }
+                            onReleased: {
+                                updatebg.color =  "#0f0f0f"
+                            }
+                        }
+                    }
+                    Image {
+                        id: updatespinner
+                        source: "qrc:/design/general/spinner.png"
+                        visible: false
+                        width: 45
+                        height: 45
+                        sourceSize.height: 45
+                        sourceSize.width: 45
+                        anchors.verticalCenter: parent.verticalCenter
+                        anchors.left: updatebg.right
+                        anchors.leftMargin: 20
+                    }
+                    Text{
+                        id:updatewarning
+                        visible: false
+                        text:qsTr("Error: No Update Found! Check your internet connection.") + mytrans.emptyString
+                        font.family:GSystem.myriadproita.name
+                        font.pixelSize: 15
+                        color: "white"
+                        anchors.verticalCenter: parent.verticalCenter
+                        anchors.left: updatebg.right
+                        anchors.leftMargin: 20
+                    }
+
+                    NumberAnimation {
+                        id:spinneranimation
+                        target: updatespinner
+                        property: "rotation"
+                        duration: 800
+                        from:0
+                        to:360
+                        running: false
+                        loops: Animation.Infinite
+                    }
+                    Timer{
+                        id:updatetimer1
+                        interval:180000
+                        running: false
+                        repeat: false
+                        onTriggered: {
+                            updatespinner.visible=false;
+                            spinneranimation.running=false;
+                            updatetimer2.running=false;
+                            updatewarning.visible=true;
+                        }
+                    }
+                    Timer{
+                        id:updatetimer2
+                        interval:500
+                        running: false
+                        repeat: true
+                        onTriggered: {
+                            if(update_manager.checkUnzipped()){
+                                updatespinner.visible=false;
+                                spinneranimation.running=false;
+                                updatetimer2.running=false;
+                                updatetimer1.running=false;
+                                updater.visible=true;
+                                updaterbtn.visible=true;
+                            }
+                        }
+                    }
+
+                }
             }
         }
 
         }
 
 }
+
+
 
 
 

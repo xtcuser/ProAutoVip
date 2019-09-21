@@ -14,6 +14,7 @@ class UpdateCheck : public QObject
     QProcess *m_rpro = nullptr;
     QTimer m_timer;
     QString m_programPath = QString("%1/AutoUpdater2").arg(QDir::currentPath());
+    QString unzippedPath;
     QTimer overlaytimer;
 private:
     bool checkExecutable();
@@ -21,6 +22,10 @@ private:
 public:
     explicit UpdateCheck(QObject *parent = nullptr);
     Q_INVOKABLE void makeUpdate();
+    Q_INVOKABLE void checkUpdate();
+    Q_INVOKABLE bool checkUnzipped();
+    Q_INVOKABLE QString changeLog();
+    Q_INVOKABLE QString dirPath();
     void run();
 
 signals:

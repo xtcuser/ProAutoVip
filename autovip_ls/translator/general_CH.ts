@@ -852,7 +852,7 @@
 <context>
     <name>GeneralSettings</name>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="15"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="17"/>
         <source>GENERAL SETTINGS</source>
         <translation>常規設置</translation>
     </message>
@@ -874,19 +874,34 @@
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="75"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="79"/>
         <source>Language:</source>
         <translation>語言：</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="199"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="206"/>
         <source>Auto Time:</source>
         <translation>自動設置時間：</translation>
     </message>
     <message>
-        <location filename="../Pages/Settings/GeneralSettings.qml" line="208"/>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="215"/>
         <source>Auto</source>
         <translation>自動</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="244"/>
+        <source>Update:</source>
+        <translation>更新：</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="265"/>
+        <source>Check for Updates</source>
+        <translation>检查更新</translation>
+    </message>
+    <message>
+        <location filename="../Pages/Settings/GeneralSettings.qml" line="308"/>
+        <source>Error: No Update Found! Check your internet connection.</source>
+        <translation>错误：找不到系统更新！ 请检查您的互联网连接。</translation>
     </message>
 </context>
 <context>
@@ -1047,7 +1062,6 @@
         <translation>左侧的阅读灯</translation>
     </message>
     <message>
-        <location filename="../Pages/Lights/Lights.qml" line="630"/>
         <source>Transition Mode</source>
         <translation>过渡模式</translation>
     </message>
@@ -4894,13 +4908,13 @@
         <translation>約會時間：</translation>
     </message>
     <message>
-        <location filename="../Components/TimeSetter.qml" line="166"/>
-        <location filename="../Components/TimeSetter.qml" line="232"/>
+        <location filename="../Components/TimeSetter.qml" line="167"/>
+        <location filename="../Components/TimeSetter.qml" line="233"/>
         <source>SET</source>
         <translation>設置它</translation>
     </message>
     <message>
-        <location filename="../Components/TimeSetter.qml" line="204"/>
+        <location filename="../Components/TimeSetter.qml" line="205"/>
         <source>Region:</source>
         <translation>區域：</translation>
     </message>
@@ -4994,17 +5008,38 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../main.qml" line="20"/>
+        <location filename="../main.qml" line="22"/>
         <source>autovip</source>
         <translation>autovip</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="306"/>
+        <location filename="../main.qml" line="314"/>
+        <location filename="../main.qml" line="480"/>
         <source>New Update Found!</source>
         <translation>找到了新的更新！</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="321"/>
+        <location filename="../main.qml" line="338"/>
+        <location filename="../main.qml" line="481"/>
+        <source>There is a new update of the system software. Do you want to install it? (System will be restarted.)</source>
+        <translation>系统软件有一个新的更新。 你想更新你的系统吗？ （您的系统将重新启动。）</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="414"/>
+        <source>Change Log</source>
+        <translation>更新日志</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="424"/>
+        <source>Change Log of the New Update</source>
+        <translation>新更新的变更日志</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="470"/>
+        <source>OK</source>
+        <translation>好</translation>
+    </message>
+    <message>
         <source>There is a new update of the system software.
 Do you want to install it?
 (System will be restarted.)</source>
@@ -5013,7 +5048,7 @@ Do you want to install it?
 （您的系统将重新启动。）</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="353"/>
+        <location filename="../main.qml" line="377"/>
         <source>Update</source>
         <translation>更新</translation>
     </message>
@@ -5022,7 +5057,7 @@ Do you want to install it?
         <translation type="obsolete">重新開始</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="390"/>
+        <location filename="../main.qml" line="527"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>

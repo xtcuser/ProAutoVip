@@ -69,6 +69,7 @@ Item {
 
                     FooterButton {
                         id:btnMute
+                        visible: SM.amp
                         bgSource : (toggled==false ?
                                                     (isUnderClick ?  "qrc:/design/general/Mute_off.svg" : "qrc:/design/general/Mute_on.svg")
                                                    : (isUnderClick ?  "qrc:/design/general/Mute_on.svg" : "qrc:/design/general/Mute_off.svg"))
@@ -81,6 +82,7 @@ Item {
                     FooterButton {
                         id:btnVolumeUp
                         bgSource : "qrc:/design/general/volumeup.svg"
+                        visible: SM.amp
                         height: GSystem.bottomIconHeight
                         pressKey: "controls/volume_up"
                         releaseKey: "controls/volume_up_stop"
@@ -89,6 +91,7 @@ Item {
                     FooterButton {
                         id:btnVolumeDown
                         bgSource : "qrc:/design/general/volumedown.svg"
+                        visible: SM.amp
                         height: GSystem.bottomIconHeight
                         pressKey: "controls/volume_down"
                         releaseKey: "controls/volume_down_stop"
@@ -97,6 +100,7 @@ Item {
                     FooterButton {
                         id:output
                         bgSource : "qrc:/design/general/audiosource.svg"
+                        visible: SM.amp
                         height: GSystem.bottomIconHeight
                         pressKey: "controls/audio_source"
                     }

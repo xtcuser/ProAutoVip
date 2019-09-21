@@ -729,6 +729,18 @@ için sistemin yeniden başlatılması gerekir.</translation>
         <source>Restart the system!</source>
         <translation>Sistemi yeniden başlat!</translation>
     </message>
+    <message>
+        <source>Update:</source>
+        <translation>Güncelleme:</translation>
+    </message>
+    <message>
+        <source>Check for Updates</source>
+        <translation>Güncelleştir</translation>
+    </message>
+    <message>
+        <source>Error: No Update Found! Check your internet connection.</source>
+        <translation>Hata: Güncelleştirme Bulunamadı! İnternet bağlantınızı kontrol edin.</translation>
+    </message>
 </context>
 <context>
     <name>HdmiInput</name>
@@ -6217,6 +6229,22 @@ Yüklemek ister misiniz?
     <message>
         <source>Update</source>
         <translation>Güncelle</translation>
+    </message>
+    <message>
+        <source>There is a new update of the system software. Do you want to install it? (System will be restarted.)</source>
+        <translation>Yeni bir sistem yazılımı güncellemesi var. Yüklemek ister misiniz? (Sistem yeniden başlatılacak.)</translation>
+    </message>
+    <message>
+        <source>Change Log</source>
+        <translation>Yenilikler</translation>
+    </message>
+    <message>
+        <source>Change Log of the New Update</source>
+        <translation>Yeni Güncelleştirmenin Yenilikleri</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>TAMAM</translation>
     </message>
 </context>
 <context>
