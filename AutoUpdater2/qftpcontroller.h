@@ -35,7 +35,17 @@ protected slots:
     }
     void dataTransferProgress(qint64 p1, qint64 p2)
     {
-       qDebug()<<"Progress : "<<p1<<" "<<p2<<endl;
+        qDebug()<<"Progress : "<<p1<<" "<<p2;
+//        if (p1 == 0){
+//            qDebug()<<"Download started...";
+//            qDebug()<<"Progress : "<<p1<<" "<<p2;
+//        }
+//        else if (p1>p2/2 and p1<(p2/2)+10000)
+//            qDebug()<<"Progress : "<<p1<<" "<<p2;
+//        else if (p1 >= p2){
+//            qDebug()<<"Progress : "<<p1<<" "<<p2;
+//            qDebug()<<"Download finished!";
+//        }
     }
     void rawCommandReply(int p, const QString & result)
     {

@@ -17,18 +17,20 @@ class Updater : public QObject
     QString username;
     int minor_version;
     int major_version;
-    QFile *downloadFile;
+    QFile downloadFile;
     QString downloadFileName= "";
     QString current_action_name = "";
     bool TEST_MODE = false;                  // is intended to be used during debugging only
-    QProcess *unzipProcess;
-    QTimer *listingDoneTimer;
+    QProcess unzipProcess;
+    QTimer listingDoneTimer;
+    QTimer ftpOperationsGracePeriod;
 
 public:
-    QCoreApplication* app;
+//    QCoreApplication* app;
     explicit Updater(QObject *parent = nullptr);
 
 signals:
+    void signalClose(QString closeReason);
 //    void signalCheckForUpdate();
 //    void signalDownload();
 //    void signalApplyUpdate();
@@ -40,6 +42,7 @@ public slots:
     void download();
     void downloadDone();
     void unzipFinished();
+    void closeApp(QString closeReason = "");
 };
 
 #endif // UPDATER_H

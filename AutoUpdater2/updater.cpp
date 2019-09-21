@@ -8,11 +8,10 @@
 
 Updater::Updater(QObject *parent) : QObject(parent)
 {
-    unzipProcess = new QProcess(this);
-    listingDoneTimer = new QTimer();
-    listingDoneTimer->setInterval(200);
-//    listingDoneTimer->stop();
-
+    listingDoneTimer.setInterval(200);
+    listingDoneTimer.stop();
+    ftpOperationsGracePeriod.setInterval(1500);
+    ftpOperationsGracePeriod.stop();
     QString setfileLocation = QString("%1/%2").arg(QDir::currentPath()).arg("settings.ini");
     assert(QFileInfo::exists(setfileLocation));
     QSettings *setting_ini = new QSettings(setfileLocation,QSettings::IniFormat);
@@ -24,7 +23,10 @@ Updater::Updater(QObject *parent) : QObject(parent)
     minor_version = version[1].toInt();
 
     //when enough time passed since the last QFtp::list() do the download
-    connect(listingDoneTimer,&QTimer::timeout,this,&Updater::download);
+    connect(&listingDoneTimer,&QTimer::timeout,this,&Updater::download);
+
+    //if the listing event doesn't start for one second, means empty directory
+    connect(&ftpOperationsGracePeriod,&QTimer::timeout,this,[this](){this->closeApp("ftp related issue or empty directory.");});
 
     connect(&qftpController,&QFtp::commandFinished,[this](int id, bool err){
                 if (current_action_name=="login" && !err) {
@@ -38,28 +40,34 @@ Updater::Updater(QObject *parent) : QObject(parent)
         }
          });
 
+    connect(this, SIGNAL(signalClose(QString)), this, SLOT(closeApp(QString)));
     //shell process finished signal
-    connect(unzipProcess, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished),this,&Updater::unzipFinished);
+    connect(&unzipProcess, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished),this,&Updater::unzipFinished);
 
+    ftpOperationsGracePeriod.stop();
+    ftpOperationsGracePeriod.start();
     qftpController.connectToHost(update_server);
     current_action_name="login";
     qftpController.login(username,password);
-
 }
 
 
 void Updater::loginDone(){
     qDebug()<<"login"<<"done";
+    ftpOperationsGracePeriod.stop();
+    ftpOperationsGracePeriod.start();
     qftpController.list();
 
 }
 //TODO: server'da hiç update yoksa freeze
 void Updater::doListing(const QUrlInfo& inf){
+    ftpOperationsGracePeriod.stop();
+    ftpOperationsGracePeriod.start();
     QString setfileLocation = QString("%1/%2").arg(QDir::currentPath()).arg("settings.ini");
     assert(QFileInfo::exists(setfileLocation));
     QSettings *setting_ini = new QSettings(setfileLocation,QSettings::IniFormat);
     QString filename = inf.name();
-    qDebug()<<"listing"<<filename;
+    QString listingString = "listing: " + filename;
     QStringList parts = filename.split("_");
     if (parts.length() == 3 && parts[0] == "update"){
         QStringList temp = parts[2].split(".");
@@ -70,55 +78,55 @@ void Updater::doListing(const QUrlInfo& inf){
             int temp_minor = parts[2].toInt(&ok);
             if (ok && temp_major >= major_version){
                 if (temp_major > major_version || temp_minor > minor_version){
-                    qDebug()<<"Potential Update: " + parts[1] + "." + parts[2];
+                    listingString += " - Potential Update: " + parts[1] + "." + parts[2];
                     major_version = temp_major;
                     minor_version = temp_minor;
                     downloadFileName = parts[0] + "_" + parts[1] + "_" + parts[2] + ".zip";
                     setting_ini->setValue("update/lastversion",parts[1]+"."+parts[2]);
                 }else {
-                    qDebug()<<"You have the latest version.";
-                    qApp->exit();
+//                    emit signalClose("You have the latest version.");
+//                    return;
                 }
             }else {
-                qDebug()<<"You have a future version.";
-                qApp->exit();
+//                emit signalClose("You have a future version.");
+//                return;
             }
         }else{
-            qDebug()<<"Update files may be non-compressed in server.";
-            qApp->exit();
+//            emit signalClose("Update files may be non-compressed in server.");
+//            return;
         }
     }else {
-        qDebug()<<"This file do not contains \"update\".";
+        listingString += " - Not an \"update\". file";
     }
-
+    qDebug()<< listingString ;
     if ((not qftpController.hasPendingCommands()) && downloadFileName != ""){
-        listingDoneTimer->stop();
-        listingDoneTimer->start();
+        listingDoneTimer.stop();
+        listingDoneTimer.start();
     }
 
 }
 
 void Updater::download(){
-    listingDoneTimer->stop();
+    ftpOperationsGracePeriod.stop();
+    listingDoneTimer.stop();
     if (downloadFileName == ""){
-        qDebug() << "no update found, exiting.";
-        app->quit();
+        emit signalClose("no update found, exiting.");
         return;
     }
+    downloadFile.close();
     current_action_name = "downloading";
-    downloadFile = new QFile();
-    downloadFile->setFileName(QString("%1/%2").arg(QDir::currentPath()).arg(downloadFileName));
-    if(!downloadFile->open(QIODevice::ReadWrite))
+    downloadFile.setFileName(QString("%1/%2").arg(QDir::currentPath()).arg(downloadFileName));
+    if(!downloadFile.open(QIODevice::ReadWrite))
     {
       qDebug() << "write target"<< downloadFileName <<"file couldnt be opened";
       return;
     }
-    qftpController.get(downloadFileName,downloadFile);
+    qftpController.get(downloadFileName,&downloadFile);
 }
 
 // Uunzip:
 void Updater::downloadDone(){
-    downloadFile->close();
+    downloadFile.close();
     QString path;
     try{
         QStringList args;
@@ -128,12 +136,13 @@ void Updater::downloadDone(){
         {
             qDebug()<<"unzipping"<<path;
             args<<"unzip"<<path<<"-d"<<QDir::currentPath();
-            unzipProcess->start("sudo",args);
+            unzipProcess.start("sudo",args);
             qDebug()<<"unzipping"<< downloadFileName;
 
-//            unzipProcess->start("unzip",{path,"-d",QDir::currentPath()});     // without sudo
-//            unzipProcess->waitForFinished(50000);                             // no need for this
-//            unzipProcess->kill();
+            unzipProcess.start("unzip",{path,"-d",QDir::currentPath()});     // without sudo
+            unzipProcess.waitForFinished(5000);                             // no need for this
+//            unzipProcess.kill();
+            qDebug()<<"did this work";
 
             return;
         }else{
@@ -148,8 +157,15 @@ void Updater::downloadDone(){
 }
 
 void Updater::unzipFinished(){
-    qDebug()<<"unzipping is done";
+    unzipProcess.deleteLater();
+    closeApp("unzipping is done");
+}
+
+void Updater::closeApp(QString closeReason){
+    qDebug()<<closeReason;
+    qDebug()<<"closing up";
     qftpController.close();
-    app->quit();
+    qDebug()<<"closing up is done. quitting...";
+    qApp->quit();
 }
 
