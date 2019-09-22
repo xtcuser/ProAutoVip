@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<Restarter>("closx.restarter", 1, 0, "Restarter");
     qmlRegisterType<SettingsManager>("closx.smanager", 1, 0, "SettingsManager");
     qmlRegisterType<ClockSetter>("closx.clocksetter", 1, 0, "ClockSetter");
-    qmlRegisterType<UpdateCheck>("closx.updater",1,0,"Updater");
+    qmlRegisterType<UpdateCheck>("closx.updater",1,0,"Updater");            // Ahadin notlari: bunu yapmakla klasin 2 kez instantiate ediyorsun.
 
     SettingsManager sm;
     Translator mTrans(&app);
@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
     // instantiating an NvidiaConnManager object
     NvidiaConnManager nvidiaConnManager(1234, &smng, &sm);
     engine.rootContext()->setContextProperty("nvidia_conn_manager", &nvidiaConnManager);
-    UpdateCheck updatecheck;
+    UpdateCheck updatecheck(&app);
     engine.rootContext()->setContextProperty("update_manager", &updatecheck);
 
 //    qDebug()<<"init createcreated"<<endl;

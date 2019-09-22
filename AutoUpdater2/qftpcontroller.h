@@ -16,7 +16,7 @@ public:
 //          connect(this, SIGNAL(done(bool)), QCoreApplication::instance(), SLOT(quit()));
 //          QObject::connect(this,SIGNAL(commandStarted(int)),this,SLOT(commandStarted(int)));
 //          QObject::connect(this,SIGNAL(commandFinished(int,bool)),this,SLOT(commandFinished(int,bool)));
-          QObject::connect(this,SIGNAL(dataTransferProgress(qint64,qint64)),this,SLOT(dataTransferProgress(qint64,qint64)));
+//          QObject::connect(this,SIGNAL(dataTransferProgress(qint64,qint64)),this,SLOT(dataTransferProgress(qint64,qint64)));
 //          QObject::connect(this,SIGNAL(rawCommandReply(int, const QString&)),this,SLOT(rawCommandReply(int,const QString&)));
 //          QObject::connect(this,SIGNAL(stateChanged(int)),this,SLOT(stateChanged(int)));
 

@@ -22,7 +22,6 @@ class UpdateCheck : public QObject
     Restarter rstrtr;
 private:
     bool checkExecutable();
-    bool createProcess();
 public:
     explicit UpdateCheck(QObject *parent = nullptr);
     Q_INVOKABLE void makeUpdate();
@@ -36,7 +35,6 @@ signals:
     void doUpdateOverlay();
 
 public slots:
-    void updateFinished();
     void overlayFunction();
 };
 

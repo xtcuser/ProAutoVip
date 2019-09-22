@@ -24,10 +24,12 @@ class Updater : public QObject
     QProcess unzipProcess;
     QTimer listingDoneTimer;
     QTimer ftpOperationsGracePeriod;
+    QString ftpCurrentState;
 
 public:
 //    QCoreApplication* app;
     explicit Updater(QObject *parent = nullptr);
+    void deleteFile(QString filename);
 
 signals:
     void signalClose(QString closeReason);
@@ -40,6 +42,7 @@ public slots:
     void loginDone();
     void doListing(const QUrlInfo& inf);
     void download();
+    void downloadProgress(qint64 p1, qint64 p2);
     void downloadDone();
     void unzipFinished();
     void closeApp(QString closeReason = "");

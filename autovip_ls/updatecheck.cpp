@@ -21,15 +21,17 @@ bool UpdateCheck::checkUnzipped()
     return QFileInfo::exists(unzippedPath);
 }
 
-bool UpdateCheck::createProcess()
-{
-    m_rpro = new QProcess(this);
-    m_rpro = nullptr;
-    return true;
-}
+//bool UpdateCheck::createProcess()
+//{
+//    m_rpro = new QProcess(this);
+//    m_rpro = nullptr;
+//    return true;
+//}
 
 UpdateCheck::UpdateCheck(QObject *parent) : QObject(parent)
 {
+    QObject::connect(&overlaytimer,&QTimer::timeout,this,&UpdateCheck::overlayFunction);
+    m_rpro = new QProcess(this);
     run();
 }
 
@@ -38,27 +40,25 @@ void UpdateCheck::run()
     if(!checkExecutable()){
         return;
     }
-    if(m_rpro == nullptr)
+    if(m_rpro->state() == QProcess::NotRunning)
     {
-        createProcess();
+//        createProcess();
         QString version = smng.version();
         QString lastversion = smng.lastversion();
+        // Ahadin notlari: text dosyasinin icinde yeni lastversion verisini tutmak iyi fikir degil.
+        // ardindan su an download yarida biterse lastversion yeni versiona update olmus oluyor,
+        // ve bundan sonra sistem yeni bir update asla yapmaz
         if(version==lastversion)
         {
+            qDebug()<<"starting AutoUpdater";
             m_rpro->startDetached(m_programPath);
         }else
         {
             overlaytimer.setInterval(7000);
             overlaytimer.setSingleShot(true);
-            QObject::connect(&overlaytimer,&QTimer::timeout,this,&UpdateCheck::overlayFunction);
             overlaytimer.start();
         }
     }
-}
-
-void UpdateCheck::updateFinished()
-{
-    m_rpro = nullptr;
 }
 
 QString UpdateCheck::dirPath()
