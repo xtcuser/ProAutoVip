@@ -18,7 +18,11 @@ bool UpdateCheck::checkUnzipped()
     int major = templast[0].toInt();
     int minor = templast[1].toInt();
     unzippedPath = QString("%1/update_%2_%3/update.sh").arg(QDir::currentPath()).arg(major).arg(minor);
-    return QFileInfo::exists(unzippedPath);
+    if(smng.version()!=smng.lastversion()){
+        return QFileInfo::exists(unzippedPath);
+    }else{
+        return false;
+    }
 }
 
 //bool UpdateCheck::createProcess()
