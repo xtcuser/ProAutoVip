@@ -116,7 +116,7 @@ void Updater::download(){
     downloadFile.setFileName(QString("%1/%2").arg(QDir::currentPath()).arg(downloadFileName));
     if(!downloadFile.open(QIODevice::ReadWrite))
     {
-      qDebug() << "write target"<< downloadFileName <<"file couldnt be opened";
+      emit signalClose("write target" + downloadFileName + "file couldnt be opened");
       return;
     }
     qftpController.get(downloadFileName,&downloadFile);
