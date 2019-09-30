@@ -26,15 +26,17 @@ class NvidiaConnManager: public QObject
     QMap<QString, QString> bustype;
     QTimer * menuReturnTimer = nullptr;
     int changePageTimeout = 2000;
-
     QString usersLastPage = "Home";
+    QMap<QString, QStringList> commandMap;
 
 private:
     void initializeStateObject();
     void setProtocolBusType();
+    void createCommandMap();
+    bool commandExists(QString part0, QString part1);
 public:
     NvidiaConnManager(quint16 port, SerialMng *serial_mng , SettingsManager *SM, QObject * parent = nullptr);
-    //virtual ~NvidiaConnManager();
+    virtual ~NvidiaConnManager();
 
 signals:
     void closed();

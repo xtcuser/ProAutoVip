@@ -57,12 +57,12 @@ int main(int argc, char *argv[])
     imng.setSerialMng(&smng);
 
     // instantiating an NvidiaConnManager object
-    NvidiaConnManager nvidiaConnManager(1234, &smng, &sm);
+    NvidiaConnManager nvidiaConnManager(1234, &smng, &sm, &app);
     engine.rootContext()->setContextProperty("nvidia_conn_manager", &nvidiaConnManager);
     UpdateCheck updatecheck(&app);
     engine.rootContext()->setContextProperty("update_manager", &updatecheck);
 
-//    qDebug()<<"init createcreated"<<endl;
+
     if(imng.init() == false)
     {
 //        qDebug()<<"init unsuccessful"<<endl;
